@@ -21,7 +21,7 @@
   </header>
 
   <main id="inicio" class="section home-main">
-    <section class="hero-section">
+    <section class="hero-section hero-compact">
     <div class="hero-card">
       <div class="profile-avatar">
         <div class="avatar-inner">
@@ -37,15 +37,10 @@
     </div>
     </section>
 
-    <section class="posts-section" aria-labelledby="posts-title">
-      <div class="section-heading">
-        <p class="eyebrow">Diario personal</p>
-        <h2 id="posts-title">Próximamente</h2>
-        <p>Un espacio flexible para futuras notas, imágenes, videos y pequeños posts.</p>
-      </div>
-      <div class="post-placeholder">
-        <i class="fa-regular fa-pen-to-square"></i>
-        <span>Las próximas publicaciones aparecerán aquí.</span>
+    <section class="posts-section posts-compact" aria-labelledby="posts-title">
+      <div class="section-heading posts-heading">
+        <p class="eyebrow">Última publicación</p>
+        <h2 id="posts-title">Diario personal</h2>
       </div>
       <div id="contenedor-posts" class="public-feed" aria-live="polite"></div>
     </section>
@@ -94,31 +89,11 @@
 
       container.textContent = 'Cargando publicaciones...';
 
-      let { data: posts, error } = await supabaseClient
+      const { data: posts, error } = await supabaseClient
         .from('posts')
         .select('id, tipo, titulo, contenido, imagen_url, created_at')
-        .order('created_at', { ascending: false });
-
-      if (error) {
-        const fallback = await supabaseClient
-          .from('entries')
-          .select('id, kind, title, body, image_url, image_path, created_at')
-          .order('created_at', { ascending: false });
-
-        if (!fallback.error) {
-          posts = fallback.data.map((entry) => ({
-            id: entry.id,
-            tipo: entry.kind,
-            titulo: entry.title,
-            contenido: entry.body,
-            imagen_url: entry.image_url || (entry.image_path
-              ? supabaseClient.storage.from('media').getPublicUrl(entry.image_path).data.publicUrl
-              : null),
-            created_at: entry.created_at
-          }));
-          error = null;
-        }
-      }
+        .order('created_at', { ascending: false })
+        .limit(1);
 
       if (error) {
         container.textContent = 'No se pudieron cargar las publicaciones.';

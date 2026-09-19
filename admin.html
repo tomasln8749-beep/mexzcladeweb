@@ -127,21 +127,20 @@
     </div>
 
     <script>
-        //
         const SUPABASE_URL = 'https://lklzrdnwbxjeofubqjaz.supabase.co';
         const SUPABASE_KEY = 'sb_publishable_AxF6cFesZ9DCXYuNx687og_eoeDeFXk';
         
         const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
         function verificarCodigo() {
-            const val = document.getElementById('codigo-input').value;
-            if (val === '8749') {
-                document.getElementById('login-screen').classList.add('hidden');
-                document.getElementById('admin-panel').classList.remove('hidden');
-            } else {
-                document.getElementById('error-msg').innerText = 'Código incorrecto.';
-            }
-        }
+    const val = document.getElementById('codigo-input').value;
+    if (val === '8749') {
+        document.getElementById('login-screen').classList.add('hidden');
+        document.getElementById('admin-panel').classList.remove('hidden');
+    } else {
+        document.getElementById('error-msg').innerText = 'Código incorrecto.';
+    }
+}
 
         document.getElementById('post-form').addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -153,14 +152,19 @@
             const contenido = document.getElementById('contenido').value;
             const imagen_url = document.getElementById('imagen_url').value;
 
-            const { error } = await supabaseClient
+            const { data, error } = await supabaseClient
                 .from('posts')
-                .insert([{ tipo, titulo, contenido, imagen_url }]);
+                .insert([{ 
+                    tipo: tipo, 
+                    titulo: titulo, 
+                    contenido: contenido, 
+                    imagen_url: imagen_url 
+                }]);
 
             if (error) {
-                console.error(error);
+                console.error('Error detallado:', error);
                 statusMsg.style.color = '#d9381e';
-                statusMsg.innerText = 'Error al publicar.';
+                statusMsg.innerText = 'Error al publicar: ' + error.message;
             } else {
                 statusMsg.style.color = 'green';
                 statusMsg.innerText = '¡Publicado con éxito!';

@@ -201,12 +201,87 @@ body {
   line-height: 1.65;
 }
 
+.hero-compact {
+  padding-top: 20px;
+  margin-bottom: 12px;
+}
+
+.hero-compact .hero-card {
+  min-height: 0;
+  padding: 20px 18px;
+}
+
+.hero-compact .profile-avatar {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 12px;
+}
+
+.hero-compact .glitch-text {
+  margin-bottom: 5px;
+  font-size: clamp(2rem, 10vw, 3.8rem);
+}
+
+.hero-compact .bio-subtitle {
+  margin-bottom: 9px;
+}
+
+.hero-compact .bio-desc {
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
 .posts-section,
 .social-section,
 .social-page-panel,
 .music-section {
   margin-bottom: 20px;
   padding: 20px 16px;
+}
+
+.posts-compact {
+  margin-bottom: 14px;
+  padding: 12px;
+}
+
+.posts-compact .posts-heading {
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+}
+
+.posts-compact .posts-heading h2 {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+
+.posts-compact .public-feed {
+  gap: 8px;
+}
+
+.posts-compact .public-entry {
+  padding: 12px;
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.posts-compact .public-entry h2 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.posts-compact .public-entry time {
+  margin-bottom: 7px;
+  font-size: 0.68rem;
+}
+
+.posts-compact .public-entry p {
+  margin-bottom: 0;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.posts-compact .public-entry img {
+  max-height: 220px;
+  margin-bottom: 8px;
 }
 
 .section-heading,

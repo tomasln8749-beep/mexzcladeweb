@@ -6,56 +6,35 @@ document.addEventListener('DOMContentLoaded', async () => {
   const targets = [feed, musicFeed].filter(Boolean);
   targets.forEach((target) => { target.textContent = 'Cargando publicaciones...'; });
 
-  const publicImageUrl = (path) => path
-    ? supabaseClient.storage.from('media').getPublicUrl(path).data.publicUrl
-    : null;
-
   const formatDate = (value) => new Intl.DateTimeFormat('es-AR', {
     dateStyle: 'medium'
   }).format(new Date(value));
 
-  const renderEntry = (entry) => {
+  const renderPost = (post) => {
     const card = document.createElement('article');
-    card.className = `public-entry public-entry-${entry.kind}`;
+    card.className = `public-entry public-entry-${post.tipo}`;
 
     const title = document.createElement('h2');
-    title.textContent = entry.title;
+    title.textContent = post.titulo || 'Sin título';
     card.appendChild(title);
 
     const date = document.createElement('time');
-    date.dateTime = entry.created_at;
-    date.textContent = formatDate(entry.created_at);
+    date.dateTime = post.created_at;
+    date.textContent = formatDate(post.created_at);
     card.appendChild(date);
 
-    const imageSource = entry.image_url || publicImageUrl(entry.image_path);
-    if (imageSource) {
+    if (post.imagen_url) {
       const image = document.createElement('img');
-      image.src = imageSource;
-      image.alt = entry.title;
+      image.src = post.imagen_url;
+      image.alt = post.titulo || 'Imagen de la publicación';
       image.loading = 'lazy';
       card.appendChild(image);
     }
 
-    if (entry.body) {
+    if (post.contenido) {
       const body = document.createElement('p');
-      body.textContent = entry.body;
+      body.textContent = post.contenido;
       card.appendChild(body);
-    }
-
-    if (entry.rating !== null) {
-      const rating = document.createElement('p');
-      rating.className = 'entry-rating';
-      rating.textContent = `Puntuación: ${entry.rating}/5`;
-      card.appendChild(rating);
-    }
-
-    if (entry.external_url) {
-      const link = document.createElement('a');
-      link.href = entry.external_url;
-      link.target = '_blank';
-      link.rel = 'noopener noreferrer';
-      link.textContent = entry.kind === 'musica' ? 'Escuchar / abrir enlace' : 'Abrir enlace';
-      card.appendChild(link);
     }
 
     return card;
@@ -67,13 +46,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       target.textContent = 'Todavía no hay publicaciones.';
       return;
     }
-    targetEntries.forEach((entry) => target.appendChild(renderEntry(entry)));
+    targetEntries.forEach((post) => target.appendChild(renderPost(post)));
   };
 
-  async function loadEntries() {
-    const { data: entries, error } = await supabaseClient
-      .from('entries')
-      .select('id, kind, title, body, image_path, image_url, external_url, rating, created_at')
+  async function loadPosts() {
+    const { data: posts, error } = await supabaseClient
+      .from('posts')
+      .select('id, tipo, titulo, contenido, imagen_url, created_at')
       .order('created_at', { ascending: false });
 
     if (error) {
@@ -81,14 +60,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       return;
     }
 
-    renderTarget(feed, entries.filter((entry) => ['post', 'foto', 'letterboxd'].includes(entry.kind)));
-    renderTarget(musicFeed, entries.filter((entry) => entry.kind === 'musica'));
+    renderTarget(feed, musicFeed ? posts.filter((post) => ['post', 'foto', 'letterboxd'].includes(post.tipo)) : posts);
+    renderTarget(musicFeed, posts.filter((post) => post.tipo === 'musica'));
   }
 
-  await loadEntries();
+  await loadPosts();
 
   supabaseClient
-    .channel('public-entries-feed')
-    .on('postgres_changes', { event: '*', schema: 'public', table: 'entries' }, loadEntries)
+    .channel('public-post-feed')
+    .on('postgres_changes', { event: '*', schema: 'public', table: 'posts' }, loadPosts)
     .subscribe();
 });
