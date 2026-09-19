@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOMK.RAR | Música</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">tomk<span>.rar</span></div>
+    <nav aria-label="Navegación principal">
+      <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Inicio</a>
+      <a href="musica.html" class="nav-link active"><i class="fa-solid fa-compact-disc"></i> Música</a>
+      <a href="social.html" class="nav-link"><i class="fa-solid fa-share-nodes"></i> Social</a>
+    </nav>
+  </header>
+
+  <main class="section page-main">
+    <section class="music-section">
+      <div class="section-header">
+        <h1>Colección Musical</h1>
+        <p>Explorá artistas, álbumes y canciones; escuchá previews y abrí tus favoritos en Spotify.</p>
+      </div>
+
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" id="searchInput" placeholder="Buscar artista, álbum o canción...">
+        <button id="clearSearch" class="clear-btn" type="button" aria-label="Limpiar búsqueda">&times;</button>
+      </div>
+      <div id="resultsCount" class="results-count">Cargando álbumes...</div>
+      <div id="albumsGrid" class="albums-grid"></div>
+    </section>
+  </main>
+
+  <div id="imageModal" class="modal" role="dialog" aria-modal="true" aria-label="Portada del álbum">
+    <button class="close-modal" id="closeModal" type="button" aria-label="Cerrar">&times;</button>
+    <div class="modal-content">
+      <img id="modalImg" src="" alt="Portada en grande">
+      <div class="modal-info">
+        <h2 id="modalTitle">Título del Álbum</h2>
+        <p id="modalArtist">Artista</p>
+        <a id="downloadBtn" class="download-btn" href="#" target="_blank" download="portada.jpg">
+          <i class="fa-solid fa-download"></i> Descargar Imagen
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer><p>© 2026 TOMK.RAR</p></footer>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
