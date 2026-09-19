@@ -121,6 +121,9 @@
             <label for="imagen_url">URL de la Imagen (Opcional):</label>
             <input type="text" id="imagen_url" placeholder="https://...">
 
+            <label for="image-file">Subir Imagen desde tu computadora (Opcional):</label>
+            <input type="file" id="image-file" accept="image/*">
+
             <button type="submit">Publicar</button>
         </form>
         <div id="status-msg" style="margin-top:15px; font-weight:bold;"></div>
@@ -150,7 +153,34 @@
             const tipo = document.getElementById('tipo').value;
             const titulo = document.getElementById('titulo').value;
             const contenido = document.getElementById('contenido').value;
-            const imagen_url = document.getElementById('imagen_url').value;
+            let imagen_url = document.getElementById('imagen_url').value.trim();
+            const imageFile = document.getElementById('image-file').files[0];
+
+            if (imageFile) {
+                const safeFileName = imageFile.name
+                    .toLowerCase()
+                    .replace(/[^a-z0-9._-]/g, '-');
+                const filePath = `posts/${Date.now()}-${crypto.randomUUID()}-${safeFileName}`;
+                const { error: uploadError } = await supabaseClient.storage
+                    .from('media')
+                    .upload(filePath, imageFile, {
+                        cacheControl: '3600',
+                        contentType: imageFile.type,
+                        upsert: false
+                    });
+
+                if (uploadError) {
+                    console.error('Error subiendo imagen:', uploadError);
+                    statusMsg.style.color = '#d9381e';
+                    statusMsg.innerText = 'Error al subir la imagen: ' + uploadError.message;
+                    return;
+                }
+
+                const { data: publicUrlData } = supabaseClient.storage
+                    .from('media')
+                    .getPublicUrl(filePath);
+                imagen_url = publicUrlData.publicUrl;
+            }
 
             const { data, error } = await supabaseClient
                 .from('posts')
