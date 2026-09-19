@@ -31,6 +31,10 @@
       </div>
       <div id="resultsCount" class="results-count">Cargando álbumes...</div>
       <div id="albumsGrid" class="albums-grid"></div>
+      <section class="music-recommendations" aria-labelledby="recommendations-title">
+        <h2 id="recommendations-title">Recomendaciones</h2>
+        <div id="musicRecommendations" class="public-feed" aria-live="polite"></div>
+      </section>
     </section>
   </main>
 
@@ -51,5 +55,8 @@
   <footer><p>© 2026 TOMK.RAR</p></footer>
   <script src="data.js"></script>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="public-feed.js"></script>
 </body>
 </html>

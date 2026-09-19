@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOMK.RAR | Inicio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <!-- Iconos Lucide / FontAwesome para estética -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -46,6 +47,7 @@
         <i class="fa-regular fa-pen-to-square"></i>
         <span>Las próximas publicaciones aparecerán aquí.</span>
       </div>
+      <div id="contenedor-posts" class="public-feed" aria-live="polite"></div>
     </section>
 
     <section class="home-navigation" aria-label="Secciones principales">
@@ -83,6 +85,94 @@
   <footer>
     <p>© 2026 TOMK.RAR — Desarrollado para GitHub Pages</p>
   </footer>
+
+  <script src="supabase-config.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('contenedor-posts');
+      if (!container) return;
+
+      container.textContent = 'Cargando publicaciones...';
+
+      let { data: posts, error } = await supabaseClient
+        .from('posts')
+        .select('id, tipo, titulo, contenido, imagen_url, created_at')
+        .order('created_at', { ascending: false });
+
+      if (error) {
+        const fallback = await supabaseClient
+          .from('entries')
+          .select('id, kind, title, body, image_url, image_path, created_at')
+          .order('created_at', { ascending: false });
+
+        if (!fallback.error) {
+          posts = fallback.data.map((entry) => ({
+            id: entry.id,
+            tipo: entry.kind,
+            titulo: entry.title,
+            contenido: entry.body,
+            imagen_url: entry.image_url || (entry.image_path
+              ? supabaseClient.storage.from('media').getPublicUrl(entry.image_path).data.publicUrl
+              : null),
+            created_at: entry.created_at
+          }));
+          error = null;
+        }
+      }
+
+      if (error) {
+        container.textContent = 'No se pudieron cargar las publicaciones.';
+        console.error('Error cargando posts:', error);
+        return;
+      }
+
+      container.replaceChildren();
+
+      if (!posts.length) {
+        container.textContent = 'Todavía no hay publicaciones.';
+        return;
+      }
+
+      posts.forEach((post) => {
+        const card = document.createElement('article');
+        card.className = 'public-entry';
+
+        const type = document.createElement('small');
+        type.className = 'post-type';
+        type.textContent = post.tipo || 'post';
+        card.appendChild(type);
+
+        const title = document.createElement('h2');
+        title.textContent = post.titulo || 'Sin título';
+        card.appendChild(title);
+
+        if (post.created_at) {
+          const date = document.createElement('time');
+          date.dateTime = post.created_at;
+          date.textContent = new Intl.DateTimeFormat('es-AR', {
+            dateStyle: 'medium'
+          }).format(new Date(post.created_at));
+          card.appendChild(date);
+        }
+
+        if (post.imagen_url) {
+          const image = document.createElement('img');
+          image.src = post.imagen_url;
+          image.alt = post.titulo || 'Imagen de la publicación';
+          image.loading = 'lazy';
+          card.appendChild(image);
+        }
+
+        if (post.contenido) {
+          const content = document.createElement('p');
+          content.textContent = post.contenido;
+          card.appendChild(content);
+        }
+
+        container.appendChild(card);
+      });
+    });
+  </script>
 
 </body>
 </html>

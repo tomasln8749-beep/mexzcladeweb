@@ -609,6 +609,151 @@ footer {
   }
 }
 
+.admin-shell {
+  width: 100%;
+  max-width: 720px;
+  margin: 20px auto;
+}
+
+.admin-panel {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 24px;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.admin-panel h1 {
+  margin-bottom: 10px;
+}
+
+.admin-panel p {
+  margin-bottom: 14px;
+  color: var(--muted);
+}
+
+.admin-panel form {
+  display: grid;
+  gap: 10px;
+}
+
+.admin-panel label {
+  font-weight: 600;
+}
+
+.admin-panel input,
+.admin-panel select,
+.admin-panel textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+}
+
+.admin-panel textarea {
+  resize: vertical;
+}
+
+#codeStatus,
+#adminStatus[data-error="true"] {
+  color: var(--accent);
+}
+
+.admin-shell {
+  width: 100%;
+  max-width: 720px;
+  margin: 20px auto;
+}
+
+.admin-panel,
+.public-entry,
+.music-recommendations {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.admin-panel h1,
+.music-recommendations h2,
+.public-entry h2 {
+  margin-bottom: 14px;
+}
+
+.admin-panel form {
+  display: grid;
+  gap: 10px;
+}
+
+.admin-panel label {
+  font-weight: 600;
+}
+
+.admin-panel input,
+.admin-panel select,
+.admin-panel textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  background: #fdfbf7;
+  color: var(--ink);
+  font: inherit;
+}
+
+.admin-panel textarea {
+  resize: vertical;
+}
+
+.admin-panel [data-error="true"] {
+  color: var(--accent);
+}
+
+.public-feed {
+  display: grid;
+  gap: 14px;
+}
+
+.public-entry {
+  margin-bottom: 0;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.public-entry time {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.public-entry img {
+  width: 100%;
+  max-height: 520px;
+  margin-bottom: 12px;
+  display: block;
+  object-fit: cover;
+}
+
+.public-entry p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.public-entry a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 /* Modo oscuro editorial */
 :root {
   --paper: #111318;

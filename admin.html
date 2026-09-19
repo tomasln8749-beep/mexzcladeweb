@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Panel Privado</title>
+    <!-- Librería de Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        :root {
+            --bg-color: #f4f1ea;
+            --card-bg: #ffffff;
+            --border-color: #000000;
+            --accent-red: #d9381e;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: #000;
+            font-family: monospace, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: var(--card-bg);
+            border: 3px solid var(--border-color);
+            padding: 25px;
+            box-shadow: 6px 6px 0px var(--border-color);
+            box-sizing: border-box;
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        .hidden { display: none !important; }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 2px solid var(--border-color);
+            background: var(--bg-color);
+            font-family: monospace;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background: var(--accent-red);
+            color: #fff;
+            border: 2px solid var(--border-color);
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 3px 3px 0px var(--border-color);
+        }
+
+        button:active {
+            transform: translate(2px, 2px);
+            box-shadow: 1px 1px 0px var(--border-color);
+        }
+
+        .error {
+            color: var(--accent-red);
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PANTALLA DE ACCESO CON CÓDIGO 8749 -->
+    <div id="login-screen" class="container">
+        <h2>Acceso Privado</h2>
+        <label for="codigo-input">Ingresá el código:</label>
+        <input type="password" id="codigo-input" placeholder="Clave numérica...">
+        <button onclick="verificarCodigo()">Ingresar</button>
+        <div id="error-msg" class="error"></div>
+    </div>
+
+    <!-- PANEL DE PUBLICACIÓN -->
+    <div id="admin-panel" class="container hidden">
+        <h2>Nuevo Contenido</h2>
+        <form id="post-form">
+            <label for="tipo">Tipo de Contenido:</label>
+            <select id="tipo" required>
+                <option value="post">Post / Diario</option>
+                <option value="foto">Foto</option>
+                <option value="musica">Música</option>
+                <option value="letterboxd">Reseña Letterboxd</option>
+            </select>
+
+            <label for="titulo">Título / Película / Canción:</label>
+            <input type="text" id="titulo" placeholder="Ej: Oppenheimer o Mi día..." required>
+
+            <label for="contenido">Contenido / Opinión:</label>
+            <textarea id="contenido" rows="4" placeholder="Escribí tu texto aquí..." required></textarea>
+
+            <label for="imagen_url">URL de la Imagen (Opcional):</label>
+            <input type="text" id="imagen_url" placeholder="https://...">
+
+            <button type="submit">Publicar</button>
+        </form>
+        <div id="status-msg" style="margin-top:15px; font-weight:bold;"></div>
+    </div>
+
+    <script>
+        //
+        const SUPABASE_URL = 'https://lklzrdnwbxjeofubqjaz.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_AxF6cFesZ9DCXYuNx687og_eoeDeFXk';
+        
+        const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+        function verificarCodigo() {
+            const val = document.getElementById('codigo-input').value;
+            if (val === '8749') {
+                document.getElementById('login-screen').classList.add('hidden');
+                document.getElementById('admin-panel').classList.remove('hidden');
+            } else {
+                document.getElementById('error-msg').innerText = 'Código incorrecto.';
+            }
+        }
+
+        document.getElementById('post-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const statusMsg = document.getElementById('status-msg');
+            statusMsg.innerText = 'Publicando...';
+
+            const tipo = document.getElementById('tipo').value;
+            const titulo = document.getElementById('titulo').value;
+            const contenido = document.getElementById('contenido').value;
+            const imagen_url = document.getElementById('imagen_url').value;
+
+            const { error } = await supabaseClient
+                .from('posts')
+                .insert([{ tipo, titulo, contenido, imagen_url }]);
+
+            if (error) {
+                console.error(error);
+                statusMsg.style.color = '#d9381e';
+                statusMsg.innerText = 'Error al publicar.';
+            } else {
+                statusMsg.style.color = 'green';
+                statusMsg.innerText = '¡Publicado con éxito!';
+                document.getElementById('post-form').reset();
+            }
+        });
+    </script>
+</body>
+</html>
