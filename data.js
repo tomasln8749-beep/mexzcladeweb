@@ -109,7 +109,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 50,
+    "popularidad": 49,
     "isrc": "CA5KR2369396",
     "agregadoEn": "2026-09-20T05:18:32Z"
   },
@@ -185,7 +185,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 59,
+    "popularidad": 58,
     "isrc": "QT6E52580542",
     "agregadoEn": "2026-09-20T05:11:33Z"
   },
@@ -337,7 +337,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 58,
+    "popularidad": 57,
     "isrc": "GB8KE2402281",
     "agregadoEn": "2026-09-20T05:11:33Z"
   },
@@ -356,7 +356,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 46,
+    "popularidad": 47,
     "isrc": "CA5KR2671232",
     "agregadoEn": "2026-09-20T03:50:24Z"
   },
@@ -546,7 +546,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 46,
+    "popularidad": 45,
     "isrc": "CA5KR2669133",
     "agregadoEn": "2026-09-20T03:51:05Z"
   },
@@ -679,7 +679,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 50,
+    "popularidad": 49,
     "isrc": "DGA052493064",
     "agregadoEn": "2026-09-20T05:11:33Z"
   },
@@ -907,7 +907,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 52,
+    "popularidad": 51,
     "isrc": "QZ5AB2066770",
     "agregadoEn": "2026-09-17T16:16:17Z"
   },
@@ -983,7 +983,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 92,
+    "popularidad": 91,
     "isrc": "USWB19901214",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -1192,7 +1192,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 59,
+    "popularidad": 58,
     "isrc": "QZDA62508388",
     "agregadoEn": "2026-09-16T22:24:09Z"
   },
@@ -1249,7 +1249,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "ES5019753004",
     "agregadoEn": "2026-09-16T22:24:36Z"
   },
@@ -1553,7 +1553,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 71,
+    "popularidad": 70,
     "isrc": "ARUM70500008",
     "agregadoEn": "2026-09-16T22:26:33Z"
   },
@@ -1572,7 +1572,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 44,
+    "popularidad": 43,
     "isrc": "ARUM70500011",
     "agregadoEn": "2026-09-16T22:26:41Z"
   },
@@ -1762,7 +1762,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 27,
+    "popularidad": 26,
     "isrc": "ARF109700197",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -1819,7 +1819,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 13,
     "esExplicita": false,
-    "popularidad": 25,
+    "popularidad": 24,
     "isrc": "ARF109700200",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -1838,7 +1838,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 65,
+    "popularidad": 64,
     "isrc": "MXF011600151",
     "agregadoEn": "2026-09-16T22:26:51Z"
   },
@@ -1952,7 +1952,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 53,
+    "popularidad": 52,
     "isrc": "ARF470100015",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -1990,7 +1990,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 44,
+    "popularidad": 43,
     "isrc": "ARF470100017",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -2104,7 +2104,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 12,
     "esExplicita": false,
-    "popularidad": 37,
+    "popularidad": 36,
     "isrc": "ARF470100024",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -2161,7 +2161,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 61,
+    "popularidad": 60,
     "isrc": "ARUM70800270",
     "agregadoEn": "2026-09-16T22:27:32Z"
   },
@@ -2180,7 +2180,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 59,
+    "popularidad": 58,
     "isrc": "MXF011300158",
     "agregadoEn": "2026-09-16T22:27:37Z"
   },
@@ -2313,7 +2313,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 75,
+    "popularidad": 74,
     "isrc": "AUUM71001517",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -2351,7 +2351,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 78,
+    "popularidad": 77,
     "isrc": "GBARL1900848",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -2370,7 +2370,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 69,
+    "popularidad": 68,
     "isrc": "ARKPH1800001",
     "agregadoEn": "2026-09-16T22:28:48Z"
   },
@@ -2408,7 +2408,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 14,
+    "popularidad": 13,
     "isrc": "QZK6G2079079",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -2427,7 +2427,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 67,
+    "popularidad": 66,
     "isrc": "GBBKS2300296",
     "agregadoEn": "2026-09-16T22:29:15Z"
   },
@@ -2560,7 +2560,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": true,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "ARF140400001",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -2636,7 +2636,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 72,
+    "popularidad": 71,
     "isrc": "BK4DA2410627",
     "agregadoEn": "2026-09-16T22:29:47Z"
   },
@@ -2731,7 +2731,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 75,
+    "popularidad": 74,
     "isrc": "USUM72307244",
     "agregadoEn": "2026-06-28T02:25:06Z"
   },
@@ -2864,7 +2864,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "USCH37900017",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -2978,7 +2978,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "GBAAN7390003",
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
@@ -2997,7 +2997,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 77,
+    "popularidad": 76,
     "isrc": "USIR27700008",
     "agregadoEn": "2026-09-03T13:31:05Z"
   },
@@ -3035,7 +3035,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "USIR27700016",
     "agregadoEn": "2026-06-28T04:44:33Z"
   },
@@ -3415,7 +3415,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 61,
+    "popularidad": 60,
     "isrc": "USMTD1710364",
     "agregadoEn": "2026-09-17T22:07:40Z"
   },
@@ -3453,7 +3453,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 48,
+    "popularidad": 47,
     "isrc": "USWWW0134805",
     "agregadoEn": "2026-09-17T22:00:01Z"
   },
@@ -3529,7 +3529,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "QZWFH2353145",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -3551,6 +3551,25 @@ const cancionesData = [
     "popularidad": 67,
     "isrc": "BRPGD7800024",
     "agregadoEn": "2026-09-16T22:31:54Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Chris Isaak",
+    "album": "Heart Shaped World",
+    "cancion": "Wicked Game",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ad0e25c1c366d63bcbae4073",
+    "uri": "spotify:artist:7290H8m1Dwt8G7jm1y9CQx",
+    "uriCancion": "spotify:track:2y42xAsl6dfMeVXQgOYsUw",
+    "uriAlbum": "spotify:album:2103xkKW1uuHUG2sOIaZSt",
+    "previewUrl": "https://p.scdn.co/mp3-preview/617516c824c621167e417b60cc146947d0e0c95c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 289066,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 86,
+    "isrc": "USRE19900989",
+    "agregadoEn": "2026-09-20T09:25:24Z"
   },
   {
     "playlist": "MEXCLAZ",
@@ -3681,7 +3700,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 79,
+    "popularidad": 78,
     "isrc": "USBQU1700039",
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
@@ -3757,7 +3776,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 29,
+    "popularidad": 28,
     "isrc": "TCADF1795049",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4080,7 +4099,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 71,
+    "popularidad": 70,
     "isrc": "QZDA71930214",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4099,7 +4118,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 42,
+    "popularidad": 41,
     "isrc": "QM6MZ2063303",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4156,7 +4175,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 77,
+    "popularidad": 76,
     "isrc": "GBRQQ0700001",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4213,7 +4232,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": true,
-    "popularidad": 63,
+    "popularidad": 62,
     "isrc": "GBKPL1806792",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -4365,7 +4384,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 80,
+    "popularidad": 79,
     "isrc": "TCACS1661027",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -4555,7 +4574,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "USJT11200004",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4574,7 +4593,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 77,
+    "popularidad": 76,
     "isrc": "USAT20110480",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4593,7 +4612,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 80,
+    "popularidad": 79,
     "isrc": "TCADL1825079",
     "agregadoEn": "2026-09-18T16:09:47Z"
   },
@@ -4631,7 +4650,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "GBAJH9800141",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4745,7 +4764,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 58,
+    "popularidad": 57,
     "isrc": "USEP40337102",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -4992,7 +5011,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 12,
     "esExplicita": false,
-    "popularidad": 60,
+    "popularidad": 59,
     "isrc": "ARR4B2400025",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5163,7 +5182,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 98,
+    "popularidad": 97,
     "isrc": "USQX91802457",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5201,7 +5220,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 85,
+    "popularidad": 84,
     "isrc": "USEP40937005",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5239,7 +5258,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "QM42K1745830",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -5277,7 +5296,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 46,
+    "popularidad": 45,
     "isrc": "NL9KR2495632",
     "agregadoEn": "2026-08-23T02:06:00Z"
   },
@@ -5315,7 +5334,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 43,
+    "popularidad": 42,
     "isrc": "QT3FB2592943",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -5372,7 +5391,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 75,
+    "popularidad": 74,
     "isrc": "US68F0505011",
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
@@ -5429,7 +5448,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 60,
+    "popularidad": 59,
     "isrc": "QZNMU2174737",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5562,7 +5581,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "USSM10015736",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5733,7 +5752,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "GBMYF1900115",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5771,7 +5790,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 86,
+    "popularidad": 85,
     "isrc": "GBMYF2000174",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5809,7 +5828,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 25,
+    "popularidad": 24,
     "isrc": "GBAAA7300007",
     "agregadoEn": "2026-09-17T22:04:41Z"
   },
@@ -5828,7 +5847,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 41,
+    "popularidad": 40,
     "isrc": "QMCE71301919",
     "agregadoEn": "2026-09-17T22:08:37Z"
   },
@@ -5847,7 +5866,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "GBKPL1970166",
     "agregadoEn": "2026-06-28T02:22:30Z"
   },
@@ -5885,7 +5904,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 90,
+    "popularidad": 89,
     "isrc": "USWB11301116",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -5999,7 +6018,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 58,
+    "popularidad": 57,
     "isrc": "CH1956980330",
     "agregadoEn": "2026-06-28T02:23:59Z"
   },
@@ -6151,7 +6170,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 67,
+    "popularidad": 66,
     "isrc": "US35U0403601",
     "agregadoEn": "2026-09-17T21:53:10Z"
   },
@@ -6227,7 +6246,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 51,
+    "popularidad": 50,
     "isrc": "USRY29600081",
     "agregadoEn": "2026-09-17T21:55:32Z"
   },
@@ -6284,7 +6303,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "USAM19601246",
     "agregadoEn": "2026-08-13T22:59:23Z"
   },
@@ -6303,7 +6322,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 90,
+    "popularidad": 89,
     "isrc": "GBKPL1828677",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -6341,7 +6360,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 81,
+    "popularidad": 80,
     "isrc": "GBAYE1000010",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -6664,7 +6683,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": true,
-    "popularidad": 48,
+    "popularidad": 47,
     "isrc": "USA560436359",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -6778,7 +6797,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 12,
     "esExplicita": false,
-    "popularidad": 39,
+    "popularidad": 38,
     "isrc": "USA560436365",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -6797,7 +6816,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 13,
     "esExplicita": false,
-    "popularidad": 41,
+    "popularidad": 40,
     "isrc": "USA560436366",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -6816,7 +6835,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 14,
     "esExplicita": true,
-    "popularidad": 37,
+    "popularidad": 36,
     "isrc": "USA560436367",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -6873,7 +6892,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 17,
     "esExplicita": false,
-    "popularidad": 44,
+    "popularidad": 43,
     "isrc": "USA560436370",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7082,7 +7101,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 87,
+    "popularidad": 86,
     "isrc": "USRE10400888",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7139,7 +7158,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "USRE10400994",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7272,7 +7291,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 58,
+    "popularidad": 57,
     "isrc": "USRE19900147",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7348,7 +7367,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 88,
+    "popularidad": 87,
     "isrc": "USRE19900151",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7367,7 +7386,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 71,
+    "popularidad": 70,
     "isrc": "USRE19900152",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7633,7 +7652,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": true,
-    "popularidad": 48,
+    "popularidad": 47,
     "isrc": "USRE19500207",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -7709,7 +7728,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": true,
-    "popularidad": 85,
+    "popularidad": 84,
     "isrc": "USRE19500211",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8013,7 +8032,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": true,
-    "popularidad": 48,
+    "popularidad": 47,
     "isrc": "USRE19700534",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8089,7 +8108,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 45,
+    "popularidad": 44,
     "isrc": "USRE19700538",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8260,7 +8279,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 59,
+    "popularidad": 58,
     "isrc": "USRE12201091",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8393,7 +8412,7 @@ const cancionesData = [
     "numeroDisco": 2,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 35,
+    "popularidad": 34,
     "isrc": "USRE12500267",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8431,7 +8450,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": true,
-    "popularidad": 38,
+    "popularidad": 37,
     "isrc": "USRE11200484",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8697,7 +8716,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 46,
+    "popularidad": 45,
     "isrc": "ARF030600056",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8792,7 +8811,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "ARF039900909",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -8963,7 +8982,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 12,
     "esExplicita": false,
-    "popularidad": 49,
+    "popularidad": 48,
     "isrc": "ARF039900918",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -9020,7 +9039,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 15,
     "esExplicita": false,
-    "popularidad": 46,
+    "popularidad": 45,
     "isrc": "ARF039900921",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -9077,7 +9096,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 64,
+    "popularidad": 63,
     "isrc": "ARF100900385",
     "agregadoEn": "2026-09-17T22:14:36Z"
   },
@@ -9343,7 +9362,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 52,
+    "popularidad": 51,
     "isrc": "QZHN51983547",
     "agregadoEn": "2026-08-23T02:17:39Z"
   },
@@ -9362,7 +9381,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 76,
+    "popularidad": 75,
     "isrc": "QM4DW1607618",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -9381,7 +9400,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 51,
+    "popularidad": 50,
     "isrc": "QM4DW1607619",
     "agregadoEn": "2026-08-23T02:12:26Z"
   },
@@ -9476,7 +9495,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": true,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "USPO10300102",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -9609,7 +9628,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 74,
+    "popularidad": 73,
     "isrc": "USA2P2347174",
     "agregadoEn": "2026-06-28T04:45:26Z"
   },
@@ -9818,7 +9837,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 74,
+    "popularidad": 73,
     "isrc": "QZB4J1892556",
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
@@ -9894,7 +9913,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "ES5028100044",
     "agregadoEn": "2026-09-12T00:19:28Z"
   },
@@ -10236,7 +10255,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 77,
+    "popularidad": 76,
     "isrc": "USUM71307527",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -10369,7 +10388,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 90,
+    "popularidad": 89,
     "isrc": "USPR39330175",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -10407,7 +10426,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 59,
+    "popularidad": 58,
     "isrc": "USR3V2301005",
     "agregadoEn": "2026-06-28T04:41:09Z"
   },
@@ -10426,7 +10445,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 24,
+    "popularidad": 23,
     "isrc": "QZ5FN1908625",
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
@@ -10445,7 +10464,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 49,
+    "popularidad": 48,
     "isrc": "QZ5FN1908629",
     "agregadoEn": "2026-08-23T02:17:25Z"
   },
@@ -10578,7 +10597,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "QZMEP2194356",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -10673,7 +10692,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 65,
+    "popularidad": 64,
     "isrc": "QZMEQ2579528",
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
@@ -10730,7 +10749,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "QZDA61986777",
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
@@ -10768,7 +10787,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 69,
+    "popularidad": 68,
     "isrc": "GBAYE8400104",
     "agregadoEn": "2026-09-16T22:46:22Z"
   },
@@ -10806,7 +10825,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": true,
-    "popularidad": 88,
+    "popularidad": 87,
     "isrc": "USIR19902309",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11129,7 +11148,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "DGA052526250",
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
@@ -11205,7 +11224,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 85,
+    "popularidad": 84,
     "isrc": "ARF049400245",
     "agregadoEn": "2026-08-27T22:38:43Z"
   },
@@ -11319,7 +11338,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 69,
+    "popularidad": 68,
     "isrc": "ARF850400159",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11338,7 +11357,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 57,
+    "popularidad": 56,
     "isrc": "GX5MX2453015",
     "agregadoEn": "2026-08-14T09:05:49Z"
   },
@@ -11414,7 +11433,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 49,
+    "popularidad": 48,
     "isrc": "GBAFL9000042",
     "agregadoEn": "2026-09-17T21:59:12Z"
   },
@@ -11433,7 +11452,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 40,
+    "popularidad": 39,
     "isrc": "QMMZN1200046",
     "agregadoEn": "2026-09-17T22:13:44Z"
   },
@@ -11471,7 +11490,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 62,
+    "popularidad": 61,
     "isrc": "QMMZN1200048",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11585,7 +11604,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 56,
+    "popularidad": 55,
     "isrc": "QMMZN1300873",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11623,7 +11642,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 66,
+    "popularidad": 65,
     "isrc": "QMMZN1300874",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11794,7 +11813,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 72,
+    "popularidad": 71,
     "isrc": "QZG4T1900005",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11813,7 +11832,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 86,
+    "popularidad": 85,
     "isrc": "QZG4T1900008",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11851,7 +11870,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 55,
+    "popularidad": 54,
     "isrc": "QZG4T1900027",
     "agregadoEn": "2026-08-14T01:16:29Z"
   },
@@ -11870,7 +11889,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 67,
+    "popularidad": 66,
     "isrc": "QMMZN1300560",
     "agregadoEn": "2026-09-17T22:13:53Z"
   },
@@ -11889,7 +11908,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 46,
+    "popularidad": 45,
     "isrc": "QMMZN1300561",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -11965,7 +11984,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "QMMZN1300568",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12003,7 +12022,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 39,
+    "popularidad": 38,
     "isrc": "QMMZN1701298",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12022,7 +12041,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 68,
+    "popularidad": 67,
     "isrc": "QMMZN1701301",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12060,7 +12079,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 57,
+    "popularidad": 56,
     "isrc": "QMMZN1701303",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12212,7 +12231,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 20,
     "esExplicita": true,
-    "popularidad": 76,
+    "popularidad": 75,
     "isrc": "US2S70465020",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12231,7 +12250,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "GBUM72300969",
     "agregadoEn": "2026-09-16T22:50:51Z"
   },
@@ -12364,7 +12383,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 77,
+    "popularidad": 76,
     "isrc": "FRZ189800013",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12383,7 +12402,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "FRZ189800014",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12402,7 +12421,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 85,
+    "popularidad": 84,
     "isrc": "FR84R0000004",
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
@@ -12421,7 +12440,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 89,
+    "popularidad": 88,
     "isrc": "USWL12100143",
     "agregadoEn": "2026-09-16T22:51:15Z"
   },
@@ -12744,7 +12763,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 13,
     "esExplicita": true,
-    "popularidad": 78,
+    "popularidad": 77,
     "isrc": "USBWK0700049",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12782,7 +12801,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": true,
-    "popularidad": 55,
+    "popularidad": 54,
     "isrc": "US2S71104004",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -12896,7 +12915,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "UYB282384010",
     "agregadoEn": "2026-09-16T22:52:53Z"
   },
@@ -13029,7 +13048,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 89,
+    "popularidad": 88,
     "isrc": "USJ5G2335007",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -13143,7 +13162,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 63,
+    "popularidad": 62,
     "isrc": "AEA0D1846141",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -13257,7 +13276,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 50,
+    "popularidad": 49,
     "isrc": "BCQ7F2300003",
     "agregadoEn": "2026-09-16T22:53:43Z"
   },
@@ -13295,7 +13314,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 69,
+    "popularidad": 68,
     "isrc": "GBBBY0300024",
     "agregadoEn": "2026-06-28T04:46:40Z"
   },
@@ -13352,7 +13371,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 62,
+    "popularidad": 61,
     "isrc": "UYB282300010",
     "agregadoEn": "2026-09-17T16:29:01Z"
   },
@@ -13409,7 +13428,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 47,
+    "popularidad": 46,
     "isrc": "GX5MX2409159",
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
@@ -13637,7 +13656,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": true,
-    "popularidad": 54,
+    "popularidad": 53,
     "isrc": "USGF19950403",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -13656,7 +13675,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 58,
+    "popularidad": 57,
     "isrc": "USGF19950404",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -13827,7 +13846,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 13,
     "esExplicita": false,
-    "popularidad": 51,
+    "popularidad": 50,
     "isrc": "USGF19950413",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -14036,7 +14055,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 60,
+    "popularidad": 59,
     "isrc": "USGF19972709",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -14283,7 +14302,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 62,
+    "popularidad": 61,
     "isrc": "QZLBC2515195",
     "agregadoEn": "2026-09-06T16:38:06Z"
   },
@@ -14416,7 +14435,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 56,
+    "popularidad": 55,
     "isrc": "USHEL0707102",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -14492,7 +14511,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 4,
+    "popularidad": 5,
     "isrc": "NL8RL2660630",
     "agregadoEn": "2026-06-28T02:34:05Z"
   },
@@ -14625,7 +14644,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 32,
+    "popularidad": 31,
     "isrc": "NL8RL2649287",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -14644,7 +14663,7 @@ const cancionesData = [
     "numeroDisco": 2,
     "numeroPista": 9,
     "esExplicita": true,
-    "popularidad": 89,
+    "popularidad": 88,
     "isrc": "USAR10300924",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -14986,7 +15005,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 47,
+    "popularidad": 46,
     "isrc": "AR5CC0000004",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15005,7 +15024,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 53,
+    "popularidad": 52,
     "isrc": "AR5CC0000005",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15176,7 +15195,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 54,
+    "popularidad": 53,
     "isrc": "AR5CC8800002",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15233,7 +15252,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "AR5CC8800005",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15271,7 +15290,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 60,
+    "popularidad": 59,
     "isrc": "AR5CC8800007",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15290,7 +15309,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "AR5CC8800008",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15765,7 +15784,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 52,
+    "popularidad": 51,
     "isrc": "US39Z0401505",
     "agregadoEn": "2026-09-17T22:08:01Z"
   },
@@ -15784,7 +15803,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "GBN9Y1100077",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -15822,7 +15841,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 87,
+    "popularidad": 86,
     "isrc": "GBN9Y1100088",
     "agregadoEn": "2026-09-16T22:57:04Z"
   },
@@ -15993,7 +16012,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 35,
+    "popularidad": 34,
     "isrc": "TCABO1358476",
     "agregadoEn": "2026-09-14T23:28:50Z"
   },
@@ -16050,7 +16069,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 33,
+    "popularidad": 32,
     "isrc": "US38Y1526006",
     "agregadoEn": "2026-09-17T22:03:35Z"
   },
@@ -16107,7 +16126,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 81,
+    "popularidad": 80,
     "isrc": "QZHN72419814",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -16145,7 +16164,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 30,
+    "popularidad": 29,
     "isrc": "QT6622644432",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -16164,7 +16183,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 74,
+    "popularidad": 73,
     "isrc": "GBUM71029604",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -16278,7 +16297,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 91,
+    "popularidad": 90,
     "isrc": "GBAYE9701374",
     "agregadoEn": "2026-09-17T22:16:39Z"
   },
@@ -16297,7 +16316,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "GBAYE9701368",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -16316,7 +16335,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 89,
+    "popularidad": 88,
     "isrc": "GBAYE9700386",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -16601,7 +16620,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "SEYOK1732035",
     "agregadoEn": "2026-09-12T03:38:41Z"
   },
@@ -16639,7 +16658,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 52,
+    "popularidad": 51,
     "isrc": "USRE11300032",
     "agregadoEn": "2026-09-17T21:58:59Z"
   },
@@ -16924,7 +16943,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "GBSMU1456120",
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
@@ -17057,7 +17076,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 56,
+    "popularidad": 55,
     "isrc": "UKZGC2409301",
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
@@ -17152,7 +17171,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 71,
+    "popularidad": 70,
     "isrc": "MXF011600250",
     "agregadoEn": "2026-09-17T20:42:31Z"
   },
@@ -17247,7 +17266,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 57,
+    "popularidad": 56,
     "isrc": "GX3Q92371043",
     "agregadoEn": "2026-09-17T20:43:27Z"
   },
@@ -17285,7 +17304,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 56,
+    "popularidad": 55,
     "isrc": "GX3Q92163734",
     "agregadoEn": "2026-09-17T20:43:40Z"
   },
@@ -17399,7 +17418,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 48,
+    "popularidad": 47,
     "isrc": "QT6622584402",
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
@@ -17418,7 +17437,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 39,
+    "popularidad": 38,
     "isrc": "QZK6F2615349",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -17456,7 +17475,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 83,
     "isrc": "NLA320886993",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -17665,7 +17684,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 72,
+    "popularidad": 71,
     "isrc": "ARFSB0700889",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -17684,7 +17703,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 78,
+    "popularidad": 77,
     "isrc": "ARFSB0700891",
     "agregadoEn": "2026-09-17T20:44:42Z"
   },
@@ -17703,7 +17722,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 49,
+    "popularidad": 48,
     "isrc": "ARF109400137",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -17893,7 +17912,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 44,
+    "popularidad": 43,
     "isrc": "US38W0510701",
     "agregadoEn": "2026-09-17T21:58:47Z"
   },
@@ -17950,7 +17969,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 67,
+    "popularidad": 66,
     "isrc": "GBARL2300224",
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
@@ -18045,7 +18064,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 74,
+    "popularidad": 73,
     "isrc": "TCAFF2074369",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -18463,7 +18482,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": true,
-    "popularidad": 79,
+    "popularidad": 78,
     "isrc": "AUUM71500295",
     "agregadoEn": "2026-09-18T16:16:10Z"
   },
@@ -18653,7 +18672,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 88,
+    "popularidad": 87,
     "isrc": "GBF088590110",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -18748,7 +18767,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "TCAAZ1184323",
     "agregadoEn": "2026-07-05T20:49:28Z"
   },
@@ -18957,7 +18976,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 86,
+    "popularidad": 85,
     "isrc": "GBARL1200670",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -19052,7 +19071,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 58,
+    "popularidad": 57,
     "isrc": "USEE10901458",
     "agregadoEn": "2026-09-17T22:14:26Z"
   },
@@ -19071,7 +19090,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 55,
+    "popularidad": 54,
     "isrc": "GBALB0300001",
     "agregadoEn": "2026-09-17T22:14:00Z"
   },
@@ -19109,7 +19128,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 39,
+    "popularidad": 38,
     "isrc": "GBALB8700004",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -19242,7 +19261,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 33,
+    "popularidad": 32,
     "isrc": "GBUM70600776",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -19318,7 +19337,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 14,
     "esExplicita": false,
-    "popularidad": 31,
+    "popularidad": 30,
     "isrc": "GBALB8700016",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -19432,7 +19451,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 83,
+    "popularidad": 82,
     "isrc": "GBALB9200002",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -19926,7 +19945,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 67,
+    "popularidad": 66,
     "isrc": "USEP40312204",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -19945,7 +19964,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 42,
+    "popularidad": 41,
     "isrc": "USG590610052",
     "agregadoEn": "2026-09-17T22:05:00Z"
   },
@@ -20192,7 +20211,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 78,
+    "popularidad": 77,
     "isrc": "USVI21200893",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -20211,7 +20230,7 @@ const cancionesData = [
     "numeroDisco": 2,
     "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 85,
+    "popularidad": 84,
     "isrc": "USVI21200910",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -20268,7 +20287,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 78,
+    "popularidad": 77,
     "isrc": "USVI21100148",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -20553,7 +20572,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 78,
+    "popularidad": 77,
     "isrc": "GBCRL1100051",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -20591,7 +20610,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 75,
+    "popularidad": 74,
     "isrc": "GBCRL1100030",
     "agregadoEn": "2026-09-18T16:14:09Z"
   },
@@ -20800,7 +20819,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 74,
+    "popularidad": 73,
     "isrc": "USRC11902732",
     "agregadoEn": "2026-09-18T16:15:16Z"
   },
@@ -20838,7 +20857,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "GB01A9000004",
     "agregadoEn": "2026-09-17T22:00:14Z"
   },
@@ -20914,7 +20933,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 81,
+    "popularidad": 80,
     "isrc": "GBBKS0900196",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -20952,7 +20971,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 70,
+    "popularidad": 69,
     "isrc": "JPAL08603230",
     "agregadoEn": "2026-06-28T02:22:13Z"
   },
@@ -21066,7 +21085,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 76,
+    "popularidad": 75,
     "isrc": "USHM21438136",
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
@@ -21161,7 +21180,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "USCGH1682127",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -21275,7 +21294,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": true,
-    "popularidad": 93,
+    "popularidad": 92,
     "isrc": "USQX91701275",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -21351,7 +21370,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 7,
+    "popularidad": 6,
     "isrc": "GXD7V2257762",
     "agregadoEn": "2026-09-17T20:49:47Z"
   },
@@ -21370,7 +21389,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 44,
+    "popularidad": 43,
     "isrc": "QZNJZ2384721",
     "agregadoEn": "2026-09-17T20:49:42Z"
   },
@@ -21408,7 +21427,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 59,
+    "popularidad": 58,
     "isrc": "SEYOK1814656",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
@@ -21541,7 +21560,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "SEYOK1669274",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -22130,7 +22149,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 44,
+    "popularidad": 43,
     "isrc": "ARF100300179",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -22206,7 +22225,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 57,
+    "popularidad": 56,
     "isrc": "QT2VB2450470",
     "agregadoEn": "2026-08-23T02:03:07Z"
   },
@@ -22225,7 +22244,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 42,
+    "popularidad": 41,
     "isrc": "USJ5G2232802",
     "agregadoEn": "2026-09-17T21:57:39Z"
   },
@@ -22244,7 +22263,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 82,
+    "popularidad": 81,
     "isrc": "USGF19562907",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -22415,7 +22434,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 40,
+    "popularidad": 39,
     "isrc": "GBMAE7801219",
     "agregadoEn": "2026-09-17T22:01:37Z"
   },
@@ -22434,7 +22453,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 71,
+    "popularidad": 70,
     "isrc": "JPPO08100570",
     "agregadoEn": "2026-09-17T20:51:38Z"
   },
@@ -22472,7 +22491,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 76,
+    "popularidad": 75,
     "isrc": "CH7811111177",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
@@ -22491,7 +22510,7 @@ const cancionesData = [
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": true,
-    "popularidad": 56,
+    "popularidad": 55,
     "isrc": "CAGOO1966520",
     "agregadoEn": "2026-07-20T01:08:55Z"
   },
