@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
   const clearSearch = document.getElementById('clearSearch');
   const resultsCount = document.getElementById('resultsCount');
+  const mexclazGrid = document.getElementById('mexclazGrid');
+  const playlistTabs = [...document.querySelectorAll('.playlist-tab')];
   const modal = document.getElementById('imageModal');
   const modalImg = document.getElementById('modalImg');
   const modalTitle = document.getElementById('modalTitle');
@@ -10,7 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const downloadBtn = document.getElementById('downloadBtn');
   const closeModal = document.getElementById('closeModal');
 
-  let groupedAlbums = [];
+  let activePlaylist = 'LNRT';
+  let groupedAlbumsByPlaylist = { LNRT: [], MEXCLAZ: [] };
   let previewAudio = null;
   let activePreviewButton = null;
 
@@ -59,9 +62,17 @@ document.addEventListener('DOMContentLoaded', () => {
     return firstDisc - secondDisc || firstTrack - secondTrack || first.titulo.localeCompare(second.titulo, 'es');
   }
 
+  function getPlaylist(item) {
+    const explicitPlaylist = String(item.playlist || item.lista || item.coleccion || '').trim().toUpperCase();
+    if (explicitPlaylist === 'LNRT' || explicitPlaylist === 'MEXCLAZ') return explicitPlaylist;
+    const searchable = `${item.artista || ''} ${item.album || ''} ${item.cancion || ''}`.toUpperCase();
+    return searchable.includes('LNRT') ? 'LNRT' : null;
+  }
+
   function processData(data) {
     const albums = new Map();
     data.forEach((item) => {
+      if (getPlaylist(item) !== activePlaylist) return;
       const key = `${item.album.trim().toLowerCase()}---${item.artista.trim().toLowerCase()}`;
       const track = {
         titulo: item.cancion,
@@ -95,6 +106,14 @@ document.addEventListener('DOMContentLoaded', () => {
       if (item.agregadoEn && (!existing.agregadoEn || item.agregadoEn > existing.agregadoEn)) existing.agregadoEn = item.agregadoEn;
     });
     return Array.from(albums.values()).map((album) => ({ ...album, canciones: album.canciones.sort(compareTracks) }));
+  }
+
+  function processPlaylists(data) {
+    return ['LNRT', 'MEXCLAZ'].reduce((playlists, playlist) => {
+      activePlaylist = playlist;
+      playlists[playlist] = processData(data);
+      return playlists;
+    }, {});
   }
 
   function previewButtonHtml(track) {
@@ -157,12 +176,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }).catch(stopPreview);
   }
 
-  function renderAlbums(albums) {
+  function renderAlbums(albums, targetGrid) {
     stopPreview();
-    albumsGrid.innerHTML = '';
+    targetGrid.innerHTML = '';
     resultsCount.textContent = `Mostrando ${albums.length} álbumes`;
     if (albums.length === 0) {
-      albumsGrid.innerHTML = '<div class="empty-state"><i class="fa-solid fa-compact-disc"></i><p>No se encontraron resultados para tu búsqueda.</p></div>';
+      targetGrid.innerHTML = '<div class="empty-state"><i class="fa-solid fa-compact-disc"></i><p>Esta playlist todavía no tiene canciones cargadas.</p></div>';
       return;
     }
 
@@ -204,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       card.querySelector('.cover-wrapper').addEventListener('click', () => openModal(coverSrc, album.album, album.artista));
       card.querySelectorAll('.preview-btn').forEach((button) => button.addEventListener('click', () => togglePreview(button)));
-      albumsGrid.appendChild(card);
+      targetGrid.appendChild(card);
     });
   }
 
@@ -222,13 +241,30 @@ document.addEventListener('DOMContentLoaded', () => {
   function filterAlbums(searchTerm) {
     const term = searchTerm.toLowerCase().trim();
     clearSearch.style.display = term ? 'block' : 'none';
+    const groupedAlbums = groupedAlbumsByPlaylist[activePlaylist] || [];
     const filteredAlbums = term
       ? groupedAlbums.filter((album) => album.artista.toLowerCase().includes(term)
         || album.album.toLowerCase().includes(term)
         || album.canciones.some((song) => song.titulo.toLowerCase().includes(term)))
       : groupedAlbums;
-    renderAlbums(filteredAlbums);
+    renderAlbums(filteredAlbums, activePlaylist === 'LNRT' ? albumsGrid : mexclazGrid);
   }
+
+  function selectPlaylist(playlist) {
+    activePlaylist = playlist;
+    playlistTabs.forEach((tab) => {
+      const isActive = tab.dataset.playlist === playlist;
+      tab.classList.toggle('is-active', isActive);
+      tab.setAttribute('aria-selected', String(isActive));
+    });
+    document.querySelectorAll('.playlist-panel').forEach((panel) => {
+      panel.hidden = panel.id !== `${playlist.toLowerCase()}-panel`;
+      panel.classList.toggle('is-active', !panel.hidden);
+    });
+    filterAlbums(searchInput.value);
+  }
+
+  playlistTabs.forEach((tab) => tab.addEventListener('click', () => selectPlaylist(tab.dataset.playlist)));
 
   searchInput.addEventListener('input', (event) => filterAlbums(event.target.value));
   clearSearch.addEventListener('click', () => {
@@ -237,8 +273,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   if (typeof cancionesData !== 'undefined') {
-    groupedAlbums = processData(cancionesData);
-    renderAlbums(groupedAlbums);
+    groupedAlbumsByPlaylist = processPlaylists(cancionesData);
+    activePlaylist = 'LNRT';
+    renderAlbums(groupedAlbumsByPlaylist.LNRT, albumsGrid);
   } else {
     resultsCount.textContent = 'Error: no se encontró la colección musical.';
   }

@@ -30,7 +30,12 @@
     <section class="music-section">
       <div class="section-header">
         <h1>Colección Musical</h1>
-        <p>Explorá artistas, álbumes y canciones; escuchá previews y abrí tus favoritos en Spotify.</p>
+        <p>Dos selecciones independientes: explorá artistas, álbumes y canciones de cada playlist.</p>
+      </div>
+
+      <div class="playlist-tabs" role="tablist" aria-label="Playlists">
+        <button class="playlist-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="lnrt-panel" data-playlist="LNRT">LNRT</button>
+        <button class="playlist-tab" type="button" role="tab" aria-selected="false" aria-controls="mexclaz-panel" data-playlist="MEXCLAZ">MEXCLAZ</button>
       </div>
 
       <div class="search-container">
@@ -39,7 +44,12 @@
         <button id="clearSearch" class="clear-btn" type="button" aria-label="Limpiar búsqueda">&times;</button>
       </div>
       <div id="resultsCount" class="results-count">Cargando álbumes...</div>
-      <div id="albumsGrid" class="albums-grid"></div>
+      <div id="lnrt-panel" class="playlist-panel is-active" role="tabpanel">
+        <div id="albumsGrid" class="albums-grid"></div>
+      </div>
+      <div id="mexclaz-panel" class="playlist-panel" role="tabpanel" hidden>
+        <div id="mexclazGrid" class="albums-grid"></div>
+      </div>
       <section class="music-recommendations" aria-labelledby="recommendations-title">
         <h2 id="recommendations-title">Recomendaciones</h2>
         <div id="musicRecommendations" class="public-feed" aria-live="polite"></div>
