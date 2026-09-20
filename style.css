@@ -207,17 +207,28 @@ body {
 }
 
 .hero-compact .hero-card {
+  position: relative;
   min-height: 0;
-  padding: 20px 18px;
+  padding: 76px 18px 20px;
 }
 
 .hero-topbar {
-  width: 100%;
-  margin-bottom: 12px;
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  left: 18px;
+  z-index: 2;
+  width: auto;
+  margin: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 16px;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.hero-topbar > * {
+  pointer-events: auto;
 }
 
 .hero-compact .profile-avatar {
@@ -388,6 +399,7 @@ body {
 .hero-topbar .social-links {
   justify-content: flex-end;
   margin-left: auto;
+  flex-wrap: nowrap;
 }
 
 .social-btn {
@@ -692,7 +704,14 @@ footer {
 @media (max-width: 520px) {
   .hero-topbar {
     align-items: center;
-    gap: 10px;
+    top: 12px;
+    right: 12px;
+    left: 12px;
+    gap: 8px;
+  }
+
+  .hero-compact .hero-card {
+    padding-top: 68px;
   }
 
   .hero-topbar .social-links {
