@@ -1,23 +1,899 @@
 const cancionesData = [
   {
-    "artista": "1915",
-    "album": "Bandera",
-    "cancion": "El Enemigo",
-    "fecha": "2026-08-19",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273b822a462b74385c488790345",
-    "uri": "spotify:artist:4jwnlVc9Lj5vMkL32978d1",
-    "uriCancion": "spotify:track:2Rro0BoyMLdgrTVOFpINZU",
-    "uriAlbum": "spotify:album:318AKHHgLilno4gE3AiEAA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bd29e16f5d91f3fb41103fe86b9854a85adcc311?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 185926,
+    "playlist": "LNRT",
+    "artista": "belac",
+    "album": "All the Way",
+    "cancion": "All the Way",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735275210bcc6c6a3064a86f3e",
+    "uri": "spotify:artist:2kBo2Anr7eJA3hszGJMQ7D",
+    "uriCancion": "spotify:track:5RKqWkp6OA7biUCzOIyift",
+    "uriAlbum": "spotify:album:3aYAlL2KAWXKwSvtTKQCza",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7f5be0fb350558403df8b9f9bbc55263abdba322?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 281258,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "TCAHF2361214",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Bicycle Ride",
+    "album": "Dub Racer",
+    "cancion": "Dub Racer",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e22cc738c7582aa368059413",
+    "uri": "spotify:artist:1aEKpfW8sw5XryObAyPUFE",
+    "uriCancion": "spotify:track:5W6JX4nQtiJUzvCl2olOAu",
+    "uriAlbum": "spotify:album:5f9dgZoRzjRFebICRpY7ZN",
+    "previewUrl": "https://p.scdn.co/mp3-preview/932822e8a0ea47f015f688c678e2668bc0003937?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 184761,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "QZZ762524544",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Bicycle Ride",
+    "album": "Pink Countach",
+    "cancion": "Pink Countach",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27364b4a3d53f63a5e93fa2c847",
+    "uri": "spotify:artist:1aEKpfW8sw5XryObAyPUFE",
+    "uriCancion": "spotify:track:4KbBpOVqS1Basa7cWjLmN0",
+    "uriAlbum": "spotify:album:0Tti8uVyyKv5gpNpSYaKqq",
+    "previewUrl": "https://p.scdn.co/mp3-preview/951825e7e80fb31002a87499106ce08606cca523?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 179076,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "QZFYY2673329",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Can U",
+    "album": "Rally House, Vol. 1",
+    "cancion": "Bayside Lovers",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273032083b766c497af485ca0e7",
+    "uri": "spotify:artist:4aRHCFZI60wGDpaUqb468d",
+    "uriCancion": "spotify:track:5abbmmHhI2lsZGPRUZoN76",
+    "uriAlbum": "spotify:album:6j9tJTimsiSYbbNTWsH4ok",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d0b2db646ce3a1b10b76d4f6b06ab92437644136?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 136680,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 35,
+    "isrc": "QZZ8A2589381",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "CHRONOSONDER",
+    "album": "Start Movin",
+    "cancion": "Start Movin",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735dc826de104483ace018280f",
+    "uri": "spotify:artist:3M1seGrzENhpbYchydQI7n",
+    "uriCancion": "spotify:track:7qI88GDjmG9V4udS8fvYcG",
+    "uriAlbum": "spotify:album:1auQbCpUCYSeezeuktNT6G",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ec8aa0c80c3de949c5e62f672b3f492ff3a6caa5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 216000,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "TCAJA2430751",
+    "agregadoEn": "2026-09-20T05:11:21Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "DELACOUR",
+    "album": "About You",
+    "cancion": "About You",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736541d0ca41c187d826876e46",
+    "uri": "spotify:artist:3bFd5sav9N5kGzBklcXt6l",
+    "uriCancion": "spotify:track:3H65gq0kD06OsRK22Rlr3X",
+    "uriAlbum": "spotify:album:5v8P1L7WGC9cIaUDrfcN0b",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e29d6fcd985dab06e91448fe3657119a2260e389?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 250819,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "CA5KR2369396",
+    "agregadoEn": "2026-09-20T05:18:32Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "DELACOUR",
+    "album": "Bloom",
+    "cancion": "Bloom",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2738f14cc4197665b573eac8216",
+    "uri": "spotify:artist:3bFd5sav9N5kGzBklcXt6l",
+    "uriCancion": "spotify:track:13kuP4Oa5Q4IgOyaj6EyhM",
+    "uriAlbum": "spotify:album:3lBBoDOycLXdOpZo3dzXC5",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b6a903eaeba37d2bd44a5c96d84036d397e07e52?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 171946,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "CA5KR2321738",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "DELACOUR",
+    "album": "Dub City",
+    "cancion": "Dub City",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f64540af2821aabe2c5b3c1e",
+    "uri": "spotify:artist:3bFd5sav9N5kGzBklcXt6l",
+    "uriCancion": "spotify:track:0T5v3EhX5uj82nu8cakMMw",
+    "uriAlbum": "spotify:album:43mEVJRKUQc8NbCa9jtdqe",
+    "previewUrl": "https://p.scdn.co/mp3-preview/82b3f49632baf505130b8d6ce3babef507c78fb3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 228571,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": true,
+    "popularidad": 64,
+    "isrc": "CA5KR2356195",
+    "agregadoEn": "2026-09-20T05:10:54Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "DJ CARPET",
+    "album": "Berlin",
+    "cancion": "Berlin",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733cf12ea4e8b1052e74777a0e",
+    "uri": "spotify:artist:63qytgXlKsbQt7rU0h63mU",
+    "uriCancion": "spotify:track:7dTWh93yEmEmGbiN0FqIOv",
+    "uriAlbum": "spotify:album:01bhKjJguo4PcOErKX19Ko",
+    "previewUrl": "https://p.scdn.co/mp3-preview/65fef38477cba136256cabae07f88fa45b270e18?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 186576,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 61,
+    "isrc": "QT6F32550286",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "DJ CARPET, vano1337",
+    "album": "Torino",
+    "cancion": "Torino",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2737418445c9b43b4b93cf7d10d",
+    "uri": "spotify:artist:63qytgXlKsbQt7rU0h63mU, spotify:artist:0TBtIg6LfQ7ScMO7txwIci",
+    "uriCancion": "spotify:track:7ITJ8fckOAPAa6qMgOe6km",
+    "uriAlbum": "spotify:album:50h1SEAgKCQd9IBSqJeSsJ",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b2871be83ddee032bf6423aefbf0a67449b972b9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 180115,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 59,
+    "isrc": "QT6E52580542",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "DJ Windows 7",
+    "album": "House Music Till`Death",
+    "cancion": "House Music Till'Death",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273578a99c8f8d2d1cf174aa293",
+    "uri": "spotify:artist:5AHPkWgQ3uGNPQe6i838UN",
+    "uriCancion": "spotify:track:0nUPfDwAsVYXolvFR3kNaz",
+    "uriAlbum": "spotify:album:1qlxtBmc7i4RvGdLQ36nRs",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8408d6ab0c8850d26026f644444dd70add8111de?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 263225,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "GBKQU2103416",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "ERHA",
+    "album": "Are You Sure?",
+    "cancion": "Are You Sure?",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273062aa103317f9ad8ec3256cc",
+    "uri": "spotify:artist:1cJYrUDjb9XpXiQ8fdbECw",
+    "uriCancion": "spotify:track:4TJfN6j6vbPjLMEnwt5fi3",
+    "uriAlbum": "spotify:album:5vbyMRRyaEzsLk7VKTFaTG",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8c9ce4957cb60d06e4b4349e195c18191d0f95c7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 237692,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "GBLV62419002",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "ESCE",
+    "album": "The Underground",
+    "cancion": "The Underground",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273dc6386e0f059f44191b7d174",
+    "uri": "spotify:artist:3xVvJGFXPlg9vcRkNB6BGk",
+    "uriCancion": "spotify:track:18okTKsrn7t5vlryYEVuPP",
+    "uriAlbum": "spotify:album:6C6pc66F61wLtBFVi1OSfJ",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2d66836828a8084eb347cf2dbe6189da0c5cb9d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 195026,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "SE6A92323379",
+    "agregadoEn": "2026-09-20T05:19:25Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Fullempty",
+    "album": "Every Day 2005",
+    "cancion": "Every Day 2005",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d3a64f6a91b84167cc4fe5e2",
+    "uri": "spotify:artist:0j532qZGt5B2gCxyeXlf56",
+    "uriCancion": "spotify:track:71GCilijISWzoS65kfDku3",
+    "uriAlbum": "spotify:album:1XbYeV8bSmIIHsytMXqxua",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7a0307c0ca4fa0f90dc17e5d7c83ec2354404809?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 228750,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "DGA0R2410500",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "geods sorèd",
+    "album": "Findings",
+    "cancion": "Don't Make Me Wait",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273870eca22b4c31e9236cafd60",
+    "uri": "spotify:artist:3yq3xSfD0oy9BH1QZACETw",
+    "uriCancion": "spotify:track:5dxvzCTiC3iVK8h8HzSPOl",
+    "uriAlbum": "spotify:album:6oCTbQw1kUQJlQyh7iax0T",
+    "previewUrl": "https://p.scdn.co/mp3-preview/887a7e8ae0e06976cf9c5cba44c217a5a65a27b1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 266129,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 48,
+    "isrc": "QZES52367725",
+    "agregadoEn": "2026-09-20T05:19:00Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Harunhuba",
+    "album": "Never Going Dagga",
+    "cancion": "Elena",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fe5398e2d9dc4312c906b446",
+    "uri": "spotify:artist:5RXiwoWGr1l74FXchYbmlv",
+    "uriCancion": "spotify:track:4sMmEZBnufJ0iD0LK39lmo",
+    "uriAlbum": "spotify:album:0QrU9HGLC0kf1IxESqZNu4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3786db4969a6fedafdbf38f1a7173d9b12aae6d9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 143560,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": true,
+    "popularidad": 53,
+    "isrc": "TCAHD2331164",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Harunhuba",
+    "album": "Never Going Dagga",
+    "cancion": "Quattro Formaggi",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fe5398e2d9dc4312c906b446",
+    "uri": "spotify:artist:5RXiwoWGr1l74FXchYbmlv",
+    "uriCancion": "spotify:track:66vKAXUWjJcmkQAcDcznxF",
+    "uriAlbum": "spotify:album:0QrU9HGLC0kf1IxESqZNu4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/79fecb3b1c85adb5e5a3036fb2cdc30fb0de7916?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 186721,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": true,
+    "popularidad": 50,
+    "isrc": "TCAHD2331178",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Jake Jeffery",
+    "album": "Told You",
+    "cancion": "Told You",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273433d58cd8739c9584efe67c1",
+    "uri": "spotify:artist:1x3T9MPimqDurlRKnCuNsh",
+    "uriCancion": "spotify:track:1RL0v14VPmZuqmzB7nnsw7",
+    "uriAlbum": "spotify:album:3jEuTiBy08MSDPgDdoQ3ku",
+    "previewUrl": "https://p.scdn.co/mp3-preview/81b28664560ad92b08e01bc5311fdccbc7660f77?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 180000,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "GB8KE2402281",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Jake Jeffery, LNRT",
+    "album": "Dig This",
+    "cancion": "Dig This",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273b72c8f9b2724f9c30a910e40",
+    "uri": "spotify:artist:1x3T9MPimqDurlRKnCuNsh, spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:0deJP8oJJYET7SBOrDrTG7",
+    "uriAlbum": "spotify:album:6suhKfE9WxFHsR8u8eR8PL",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c68e14f0dfdf78a2d4e59ccc65d86bd305c09f46?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 151875,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "CA5KR2671232",
+    "agregadoEn": "2026-09-20T03:50:24Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Jake Jeffery, LNRT",
+    "album": "Moving To The Beat",
+    "cancion": "Moving To The Beat",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273bc8e07f187cac2f22e3f0018",
+    "uri": "spotify:artist:1x3T9MPimqDurlRKnCuNsh, spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:2ETVkgirq5zDytwYHMwwF2",
+    "uriAlbum": "spotify:album:7ByfAVUv2qzAco51zCrK5Q",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8c6632452d5b661d6ca04635b7d3ea74a2e6ef3e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 156190,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "CA5KR2647058",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "JAYC",
+    "album": "Always",
+    "cancion": "Always",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733da0f6733c0167b7240f7364",
+    "uri": "spotify:artist:6RaD7n2k5twat5wiryhGuJ",
+    "uriCancion": "spotify:track:6oYsw27tZaOcLHVwyPTCVx",
+    "uriAlbum": "spotify:album:3QQBKgDazkd4lEtl6gbVCL",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0334d11b37b4cfd9034b0a1e83757b3239bf4947?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 246719,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "NL8RL2405364",
+    "agregadoEn": "2026-09-20T05:19:21Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Lemtom",
+    "album": "The Lobster Pot",
+    "cancion": "Can U Feel Me",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2730f6ca50e7219041a7e138fb0",
+    "uri": "spotify:artist:2B9xp0rpwFz5TON2ZSSKEF",
+    "uriCancion": "spotify:track:6XplpVU2QDkWuF13y2l2nj",
+    "uriAlbum": "spotify:album:1QsqTK1mUjoKUIyLngeI1H",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ef7f246e6ecdc843770571838be39665c061c198?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 313846,
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
     "popularidad": 47,
-    "isrc": "QZ5AB2066771",
-    "agregadoEn": "2026-08-19T17:12:54Z"
+    "isrc": "GBKQU2164892",
+    "agregadoEn": "2026-09-20T05:11:33Z"
   },
   {
+    "playlist": "LNRT",
+    "artista": "Lemtom",
+    "album": "Wanna See Houston",
+    "cancion": "Wanna See U",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27370cf73f13a1a46e5392d2513",
+    "uri": "spotify:artist:2B9xp0rpwFz5TON2ZSSKEF",
+    "uriCancion": "spotify:track:1gqJjjCl9kepWReQclosRu",
+    "uriAlbum": "spotify:album:6EV96sexRlM3AxZNXMiWzP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3d92f4a0d68a9bf06d55f3a6aa72d01f49a434b3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 321976,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 56,
+    "isrc": "GBKQU2120395",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Leon Flydal",
+    "album": "Coast",
+    "cancion": "Coast",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ff944860e57831a686975c8b",
+    "uri": "spotify:artist:3zqK70nGSM7BVm5PTT1NhG",
+    "uriCancion": "spotify:track:5PxxGtp24t3B9Tr5ofsiG2",
+    "uriAlbum": "spotify:album:7FrOmCg3iXiEeC4LnlH8va",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d3f463ee11456f86ce45b0d144431e076be65ef3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 158048,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": true,
+    "popularidad": 58,
+    "isrc": "GX5MX2468100",
+    "agregadoEn": "2026-09-20T05:11:08Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Leon Flydal",
+    "album": "Tomorrow",
+    "cancion": "Tomorrow",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fb4591dd79af27ad138d337a",
+    "uri": "spotify:artist:3zqK70nGSM7BVm5PTT1NhG",
+    "uriCancion": "spotify:track:5YcCmWjZOXKoK71zeNyjRi",
+    "uriAlbum": "spotify:album:0Ma4QFK7yEAfrYAfRczHqY",
+    "previewUrl": "https://p.scdn.co/mp3-preview/94573e017fa682e8d73caa5dd6212cb91cb96687?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 163361,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "GX8LE2446647",
+    "agregadoEn": "2026-09-20T05:18:54Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "LNRT",
+    "album": "C'est Toi",
+    "cancion": "C'est Toi",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273788b0323b8500b69fdc7d9ba",
+    "uri": "spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:2Sr4AtddCOnpPcyJR1pKEW",
+    "uriAlbum": "spotify:album:4q8j2pBnzDSR1wuKUPaqoF",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2264ceeb13ea578e0edfa0df462929b8bfabbabb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 190080,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "CA5KR2644795",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "LNRT",
+    "album": "Right Now",
+    "cancion": "Right Now",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273af7e323ae057aa3ea6c67fa8",
+    "uri": "spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:2JRsev5j783NgLMhztR95V",
+    "uriAlbum": "spotify:album:27y0WcZDe06mCLV6B31mjT",
+    "previewUrl": "https://p.scdn.co/mp3-preview/685366f006de770c959c85e6cc9135d1329ec2e3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 164307,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "CA5KR2538326",
+    "agregadoEn": "2026-09-20T05:10:21Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "LNRT",
+    "album": "The Cigarette",
+    "cancion": "The Cigarette",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273bc4c768339cbee1ad08055fa",
+    "uri": "spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:04pZuP1SIzIOJKacGAk8qo",
+    "uriAlbum": "spotify:album:6lkHLQZbDy2yAVnLAUsPTZ",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b2eb1cad2624db344026f0e7df271b773787ed24?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 179076,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "QZZ8A2541216",
+    "agregadoEn": "2026-09-20T05:19:14Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "LNRT",
+    "album": "Work Your Back",
+    "cancion": "Work Your Back",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733670e2cf70dc494a06d84186",
+    "uri": "spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:17AKTGXlG4Uso230DQ9Tjy",
+    "uriAlbum": "spotify:album:4N1C5YovVApqXjhSL3zk1i",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1f68ef14f195ffe763cc5163846c8f21c23e8c8e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 166406,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "CA5KR2669133",
+    "agregadoEn": "2026-09-20T03:51:05Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "LNRT",
+    "album": "You Know What I Want",
+    "cancion": "You Know What I Want",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731a16c8e73bf04e0c8bceb92d",
+    "uri": "spotify:artist:3K6wMz8wZO3G0ffTAQeqgC",
+    "uriCancion": "spotify:track:5qHOczcBjs0X7iGpZM1vVv",
+    "uriAlbum": "spotify:album:7j9GTGiQWThDG8WLctILQP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a2f2fe86933f5b21c7449411086d8afa7fe0941d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 134545,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 44,
+    "isrc": "CA5KR2541334",
+    "agregadoEn": "2026-09-20T05:19:16Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Palace",
+    "album": "Vision",
+    "cancion": "Vision",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733bd07a8e81cf06f132f07f42",
+    "uri": "spotify:artist:2SJfNysMUF0tEtp5j2cP4i",
+    "uriCancion": "spotify:track:2CaSJocFwU8ef2KB332fRi",
+    "uriAlbum": "spotify:album:33ftdFxM3hFVeGmFaJMlVQ",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bcd3b0950b123eb15ef264647830e87cad4ad837?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 303750,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "UK34N1311163",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Rad&Co",
+    "album": "Alchemy",
+    "cancion": "Alchemy",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e3f1f173ede6a5b8447dc793",
+    "uri": "spotify:artist:5SWWNKNGRfpxkgaZENBf6u",
+    "uriCancion": "spotify:track:1A2k31fWrVCkDh1e5ie7vb",
+    "uriAlbum": "spotify:album:7LlrGoFfHMPabYe5iHAyHh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6d3bf71e88ce0060118b0a4f081dd7f4686657b7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 234240,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 56,
+    "isrc": "QZFZ32446672",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Rad&Co",
+    "album": "Darling",
+    "cancion": "Darling",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c6338591296f5bc085c8f355",
+    "uri": "spotify:artist:5SWWNKNGRfpxkgaZENBf6u",
+    "uriCancion": "spotify:track:3WMgtLgzzgCixu86kVMgNh",
+    "uriAlbum": "spotify:album:1RHL5MEh1CtR1Z04W2vGPr",
+    "previewUrl": "https://p.scdn.co/mp3-preview/97c3d2d5ab3b2bd248dbbbbe95fb8d1930bbece6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 201600,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "QZHNC2393530",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Rad&Co",
+    "album": "Love GT",
+    "cancion": "Love GT",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27361f5f3cd5d847b6d49a70a06",
+    "uri": "spotify:artist:5SWWNKNGRfpxkgaZENBf6u",
+    "uriCancion": "spotify:track:5roP8U3zzKrUnsV98uWg3Q",
+    "uriAlbum": "spotify:album:7u0q50WsxX3ZcnXRnNAYf0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6d982b98c9821b7c7cb5a4ac7615f0027f192903?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 203520,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "QZHNA2331712",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Rad&Co",
+    "album": "Unspoken Thoughts",
+    "cancion": "Unspoken Thoughts",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735e3893c48462b04455fd5ebd",
+    "uri": "spotify:artist:5SWWNKNGRfpxkgaZENBf6u",
+    "uriCancion": "spotify:track:4Sapcp022sWJAyZdAvsRfI",
+    "uriAlbum": "spotify:album:3zDkuh00MCwe78SNNI15oo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9b4d4d2c4eb04e2da44e9b108c93dc6db9bbb24c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 213933,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 63,
+    "isrc": "QZZ7N2406689",
+    "agregadoEn": "2026-09-20T05:10:36Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Sixten",
+    "album": "Le Mans 1995",
+    "cancion": "Le Mans 1995",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273049b258378f1ddd868344e13",
+    "uri": "spotify:artist:270lBB4c4WBLdrzQKgrXDI",
+    "uriCancion": "spotify:track:0fYwONvaQtoQdze8KuE74K",
+    "uriAlbum": "spotify:album:1epDMI9u8dJsUpiwOO5hwX",
+    "previewUrl": "https://p.scdn.co/mp3-preview/52cdf0a42c4e5eedf90ef1666a7e06edbcb1843d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 172500,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "DGA052493064",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "sometimes jah",
+    "album": "groove therapy",
+    "cancion": "inner city grooves",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739d33617414ac3d7930248cf3",
+    "uri": "spotify:artist:2zFpubfv126GUSy7IvKoxQ",
+    "uriCancion": "spotify:track:2Sm4NDnGafPzCDaSA3KM3l",
+    "uriAlbum": "spotify:album:2JxSL4C9PyYo0rGvWRlKWl",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7bb241fa5dbe433957cea0efc178cab49f2f5ca6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 236214,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 62,
+    "isrc": "QZFZ32277865",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "tecadence",
+    "album": "Elevatin'",
+    "cancion": "Elevatin'",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27379f6843dd4f7ec23bf5910d6",
+    "uri": "spotify:artist:2ltWZ6i2LB7Z9adLeDDpUK",
+    "uriCancion": "spotify:track:1SL2YvZKbcrN6XQeBQjsgT",
+    "uriAlbum": "spotify:album:06zM0ZSyqrWw8qfyUzt5fE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1295caead0127f2e7b5a0d0dd7df30b97d90bc79?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 252228,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 44,
+    "isrc": "QZWV32528270",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Tim Sanders",
+    "album": "House Music Will Never Die",
+    "cancion": "House Music Will Never Die",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273866aa8e175eb80b9d9e2d1fa",
+    "uri": "spotify:artist:1E3ho9kLdNdFz1L1JISV82",
+    "uriCancion": "spotify:track:4K3DmvSqBEo8lG0OkQjL0B",
+    "uriAlbum": "spotify:album:2vgq3uWlPPKV7J2JWCyIl8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1e08d341d1eb038f5209bbc7eac3d87889819590?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 202570,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 62,
+    "isrc": "QZFZ22570761",
+    "agregadoEn": "2026-09-20T05:19:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "vano1337",
+    "album": "EP 3",
+    "cancion": "wausau",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2730c17ab4e1bdb94bacd6aefdb",
+    "uri": "spotify:artist:0TBtIg6LfQ7ScMO7txwIci",
+    "uriCancion": "spotify:track:3Dz4uSoys74HifnbOmKu6J",
+    "uriAlbum": "spotify:album:1L8bFQAsoEbeKKZo7T90n8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/dd33472a2ed09ea61da0d04e43190e094068131c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 164423,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "QZK6L2418180",
+    "agregadoEn": "2026-09-20T05:18:42Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Vard.",
+    "album": "Shoreditch",
+    "cancion": "Shoreditch",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273713ef374d4d8106516285022",
+    "uri": "spotify:artist:6Gq2D2UOJNriDLfSPR6Y2Y",
+    "uriCancion": "spotify:track:6DtWaLBRRPnHbDBVjnls9W",
+    "uriAlbum": "spotify:album:2UI5HpK8lRfHoVFNYqnv3N",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d806c9b569231471bb3c415f96bc707ee48b0546?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 149772,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 61,
+    "isrc": "QZWFH2316734",
+    "agregadoEn": "2026-09-20T05:10:50Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "WILL1ONE",
+    "album": "BROKE HIT",
+    "cancion": "BROKE HIT",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ba0bcc5a3662bcf72261a7b3",
+    "uri": "spotify:artist:6S6kzeh1qR6OyWWCx0PKnO",
+    "uriCancion": "spotify:track:491zkIt6BRFvgdHllie2Cj",
+    "uriAlbum": "spotify:album:7tFpHZti9fy4yvkn7M3URC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7303bbeeec4d274735abe60a44738437a7767975?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 154697,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 44,
+    "isrc": "QZWV32553571",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Woodcamp",
+    "album": "Eatin' Good",
+    "cancion": "Eatin' Good",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736bcd3108f712af7cb10be90b",
+    "uri": "spotify:artist:4X4OIDYqg755pwdswXUXb3",
+    "uriCancion": "spotify:track:26KX3FKbPnvDjJGkbOfANs",
+    "uriAlbum": "spotify:album:0gkfLE2QiTHvEBO8qhHrKT",
+    "previewUrl": "https://p.scdn.co/mp3-preview/586757a71c089c77df42cc78abb6eb38094ae2ca?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 221904,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 71,
+    "isrc": "GX53U2328368",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Yere",
+    "album": "Where The Party At",
+    "cancion": "Where The Party At",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273b6786c80ea54da094c26b125",
+    "uri": "spotify:artist:4lzDszfgtJrnmeBfDu9dt7",
+    "uriCancion": "spotify:track:43qDrCEC7glu9KO8R9w3F9",
+    "uriAlbum": "spotify:album:7iXUqWLWQNbJZ2xP47HPCO",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5604ceabe1db8965a0777e1fb7a5aa3fafe83a52?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 166500,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "QZNWR2688088",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "Yere, Bicycle Ride",
+    "album": "Lazy Haze",
+    "cancion": "Lazy Haze",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f68c7a3216526108c09be9fa",
+    "uri": "spotify:artist:4lzDszfgtJrnmeBfDu9dt7, spotify:artist:1aEKpfW8sw5XryObAyPUFE",
+    "uriCancion": "spotify:track:4W3C1qpGKQvGZvk3VXpyz2",
+    "uriAlbum": "spotify:album:19aNu5yXXPooOJt8YFOi1O",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9f1046702c82dd63af85e226c84daeb6fa019b31?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 126998,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 49,
+    "isrc": "UKZGC2509028",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "ZARG",
+    "album": "Like This",
+    "cancion": "Like This",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d308dc3099b152bcb9d3f12c",
+    "uri": "spotify:artist:40PThXuHI1P1mrSb6MPD3z",
+    "uriCancion": "spotify:track:46344WCQJU0qe9ARhaQdsX",
+    "uriAlbum": "spotify:album:01gdMYMeLeB36edheJOAll",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a0e8f81df9e8177bca12772a245b58b62c8cc52a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 210232,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "QZHN82431708",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "LNRT",
+    "artista": "ZARG, Can U",
+    "album": "Saint-Tropez",
+    "cancion": "Saint-Tropez",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fe4e47cc5e74c6fa8714e27f",
+    "uri": "spotify:artist:40PThXuHI1P1mrSb6MPD3z, spotify:artist:4aRHCFZI60wGDpaUqb468d",
+    "uriCancion": "spotify:track:55HKUSEb1W0LbCa4Qs2La0",
+    "uriAlbum": "spotify:album:6DbYiytdyY4tRBB2R7aW5s",
+    "previewUrl": "https://p.scdn.co/mp3-preview/51c7d61724f707ef66dd6d1c326d1cd2430a0fb2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 152727,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": true,
+    "popularidad": 53,
+    "isrc": "GBRKQ2530708",
+    "agregadoEn": "2026-09-20T05:11:33Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "1915",
     "album": "Bandera",
     "cancion": "Policía",
@@ -36,6 +912,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:16:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "1915",
+    "album": "Bandera",
+    "cancion": "El Enemigo",
+    "fecha": "2026-08-19",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273b822a462b74385c488790345",
+    "uri": "spotify:artist:4jwnlVc9Lj5vMkL32978d1",
+    "uriCancion": "spotify:track:2Rro0BoyMLdgrTVOFpINZU",
+    "uriAlbum": "spotify:album:318AKHHgLilno4gE3AiEAA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bd29e16f5d91f3fb41103fe86b9854a85adcc311?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 185926,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "QZ5AB2066771",
+    "agregadoEn": "2026-08-19T17:12:54Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "1915",
     "album": "Bandera",
     "cancion": "Prisma",
@@ -54,6 +950,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T17:13:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "60 juno",
     "album": "zzz",
     "cancion": "zzz",
@@ -72,6 +969,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-07T20:07:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "a-ha",
     "album": "Hunting High and Low",
     "cancion": "Take on Me",
@@ -90,6 +988,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "A-Wall",
     "album": "Loverboy",
     "cancion": "Loverboy",
@@ -108,6 +1007,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-04T01:35:19Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "ABBA",
     "album": "Arrival",
     "cancion": "Dancing Queen",
@@ -126,24 +1026,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-05T00:57:38Z"
   },
   {
-    "artista": "ABBA",
-    "album": "Super Trouper",
-    "cancion": "Lay All Your Love On Me",
-    "fecha": "2026-09-05",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2734d08fc99eff4ed52dfce91fa",
-    "uri": "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV",
-    "uriCancion": "spotify:track:4euAGZTszWPrriggYK0HG9",
-    "uriAlbum": "spotify:album:3ZdkT5buYFi1WQaB0XNNtf",
-    "previewUrl": "https://p.scdn.co/mp3-preview/36f9f1b36c0b6ebbdeb2788083327c806a3f5e6a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 274466,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 84,
-    "isrc": "SEAYD8001090",
-    "agregadoEn": "2026-09-05T01:00:08Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "ABBA",
     "album": "Super Trouper",
     "cancion": "The Winner Takes It All",
@@ -162,6 +1045,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-05T00:57:56Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "ABBA",
+    "album": "Super Trouper",
+    "cancion": "Lay All Your Love On Me",
+    "fecha": "2026-09-05",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2734d08fc99eff4ed52dfce91fa",
+    "uri": "spotify:artist:0LcJLqbBmaGUft1e9Mm8HV",
+    "uriCancion": "spotify:track:4euAGZTszWPrriggYK0HG9",
+    "uriAlbum": "spotify:album:3ZdkT5buYFi1WQaB0XNNtf",
+    "previewUrl": "https://p.scdn.co/mp3-preview/36f9f1b36c0b6ebbdeb2788083327c806a3f5e6a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 274466,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 84,
+    "isrc": "SEAYD8001090",
+    "agregadoEn": "2026-09-05T01:00:08Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "ABBA",
     "album": "Voulez-Vous",
     "cancion": "Gimme! Gimme! Gimme! (A Man After Midnight)",
@@ -180,6 +1083,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-05T00:58:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "AC/DC",
     "album": "Back In Black",
     "cancion": "Back In Black",
@@ -198,6 +1102,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "AC/DC",
     "album": "Highway to Hell",
     "cancion": "Highway to Hell",
@@ -216,6 +1121,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Adriana Calcanhotto",
     "album": "A Fábrica Do Poema",
     "cancion": "Inverno",
@@ -234,6 +1140,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T00:19:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Alex G",
     "album": "Trick",
     "cancion": "Mary",
@@ -252,6 +1159,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T20:49:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Aloboi",
     "album": "Raw Tracks and Reworks",
     "cancion": "Want To Love - Just Raw",
@@ -270,6 +1178,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Aloboi",
     "album": "Want To Love Raw/Slowed/Loops",
     "cancion": "Want To Love - Just Slowed Raw",
@@ -288,6 +1197,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:24:09Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "American Football",
     "album": "American Football",
     "cancion": "Never Meant",
@@ -306,24 +1216,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:26Z"
   },
   {
-    "artista": "Andrés Calamaro",
-    "album": "Alta Suciedad",
-    "cancion": "Flaca",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e4b8ec3d2ffe1f77c7185d48",
-    "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU",
-    "uriCancion": "spotify:track:1p7m9H4H8s0Y7SgRm7j3ED",
-    "uriAlbum": "spotify:album:44D07i1Lk0zFtWHRARMih6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/882d22e49b8587814119fb95f5e36d6bd2a10425?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 277653,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 83,
-    "isrc": "ES5019753004",
-    "agregadoEn": "2026-09-16T22:24:36Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Andrés Calamaro",
     "album": "Alta Suciedad",
     "cancion": "Loco",
@@ -342,6 +1235,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Andrés Calamaro",
+    "album": "Alta Suciedad",
+    "cancion": "Flaca",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e4b8ec3d2ffe1f77c7185d48",
+    "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU",
+    "uriCancion": "spotify:track:1p7m9H4H8s0Y7SgRm7j3ED",
+    "uriAlbum": "spotify:album:44D07i1Lk0zFtWHRARMih6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/882d22e49b8587814119fb95f5e36d6bd2a10425?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 277653,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 83,
+    "isrc": "ES5019753004",
+    "agregadoEn": "2026-09-16T22:24:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Andrés Calamaro",
     "album": "Honestidad Brutal",
     "cancion": "La parte de adelante",
@@ -360,6 +1273,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Animal Collective",
     "album": "Merriweather Post Pavilion",
     "cancion": "My Girls",
@@ -378,6 +1292,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:05:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Apparat, Soap&Skin",
     "album": "Goodbye (Theme from Dark, a Netflix Original Series)",
     "cancion": "Goodbye - Theme from Dark, a Netflix Original Series",
@@ -396,6 +1311,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:24:50Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Archers Of Loaf",
     "album": "Icky Mettle (Deluxe Reissue)",
     "cancion": "Web in Front",
@@ -414,6 +1330,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:55:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Arctic Monkeys",
     "album": "AM",
     "cancion": "I Wanna Be Yours",
@@ -432,42 +1349,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:24:56Z"
   },
   {
-    "artista": "Arctic Monkeys",
-    "album": "Favourite Worst Nightmare",
-    "cancion": "505",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
-    "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
-    "uriCancion": "spotify:track:0BxE4FqsDD1Ot4YuBXwAPp",
-    "uriAlbum": "spotify:album:1XkGORuUX2QGOEIL4EbJKm",
-    "previewUrl": "https://p.scdn.co/mp3-preview/24ad19af2d5feeeb0048bff59b4096960b415848?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 253586,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 91,
-    "isrc": "GBCEL0700074",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Arctic Monkeys",
-    "album": "Favourite Worst Nightmare",
-    "cancion": "Fluorescent Adolescent",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
-    "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
-    "uriCancion": "spotify:track:2x8evxqUlF0eRabbW2JBJd",
-    "uriAlbum": "spotify:album:1XkGORuUX2QGOEIL4EbJKm",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bd2ab6609fef9aa8cc35c75739d89dc5a72bfc80?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 183893,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 81,
-    "isrc": "GBCEL0700067",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Arctic Monkeys",
     "album": "Favourite Worst Nightmare",
     "cancion": "Teddy Picker",
@@ -486,6 +1368,45 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T17:52:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Arctic Monkeys",
+    "album": "Favourite Worst Nightmare",
+    "cancion": "Fluorescent Adolescent",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+    "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
+    "uriCancion": "spotify:track:2x8evxqUlF0eRabbW2JBJd",
+    "uriAlbum": "spotify:album:1XkGORuUX2QGOEIL4EbJKm",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bd2ab6609fef9aa8cc35c75739d89dc5a72bfc80?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 183893,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 81,
+    "isrc": "GBCEL0700067",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Arctic Monkeys",
+    "album": "Favourite Worst Nightmare",
+    "cancion": "505",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+    "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
+    "uriCancion": "spotify:track:0BxE4FqsDD1Ot4YuBXwAPp",
+    "uriAlbum": "spotify:album:1XkGORuUX2QGOEIL4EbJKm",
+    "previewUrl": "https://p.scdn.co/mp3-preview/24ad19af2d5feeeb0048bff59b4096960b415848?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 253586,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 91,
+    "isrc": "GBCEL0700074",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Arctic Monkeys",
     "album": "Favourite Worst Nightmare (Standard Version)",
     "cancion": "505",
@@ -504,6 +1425,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-11T23:48:01Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Armando Trovajoli",
     "album": "La Matriarca - The Libertine (Original Motion Picture Soundtrack)",
     "cancion": "L'amore dice Ciao (Main Titles) - Remastered",
@@ -522,6 +1444,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:23:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Autoleisureland",
     "album": "New Road Movie",
     "cancion": "Comsat Angels",
@@ -540,6 +1463,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:02:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Ax and the Hatchetmen",
     "album": "So Much To Tell You",
     "cancion": "Hotel Room",
@@ -558,6 +1482,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:15:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "AxiomSeason",
     "album": "Mii Maker (Wii U)",
     "cancion": "Mii Maker (Wii U)",
@@ -576,6 +1501,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Anoche",
     "cancion": "Carismático",
@@ -594,42 +1520,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:26:12Z"
   },
   {
-    "artista": "Babasonicos",
-    "album": "Anoche",
-    "cancion": "El Colmo",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ee6c0ec02e7af747ca39bf21",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:0C75cfWMmCfvFsGVS6KOvV",
-    "uriAlbum": "spotify:album:15eHesyZJpvolTrSUJgoDX",
-    "previewUrl": "https://p.scdn.co/mp3-preview/cc8d42ab8ab055cefc260d0641dfa8efb0d95069?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 160893,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 44,
-    "isrc": "ARUM70500011",
-    "agregadoEn": "2026-09-16T22:26:41Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Anoche",
-    "cancion": "Puesto",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ee6c0ec02e7af747ca39bf21",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:5zpZUFF7YyPG90nkR88RYd",
-    "uriAlbum": "spotify:album:15eHesyZJpvolTrSUJgoDX",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d0f8233a7244da972a1fb328c191810f39e7533a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 206106,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 71,
-    "isrc": "ARUM70500008",
-    "agregadoEn": "2026-09-16T22:26:33Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Anoche",
     "cancion": "Yegua",
@@ -648,78 +1539,45 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:26:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Calmado, Matamos Al Venado",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "album": "Anoche",
+    "cancion": "Puesto",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ee6c0ec02e7af747ca39bf21",
     "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:0yXKGIOjlqf70hO4kxPt0j",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a1bdd52549d8cd7cb33a52e18c0f3a0c87429844?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 192306,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 29,
-    "isrc": "ARF109700196",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Convoy",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:1w349p9qbbPk95QVhKenRZ",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5df93aa87f1cf72fa04d03f5767f3eb8b47a8f5e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 260680,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 27,
-    "isrc": "ARF109700197",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Delnitro",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:1oOOGO7SBeNaHstVODk21j",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c7bc4f4d4758697c31fab84a41fc9e206f07ad0f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 195226,
+    "uriCancion": "spotify:track:5zpZUFF7YyPG90nkR88RYd",
+    "uriAlbum": "spotify:album:15eHesyZJpvolTrSUJgoDX",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d0f8233a7244da972a1fb328c191810f39e7533a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 206106,
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 26,
-    "isrc": "ARF109700194",
-    "agregadoEn": "2026-06-28T04:36:53Z"
+    "popularidad": 71,
+    "isrc": "ARUM70500008",
+    "agregadoEn": "2026-09-16T22:26:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Demonomanía",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "album": "Anoche",
+    "cancion": "El Colmo",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ee6c0ec02e7af747ca39bf21",
     "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:3ysO4vDJK8ePdvmf5ayGDR",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/04ea80290b17a71ebca8ef6aaa8d56971471269e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 250306,
+    "uriCancion": "spotify:track:0C75cfWMmCfvFsGVS6KOvV",
+    "uriAlbum": "spotify:album:15eHesyZJpvolTrSUJgoDX",
+    "previewUrl": "https://p.scdn.co/mp3-preview/cc8d42ab8ab055cefc260d0641dfa8efb0d95069?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 160893,
     "numeroDisco": 1,
-    "numeroPista": 3,
+    "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 28,
-    "isrc": "ARF109700190",
-    "agregadoEn": "2026-06-28T04:36:53Z"
+    "popularidad": 44,
+    "isrc": "ARUM70500011",
+    "agregadoEn": "2026-09-16T22:26:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Babasónica",
     "cancion": "Egocripta",
@@ -738,96 +1596,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "El Adversario",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:53S6ynCyK50h5mW4TeHlaN",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a86d0c9990981fdbbb228976d8a79108473e6119?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 183893,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 25,
-    "isrc": "ARF109700200",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Esther Narcótica",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:2lGQdod2PSQ1NM4xAKhnrr",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c0a66221ab42838044acab1e95a70471065ec267?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 215200,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 31,
-    "isrc": "ARF109700195",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Parafinada",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:0hYdlFVTi9l9lyg0haPnZT",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/dea3e60949a58830cfa18ba779df3ea938125613?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 187026,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 28,
-    "isrc": "ARF109700193",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Passionale",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:7M3chAOcPPfFz1ri8qrJ0o",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/1a20bc4fbdf72df87639f7f3dac1f89cb6510c75?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 246373,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 25,
-    "isrc": "ARF109700199",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Babasónica",
-    "cancion": "Pasta de Hablar",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:6gLAllVcoQUsSzNLlugnvV",
-    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6b4af3cf99eb8f5e2d7fcfb541d64a5c70d94385?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 295666,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 28,
-    "isrc": "ARF109700198",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Babasónica",
     "cancion": "Seis Vírgenes Descalzas",
@@ -846,6 +1615,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Demonomanía",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:3ysO4vDJK8ePdvmf5ayGDR",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/04ea80290b17a71ebca8ef6aaa8d56971471269e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 250306,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 28,
+    "isrc": "ARF109700190",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Babasónica",
     "cancion": "Sharon Tate",
@@ -864,6 +1653,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Babasónica",
     "cancion": "Sátiro",
@@ -882,6 +1672,159 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Parafinada",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:0hYdlFVTi9l9lyg0haPnZT",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/dea3e60949a58830cfa18ba779df3ea938125613?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 187026,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 28,
+    "isrc": "ARF109700193",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Delnitro",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:1oOOGO7SBeNaHstVODk21j",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c7bc4f4d4758697c31fab84a41fc9e206f07ad0f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 195226,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 26,
+    "isrc": "ARF109700194",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Esther Narcótica",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:2lGQdod2PSQ1NM4xAKhnrr",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c0a66221ab42838044acab1e95a70471065ec267?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 215200,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 31,
+    "isrc": "ARF109700195",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Calmado, Matamos Al Venado",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:0yXKGIOjlqf70hO4kxPt0j",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a1bdd52549d8cd7cb33a52e18c0f3a0c87429844?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 192306,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 29,
+    "isrc": "ARF109700196",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Convoy",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:1w349p9qbbPk95QVhKenRZ",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5df93aa87f1cf72fa04d03f5767f3eb8b47a8f5e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 260680,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 27,
+    "isrc": "ARF109700197",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Pasta de Hablar",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:6gLAllVcoQUsSzNLlugnvV",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6b4af3cf99eb8f5e2d7fcfb541d64a5c70d94385?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 295666,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 28,
+    "isrc": "ARF109700198",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "Passionale",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:7M3chAOcPPfFz1ri8qrJ0o",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1a20bc4fbdf72df87639f7f3dac1f89cb6510c75?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 246373,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 25,
+    "isrc": "ARF109700199",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Babasónica",
+    "cancion": "El Adversario",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736ffdf96aacfa79b310398a8b",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:53S6ynCyK50h5mW4TeHlaN",
+    "uriAlbum": "spotify:album:4Ql26DUHyQwn7dlZhrmxb4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a86d0c9990981fdbbb228976d8a79108473e6119?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 183893,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 25,
+    "isrc": "ARF109700200",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Desde Adentro - Impuesto de Fe (En Vivo)",
     "cancion": "Vampi - En Vivo",
@@ -900,6 +1843,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:26:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Deshoras",
     "cancion": "Deshoras",
@@ -918,6 +1862,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:26:56Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Discutible",
     "cancion": "Ingrediente",
@@ -936,6 +1881,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:27:01Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Infame",
     "cancion": "Irresponsables",
@@ -954,114 +1900,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "Atomicum",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:793tcVG6nIcgbfRmwq2jbT",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a19acd3869769d68f6a5a52878ea948ff3391850?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 171464,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 37,
-    "isrc": "ARF470100024",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "Camarín",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:6I273Xd7yB2qRCoHTpvaAa",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4b08edb8e6dd8dde8d6d6ee76a2ab5ed3b048dfc?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 320998,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 45,
-    "isrc": "ARF470100023",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "Deléctrico",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:5DSgzNSlB4EHCIi8YAXxWn",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a4763afcd7167cdb89dd47b594b4f693a7dca79a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 258292,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 53,
-    "isrc": "ARF470100015",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "El Loco",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:2jEjxOyKqMpkcThWl697hf",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ba51748d03fd10f43eadee997cb024946660a792?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 185826,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 72,
-    "isrc": "ARF470100018",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "Fizz",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:6LTyESjGFAp6x2yXoo4wbm",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c050175b52cbe6b964c7aa2759ec411550d02d88?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 168333,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "ARF470100014",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "La Fox",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:1qdeIyGOKgDp70C5Lz5Jly",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2dae91875fac13d327af39190a328787b224d817?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 141998,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "ARF470100019",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Jessico",
     "cancion": "Los Calientes",
@@ -1080,42 +1919,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Jessico",
-    "cancion": "Pendejo",
+    "cancion": "Fizz",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
     "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:60GX3BzwD0n4RlntDDsnxO",
+    "uriCancion": "spotify:track:6LTyESjGFAp6x2yXoo4wbm",
     "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2254b02792508f04534ea834dda27141ab483694?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 197398,
+    "previewUrl": "https://p.scdn.co/mp3-preview/c050175b52cbe6b964c7aa2759ec411550d02d88?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 168333,
     "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 44,
-    "isrc": "ARF470100017",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Jessico",
-    "cancion": "Rubí",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:2Dsv2vdCfLucFIoECqAK6U",
-    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/cb6a47c3a854c0b821706006ee91c5a5453643e7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 225050,
-    "numeroDisco": 1,
-    "numeroPista": 10,
+    "numeroPista": 2,
     "esExplicita": false,
     "popularidad": 58,
-    "isrc": "ARF470100022",
+    "isrc": "ARF470100014",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Jessico",
+    "cancion": "Deléctrico",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:5DSgzNSlB4EHCIi8YAXxWn",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a4763afcd7167cdb89dd47b594b4f693a7dca79a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 258292,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "ARF470100015",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Jessico",
     "cancion": "Soy Rock",
@@ -1134,6 +1976,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Jessico",
+    "cancion": "Pendejo",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:60GX3BzwD0n4RlntDDsnxO",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2254b02792508f04534ea834dda27141ab483694?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 197398,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 44,
+    "isrc": "ARF470100017",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Jessico",
+    "cancion": "El Loco",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:2jEjxOyKqMpkcThWl697hf",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ba51748d03fd10f43eadee997cb024946660a792?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 185826,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 72,
+    "isrc": "ARF470100018",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Jessico",
+    "cancion": "La Fox",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:1qdeIyGOKgDp70C5Lz5Jly",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2dae91875fac13d327af39190a328787b224d817?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 141998,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "ARF470100019",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Jessico",
     "cancion": "Yoli",
@@ -1152,42 +2052,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
-    "album": "Mucho",
-    "cancion": "Como Eran Las Cosas",
+    "album": "Jessico",
+    "cancion": "Rubí",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273894cafe63e54743a07ece9d3",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
     "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:61qPUnazSdkvua4wgA4L8C",
-    "uriAlbum": "spotify:album:0DUCdIMPrlfPFPPKsNyzx3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9d0b17306421ba79bdc7295b9f558fcf4f2712ef?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 240520,
+    "uriCancion": "spotify:track:2Dsv2vdCfLucFIoECqAK6U",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/cb6a47c3a854c0b821706006ee91c5a5453643e7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 225050,
     "numeroDisco": 1,
-    "numeroPista": 5,
+    "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 75,
-    "isrc": "ARUM70800269",
-    "agregadoEn": "2026-06-28T04:36:14Z"
+    "popularidad": 58,
+    "isrc": "ARF470100022",
+    "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
-    "album": "Mucho",
-    "cancion": "Microdancing",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273894cafe63e54743a07ece9d3",
+    "album": "Jessico",
+    "cancion": "Camarín",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
     "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:4RdcVT8qZw3W4cHhpeSVct",
-    "uriAlbum": "spotify:album:0DUCdIMPrlfPFPPKsNyzx3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c4aacef7c2074bf34eb5f71df55f6d173418f671?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 202706,
+    "uriCancion": "spotify:track:6I273Xd7yB2qRCoHTpvaAa",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4b08edb8e6dd8dde8d6d6ee76a2ab5ed3b048dfc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 320998,
     "numeroDisco": 1,
-    "numeroPista": 6,
+    "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 61,
-    "isrc": "ARUM70800270",
-    "agregadoEn": "2026-09-16T22:27:32Z"
+    "popularidad": 45,
+    "isrc": "ARF470100023",
+    "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Jessico",
+    "cancion": "Atomicum",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731e0cad1f554c9a1f02a058e3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:793tcVG6nIcgbfRmwq2jbT",
+    "uriAlbum": "spotify:album:2VMsGuuC4CDcyZ8qp7njWh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a19acd3869769d68f6a5a52878ea948ff3391850?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 171464,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 37,
+    "isrc": "ARF470100024",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Mucho",
     "cancion": "Pijamas",
@@ -1206,6 +2128,45 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:27:24Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Mucho",
+    "cancion": "Como Eran Las Cosas",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273894cafe63e54743a07ece9d3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:61qPUnazSdkvua4wgA4L8C",
+    "uriAlbum": "spotify:album:0DUCdIMPrlfPFPPKsNyzx3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9d0b17306421ba79bdc7295b9f558fcf4f2712ef?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 240520,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 75,
+    "isrc": "ARUM70800269",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Mucho",
+    "cancion": "Microdancing",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273894cafe63e54743a07ece9d3",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:4RdcVT8qZw3W4cHhpeSVct",
+    "uriAlbum": "spotify:album:0DUCdIMPrlfPFPPKsNyzx3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c4aacef7c2074bf34eb5f71df55f6d173418f671?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 202706,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 61,
+    "isrc": "ARUM70800270",
+    "agregadoEn": "2026-09-16T22:27:32Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Romantisísmico",
     "cancion": "La Lanza",
@@ -1224,6 +2185,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:27:37Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Tajada",
     "cancion": "Tajada",
@@ -1242,60 +2204,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:27:46Z"
   },
   {
-    "artista": "Babasonicos",
-    "album": "Trinchera",
-    "cancion": "Anubis",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27300f59ea5259d4d34d0157506",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:7nY0VWOxHHhKIp8YhPfH5c",
-    "uriAlbum": "spotify:album:5oLaRXGevqs8RYxXhYe9PG",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d1e6052b914bcb6cc3525f35d4c54133f5a891d0?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 178805,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 52,
-    "isrc": "ARF472200017",
-    "agregadoEn": "2026-09-16T22:28:04Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Trinchera",
-    "cancion": "Bye Bye",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27300f59ea5259d4d34d0157506",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:4Qmqux7KiBuz31IcJzHt05",
-    "uriAlbum": "spotify:album:5oLaRXGevqs8RYxXhYe9PG",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6135944bb31f7a839c4815eb13d5857c170d2893?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 250760,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "ARF472200015",
-    "agregadoEn": "2026-09-16T22:27:55Z"
-  },
-  {
-    "artista": "Babasonicos",
-    "album": "Trinchera",
-    "cancion": "La Izquierda de la Noche",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27300f59ea5259d4d34d0157506",
-    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
-    "uriCancion": "spotify:track:6Z1ljEyzvcjq3WcGrKXBIB",
-    "uriAlbum": "spotify:album:5oLaRXGevqs8RYxXhYe9PG",
-    "previewUrl": "https://p.scdn.co/mp3-preview/31914bb91ea9ba2ae4ef3460c35e212a8eedef25?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 220795,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 52,
-    "isrc": "ARF472100131",
-    "agregadoEn": "2026-09-16T22:28:11Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Babasonicos",
     "album": "Trinchera",
     "cancion": "Mimos Son Mimos",
@@ -1314,6 +2223,64 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:27:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Trinchera",
+    "cancion": "Bye Bye",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27300f59ea5259d4d34d0157506",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:4Qmqux7KiBuz31IcJzHt05",
+    "uriAlbum": "spotify:album:5oLaRXGevqs8RYxXhYe9PG",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6135944bb31f7a839c4815eb13d5857c170d2893?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 250760,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "ARF472200015",
+    "agregadoEn": "2026-09-16T22:27:55Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Trinchera",
+    "cancion": "Anubis",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27300f59ea5259d4d34d0157506",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:7nY0VWOxHHhKIp8YhPfH5c",
+    "uriAlbum": "spotify:album:5oLaRXGevqs8RYxXhYe9PG",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d1e6052b914bcb6cc3525f35d4c54133f5a891d0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 178805,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 52,
+    "isrc": "ARF472200017",
+    "agregadoEn": "2026-09-16T22:28:04Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Babasonicos",
+    "album": "Trinchera",
+    "cancion": "La Izquierda de la Noche",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27300f59ea5259d4d34d0157506",
+    "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2",
+    "uriCancion": "spotify:track:6Z1ljEyzvcjq3WcGrKXBIB",
+    "uriAlbum": "spotify:album:5oLaRXGevqs8RYxXhYe9PG",
+    "previewUrl": "https://p.scdn.co/mp3-preview/31914bb91ea9ba2ae4ef3460c35e212a8eedef25?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 220795,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 52,
+    "isrc": "ARF472100131",
+    "agregadoEn": "2026-09-16T22:28:11Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "BADBADNOTGOOD, Samuel T. Herring",
     "album": "IV",
     "cancion": "Time Moves Slow",
@@ -1332,6 +2299,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bag Raiders",
     "album": "Bag Raiders (Deluxe)",
     "cancion": "Shooting Stars",
@@ -1350,6 +2318,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "BAIÉ",
     "album": "Telarañas",
     "cancion": "Telarañas",
@@ -1368,6 +2337,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bakar",
     "album": "Hell N Back (Sped Up)",
     "cancion": "Hell N Back",
@@ -1386,6 +2356,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bandalos Chinos",
     "album": "BACH",
     "cancion": "Vámonos De Viaje",
@@ -1404,6 +2375,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:28:48Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bandalos Chinos",
     "album": "El Big Blue",
     "cancion": "Mi Fiesta",
@@ -1422,6 +2394,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:28:58Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Banes World",
     "album": "When My Life Is Over",
     "cancion": "When My Life Is Over",
@@ -1440,6 +2413,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Basement Jaxx, 100 gecs",
     "album": "where's my head at _",
     "cancion": "where's my head at _",
@@ -1458,6 +2432,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:29:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Beach House",
     "album": "Depression Cherry",
     "cancion": "Space Song",
@@ -1476,24 +2451,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Beach House",
     "album": "Depression Cherry",
     "cancion": "Space Song",
     "fecha": "2026-09-01",
     "portada": "https://i.scdn.co/image/ab67616d0000b2739b7190e673e46271b2754aab",
     "uri": "spotify:artist:56ZTgzPBDge0OvCGgMO3OY",
-    "uriCancion": "spotify:track:1ujxjsoNvh4XgS2fUNwkZ2",
-    "uriAlbum": "spotify:album:5tTmosmyV33wCiwniZc4Qs",
+    "uriCancion": "spotify:track:7H0ya83CMmgFcOhw0UB6ow",
+    "uriAlbum": "spotify:album:194CqC2Zi0kUFEPWedb3qr",
     "previewUrl": "https://p.scdn.co/mp3-preview/692ad07cc120a24634790c2ff102d6ecb2f160b7?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 320466,
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 78,
+    "popularidad": 80,
     "isrc": "USSUB1512203",
-    "agregadoEn": "2026-06-28T04:36:14Z"
+    "agregadoEn": "2026-09-01T01:53:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "beamglow",
     "album": "baby do you wanna dance? (did it first)",
     "cancion": "baby do you wanna dance? (did it first)",
@@ -1512,6 +2489,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:29:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Beat Happening",
     "album": "Jamboree",
     "cancion": "Indian Summer",
@@ -1530,6 +2508,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:55:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bee Gees",
     "album": "Greatest",
     "cancion": "Stayin' Alive - From \"Saturday Night Fever\" Soundtrack",
@@ -1548,6 +2527,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Belle and Sebastian",
     "album": "The Life Pursuit",
     "cancion": "Another Sunny Day",
@@ -1566,6 +2546,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bersuit Vergarabat",
     "album": "La Argentinidad Al Palo",
     "cancion": "La Soledad",
@@ -1584,6 +2565,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bersuit Vergarabat",
     "album": "Libertinaje",
     "cancion": "Murguita Del Sur",
@@ -1602,6 +2584,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bersuit Vergarabat",
     "album": "Libertinaje",
     "cancion": "Sr. Cobranza",
@@ -1620,6 +2603,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bersuit Vergarabat",
     "album": "Testosterona",
     "cancion": "Sencillamente",
@@ -1638,6 +2622,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bhavi, Seven Kayne, Milo j, Tiago PZK, KHEA, Neo Pistea",
     "album": "BESAME (feat. Tiago PZK, Khea & Neo Pistea) [Remix]",
     "cancion": "BESAME (feat. Tiago PZK, Khea & Neo Pistea) - Remix",
@@ -1656,6 +2641,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:29:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Big Mountain",
     "album": "Unity",
     "cancion": "Baby, I Love Your Way",
@@ -1674,6 +2660,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Billie Eilish",
     "album": "Happier Than Ever",
     "cancion": "Billie Bossa Nova",
@@ -1692,24 +2679,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
-    "artista": "Billie Eilish",
-    "album": "HIT ME HARD AND SOFT",
-    "cancion": "BIRDS OF A FEATHER",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
-    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
-    "uriCancion": "spotify:track:6dOtVTDdiauQNBQEDOtlAB",
-    "uriAlbum": "spotify:album:7aJuG4TFXa2hmE4z1yxc3n",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2899f0275fc029d456d924a60ae6f747bda1ed80?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 210373,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 95,
-    "isrc": "USUM72401994",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Billie Eilish",
     "album": "HIT ME HARD AND SOFT",
     "cancion": "CHIHIRO",
@@ -1728,6 +2698,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Billie Eilish",
+    "album": "HIT ME HARD AND SOFT",
+    "cancion": "BIRDS OF A FEATHER",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+    "uriCancion": "spotify:track:6dOtVTDdiauQNBQEDOtlAB",
+    "uriAlbum": "spotify:album:7aJuG4TFXa2hmE4z1yxc3n",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2899f0275fc029d456d924a60ae6f747bda1ed80?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 210373,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 95,
+    "isrc": "USUM72401994",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Billie Eilish",
     "album": "hotline (edit)",
     "cancion": "hotline (edit)",
@@ -1746,6 +2736,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:25:06Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Billy Idol",
     "album": "Rebel Yell",
     "cancion": "Eyes Without A Face",
@@ -1764,24 +2755,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Bizarrap, Milo j",
-    "album": "en dormir sin Madrid",
-    "cancion": "Fruto",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27344fa31a89a1e549f74908a81",
-    "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36, spotify:artist:19HM5j0ULGSmEoRcrSe5x3",
-    "uriCancion": "spotify:track:4SW9gHnW8NfKOdqmh0ij45",
-    "uriAlbum": "spotify:album:4NMv3cMkDwkkR6EdLloQDB",
-    "previewUrl": "https://p.scdn.co/mp3-preview/84d1b5d510f6a3f7815aa7cc3e3532d2bf5a5a25?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 132294,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 75,
-    "isrc": "UYB282301044",
-    "agregadoEn": "2026-09-16T22:30:31Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Bizarrap, Milo j",
     "album": "en dormir sin Madrid",
     "cancion": "No soy Eterno",
@@ -1800,6 +2774,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:30:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Bizarrap, Milo j",
+    "album": "en dormir sin Madrid",
+    "cancion": "Fruto",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27344fa31a89a1e549f74908a81",
+    "uri": "spotify:artist:716NhGYqD1jl2wI1Qkgq36, spotify:artist:19HM5j0ULGSmEoRcrSe5x3",
+    "uriCancion": "spotify:track:4SW9gHnW8NfKOdqmh0ij45",
+    "uriAlbum": "spotify:album:4NMv3cMkDwkkR6EdLloQDB",
+    "previewUrl": "https://p.scdn.co/mp3-preview/84d1b5d510f6a3f7815aa7cc3e3532d2bf5a5a25?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 132294,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 75,
+    "isrc": "UYB282301044",
+    "agregadoEn": "2026-09-16T22:30:31Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "blink-182",
     "album": "blink-182",
     "cancion": "I Miss You",
@@ -1818,6 +2812,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "blink-182",
     "album": "Dude Ranch",
     "cancion": "Josie",
@@ -1836,6 +2831,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "blink-182",
     "album": "Enema Of The State",
     "cancion": "All The Small Things",
@@ -1854,6 +2850,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Blondie",
     "album": "Greatest Hits: Blondie",
     "cancion": "Heart Of Glass",
@@ -1872,6 +2869,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Blondie",
     "album": "Parallel Lines (Remastered)",
     "cancion": "One Way Or Another - Remastered 2001",
@@ -1890,6 +2888,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Blood Nose",
     "album": "hold me in your arms",
     "cancion": "hold me in your arms",
@@ -1908,6 +2907,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Blur",
     "album": "Blur (Special Edition)",
     "cancion": "Beetlebum - 2012 Remaster",
@@ -1926,6 +2926,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Blur",
     "album": "Blur: The Best Of",
     "cancion": "Girls & Boys",
@@ -1944,6 +2945,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Burnin' (Deluxe Edition)",
     "cancion": "Get Up, Stand Up",
@@ -1962,6 +2964,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Burnin' (Deluxe Edition)",
     "cancion": "I Shot The Sheriff",
@@ -1980,24 +2983,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
-    "artista": "Bob Marley & The Wailers",
-    "album": "Exodus",
-    "cancion": "Jamming",
-    "fecha": "2026-07-05",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273d7f3e4d143c198d3542a775d",
-    "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD",
-    "uriCancion": "spotify:track:3GIChxHmuLmBm5PTNZGDtj",
-    "uriAlbum": "spotify:album:655KljKIXl42fiNDMKivbY",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4dbc8e6ca351beb364ae0bbe3ea0f6ed6b776ee1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 211000,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 79,
-    "isrc": "USIR27700013",
-    "agregadoEn": "2026-07-05T00:24:30Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Exodus",
     "cancion": "Natural Mystic",
@@ -2016,24 +3002,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-03T13:31:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Exodus",
-    "cancion": "One Love / People Get Ready",
+    "cancion": "Jamming",
     "fecha": "2026-07-05",
     "portada": "https://i.scdn.co/image/ab67616d0000b273d7f3e4d143c198d3542a775d",
     "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD",
-    "uriCancion": "spotify:track:7oNgPClUYdscWWHa5PF1gT",
+    "uriCancion": "spotify:track:3GIChxHmuLmBm5PTNZGDtj",
     "uriAlbum": "spotify:album:655KljKIXl42fiNDMKivbY",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a5e96c9baef07a93da5ad8f27f6c829531eadcc7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 172933,
+    "previewUrl": "https://p.scdn.co/mp3-preview/4dbc8e6ca351beb364ae0bbe3ea0f6ed6b776ee1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 211000,
     "numeroDisco": 1,
-    "numeroPista": 10,
+    "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 77,
-    "isrc": "GBAAN7790002",
+    "popularidad": 79,
+    "isrc": "USIR27700013",
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Exodus",
     "cancion": "Three Little Birds",
@@ -2052,6 +3040,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:44:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Bob Marley & The Wailers",
+    "album": "Exodus",
+    "cancion": "One Love / People Get Ready",
+    "fecha": "2026-07-05",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d7f3e4d143c198d3542a775d",
+    "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD",
+    "uriCancion": "spotify:track:7oNgPClUYdscWWHa5PF1gT",
+    "uriAlbum": "spotify:album:655KljKIXl42fiNDMKivbY",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a5e96c9baef07a93da5ad8f27f6c829531eadcc7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 172933,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 77,
+    "isrc": "GBAAN7790002",
+    "agregadoEn": "2026-07-05T00:24:30Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Kaya",
     "cancion": "Is This Love",
@@ -2070,24 +3078,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:44:01Z"
   },
   {
-    "artista": "Bob Marley & The Wailers",
-    "album": "Kaya",
-    "cancion": "Satisfy My Soul",
-    "fecha": "2026-07-05",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273387799441ba867649dfbb702",
-    "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD",
-    "uriCancion": "spotify:track:5Uv1YNz6uBepPLDdoFANKQ",
-    "uriAlbum": "spotify:album:13dXX35pYjr8FqRla40K2a",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2a9515e0e250e04162edd63cee8dd36e782e8cad?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 271000,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 71,
-    "isrc": "USIR27800261",
-    "agregadoEn": "2026-07-05T00:24:30Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Kaya",
     "cancion": "Sun Is Shining",
@@ -2106,6 +3097,26 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Bob Marley & The Wailers",
+    "album": "Kaya",
+    "cancion": "Satisfy My Soul",
+    "fecha": "2026-07-05",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273387799441ba867649dfbb702",
+    "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD",
+    "uriCancion": "spotify:track:5Uv1YNz6uBepPLDdoFANKQ",
+    "uriAlbum": "spotify:album:13dXX35pYjr8FqRla40K2a",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2a9515e0e250e04162edd63cee8dd36e782e8cad?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 271000,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 71,
+    "isrc": "USIR27800261",
+    "agregadoEn": "2026-07-05T00:24:30Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Bob Marley & The Wailers",
     "album": "Uprising",
     "cancion": "Could You Be Loved",
@@ -2124,6 +3135,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Boney M.",
     "album": "Daddy Cool",
     "cancion": "Rasputin",
@@ -2142,24 +3154,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Boomerang",
-    "album": "El Encanto",
-    "cancion": "Campari",
-    "fecha": "2026-08-19",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273252a7857d878293ba78fd147",
-    "uri": "spotify:artist:3B59rA68Fnu8ye1Fmp0tvz",
-    "uriCancion": "spotify:track:5NYGXJxZD3NBfthDkPC2VL",
-    "uriAlbum": "spotify:album:14dVpVV9etmNio69dT8ElC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/1c078aafc43d9ff24c8543beee1cd114962c0eb5?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 234198,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 17,
-    "isrc": "UYB141823802",
-    "agregadoEn": "2026-08-19T17:10:29Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Boomerang",
     "album": "El Encanto",
     "cancion": "No Me Parece Mal",
@@ -2178,24 +3173,26 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T16:08:10Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Boomerang",
-    "album": "Engañamundos",
-    "cancion": "Reproche",
+    "album": "El Encanto",
+    "cancion": "Campari",
     "fecha": "2026-08-19",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c816e97e4ef82bfa2119443f",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273252a7857d878293ba78fd147",
     "uri": "spotify:artist:3B59rA68Fnu8ye1Fmp0tvz",
-    "uriCancion": "spotify:track:6G79EekdbGNs7940CD2ITd",
-    "uriAlbum": "spotify:album:2COucfQS5PUPrxRyyu0zgf",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f0c2d9c42da4fd23a48be2b76e4ba318f4f7d059?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 223186,
+    "uriCancion": "spotify:track:5NYGXJxZD3NBfthDkPC2VL",
+    "uriAlbum": "spotify:album:14dVpVV9etmNio69dT8ElC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1c078aafc43d9ff24c8543beee1cd114962c0eb5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 234198,
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 20,
-    "isrc": "UYB141401006",
-    "agregadoEn": "2026-08-19T17:11:37Z"
+    "popularidad": 17,
+    "isrc": "UYB141823802",
+    "agregadoEn": "2026-08-19T17:10:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Boomerang",
     "album": "Engañamundos",
     "cancion": "Te Busco",
@@ -2214,6 +3211,26 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T17:11:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Boomerang",
+    "album": "Engañamundos",
+    "cancion": "Reproche",
+    "fecha": "2026-08-19",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c816e97e4ef82bfa2119443f",
+    "uri": "spotify:artist:3B59rA68Fnu8ye1Fmp0tvz",
+    "uriCancion": "spotify:track:6G79EekdbGNs7940CD2ITd",
+    "uriAlbum": "spotify:album:2COucfQS5PUPrxRyyu0zgf",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f0c2d9c42da4fd23a48be2b76e4ba318f4f7d059?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 223186,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 20,
+    "isrc": "UYB141401006",
+    "agregadoEn": "2026-08-19T17:11:37Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Broadcast",
     "album": "The Noise Made By People",
     "cancion": "Come On Let's Go",
@@ -2232,6 +3249,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:00:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "brown eyed girl",
     "album": "her (instrumental - slowed + reverb)",
     "cancion": "her - instrumental - slowed + reverb",
@@ -2250,6 +3268,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Built To Spill",
     "album": "Keep It like a Secret",
     "cancion": "Carry the Zero",
@@ -2268,6 +3287,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:56:39Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "bôa",
     "album": "Twilight",
     "cancion": "Duvet",
@@ -2286,6 +3306,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "CA7RIEL & Paco Amoroso",
     "album": "PAPOTA",
     "cancion": "#TETAS",
@@ -2304,6 +3325,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:31:23Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cafuné",
     "album": "Running",
     "cancion": "Tek It",
@@ -2322,6 +3344,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cage The Elephant",
     "album": "Melophobia",
     "cancion": "Cigarette Daydreams",
@@ -2340,6 +3363,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Callejeros",
     "album": "Disco Escultura",
     "cancion": "Siempre un Poco Más",
@@ -2358,6 +3382,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "CAN",
     "album": "Ege Bamyasi (Remastered)",
     "cancion": "Vitamin C",
@@ -2376,6 +3401,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:03:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Car Seat Headrest",
     "album": "Twin Fantasy",
     "cancion": "Bodys",
@@ -2394,6 +3420,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:07:40Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Castle Rat",
     "album": "The Bestiary",
     "cancion": "WIZARD",
@@ -2412,6 +3439,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:06:39Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Catherine Wheel",
     "album": "Ferment",
     "cancion": "Black Metallic",
@@ -2430,6 +3458,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:00:01Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Chapterhouse",
     "album": "Best Of",
     "cancion": "Pearl - 12'' Version",
@@ -2448,6 +3477,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:59:25Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Chechi de Marcos, Conociendo Rusia",
     "album": "Hasta Que Llegue El Verano",
     "cancion": "Hasta Que Llegue El Verano",
@@ -2466,6 +3496,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:31:46Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cherryholt",
     "album": "flies",
     "cancion": "flies",
@@ -2484,6 +3515,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:54:06Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Chezile",
     "album": "Beanie",
     "cancion": "Beanie",
@@ -2502,6 +3534,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Chico Buarque, MPB4, Quarteto Em Cy",
     "album": "Chico Buarque",
     "cancion": "Apesar De Você",
@@ -2520,6 +3553,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:31:54Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "CHVRCHES",
     "album": "Love Is Dead",
     "cancion": "Forever",
@@ -2538,60 +3572,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:32:01Z"
   },
   {
-    "artista": "Cigarettes After Sex",
-    "album": "Cigarettes After Sex",
-    "cancion": "Apocalypse",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
-    "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
-    "uriCancion": "spotify:track:1oAwsWBovWRIp7qLMGPIet",
-    "uriAlbum": "spotify:album:5chTLnnxlxQVAgEv6YbEBe",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3e45fd6c5ac536908e9e18f69008f4340019e0fb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 290146,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 92,
-    "isrc": "USBQU1700034",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
-    "artista": "Cigarettes After Sex",
-    "album": "Cigarettes After Sex",
-    "cancion": "Apocalypse",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27312b69bf576f5e80291f75161",
-    "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
-    "uriCancion": "spotify:track:1oAwsWBovWRIp7qLMGPIet",
-    "uriAlbum": "spotify:album:5chTLnnxlxQVAgEv6YbEBe",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3e45fd6c5ac536908e9e18f69008f4340019e0fb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 290146,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 92,
-    "isrc": "USBQU1700034",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
-    "artista": "Cigarettes After Sex",
-    "album": "Cigarettes After Sex",
-    "cancion": "John Wayne",
-    "fecha": "2026-06-27",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
-    "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
-    "uriCancion": "spotify:track:4xbN7giFhdGbSQTPyG178F",
-    "uriAlbum": "spotify:album:5chTLnnxlxQVAgEv6YbEBe",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ed176d5e236d1032fa368782ef90802eba5a5e8b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 258013,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 79,
-    "isrc": "USBQU1700039",
-    "agregadoEn": "2026-06-27T15:28:27Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Cigarettes After Sex",
     "album": "Cigarettes After Sex",
     "cancion": "K.",
@@ -2610,6 +3591,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cigarettes After Sex",
     "album": "Cigarettes After Sex",
     "cancion": "Sunsetz",
@@ -2628,6 +3610,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Cigarettes After Sex",
+    "album": "Cigarettes After Sex",
+    "cancion": "Apocalypse",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
+    "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
+    "uriCancion": "spotify:track:1oAwsWBovWRIp7qLMGPIet",
+    "uriAlbum": "spotify:album:5chTLnnxlxQVAgEv6YbEBe",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3e45fd6c5ac536908e9e18f69008f4340019e0fb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 290146,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 92,
+    "isrc": "USBQU1700034",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Cigarettes After Sex",
+    "album": "Cigarettes After Sex",
+    "cancion": "Apocalypse",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27312b69bf576f5e80291f75161",
+    "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
+    "uriCancion": "spotify:track:0yc6Gst2xkRu0eMLeRMGCX",
+    "uriAlbum": "spotify:album:2mxFsS5yylSTHNivV53HoA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3e45fd6c5ac536908e9e18f69008f4340019e0fb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 290616,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 12,
+    "isrc": "USBQU1700034",
+    "agregadoEn": "2026-09-16T22:32:13Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Cigarettes After Sex",
     "album": "Cigarettes After Sex",
     "cancion": "Sweet",
@@ -2646,24 +3667,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cigarettes After Sex",
-    "album": "Cry",
-    "cancion": "Cry",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2738324db1ae37be249aed887e7",
+    "album": "Cigarettes After Sex",
+    "cancion": "John Wayne",
+    "fecha": "2026-06-27",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273dfed999f959177dfc4f33cdc",
     "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
-    "uriCancion": "spotify:track:7mDTvYD2ieE4Q28XFziMfJ",
-    "uriAlbum": "spotify:album:63yRRBtLX8eqbOLD6f0y9U",
-    "previewUrl": "https://p.scdn.co/mp3-preview/106f26034d8b2c247cf251e0643996e8b175b783?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 256799,
+    "uriCancion": "spotify:track:4xbN7giFhdGbSQTPyG178F",
+    "uriAlbum": "spotify:album:5chTLnnxlxQVAgEv6YbEBe",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ed176d5e236d1032fa368782ef90802eba5a5e8b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 258013,
     "numeroDisco": 1,
-    "numeroPista": 7,
+    "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 88,
-    "isrc": "USBQU1900121",
-    "agregadoEn": "2026-06-28T04:36:14Z"
+    "popularidad": 79,
+    "isrc": "USBQU1700039",
+    "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cigarettes After Sex",
     "album": "Cry",
     "cancion": "Heavenly",
@@ -2682,6 +3705,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:32:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Cigarettes After Sex",
+    "album": "Cry",
+    "cancion": "Cry",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2738324db1ae37be249aed887e7",
+    "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
+    "uriCancion": "spotify:track:7mDTvYD2ieE4Q28XFziMfJ",
+    "uriAlbum": "spotify:album:63yRRBtLX8eqbOLD6f0y9U",
+    "previewUrl": "https://p.scdn.co/mp3-preview/106f26034d8b2c247cf251e0643996e8b175b783?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 256799,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 88,
+    "isrc": "USBQU1900121",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "citrulinq, JU$t",
     "album": "Genesis x Resonance",
     "cancion": "Genesis x Resonance",
@@ -2700,6 +3743,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:11:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Clairo",
     "album": "Pretty Girl",
     "cancion": "Pretty Girl",
@@ -2718,24 +3762,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Clairo",
     "album": "Pretty Girl",
     "cancion": "Pretty Girl",
     "fecha": "2026-07-05",
     "portada": "https://i.scdn.co/image/ab67616d0000b273378a655e1c7ca93207ace890",
     "uri": "spotify:artist:3l0CmX0FuQjFxr8SK7Vqag",
-    "uriCancion": "spotify:track:27g0ztD0kKcDJRrIFDl8q8",
-    "uriAlbum": "spotify:album:1c3h074NQBbcLPGNsXwO08",
+    "uriCancion": "spotify:track:3ey2Lbv2YOjgUYKTAIopNS",
+    "uriAlbum": "spotify:album:6dYuptKeZWMfKKJnwEFru1",
     "previewUrl": "https://p.scdn.co/mp3-preview/cfa1778d342a62f65f6b04ea2956401e534548d5?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 178352,
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 29,
+    "popularidad": 80,
     "isrc": "TCADF1795049",
-    "agregadoEn": "2026-06-28T04:36:53Z"
+    "agregadoEn": "2026-07-05T20:49:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Clan of Xymox",
     "album": "Clan Of Xymox",
     "cancion": "A Day",
@@ -2754,6 +3800,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:03:19Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "closemymind archive",
     "album": "Hide II (Dark Fantasy)",
     "cancion": "Hide II (Dark Fantasy)",
@@ -2772,6 +3819,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-20T20:06:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "cloud9ine",
     "album": "Magic (Slowed + Reverb)",
     "cancion": "Magic - Slowed + Reverb",
@@ -2790,6 +3838,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "cloud9ine",
     "album": "Moonlight on the River ending (Slowed + Reverb)",
     "cancion": "Moonlight on the River ending - Slowed + Reverb",
@@ -2808,6 +3857,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Coldplay",
     "album": "A Head Full of Dreams",
     "cancion": "Adventure of a Lifetime",
@@ -2826,6 +3876,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Coldplay",
     "album": "Parachutes",
     "cancion": "Sparks",
@@ -2844,6 +3895,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Computer",
     "album": "All in my head",
     "cancion": "All in my head",
@@ -2862,6 +3914,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Conociendo Rusia",
     "album": "A la Vez",
     "cancion": "A la Vez",
@@ -2880,6 +3933,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:33:34Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Conociendo Rusia",
     "album": "Cabildo y Juramento",
     "cancion": "Quiero Que Me Llames",
@@ -2898,6 +3952,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:33:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Conociendo Rusia",
     "album": "Conociendo Rusia",
     "cancion": "Loco en el Desierto",
@@ -2916,6 +3971,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:33:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "core²",
     "album": "la leçon particulière",
     "cancion": "la leçon particulière",
@@ -2934,6 +3990,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:21:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cortex",
     "album": "Troupeau bleu",
     "cancion": "Huit octobre 1971",
@@ -2952,6 +4009,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:18:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "COSMIC KID",
     "album": "BRINCANDO",
     "cancion": "BRINCANDO",
@@ -2970,6 +4028,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:41:31Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "COSMIC KID",
     "album": "COSMIC KID",
     "cancion": "SPACE SEX",
@@ -2988,6 +4047,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:41:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "COSMIC KID, Yesan 雪山",
     "album": "CONTENT EXPLICIT",
     "cancion": "CONTENT EXPLICIT",
@@ -3006,6 +4066,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:41:22Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Crisaunt",
     "album": "Dream Girl",
     "cancion": "Dream Girl",
@@ -3024,6 +4085,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Crisaunt",
     "album": "Supplier!",
     "cancion": "Supplier!",
@@ -3042,6 +4104,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Crumb",
     "album": "Locket",
     "cancion": "Locket",
@@ -3060,24 +4123,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:06:57Z"
   },
   {
-    "artista": "Crystal Castles",
-    "album": "Crystal Castles",
-    "cancion": "Crimewave",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273379438a3e296d1d19bf8515f",
-    "uri": "spotify:artist:7K3zpFXBvPcvzhj7zlGJdO",
-    "uriCancion": "spotify:track:1xzsEmaU4IXjvxxwQlA8Lz",
-    "uriAlbum": "spotify:album:6rTfUUv8Kefr6Uo3AaecXi",
-    "previewUrl": "https://p.scdn.co/mp3-preview/411f6ba4d7f7610e5f6857ebde3c43fffbd8ecc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 258453,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 77,
-    "isrc": "GBRQQ0700001",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Crystal Castles",
     "album": "Crystal Castles",
     "cancion": "Untrust Us",
@@ -3096,6 +4142,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Crystal Castles",
+    "album": "Crystal Castles",
+    "cancion": "Crimewave",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273379438a3e296d1d19bf8515f",
+    "uri": "spotify:artist:7K3zpFXBvPcvzhj7zlGJdO",
+    "uriCancion": "spotify:track:1xzsEmaU4IXjvxxwQlA8Lz",
+    "uriAlbum": "spotify:album:6rTfUUv8Kefr6Uo3AaecXi",
+    "previewUrl": "https://p.scdn.co/mp3-preview/411f6ba4d7f7610e5f6857ebde3c43fffbd8ecc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 258453,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 77,
+    "isrc": "GBRQQ0700001",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Crystal Castles",
     "album": "Crystal Castles",
     "cancion": "Vanished",
@@ -3114,6 +4180,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Crystal Waters, The Basement Boys",
     "album": "Surprise",
     "cancion": "Gypsy Woman (She's Homeless) (La Da Dee La Da Da) - Basement Boy Strip To The Bone Mix",
@@ -3132,6 +4199,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:33:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cuco",
     "album": "Chiquito",
     "cancion": "Dontmakemefallinlove",
@@ -3150,6 +4218,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cuco",
     "album": "Para Mi",
     "cancion": "Do Better",
@@ -3168,6 +4237,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cuco",
     "album": "wannabewithu",
     "cancion": "Lover Is a Day",
@@ -3186,6 +4256,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cults",
     "album": "Static",
     "cancion": "Always Forever",
@@ -3204,6 +4275,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Current Joys",
     "album": "A Different Age",
     "cancion": "Fear",
@@ -3222,6 +4294,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Current Joys",
     "album": "Kids",
     "cancion": "Kids",
@@ -3240,24 +4313,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Current Joys",
-    "album": "Wild Heart",
-    "cancion": "Blondie",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e341c520c154f89b77bd2aaf",
-    "uri": "spotify:artist:0m5FakHKCQdA7UN0PIzMcL",
-    "uriCancion": "spotify:track:6l8T96kpkx6RY9kFac7eMU",
-    "uriAlbum": "spotify:album:6vQngf6iEG8xC6ArsIurXq",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6a02e79df7165aae6a2f85c247841ac0e0fcb48b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 192318,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 79,
-    "isrc": "TCACS1661024",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Current Joys",
     "album": "Wild Heart",
     "cancion": "New Flesh",
@@ -3276,6 +4332,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Current Joys",
+    "album": "Wild Heart",
+    "cancion": "Blondie",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e341c520c154f89b77bd2aaf",
+    "uri": "spotify:artist:0m5FakHKCQdA7UN0PIzMcL",
+    "uriCancion": "spotify:track:6l8T96kpkx6RY9kFac7eMU",
+    "uriAlbum": "spotify:album:6vQngf6iEG8xC6ArsIurXq",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6a02e79df7165aae6a2f85c247841ac0e0fcb48b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 192318,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 79,
+    "isrc": "TCACS1661024",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Current Joys",
     "album": "Wild Heart",
     "cancion": "Symphonia IX",
@@ -3294,6 +4370,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cutting Crew",
     "album": "Broadcast",
     "cancion": "(I Just) Died In Your Arms",
@@ -3312,6 +4389,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:18:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "CYBEREALITYライフ",
     "album": "Midnight Walk",
     "cancion": "windows wave (wav)",
@@ -3330,6 +4408,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Cyndi Lauper",
     "album": "She's So Unusual",
     "cancion": "Girls Just Want to Have Fun",
@@ -3348,6 +4427,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "CZARFACE, MF DOOM, Kendra Morris",
     "album": "Super What?",
     "cancion": "Czarwyn's Theory of People Getting Loose",
@@ -3366,6 +4446,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Damian Marley",
     "album": "Welcome to Jamrock",
     "cancion": "Welcome To Jamrock",
@@ -3384,6 +4465,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "DANGERDOOM, MF DOOM, Danger Mouse",
     "album": "THE MOUSE AND THE MASK (METALFACE EDITION)",
     "cancion": "El Chupa Nibre",
@@ -3402,24 +4484,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "DANGERDOOM, MF DOOM, Danger Mouse",
-    "album": "THE MOUSE AND THE MASK (METALFACE EDITION)",
-    "cancion": "No Names",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2733277cf16b24ce7cb3622df8d",
-    "uri": "spotify:artist:0b3fYxnG6tlR0zLtBJd8DF, spotify:artist:2pAWfrd7WFF3XhVt9GooDL, spotify:artist:2dBj3prW7gP9bCCOIQeDUf",
-    "uriCancion": "spotify:track:64Qp3AUQ0dQKdm0Ai0IPzt",
-    "uriAlbum": "spotify:album:3ebD4xytfB5GPWqQozDTCb",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9ff889fbf821e8ff35cddcf592d35be6f9fd8f37?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 187280,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": true,
-    "popularidad": 41,
-    "isrc": "USHKR0977909",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "DANGERDOOM, MF DOOM, Danger Mouse",
     "album": "THE MOUSE AND THE MASK (METALFACE EDITION)",
     "cancion": "Sofa King",
@@ -3438,6 +4503,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "DANGERDOOM, MF DOOM, Danger Mouse",
+    "album": "THE MOUSE AND THE MASK (METALFACE EDITION)",
+    "cancion": "No Names",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733277cf16b24ce7cb3622df8d",
+    "uri": "spotify:artist:0b3fYxnG6tlR0zLtBJd8DF, spotify:artist:2pAWfrd7WFF3XhVt9GooDL, spotify:artist:2dBj3prW7gP9bCCOIQeDUf",
+    "uriCancion": "spotify:track:64Qp3AUQ0dQKdm0Ai0IPzt",
+    "uriAlbum": "spotify:album:3ebD4xytfB5GPWqQozDTCb",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9ff889fbf821e8ff35cddcf592d35be6f9fd8f37?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 187280,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": true,
+    "popularidad": 41,
+    "isrc": "USHKR0977909",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "DAV0D3P",
     "album": "CIELO AMARGO- DAVO Y JV -",
     "cancion": "CIELO AMARGO- DAVO Y JV -",
@@ -3456,6 +4541,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "David Bowie",
     "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
     "cancion": "Starman - 2012 Remaster",
@@ -3474,6 +4560,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dawn Penn",
     "album": "No, No, No",
     "cancion": "You Don't Love Me (No, No, No) - Extended Mix",
@@ -3492,6 +4579,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dayglow",
     "album": "Fuzzybrain",
     "cancion": "Can I Call You Tonight?",
@@ -3510,6 +4598,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:09:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Deftones",
     "album": "Diamond Eyes",
     "cancion": "Sextape",
@@ -3528,24 +4617,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Depeche Mode",
-    "album": "The Singles 86-98",
-    "cancion": "Enjoy the Silence",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2730a7d45a345534966a4ad2c39",
-    "uri": "spotify:artist:762310PdDnwsDxAQxzQkfX",
-    "uriCancion": "spotify:track:6WK9dVrRABMkUXFLNlgWFh",
-    "uriAlbum": "spotify:album:61h3VS8XDROIpvQznjTPTT",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ab4f49fb9cd4c516eec703c05029636015fa87f8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 255133,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 80,
-    "isrc": "GBAJH9800146",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Depeche Mode",
     "album": "The Singles 86-98",
     "cancion": "Never Let Me Down Again",
@@ -3564,6 +4636,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Depeche Mode",
+    "album": "The Singles 86-98",
+    "cancion": "Enjoy the Silence",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2730a7d45a345534966a4ad2c39",
+    "uri": "spotify:artist:762310PdDnwsDxAQxzQkfX",
+    "uriCancion": "spotify:track:6WK9dVrRABMkUXFLNlgWFh",
+    "uriAlbum": "spotify:album:61h3VS8XDROIpvQznjTPTT",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ab4f49fb9cd4c516eec703c05029636015fa87f8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 255133,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 80,
+    "isrc": "GBAJH9800146",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Depeche Mode",
     "album": "Violator (Deluxe)",
     "cancion": "Personal Jesus",
@@ -3582,6 +4674,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T03:35:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Depeche Mode",
     "album": "Violator (Deluxe)",
     "cancion": "Sea of Sin - Tonal Mix",
@@ -3600,24 +4693,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Descendents",
-    "album": "Cool to Be You",
-    "cancion": "Merican",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731a4a651e2bdc86285a22968d",
-    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
-    "uriCancion": "spotify:track:2xcivsD9oKfeKyIv3kf5IX",
-    "uriAlbum": "spotify:album:0wKd9K5PicsSc6jrhWWGYi",
-    "previewUrl": "https://p.scdn.co/mp3-preview/74dc57d3ddb47b841ea4b8c4963034582955809a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 111200,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "USFW40467204",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
     "album": "Cool to Be You",
     "cancion": "Nothing with You",
@@ -3636,6 +4712,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Descendents",
+    "album": "Cool to Be You",
+    "cancion": "'Merican",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731a4a651e2bdc86285a22968d",
+    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
+    "uriCancion": "spotify:track:2xcivsD9oKfeKyIv3kf5IX",
+    "uriAlbum": "spotify:album:0wKd9K5PicsSc6jrhWWGYi",
+    "previewUrl": "https://p.scdn.co/mp3-preview/74dc57d3ddb47b841ea4b8c4963034582955809a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 111200,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "USFW40467204",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
     "album": "Everything Sucks",
     "cancion": "I'm The One",
@@ -3654,42 +4750,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Descendents",
-    "album": "I Don't Want to Grow Up",
-    "cancion": "Good Good Things",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735bbf83a225fcfc7b54523fe2",
-    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
-    "uriCancion": "spotify:track:7HHle8A6urSZT4RxkDQIiz",
-    "uriAlbum": "spotify:album:5kOp5XHhmMoG2e41VyVQC0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/812aa18f177b3cbcb06e1a2d00301e2e904f45da?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 142333,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 50,
-    "isrc": "USA370538866",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Descendents",
-    "album": "I Don't Want to Grow Up",
-    "cancion": "Silly Girl",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735bbf83a225fcfc7b54523fe2",
-    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
-    "uriCancion": "spotify:track:1o0cObpbURSTFEoXSgmL6a",
-    "uriAlbum": "spotify:album:5kOp5XHhmMoG2e41VyVQC0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/729109951e6610607616c320287f0c326b458095?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 145026,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "USA370538860",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
     "album": "I Don't Want to Grow Up",
     "cancion": "Theme",
@@ -3708,42 +4769,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
-    "album": "Milo Goes to College",
-    "cancion": "Hope",
+    "album": "I Don't Want to Grow Up",
+    "cancion": "Silly Girl",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273122008a0dc58104e8c5db8ca",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735bbf83a225fcfc7b54523fe2",
     "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
-    "uriCancion": "spotify:track:1MPEPvmX18S9MK4RlMKIst",
-    "uriAlbum": "spotify:album:6IU592n49Rn36fpEmg9LIq",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d3bb0a201b8c9d89f7d4f654c9cf47c06e95583a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 120360,
+    "uriCancion": "spotify:track:1o0cObpbURSTFEoXSgmL6a",
+    "uriAlbum": "spotify:album:5kOp5XHhmMoG2e41VyVQC0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/729109951e6610607616c320287f0c326b458095?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 145026,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "USA370538860",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Descendents",
+    "album": "I Don't Want to Grow Up",
+    "cancion": "Good Good Things",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735bbf83a225fcfc7b54523fe2",
+    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
+    "uriCancion": "spotify:track:7HHle8A6urSZT4RxkDQIiz",
+    "uriAlbum": "spotify:album:5kOp5XHhmMoG2e41VyVQC0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/812aa18f177b3cbcb06e1a2d00301e2e904f45da?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 142333,
     "numeroDisco": 1,
     "numeroPista": 13,
     "esExplicita": false,
     "popularidad": 50,
-    "isrc": "USA370538807",
+    "isrc": "USA370538866",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Descendents",
-    "album": "Milo Goes to College",
-    "cancion": "I'm Not a Loser",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27308dfcb499de205accd3ef10a",
-    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
-    "uriCancion": "spotify:track:1XFG00rEeHaDIPOQv9LTYs",
-    "uriAlbum": "spotify:album:7ap2sARnQnkhfbUxYIEcu8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/35da6d973c588a6c1177f9a1df40160fb6ab707c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 88773,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": true,
-    "popularidad": 53,
-    "isrc": "USA370538797",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
     "album": "Milo Goes to College",
     "cancion": "Myage",
@@ -3762,24 +4826,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
     "album": "Milo Goes to College",
-    "cancion": "Suburban Home",
+    "cancion": "I'm Not a Loser",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273122008a0dc58104e8c5db8ca",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27308dfcb499de205accd3ef10a",
     "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
-    "uriCancion": "spotify:track:35PI5Hsq17h723EbyyDFsi",
-    "uriAlbum": "spotify:album:6IU592n49Rn36fpEmg9LIq",
-    "previewUrl": "https://p.scdn.co/mp3-preview/fd41364c4bfdfba3898d88ce47fe3261f0ab1eed?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 100600,
+    "uriCancion": "spotify:track:1XFG00rEeHaDIPOQv9LTYs",
+    "uriAlbum": "spotify:album:7ap2sARnQnkhfbUxYIEcu8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/35da6d973c588a6c1177f9a1df40160fb6ab707c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 88773,
     "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 49,
-    "isrc": "USA370538803",
+    "numeroPista": 3,
+    "esExplicita": true,
+    "popularidad": 53,
+    "isrc": "USA370538797",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Descendents",
     "album": "Milo Goes to College",
     "cancion": "Tonyage",
@@ -3798,6 +4864,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Descendents",
+    "album": "Milo Goes to College",
+    "cancion": "Suburban Home",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273122008a0dc58104e8c5db8ca",
+    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
+    "uriCancion": "spotify:track:35PI5Hsq17h723EbyyDFsi",
+    "uriAlbum": "spotify:album:6IU592n49Rn36fpEmg9LIq",
+    "previewUrl": "https://p.scdn.co/mp3-preview/fd41364c4bfdfba3898d88ce47fe3261f0ab1eed?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 100600,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 49,
+    "isrc": "USA370538803",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Descendents",
+    "album": "Milo Goes to College",
+    "cancion": "Hope",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273122008a0dc58104e8c5db8ca",
+    "uri": "spotify:artist:1FGH4Bh7g9W6V4fUcKZWp5",
+    "uriCancion": "spotify:track:1MPEPvmX18S9MK4RlMKIst",
+    "uriAlbum": "spotify:album:6IU592n49Rn36fpEmg9LIq",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d3bb0a201b8c9d89f7d4f654c9cf47c06e95583a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 120360,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "USA370538807",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Desconocido",
+    "album": "CIELO AMARGO- DAVO Y JV - [RJrv4rW9RBY]",
+    "cancion": "CIELO AMARGO- DAVO Y JV - [RJrv4rW9RBY]",
+    "fecha": "2026-06-28",
+    "portada": "N/A",
+    "uri": "",
+    "uriCancion": "spotify:local:::CIELO+AMARGO-+DAVO+Y+JV+-+%5BRJrv4rW9RBY%5D:135",
+    "uriAlbum": "",
+    "previewUrl": "",
+    "duracionMs": 135000,
+    "numeroDisco": 0,
+    "numeroPista": 0,
+    "esExplicita": false,
+    "popularidad": 0,
+    "isrc": "",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Diamante Eléctrico, Silvestre y La Naranja",
     "album": "Malhablado",
     "cancion": "El Big Bang",
@@ -3816,6 +4940,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:34:44Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Diana Ross",
     "album": "Diana",
     "cancion": "Upside Down",
@@ -3834,6 +4959,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-11T23:01:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "DIIV",
     "album": "Oshin",
     "cancion": "Doused",
@@ -3852,6 +4978,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:01:18Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dillom",
     "album": "Por cesárea",
     "cancion": "Ciudad de la Paz",
@@ -3870,6 +4997,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "diorelic, evisus",
     "album": "Moonlight on the River (Ending)",
     "cancion": "Moonlight on the River - Ending",
@@ -3888,6 +5016,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dire Straits",
     "album": "Dire Straits",
     "cancion": "Sultans Of Swing",
@@ -3906,6 +5035,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T01:32:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dismemberment Plan",
     "album": "Emergency & I",
     "cancion": "The City",
@@ -3924,6 +5054,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:06Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "DJ EXE, CACAU CHUU",
+    "album": "QUE LOUCURA",
+    "cancion": "QUE LOUCURA",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27349248c0bd4b98457fce00a1a",
+    "uri": "spotify:artist:6MK5Z7OjpkcN6OFe6nh8pi, spotify:artist:6jlrg5vTnraLDDXILE77BE",
+    "uriCancion": "spotify:track:2J0Nuqw3GbSPRRrTO7P6V8",
+    "uriAlbum": "spotify:album:29yrWIOWxqjw9ri1w1IPkt",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b2f7cffb36b0e51c25de0c7a5e4e1fdb98882909?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 93883,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": true,
+    "popularidad": 81,
+    "isrc": "QT8BV2654693",
+    "agregadoEn": "2026-09-16T21:48:55Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Djo",
     "album": "DECIDE",
     "cancion": "End of Beginning",
@@ -3942,6 +5092,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:35:06Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "DJ易拉罐",
     "album": "感觉至上",
     "cancion": "forget卡点舞",
@@ -3960,6 +5111,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:35:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Doja Cat",
     "album": "Hot Pink",
     "cancion": "Say So",
@@ -3978,6 +5130,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:35:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Doja Cat, Konshens",
     "album": "Amala",
     "cancion": "Wine Pon You (feat. Konshens)",
@@ -3996,6 +5149,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:35:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dominic Fike",
     "album": "Don't Forget About Me, Demos",
     "cancion": "Babydoll",
@@ -4014,6 +5168,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dorian Concept",
     "album": "Hide (Slow)",
     "cancion": "Hide - Slow",
@@ -4032,6 +5187,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:06:48Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dr. Dog",
     "album": "Shame, Shame (Deluxe Edition)",
     "cancion": "Where'd All the Time Go?",
@@ -4050,6 +5206,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Drab Majesty",
     "album": "The Demonstration",
     "cancion": "Cold Souls",
@@ -4068,6 +5225,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:03:26Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Dream\\, Ivory",
     "album": "welcome and goodbye",
     "cancion": "welcome and goodbye",
@@ -4086,6 +5244,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "dreaming., numb the pain, rehab",
     "album": "the night we met",
     "cancion": "my hatred kept me alive (till death 4)",
@@ -4104,6 +5263,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "drgbeatz",
     "album": "disappear (Deleted)",
     "cancion": "ending",
@@ -4122,6 +5282,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:06:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Drop Nineteens",
     "album": "Delaware",
     "cancion": "Kick The Tragedy",
@@ -4140,6 +5301,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:01:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "duskydemise",
     "album": "bedrott",
     "cancion": "bedrott",
@@ -4158,6 +5320,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "duskydemise archive, duskydemise",
     "album": "bedrott (super slowed)",
     "cancion": "bedrott - super slowed",
@@ -4176,6 +5339,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:34:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Duster",
     "album": "Contemporary Movement",
     "cancion": "Me and the Birds",
@@ -4194,6 +5358,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Duster",
     "album": "Stratosphere",
     "cancion": "Inside Out",
@@ -4212,6 +5377,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "DVRST",
     "album": "Close Eyes",
     "cancion": "Close Eyes",
@@ -4230,6 +5396,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:36:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "DXRYL, Noir",
     "album": "Resonance x You Look Lonely",
     "cancion": "Resonance x You Look Lonely",
@@ -4248,6 +5415,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:02:06Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "EKKSTACY",
     "album": "NEGATIVE",
     "cancion": "i walk this earth all by myself",
@@ -4266,6 +5434,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "El Kuelgue",
     "album": "Hola Precioso",
     "cancion": "Peluquita",
@@ -4284,6 +5453,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:36:35Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "El Kuelgue, Zoe Gotusso",
     "album": "Carta Para No Llorar",
     "cancion": "Carta Para No Llorar",
@@ -4302,6 +5472,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:36:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "El Mató a un Policía Motorizado",
     "album": "La Sintesis O'Konor",
     "cancion": "El Tesoro",
@@ -4320,6 +5491,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "El Zar",
     "album": "La Declaración",
     "cancion": "La Declaración",
@@ -4338,6 +5510,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:36:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "El Zar",
     "album": "RIO HOTEL",
     "cancion": "El Momento Perfecto",
@@ -4356,6 +5529,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:36:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "El Último Vecino",
     "album": "Tu Casa Nueva",
     "cancion": "Tu Casa Nueva",
@@ -4374,6 +5548,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:09:40Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Electric Light Orchestra",
     "album": "Discovery",
     "cancion": "Last Train to London",
@@ -4392,6 +5567,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Elliott Smith",
     "album": "Either/Or",
     "cancion": "Angeles",
@@ -4410,6 +5586,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:07:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Empire Of The Sun",
     "album": "Walking On A Dream (10th Anniversary Edition)",
     "cancion": "Walking On A Dream",
@@ -4428,6 +5605,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T01:29:54Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Empire Of The Sun",
     "album": "Walking On A Dream (10th Anniversary Edition)",
     "cancion": "We Are The People",
@@ -4446,6 +5624,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "emptiness",
     "album": "Telephone (electric guitar)",
     "cancion": "Telephones - electric guitar",
@@ -4464,6 +5643,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "ESPRIT 空想, George Clanton",
     "album": "200% Electronica",
     "cancion": "Warmpop",
@@ -4482,6 +5662,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Euology",
     "album": "Logic",
     "cancion": "Logic",
@@ -4500,42 +5681,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-20T09:28:00Z"
   },
   {
-    "artista": "Eyedress",
-    "album": "Let's Skip to the Wedding",
-    "cancion": "Jealous",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f0b891f3cfa782615daf914f",
-    "uri": "spotify:artist:3XxNRirzbjfLdDli06zMaB",
-    "uriCancion": "spotify:track:0bhudMmr0XdtBOjFbjq8R0",
-    "uriAlbum": "spotify:album:5GpRahH84HsI3SSQrpTj50",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ea5e1784f84cfb966e361cf22e8b6e42b186cb2f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 122338,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 83,
-    "isrc": "GBMYF1900115",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Eyedress",
-    "album": "Let's Skip to the Wedding",
-    "cancion": "Last Time I'm Falling in Love",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f0b891f3cfa782615daf914f",
-    "uri": "spotify:artist:3XxNRirzbjfLdDli06zMaB",
-    "uriCancion": "spotify:track:4yCmuI411hqlQOuqe6rfOj",
-    "uriAlbum": "spotify:album:5GpRahH84HsI3SSQrpTj50",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bd447369f829433db5c6a29ed403edc98da0fbe6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 146415,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 48,
-    "isrc": "GBMYF2000013",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Eyedress",
     "album": "Let's Skip to the Wedding",
     "cancion": "Let's Skip to the Wedding",
@@ -4554,6 +5700,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Eyedress",
     "album": "Let's Skip to the Wedding",
     "cancion": "Romantic Lover",
@@ -4572,6 +5719,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Eyedress",
+    "album": "Let's Skip to the Wedding",
+    "cancion": "Jealous",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f0b891f3cfa782615daf914f",
+    "uri": "spotify:artist:3XxNRirzbjfLdDli06zMaB",
+    "uriCancion": "spotify:track:0bhudMmr0XdtBOjFbjq8R0",
+    "uriAlbum": "spotify:album:5GpRahH84HsI3SSQrpTj50",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ea5e1784f84cfb966e361cf22e8b6e42b186cb2f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 122338,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 83,
+    "isrc": "GBMYF1900115",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Eyedress",
+    "album": "Let's Skip to the Wedding",
+    "cancion": "Last Time I'm Falling in Love",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f0b891f3cfa782615daf914f",
+    "uri": "spotify:artist:3XxNRirzbjfLdDli06zMaB",
+    "uriCancion": "spotify:track:4yCmuI411hqlQOuqe6rfOj",
+    "uriAlbum": "spotify:album:5GpRahH84HsI3SSQrpTj50",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bd447369f829433db5c6a29ed403edc98da0fbe6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 146415,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 48,
+    "isrc": "GBMYF2000013",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Eyedress, Dent May",
     "album": "Mulholland Drive",
     "cancion": "Something About You",
@@ -4590,6 +5776,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "EZ TUNZ",
     "album": "Let Time Pass",
     "cancion": "Let Time Pass",
@@ -4608,6 +5795,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Faust",
     "album": "Faust IV",
     "cancion": "Krautrock",
@@ -4626,6 +5814,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:04:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Fiddlehead",
     "album": "Springtime and Blind",
     "cancion": "Poem You",
@@ -4644,6 +5833,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:37Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "FKJ, ((( O )))",
     "album": "Ylang Ylang EP",
     "cancion": "Ylang Ylang",
@@ -4662,6 +5852,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:22:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Fleetwood Mac",
     "album": "Rumours (Super Deluxe)",
     "cancion": "Dreams - 2004 Remaster",
@@ -4680,6 +5871,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Fleetwood Mac",
     "album": "Rumours (Super Deluxe)",
     "cancion": "The Chain - 2004 Remaster",
@@ -4698,6 +5890,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "flyingfish",
     "album": "wonder if you care",
     "cancion": "wonder if you care",
@@ -4716,6 +5909,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Foo Fighters",
     "album": "The Colour And The Shape",
     "cancion": "Everlong",
@@ -4734,6 +5928,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Foo Fighters",
     "album": "There Is Nothing Left To Lose",
     "cancion": "Learn to Fly",
@@ -4752,6 +5947,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Foster The People",
     "album": "Torches",
     "cancion": "Pumped Up Kicks",
@@ -4770,6 +5966,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Foxboro Hottubs",
     "album": "Stop Drop And Roll!!!",
     "cancion": "Mother Mary",
@@ -4788,6 +5985,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Francis Lai, Christian Gaubert",
     "album": "La leçon particulière (Bande originale du film)",
     "cancion": "La leçon particulière - Bande originale du film \"La leçon particulière\"",
@@ -4806,6 +6004,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:23:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Frank Sativa",
     "album": "BEDROOM FILES",
     "cancion": "THAT'S MY GIRL",
@@ -4824,6 +6023,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Frankie Valli",
     "album": "Solo",
     "cancion": "Can't Take My Eyes off You",
@@ -4842,6 +6042,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Frankie Valli",
     "album": "The Very Best of Frankie Valli & The 4 Seasons",
     "cancion": "Can't Take My Eyes off You",
@@ -4860,6 +6061,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:38:11Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Franz Ferdinand",
     "album": "Franz Ferdinand",
     "cancion": "Take Me Out",
@@ -4878,6 +6080,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Frou Frou, Imogen Heap, Guy Sigsworth",
     "album": "A New Kind Of Love (Demo)",
     "cancion": "A New Kind Of Love - Demo",
@@ -4896,24 +6099,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Fuerza Regida, Grupo Frontera",
-    "album": "MALA MÍA",
-    "cancion": "COQUETA",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27304874856f3c501181d060128",
-    "uri": "spotify:artist:0ys2OFYzWYB5hRDLCsBqxt, spotify:artist:6XkjpgcEsYab502Vr1bBeW",
-    "uriCancion": "spotify:track:1PREzVLuDT6PSE9sej4wnV",
-    "uriAlbum": "spotify:album:5utxE1ImIDJFXRHf137hoy",
-    "previewUrl": "https://p.scdn.co/mp3-preview/01b3882dcfe3fb108904d57081abbc379845e118?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 241648,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 91,
-    "isrc": "QZ9QQ2400747",
-    "agregadoEn": "2026-09-16T22:38:18Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Fuerza Regida, Grupo Frontera",
     "album": "MALA MÍA",
     "cancion": "ME JALO",
@@ -4932,6 +6118,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:38:23Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Fuerza Regida, Grupo Frontera",
+    "album": "MALA MÍA",
+    "cancion": "COQUETA",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27304874856f3c501181d060128",
+    "uri": "spotify:artist:0ys2OFYzWYB5hRDLCsBqxt, spotify:artist:6XkjpgcEsYab502Vr1bBeW",
+    "uriCancion": "spotify:track:1PREzVLuDT6PSE9sej4wnV",
+    "uriAlbum": "spotify:album:5utxE1ImIDJFXRHf137hoy",
+    "previewUrl": "https://p.scdn.co/mp3-preview/01b3882dcfe3fb108904d57081abbc379845e118?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 241648,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 91,
+    "isrc": "QZ9QQ2400747",
+    "agregadoEn": "2026-09-16T22:38:18Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Fugazi",
     "album": "13 Songs",
     "cancion": "Waiting Room",
@@ -4950,6 +6156,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:53:10Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Fyex",
     "album": "São Paulo",
     "cancion": "São Paulo",
@@ -4968,6 +6175,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:38:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Fármacos",
     "album": "Manual de una Pérdida",
     "cancion": "Humedad",
@@ -4986,6 +6194,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:17:55Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "G Sounds",
     "album": "lovely night",
     "cancion": "lovely night",
@@ -5004,6 +6213,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Galaxie 500",
     "album": "On Fire",
     "cancion": "Strange",
@@ -5022,6 +6232,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:55:32Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gauchito Club",
     "album": "El camino de la libertad",
     "cancion": "Movimiento Astral",
@@ -5040,6 +6251,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:39:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "George Michael",
     "album": "Careless Whisper EP",
     "cancion": "Careless Whisper - Remastered",
@@ -5058,6 +6270,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T01:34:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gin Blossoms",
     "album": "Congratulations I'm Sorry",
     "cancion": "Follow You Down",
@@ -5076,6 +6289,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-13T22:59:23Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "girl in red",
     "album": "we fell in love in october / October Passed Me By",
     "cancion": "we fell in love in october",
@@ -5094,24 +6308,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Gorillaz",
-    "album": "Plastic Beach",
-    "cancion": "On Melancholy Hill",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273661d019f34569f79eae9e985",
-    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ",
-    "uriCancion": "spotify:track:0q6LuUqGLUiCPP1cbdwFs3",
-    "uriAlbum": "spotify:album:2dIGnmEIy1WZIcZCFSj6i8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/75a403bfee0fea05ed437b8e84ce4e8cbb8d5b62?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 233866,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 81,
-    "isrc": "GBAYE1000010",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz",
     "album": "Plastic Beach",
     "cancion": "Rhinestone Eyes",
@@ -5130,24 +6327,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz",
-    "album": "Plastic Beach (Deluxe)",
+    "album": "Plastic Beach",
     "cancion": "On Melancholy Hill",
-    "fecha": "2026-06-27",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2734960e8b13691e5570337d4d8",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273661d019f34569f79eae9e985",
     "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ",
-    "uriCancion": "spotify:track:4ercRiJZl8kBm8vfPaNjrl",
-    "uriAlbum": "spotify:album:4T95uimM0PQNgAkcyLTym0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7a9e9ac0018bd84f5d712dbcc7dcca928c00fb1a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "uriCancion": "spotify:track:0q6LuUqGLUiCPP1cbdwFs3",
+    "uriAlbum": "spotify:album:2dIGnmEIy1WZIcZCFSj6i8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/75a403bfee0fea05ed437b8e84ce4e8cbb8d5b62?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 233866,
     "numeroDisco": 1,
     "numeroPista": 10,
     "esExplicita": false,
     "popularidad": 81,
     "isrc": "GBAYE1000010",
-    "agregadoEn": "2026-06-27T15:28:27Z"
+    "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz",
     "album": "Plastic Beach (Deluxe)",
     "cancion": "Rhinestone Eyes",
@@ -5166,6 +6365,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:33:31Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gorillaz",
+    "album": "Plastic Beach (Deluxe)",
+    "cancion": "On Melancholy Hill",
+    "fecha": "2026-06-27",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2734960e8b13691e5570337d4d8",
+    "uri": "spotify:artist:3AA28KZvwAUcZuOKwyblJQ",
+    "uriCancion": "spotify:track:4ercRiJZl8kBm8vfPaNjrl",
+    "uriAlbum": "spotify:album:4T95uimM0PQNgAkcyLTym0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7a9e9ac0018bd84f5d712dbcc7dcca928c00fb1a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 233866,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 81,
+    "isrc": "GBAYE1000010",
+    "agregadoEn": "2026-06-27T15:28:27Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Bootie Brown",
     "album": "Demon Days",
     "cancion": "Dirty Harry (feat. Bootie Brown)",
@@ -5184,6 +6403,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, De La Soul",
     "album": "Demon Days",
     "cancion": "Feel Good Inc.",
@@ -5202,6 +6422,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Del The Funky Homosapien",
     "album": "Gorillaz",
     "cancion": "Clint Eastwood",
@@ -5220,6 +6441,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, DRAM",
     "album": "Humanz (Deluxe)",
     "cancion": "Andromeda (feat. DRAM)",
@@ -5238,6 +6460,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Little Dragon",
     "album": "Plastic Beach (Deluxe)",
     "cancion": "Empire Ants (feat. Little Dragon)",
@@ -5256,6 +6479,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:39:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Mick Jones, Paul Simonon",
     "album": "Plastic Beach (Deluxe)",
     "cancion": "Plastic Beach (feat. Mick Jones and Paul Simonon)",
@@ -5274,6 +6498,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:40:18Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Miho Hatori, Tina Weymouth",
     "album": "Gorillaz",
     "cancion": "19-2000",
@@ -5292,6 +6517,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Neneh Cherry",
     "album": "Demon Days",
     "cancion": "Kids with Guns",
@@ -5310,6 +6536,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gorillaz, Shaun Ryder, Roses Gabor",
     "album": "Demon Days",
     "cancion": "DARE (feat. Shaun Ryder & Roses Gabor)",
@@ -5328,60 +6555,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "1,000 Hours",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2bliENmIxLMfB5cNVRvqAM",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/877928ecadad7dbe24f95964cac9930e99722eef?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 145906,
-    "numeroDisco": 1,
-    "numeroPista": 15,
-    "esExplicita": false,
-    "popularidad": 38,
-    "isrc": "USA560436368",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "16",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2Ul69IrXgbGPyXIeRooUaI",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/623b8f11e635033aaf4c8d307bd4a0d2ba836f61?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 202546,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "USA560436360",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "409 in Your Coffeemaker",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6mW41RFITsCvzwWAVR65Kg",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ab7268f53310a25b6299e11f3ca46a5cc555379f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 171573,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "USA560436366",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "At the Library",
@@ -5400,24 +6574,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Disappearing Boy",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4hn2sOJVDaSF15Wr0YE2aw",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/50f06b0f483f8acd74ae9284fd49fc4bdf34989a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 170360,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "USA560436357",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "Don't Leave Me",
@@ -5436,78 +6593,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Dry Ice",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1bMMNGkOhPL7I48HhWwtPw",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f4a58f3e1ffa15297665fb379445faa085b10e7d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 224826,
-    "numeroDisco": 1,
-    "numeroPista": 16,
-    "esExplicita": false,
-    "popularidad": 39,
-    "isrc": "USA560436369",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Going to Pasalacqua",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2OAp6iypupCfJ8GD4yOsLm",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e0b74cc3fc936d83e6eed65aafa8273df9193216?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 208613,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": true,
-    "popularidad": 48,
-    "isrc": "USA560436359",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Green Day",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:01VnqAxzbuKVunmItkraw5",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d234b27fecad6517e3e12cbbf6036501c5737ea4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 207666,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "USA560436358",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "I Want to Be Alone",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2r0MZA1eePdVlj8xjiuMgc",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4a9e4f03143e8ebe35e0e7eb37de0b1c3445f88e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 189240,
-    "numeroDisco": 1,
-    "numeroPista": 19,
-    "esExplicita": false,
-    "popularidad": 36,
-    "isrc": "USA560436372",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "I Was There",
@@ -5526,114 +6612,83 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Knowledge",
+    "cancion": "Disappearing Boy",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:0tz23ZdURmllvryc5qkaNB",
+    "uriCancion": "spotify:track:4hn2sOJVDaSF15Wr0YE2aw",
     "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a0622e823a1362cc594b8bda19192aa3b5bc1573?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 138933,
+    "previewUrl": "https://p.scdn.co/mp3-preview/50f06b0f483f8acd74ae9284fd49fc4bdf34989a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 170360,
     "numeroDisco": 1,
-    "numeroPista": 14,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "USA560436357",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Green Day",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:01VnqAxzbuKVunmItkraw5",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d234b27fecad6517e3e12cbbf6036501c5737ea4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 207666,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "USA560436358",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Going to Pasalacqua",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:2OAp6iypupCfJ8GD4yOsLm",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e0b74cc3fc936d83e6eed65aafa8273df9193216?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 208613,
+    "numeroDisco": 1,
+    "numeroPista": 6,
     "esExplicita": true,
-    "popularidad": 37,
-    "isrc": "USA560436367",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "One for the Razorbacks - Live at WMMR, Minneapolis, MN, 4/18/91",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:3AaA5HBRJdWiFfULfJMDTH",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/17b4ec661f12befa756e28a85e90f000305672c9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 84983,
-    "numeroDisco": 1,
-    "numeroPista": 22,
-    "esExplicita": false,
-    "popularidad": 30,
-    "isrc": "USRE10603701",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Only of You",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6jI28euaXj6cDYypkV8Gqe",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4d48975f5aa8c722debd1f49551f22c6131dc471?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 164173,
-    "numeroDisco": 1,
-    "numeroPista": 17,
-    "esExplicita": false,
-    "popularidad": 44,
-    "isrc": "USA560436370",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Paper Lanterns",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:5TbJdu0jasNSuQRDkjIKax",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b1e72e6e3d3a0b882e21b1df379e1b2370e67abd?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 143160,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
     "popularidad": 48,
-    "isrc": "USA560436364",
+    "isrc": "USA560436359",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Paper Lanterns - Live at WMMR, 1991",
+    "cancion": "16",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:0Iz9opXXnEPNTj7tyzNXyU",
+    "uriCancion": "spotify:track:2Ul69IrXgbGPyXIeRooUaI",
     "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9bc553381584697cac768e7a781de211940e29a9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 96000,
+    "previewUrl": "https://p.scdn.co/mp3-preview/623b8f11e635033aaf4c8d307bd4a0d2ba836f61?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 202546,
     "numeroDisco": 1,
-    "numeroPista": 20,
+    "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 31,
-    "isrc": "USRE10603699",
+    "popularidad": 41,
+    "isrc": "USA560436360",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Rest",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:08gicUMVILAJM8sM94ar8H",
-    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ec75ba993584a2de766387348b043485cf854753?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 184146,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 35,
-    "isrc": "USA560436362",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "Road to Acceptance",
@@ -5652,24 +6707,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "Studio Banter - Interview",
+    "cancion": "Rest",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6irneHTHURhfSwEbMW02BW",
+    "uriCancion": "spotify:track:08gicUMVILAJM8sM94ar8H",
     "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/40f93ba46acc207b7f8bd14f352de7cfe24b4803?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 176378,
+    "previewUrl": "https://p.scdn.co/mp3-preview/ec75ba993584a2de766387348b043485cf854753?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 184146,
     "numeroDisco": 1,
-    "numeroPista": 23,
+    "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 25,
-    "isrc": "USRE10603702",
+    "popularidad": 35,
+    "isrc": "USA560436362",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "The Judge's Daughter",
@@ -5688,24 +6745,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
-    "cancion": "The One I Want",
+    "cancion": "Paper Lanterns",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6Oxjqbh368cWsGJv7cNfUP",
+    "uriCancion": "spotify:track:5TbJdu0jasNSuQRDkjIKax",
     "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0d7b73dcf3301349dc5df31bdd44c0d573f0d52c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 179826,
+    "previewUrl": "https://p.scdn.co/mp3-preview/b1e72e6e3d3a0b882e21b1df379e1b2370e67abd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 143160,
     "numeroDisco": 1,
-    "numeroPista": 18,
+    "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 36,
-    "isrc": "USA560436371",
+    "popularidad": 48,
+    "isrc": "USA560436364",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "Why Do You Want Him?",
@@ -5724,6 +6783,159 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "409 in Your Coffeemaker",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6mW41RFITsCvzwWAVR65Kg",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ab7268f53310a25b6299e11f3ca46a5cc555379f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 171573,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "USA560436366",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Knowledge",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:0tz23ZdURmllvryc5qkaNB",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a0622e823a1362cc594b8bda19192aa3b5bc1573?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 138933,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": true,
+    "popularidad": 37,
+    "isrc": "USA560436367",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "1,000 Hours",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:2bliENmIxLMfB5cNVRvqAM",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/877928ecadad7dbe24f95964cac9930e99722eef?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 145906,
+    "numeroDisco": 1,
+    "numeroPista": 15,
+    "esExplicita": false,
+    "popularidad": 38,
+    "isrc": "USA560436368",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Dry Ice",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:1bMMNGkOhPL7I48HhWwtPw",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f4a58f3e1ffa15297665fb379445faa085b10e7d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 224826,
+    "numeroDisco": 1,
+    "numeroPista": 16,
+    "esExplicita": false,
+    "popularidad": 39,
+    "isrc": "USA560436369",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Only of You",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6jI28euaXj6cDYypkV8Gqe",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4d48975f5aa8c722debd1f49551f22c6131dc471?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 164173,
+    "numeroDisco": 1,
+    "numeroPista": 17,
+    "esExplicita": false,
+    "popularidad": 44,
+    "isrc": "USA560436370",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "The One I Want",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6Oxjqbh368cWsGJv7cNfUP",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0d7b73dcf3301349dc5df31bdd44c0d573f0d52c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 179826,
+    "numeroDisco": 1,
+    "numeroPista": 18,
+    "esExplicita": false,
+    "popularidad": 36,
+    "isrc": "USA560436371",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "I Want to Be Alone",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:2r0MZA1eePdVlj8xjiuMgc",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4a9e4f03143e8ebe35e0e7eb37de0b1c3445f88e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 189240,
+    "numeroDisco": 1,
+    "numeroPista": 19,
+    "esExplicita": false,
+    "popularidad": 36,
+    "isrc": "USA560436372",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Paper Lanterns - Live at WMMR, 1991",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:0Iz9opXXnEPNTj7tyzNXyU",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9bc553381584697cac768e7a781de211940e29a9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 96000,
+    "numeroDisco": 1,
+    "numeroPista": 20,
+    "esExplicita": false,
+    "popularidad": 31,
+    "isrc": "USRE10603699",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "1,039 / Smoothed out Slappy Hours",
     "cancion": "Words I Might Have Ate - Live from WMMR, 1991",
@@ -5742,24 +6954,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
-    "album": "21st Century Breakdown",
-    "cancion": "21 Guns",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "One for the Razorbacks - Live at WMMR, Minneapolis, MN, 4/18/91",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2732598847169c6594d06740da0",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:3IHHqmfKJHyI0obINUdg1W",
-    "uriAlbum": "spotify:album:5nKs4LNpHgz0xggy0piMCK",
-    "previewUrl": "https://p.scdn.co/mp3-preview/84f092c14a97bbcb58a759c1853e88bc4b7d33e1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 322040,
+    "uriCancion": "spotify:track:3AaA5HBRJdWiFfULfJMDTH",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/17b4ec661f12befa756e28a85e90f000305672c9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 84983,
     "numeroDisco": 1,
-    "numeroPista": 16,
+    "numeroPista": 22,
     "esExplicita": false,
-    "popularidad": 69,
-    "isrc": "USRE10900679",
+    "popularidad": 30,
+    "isrc": "USRE10603701",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "1,039 / Smoothed out Slappy Hours",
+    "cancion": "Studio Banter - Interview",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273cf82a564e35a4fc4abfa2656",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6irneHTHURhfSwEbMW02BW",
+    "uriAlbum": "spotify:album:5xlutZ0sYfJQjVIBOkkeW8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/40f93ba46acc207b7f8bd14f352de7cfe24b4803?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 176378,
+    "numeroDisco": 1,
+    "numeroPista": 23,
+    "esExplicita": false,
+    "popularidad": 25,
+    "isrc": "USRE10603702",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "21st Century Breakdown",
     "cancion": "Know Your Enemy",
@@ -5778,6 +7011,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "21st Century Breakdown",
     "cancion": "Last Night on Earth",
@@ -5796,24 +7030,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "21st Century Breakdown",
     "cancion": "Last Night on Earth",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b2732598847169c6594d06740da0",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:5TpPSTItCwtZ8Sltr3vdzm",
-    "uriAlbum": "spotify:album:1AHZd3C3S8m8fFrhFxyk79",
-    "previewUrl": "https://p.scdn.co/mp3-preview/966749f64abdac6540b15df085d75828256ed7cc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "uriCancion": "spotify:track:1HNdxnWzK2YKW9tUPIL5qU",
+    "uriAlbum": "spotify:album:5nKs4LNpHgz0xggy0piMCK",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d054f6f49d6e694289640c2a10e5ba1fd00666ad?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 236533,
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 81,
+    "popularidad": 61,
     "isrc": "USRE10900670",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "21st Century Breakdown",
+    "cancion": "21 Guns",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2732598847169c6594d06740da0",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:3IHHqmfKJHyI0obINUdg1W",
+    "uriAlbum": "spotify:album:5nKs4LNpHgz0xggy0piMCK",
+    "previewUrl": "https://p.scdn.co/mp3-preview/84f092c14a97bbcb58a759c1853e88bc4b7d33e1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 322040,
+    "numeroDisco": 1,
+    "numeroPista": 16,
+    "esExplicita": false,
+    "popularidad": 69,
+    "isrc": "USRE10900679",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot",
     "cancion": "American Idiot",
@@ -5832,6 +7087,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot",
     "cancion": "Jesus of Suburbia",
@@ -5850,6 +7106,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot",
     "cancion": "Wake Me up When September Ends",
@@ -5868,6 +7125,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot",
     "cancion": "Whatsername",
@@ -5886,6 +7144,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot (20th Anniversary Deluxe Edition)",
     "cancion": "Boulevard of Broken Dreams",
@@ -5904,24 +7163,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "American Idiot (20th Anniversary Deluxe Edition)",
-    "cancion": "Give Me Novacaine",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2730436e7b2f1dc434862bb8354",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1usftPV8tzkWQmjwofR2ke",
-    "uriAlbum": "spotify:album:19ObsGobUuBr11M6ysFMug",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2561ea7625a346eb541c4a4539201fb6a2d9aa9d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 206004,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "USRE11200340",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot (20th Anniversary Deluxe Edition)",
     "cancion": "St. Jimmy",
@@ -5940,6 +7182,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "American Idiot (20th Anniversary Deluxe Edition)",
+    "cancion": "Give Me Novacaine",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2730436e7b2f1dc434862bb8354",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:1usftPV8tzkWQmjwofR2ke",
+    "uriAlbum": "spotify:album:19ObsGobUuBr11M6ysFMug",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2561ea7625a346eb541c4a4539201fb6a2d9aa9d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 206004,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "USRE11200340",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "American Idiot - The Original Broadway Cast Recording",
     "cancion": "When It's Time",
@@ -5958,24 +7220,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "Basket Case",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6L89mwZXSOwYl76YXfX13s",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f055a866d726bac8593f15953d772c631505df7e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 181533,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 88,
-    "isrc": "USRE19900151",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie",
     "cancion": "Burnout",
@@ -5994,78 +7239,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "Chump",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1Cq8IdsiaMiieYuLN8iEm0",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4943453bcc190bd06e65e413bf2593ff16a79fb3?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 174040,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USRE19900147",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "Coming Clean",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:435j8ueVosOip0Vjm3vvj5",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/375dc32b46640779f66232163fb4357e7cff7744?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 94893,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USRE19900155",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "Emenius Sleepus",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1gPwAnimmoEt2y3LXa9ysx",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b4b5e28ac1e0a2e2e2bc4c5ffdbdcd6d6977af35?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 103973,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "USRE19900156",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "F.O.D.",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:409hGnupGUeqjzpv4Ycs3g",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7e3e65a7c000375db177b6a59c1d6e04ccfaae4b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 170759,
-    "numeroDisco": 1,
-    "numeroPista": 14,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "USRE19900158",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie",
     "cancion": "Having a Blast",
@@ -6084,24 +7258,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie",
-    "cancion": "In the End",
+    "cancion": "Chump",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4GSyhhe5HHAytp7KlmWlZX",
+    "uriCancion": "spotify:track:1Cq8IdsiaMiieYuLN8iEm0",
     "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6bd3d5b4cd6d05ad8432694f995955b7d780b7d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 106400,
+    "previewUrl": "https://p.scdn.co/mp3-preview/4943453bcc190bd06e65e413bf2593ff16a79fb3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 174040,
     "numeroDisco": 1,
-    "numeroPista": 13,
+    "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "USRE19900157",
+    "popularidad": 58,
+    "isrc": "USRE19900147",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie",
     "cancion": "Longview",
@@ -6120,60 +7296,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "Pulling Teeth",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:5z2XqieaqxpCJc3ntZ6Ye3",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e00645d6efcce0b211a7bf9e9280743b08fa4757?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 150826,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USRE19900150",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "Sassafras Roots",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4oqF9y2thGJh7hFd1hqItt",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/eb2fd4a894e94219d6cc575873c56a87fc7390d4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 157626,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "USRE19900153",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Dookie",
-    "cancion": "She",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4wsQGsdf8D0Bj26cGdvreB",
-    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
-    "previewUrl": "https://p.scdn.co/mp3-preview/fa5be3e8ed20b740c8fe4b632e4299c22470a25c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 134293,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 71,
-    "isrc": "USRE19900152",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie",
     "cancion": "Welcome to Paradise",
@@ -6192,6 +7315,83 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "Pulling Teeth",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:5z2XqieaqxpCJc3ntZ6Ye3",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e00645d6efcce0b211a7bf9e9280743b08fa4757?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 150826,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "USRE19900150",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "Basket Case",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6L89mwZXSOwYl76YXfX13s",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f055a866d726bac8593f15953d772c631505df7e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 181533,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 88,
+    "isrc": "USRE19900151",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "She",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:4wsQGsdf8D0Bj26cGdvreB",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/fa5be3e8ed20b740c8fe4b632e4299c22470a25c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 134293,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 71,
+    "isrc": "USRE19900152",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "Sassafras Roots",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:4oqF9y2thGJh7hFd1hqItt",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/eb2fd4a894e94219d6cc575873c56a87fc7390d4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 157626,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "USRE19900153",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie",
     "cancion": "When I Come Around",
@@ -6210,24 +7410,83 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
-    "album": "Dookie (30th Anniversary Deluxe Edition)",
-    "cancion": "409 in Your Coffeemaker - Outtake",
+    "album": "Dookie",
+    "cancion": "Coming Clean",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e6a71e57f57e5a2abfb29a24",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:26ReXl7zP6ClrreGIndspZ",
-    "uriAlbum": "spotify:album:47l8TkJCLzHaekHImz1e9g",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9b96575b680c1929b3e36633e3497b452803d20a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 169200,
-    "numeroDisco": 3,
-    "numeroPista": 2,
+    "uriCancion": "spotify:track:435j8ueVosOip0Vjm3vvj5",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/375dc32b46640779f66232163fb4357e7cff7744?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 94893,
+    "numeroDisco": 1,
+    "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 33,
-    "isrc": "USRE12300369",
+    "popularidad": 58,
+    "isrc": "USRE19900155",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "Emenius Sleepus",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:1gPwAnimmoEt2y3LXa9ysx",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b4b5e28ac1e0a2e2e2bc4c5ffdbdcd6d6977af35?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 103973,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "USRE19900156",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "In the End",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:4GSyhhe5HHAytp7KlmWlZX",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6bd3d5b4cd6d05ad8432694f995955b7d780b7d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 106400,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "USRE19900157",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Dookie",
+    "cancion": "F.O.D.",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:409hGnupGUeqjzpv4Ycs3g",
+    "uriAlbum": "spotify:album:4uG8q3GPuWHQlRbswMIRS6",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7e3e65a7c000375db177b6a59c1d6e04ccfaae4b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 170759,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "USRE19900158",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Dookie (30th Anniversary Deluxe Edition)",
     "cancion": "Burnout",
@@ -6246,24 +7505,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "86",
+    "album": "Dookie (30th Anniversary Deluxe Edition)",
+    "cancion": "409 in Your Coffeemaker - Outtake",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e6a71e57f57e5a2abfb29a24",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4bOgWjaOVTvhyRpvLxFeEm",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6949b7ff82cbcb45cb529f44918cba7dc11885ca?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 167800,
-    "numeroDisco": 1,
-    "numeroPista": 7,
+    "uriCancion": "spotify:track:26ReXl7zP6ClrreGIndspZ",
+    "uriAlbum": "spotify:album:47l8TkJCLzHaekHImz1e9g",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9b96575b680c1929b3e36633e3497b452803d20a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 169200,
+    "numeroDisco": 3,
+    "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 51,
-    "isrc": "USRE19500208",
+    "popularidad": 33,
+    "isrc": "USRE12300369",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac",
     "cancion": "Armatage Shanks",
@@ -6282,42 +7543,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "Bab's Uvula Who?",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2uARrCX71Zl7JspUN2KuPZ",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2a097f1c9b448e4870354ecf156df40bfb832766?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 128199,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": true,
-    "popularidad": 48,
-    "isrc": "USRE19500207",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "Brain Stew",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1nLnpLXvl68RZCSjfkyiaa",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5488d08f012ea906930adb7c714d95a5a8552326?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 193000,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": true,
-    "popularidad": 85,
-    "isrc": "USRE19500211",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac",
     "cancion": "Brat",
@@ -6336,96 +7562,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "Geek Stink Breath",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4mI4HF4OVBg3tl2IWzSaoX",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/483f3a9259a2cfc103230bf1f1d01793923e993d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 135293,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 52,
-    "isrc": "USRE19500205",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "Jaded",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6uWp8yAt8dN5ZaT7REJ6RV",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/10d2a276bddb0fe1498bdd09cde03262957c2f73?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 90226,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": true,
-    "popularidad": 57,
-    "isrc": "USRE19500212",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "No Pride",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2jACtsb9QtJm2JkA57Ggxd",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/254cb03e9c2d736f08c0d1d24748da8f0e47f4f8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 139826,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "USRE19500206",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "Panic Song",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1EGukDl5V8yoDiHu2wFuWL",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/271ec980e0e6c4c0ee97371d16b1d2ae2d89b107?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 215440,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "USRE19500209",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Insomniac",
-    "cancion": "Stuart and the Ave.",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:108DnAu8k8tMQcnj3XNyfy",
-    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7f3fbf97579ae265f88fb68de7094354dd603e95?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 123466,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": true,
-    "popularidad": 48,
-    "isrc": "USRE19500210",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac",
     "cancion": "Stuck with Me",
@@ -6444,42 +7581,159 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac",
-    "cancion": "Tight Wad Hill",
+    "cancion": "Geek Stink Breath",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4zz1q7N4PJGYePSb39wUZF",
+    "uriCancion": "spotify:track:4mI4HF4OVBg3tl2IWzSaoX",
     "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0b13e8fec731c5600c57321f54e532d3b22a6cde?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 121026,
+    "previewUrl": "https://p.scdn.co/mp3-preview/483f3a9259a2cfc103230bf1f1d01793923e993d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 135293,
     "numeroDisco": 1,
-    "numeroPista": 13,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 45,
-    "isrc": "USRE19500214",
+    "popularidad": 52,
+    "isrc": "USRE19500205",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac",
-    "cancion": "Walking Contradiction",
+    "cancion": "No Pride",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:5Mhe8G8RHdQWR30lStPvO5",
+    "uriCancion": "spotify:track:2jACtsb9QtJm2JkA57Ggxd",
     "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4c09af6075d5f03e34d93931081f8044518cb0b2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 151173,
+    "previewUrl": "https://p.scdn.co/mp3-preview/254cb03e9c2d736f08c0d1d24748da8f0e47f4f8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 139826,
     "numeroDisco": 1,
-    "numeroPista": 14,
+    "numeroPista": 5,
     "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "USRE19500206",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Bab's Uvula Who?",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:2uARrCX71Zl7JspUN2KuPZ",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2a097f1c9b448e4870354ecf156df40bfb832766?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 128199,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": true,
+    "popularidad": 48,
+    "isrc": "USRE19500207",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "86",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:4bOgWjaOVTvhyRpvLxFeEm",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6949b7ff82cbcb45cb529f44918cba7dc11885ca?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 167800,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "USRE19500208",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Panic Song",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:1EGukDl5V8yoDiHu2wFuWL",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/271ec980e0e6c4c0ee97371d16b1d2ae2d89b107?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 215440,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "USRE19500209",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Stuart and the Ave.",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:108DnAu8k8tMQcnj3XNyfy",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7f3fbf97579ae265f88fb68de7094354dd603e95?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 123466,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": true,
+    "popularidad": 48,
+    "isrc": "USRE19500210",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Brain Stew",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:1nLnpLXvl68RZCSjfkyiaa",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5488d08f012ea906930adb7c714d95a5a8552326?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 193000,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": true,
+    "popularidad": 85,
+    "isrc": "USRE19500211",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Jaded",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6uWp8yAt8dN5ZaT7REJ6RV",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/10d2a276bddb0fe1498bdd09cde03262957c2f73?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 90226,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": true,
     "popularidad": 57,
-    "isrc": "USRE19500215",
+    "isrc": "USRE19500212",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac",
     "cancion": "Westbound Sign",
@@ -6498,6 +7752,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Tight Wad Hill",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:4zz1q7N4PJGYePSb39wUZF",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0b13e8fec731c5600c57321f54e532d3b22a6cde?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 121026,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 45,
+    "isrc": "USRE19500214",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Insomniac",
+    "cancion": "Walking Contradiction",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ac9a652335cf34de9a65292a",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:5Mhe8G8RHdQWR30lStPvO5",
+    "uriAlbum": "spotify:album:7d3nOmFvL51roNElAdpi9d",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4c09af6075d5f03e34d93931081f8044518cb0b2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 151173,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "USRE19500215",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac (25th Anniversary Deluxe Edition)",
     "cancion": "Armatage Shanks",
@@ -6516,6 +7809,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Insomniac (25th Anniversary Deluxe Edition)",
     "cancion": "Panic Song",
@@ -6534,6 +7828,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "International Superhits!",
     "cancion": "Jaded",
@@ -6552,6 +7847,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "International Superhits!",
     "cancion": "Waiting",
@@ -6570,6 +7866,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Kerplunk!",
     "cancion": "2000 Light Years Away",
@@ -6588,6 +7885,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Kerplunk!",
     "cancion": "Who Wrote Holden Caulfield?",
@@ -6606,132 +7904,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T18:29:59Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "All the Time",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:03eYWfN1F3iAcMdMnsjl3z",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/655179e8db9e9ff3847a3f55749de6b7d027a17a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 130346,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": true,
-    "popularidad": 48,
-    "isrc": "USRE19700534",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Good Riddance (Time of Your Life)",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6ORqU0bHbVCRjXm9AjyHyZ",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/25e3289a356f376e09cc0089de4fcff05f1ec838?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 153466,
-    "numeroDisco": 1,
-    "numeroPista": 17,
-    "esExplicita": true,
-    "popularidad": 84,
-    "isrc": "USRE19700545",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Haushinka",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6BtaJWMs4kui6uaYKT7Gno",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d3ccc790400471d6102015b27877f333b5edc366?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 205440,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "USRE19700540",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Hitchin' a Ride",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6WlmA3HPHuNIR2mxI8LkZF",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/700255a23b271c7ee1e19ebbbd546151f63261da?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 171466,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 65,
-    "isrc": "USRE19700487",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Jinx",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6DibYvbqhIHsLvZMZ8pV6c",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7498f0ae172a7fb4dc791d0c47bb290cc293177f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 132426,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": true,
-    "popularidad": 47,
-    "isrc": "USRE19700539",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "King for a Day",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:3b2Tnh3Dd9ahRoNm28RfNM",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d3a0869ff3d01b4e93f0d283dc26ec929d7d521c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 193440,
-    "numeroDisco": 1,
-    "numeroPista": 16,
-    "esExplicita": false,
-    "popularidad": 52,
-    "isrc": "USRE19700544",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Last Ride In",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6FnDerFHdaeCFovZnQ3r14",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c1534af5d709f0f58f5d2ead9d939b421b9b26d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 227840,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 45,
-    "isrc": "USRE19700538",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Nimrod",
     "cancion": "Nice Guys Finish Last",
@@ -6750,114 +7923,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Nimrod",
-    "cancion": "Platypus (I Hate You)",
+    "cancion": "Hitchin' a Ride",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6SFL3a2JotvZFwTiggc4cb",
+    "uriCancion": "spotify:track:6WlmA3HPHuNIR2mxI8LkZF",
     "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d5027610ca044e4b0b34b4a1ab2071f898548c26?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 141440,
+    "previewUrl": "https://p.scdn.co/mp3-preview/700255a23b271c7ee1e19ebbbd546151f63261da?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 171466,
     "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": true,
-    "popularidad": 51,
-    "isrc": "USRE19700536",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Prosthetic Head",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:76XpBAo45nP84Mq3hx3wVX",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/35ab98fc51fe691db4d32aeb703d43e31cba080f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 218053,
-    "numeroDisco": 1,
-    "numeroPista": 18,
+    "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 48,
-    "isrc": "USRE19700546",
+    "popularidad": 65,
+    "isrc": "USRE19700487",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Redundant",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:0GYTAipuswOBWFtk06kFCL",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a0fa09fb71bd9e08cf2c542ed74764b2196010e3?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 198093,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 59,
-    "isrc": "USRE19700532",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Reject",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:0lzwh15LNuwO5wtExoAqBa",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4728b6f63c29ac64e7fe8e0c53d11342c815ccb8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 125493,
-    "numeroDisco": 1,
-    "numeroPista": 14,
-    "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "USRE19700542",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Scattered",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:2iP4gsbex3yX32fC0kcwMV",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e28605a9fa6cbe12e8aa202d9e380aecadc1a978?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 182506,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "USRE19700533",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Take Back",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:6C3nwiSeOjEPzw8P3Qz2ih",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a41c29b4674be2f39f3c2a12a8a1daece98f7eaa?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 69333,
-    "numeroDisco": 1,
-    "numeroPista": 15,
-    "esExplicita": true,
-    "popularidad": 45,
-    "isrc": "USRE19700543",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Nimrod",
     "cancion": "The Grouch",
@@ -6876,42 +7961,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Nimrod",
-    "cancion": "Uptight",
+    "cancion": "Redundant",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1dohIM3mw8wUL3YoYtlpJY",
+    "uriCancion": "spotify:track:0GYTAipuswOBWFtk06kFCL",
     "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3f1a40c833c695071093aee3f9ad6351656850f6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 184160,
+    "previewUrl": "https://p.scdn.co/mp3-preview/a0fa09fb71bd9e08cf2c542ed74764b2196010e3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 198093,
     "numeroDisco": 1,
-    "numeroPista": 9,
+    "numeroPista": 4,
     "esExplicita": false,
+    "popularidad": 59,
+    "isrc": "USRE19700532",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Scattered",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:2iP4gsbex3yX32fC0kcwMV",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e28605a9fa6cbe12e8aa202d9e380aecadc1a978?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 182506,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "USRE19700533",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "All the Time",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:03eYWfN1F3iAcMdMnsjl3z",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/655179e8db9e9ff3847a3f55749de6b7d027a17a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 130346,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": true,
     "popularidad": 48,
-    "isrc": "USRE19700537",
+    "isrc": "USRE19700534",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Nimrod",
-    "cancion": "Walking Alone",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:49NGNNggN0R8OmsedNGY0g",
-    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9b6cf9491e844247e560f31d5268be1fb603f2c2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 165013,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "USRE19700541",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Nimrod",
     "cancion": "Worry Rock",
@@ -6930,6 +8037,216 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Platypus (I Hate You)",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6SFL3a2JotvZFwTiggc4cb",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d5027610ca044e4b0b34b4a1ab2071f898548c26?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 141440,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": true,
+    "popularidad": 51,
+    "isrc": "USRE19700536",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Uptight",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:1dohIM3mw8wUL3YoYtlpJY",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3f1a40c833c695071093aee3f9ad6351656850f6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 184160,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 48,
+    "isrc": "USRE19700537",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Last Ride In",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6FnDerFHdaeCFovZnQ3r14",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c1534af5d709f0f58f5d2ead9d939b421b9b26d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 227840,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 45,
+    "isrc": "USRE19700538",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Jinx",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6DibYvbqhIHsLvZMZ8pV6c",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7498f0ae172a7fb4dc791d0c47bb290cc293177f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 132426,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": true,
+    "popularidad": 47,
+    "isrc": "USRE19700539",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Haushinka",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6BtaJWMs4kui6uaYKT7Gno",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d3ccc790400471d6102015b27877f333b5edc366?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 205440,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "USRE19700540",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Walking Alone",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:49NGNNggN0R8OmsedNGY0g",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9b6cf9491e844247e560f31d5268be1fb603f2c2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 165013,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "USRE19700541",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Reject",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:0lzwh15LNuwO5wtExoAqBa",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4728b6f63c29ac64e7fe8e0c53d11342c815ccb8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 125493,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "USRE19700542",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Take Back",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6C3nwiSeOjEPzw8P3Qz2ih",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a41c29b4674be2f39f3c2a12a8a1daece98f7eaa?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 69333,
+    "numeroDisco": 1,
+    "numeroPista": 15,
+    "esExplicita": true,
+    "popularidad": 45,
+    "isrc": "USRE19700543",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "King for a Day",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:3b2Tnh3Dd9ahRoNm28RfNM",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d3a0869ff3d01b4e93f0d283dc26ec929d7d521c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 193440,
+    "numeroDisco": 1,
+    "numeroPista": 16,
+    "esExplicita": false,
+    "popularidad": 52,
+    "isrc": "USRE19700544",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Good Riddance (Time of Your Life)",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:6ORqU0bHbVCRjXm9AjyHyZ",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/25e3289a356f376e09cc0089de4fcff05f1ec838?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 153466,
+    "numeroDisco": 1,
+    "numeroPista": 17,
+    "esExplicita": true,
+    "popularidad": 84,
+    "isrc": "USRE19700545",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Nimrod",
+    "cancion": "Prosthetic Head",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273da4f6706ae0f2501c61ce776",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:76XpBAo45nP84Mq3hx3wVX",
+    "uriAlbum": "spotify:album:3x2uer6Xh0d5rF8toWpRDA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/35ab98fc51fe691db4d32aeb703d43e31cba080f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 218053,
+    "numeroDisco": 1,
+    "numeroPista": 18,
+    "esExplicita": false,
+    "popularidad": 48,
+    "isrc": "USRE19700546",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Saviors",
     "cancion": "Bobby Sox",
@@ -6948,6 +8265,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Saviors",
     "cancion": "Suzie Chapstick",
@@ -6966,6 +8284,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Shenanigans",
     "cancion": "Sick of Me",
@@ -6984,42 +8303,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Green Day",
-    "album": "Warning",
-    "cancion": "Church on Sunday",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736869f1cd33bf72e00313520d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:1a2aGhclRcNXQ8wq4V06x4",
-    "uriAlbum": "spotify:album:3ifIxGNsG1XmLdoanRRIWB",
-    "previewUrl": "https://p.scdn.co/mp3-preview/85e1e6c1fa59eaf91e850ee96c5b83cc8845e658?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 198466,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "USRE10000933",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Green Day",
-    "album": "Warning",
-    "cancion": "Macy's Day Parade",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736869f1cd33bf72e00313520d",
-    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:3zca0nsKOLnN28ftZEXAQn",
-    "uriAlbum": "spotify:album:3ifIxGNsG1XmLdoanRRIWB",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7e692fa80f373ddf4ad8a5c764562e97799f52c1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 213106,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USRE10000941",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Warning",
     "cancion": "Warning",
@@ -7038,24 +8322,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
-    "album": "Warning (25th Anniversary Deluxe Edition)",
-    "cancion": "Outsider",
+    "album": "Warning",
+    "cancion": "Church on Sunday",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27342d87f5d9793809890df595c",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736869f1cd33bf72e00313520d",
     "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
-    "uriCancion": "spotify:track:4RLxLRaRCYDdGBleoUB7N7",
-    "uriAlbum": "spotify:album:02aHyiT3M89F7bDbv8mF5J",
-    "previewUrl": "https://p.scdn.co/mp3-preview/fbf87242d5c65a10bc8ab034ed90276d3314d6f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 136240,
-    "numeroDisco": 2,
-    "numeroPista": 11,
+    "uriCancion": "spotify:track:1a2aGhclRcNXQ8wq4V06x4",
+    "uriAlbum": "spotify:album:3ifIxGNsG1XmLdoanRRIWB",
+    "previewUrl": "https://p.scdn.co/mp3-preview/85e1e6c1fa59eaf91e850ee96c5b83cc8845e658?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 198466,
+    "numeroDisco": 1,
+    "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 26,
-    "isrc": "USRE12500269",
+    "popularidad": 55,
+    "isrc": "USRE10000933",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Warning",
+    "cancion": "Macy's Day Parade",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736869f1cd33bf72e00313520d",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:3zca0nsKOLnN28ftZEXAQn",
+    "uriAlbum": "spotify:album:3ifIxGNsG1XmLdoanRRIWB",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7e692fa80f373ddf4ad8a5c764562e97799f52c1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 213106,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "USRE10000941",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Warning (25th Anniversary Deluxe Edition)",
     "cancion": "Waiting - 2025 Remaster",
@@ -7074,6 +8379,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "Warning (25th Anniversary Deluxe Edition)",
     "cancion": "Waiting - Otis Mix",
@@ -7092,6 +8398,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Green Day",
+    "album": "Warning (25th Anniversary Deluxe Edition)",
+    "cancion": "Outsider",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27342d87f5d9793809890df595c",
+    "uri": "spotify:artist:7oPftvlwr6VrsViSDV7fJY",
+    "uriCancion": "spotify:track:4RLxLRaRCYDdGBleoUB7N7",
+    "uriAlbum": "spotify:album:02aHyiT3M89F7bDbv8mF5J",
+    "previewUrl": "https://p.scdn.co/mp3-preview/fbf87242d5c65a10bc8ab034ed90276d3314d6f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 136240,
+    "numeroDisco": 2,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 26,
+    "isrc": "USRE12500269",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Green Day",
     "album": "¡DOS!",
     "cancion": "Baby Eyes",
@@ -7110,6 +8436,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Grover Washington\\, Jr., Bill Withers",
     "album": "Winelight",
     "cancion": "Just the Two of Us",
@@ -7128,6 +8455,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:40:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Grupo Frontera, Bad Bunny",
     "album": "un x100to",
     "cancion": "un x100to",
@@ -7146,6 +8474,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-27T22:37:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Guns N' Roses",
     "album": "Appetite For Destruction",
     "cancion": "Sweet Child O' Mine",
@@ -7164,24 +8493,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Adiós",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:1rh4kDY9T4fHVDum8Foi5k",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/fed00157a9d385a8a3155105e2f300bb7a459410?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 233746,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 74,
-    "isrc": "ARF030600049",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Ahí Vamos",
     "cancion": "Al Fin Sucede",
@@ -7200,96 +8512,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Bomba de Tiempo",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:72EFx4aGs8sdoSEI1x09oe",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/790752e4736446285b6f27d014cc7b21b705dff9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 311453,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "ARF030600056",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Caravana",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:7yyl3mDJlxn2QjoOnEcSac",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c1d30b252b9eeb83040125b24d8d9f5f9d260ab6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 249613,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "ARF030600054",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Crimen",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:3oqWr0jDWNXxWufNogGREp",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c2dc3c58c68ec8ea29b3df5c40fcdc1e3b187722?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 232026,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 75,
-    "isrc": "ARF030600057",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Dios Nos Libre",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:32XcasY1WrJqPfJyWtDXmF",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2007110afa6361760e42fdb08c621dca65715bd1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 271680,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 45,
-    "isrc": "ARF030600052",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Jugo De Luna",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:3yDs6wQuSZ1Vvxm0uag51r",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7c41bbe33e5f8fc7b8eb80086998317ddbb12c3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 246373,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 52,
-    "isrc": "ARF030600058",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Ahí Vamos",
     "cancion": "La Excepción",
@@ -7308,78 +8531,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Lago en el Cielo",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:17eJyYLIlMNlOqcwHYJ9F2",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c3da35ef00349e3c1fa9e3565bd60357348ed8b2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 308946,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 70,
-    "isrc": "ARF030600051",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Me Quedo Aquí",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:6lUBD8XA38zIFt6C0giPsP",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/251d26aec1b633a6021194d647b99fbd1b569e03?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 217106,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 64,
-    "isrc": "ARF030600050",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Médium",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:1Z82Fapx508VSDzoj3aU0k",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4cb11e622046d8b7734b5f2d94fb02a93113ecc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 333133,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "ARF030600055",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Ahí Vamos",
-    "cancion": "Otra Piel",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:0f8UKGM3m5ZdxgF46vaikm",
-    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d05ecc52efbfb27c712370b50991c43da5b943aa?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 280613,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 61,
-    "isrc": "ARF030600053",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Ahí Vamos",
     "cancion": "Uno Entre 1000",
@@ -7398,222 +8550,197 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Alma",
+    "album": "Ahí Vamos",
+    "cancion": "Caravana",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:69wr7sFvZbeU8TKu1K3X9U",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/79dce147d0066dd5a9077bf0cf346e5dd6f6bc08?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 277221,
+    "uriCancion": "spotify:track:7yyl3mDJlxn2QjoOnEcSac",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c1d30b252b9eeb83040125b24d8d9f5f9d260ab6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 249613,
     "numeroDisco": 1,
-    "numeroPista": 14,
-    "esExplicita": false,
-    "popularidad": 51,
-    "isrc": "ARF039900920",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Aquí & Ahora (Los Primeros 3 Minutos)",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:4RIBojPxQ2o6Z6b81HPmFc",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4909505884e78c6b97cf543795936dba4cbc30d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 233555,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 49,
-    "isrc": "ARF039900918",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Aquí & Ahora (Y Después)",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:3JDBktQHwerKTIxs7MK58D",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/94f2c7e427954cebecd1a400cfd0d7a39c3fc26e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 141785,
-    "numeroDisco": 1,
-    "numeroPista": 13,
+    "numeroPista": 4,
     "esExplicita": false,
     "popularidad": 46,
-    "isrc": "ARF039900919",
+    "isrc": "ARF030600054",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Balsa",
+    "album": "Ahí Vamos",
+    "cancion": "Adiós",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:2xYRvCEGzG1GUoORlsvLn2",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/111085160e2392214184912851c2d3ec4cefcdbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 312815,
+    "uriCancion": "spotify:track:1rh4kDY9T4fHVDum8Foi5k",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/fed00157a9d385a8a3155105e2f300bb7a459410?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 233746,
     "numeroDisco": 1,
-    "numeroPista": 15,
+    "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "ARF039900921",
+    "popularidad": 74,
+    "isrc": "ARF030600049",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Beautiful",
+    "album": "Ahí Vamos",
+    "cancion": "Me Quedo Aquí",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:1R3mCl9ya7FanRNWTeiQUE",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/edc49985473b01ae7b12e38142860e856fe96ab6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 446538,
+    "uriCancion": "spotify:track:6lUBD8XA38zIFt6C0giPsP",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/251d26aec1b633a6021194d647b99fbd1b569e03?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 217106,
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
     "popularidad": 64,
-    "isrc": "ARF039900912",
+    "isrc": "ARF030600050",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Bocanada",
+    "album": "Ahí Vamos",
+    "cancion": "Lago en el Cielo",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:12uaDRCVrgu4O6AyOZLrxG",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/637fcb910579ecbce6bf0320a01acb7e694247ce?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 249171,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "ARF039900909",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Engaña",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:7BRwN1pRe3sn653D4oPPSR",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7ac8c2f9e81b46fc97847ed4181c628c2cdcc0de?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 251357,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 56,
-    "isrc": "ARF039900908",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Paseo Inmoral",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:6VH153hUoK92d0cqsf5l9i",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b804e6ea62da2f9510a43eb08598db73f5679853?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 330999,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "ARF039900917",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Perdonar Es Divino",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:2SL56OF774pYUz8cWN6Jg0",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bfca873646b7243be26f0fe96807bafd733657a7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 318912,
+    "uriCancion": "spotify:track:17eJyYLIlMNlOqcwHYJ9F2",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c3da35ef00349e3c1fa9e3565bd60357348ed8b2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 308946,
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "ARF039900913",
+    "popularidad": 70,
+    "isrc": "ARF030600051",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Puente",
+    "album": "Ahí Vamos",
+    "cancion": "Dios Nos Libre",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:6gwaa6ElIixNTvu6RwkMyo",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bd0cabe0c9f1c3323a2588ceaed2395520de0fcf?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 274444,
+    "uriCancion": "spotify:track:32XcasY1WrJqPfJyWtDXmF",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2007110afa6361760e42fdb08c621dca65715bd1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 271680,
     "numeroDisco": 1,
-    "numeroPista": 4,
+    "numeroPista": 8,
     "esExplicita": false,
-    "popularidad": 72,
-    "isrc": "ARF039900910",
+    "popularidad": 45,
+    "isrc": "ARF030600052",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Raíz",
+    "album": "Ahí Vamos",
+    "cancion": "Otra Piel",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:7CzEXcRHME6lwRXDFjA4bT",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/64dcff41037a60be10f2059ad01a94960fb8ced4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 244017,
+    "uriCancion": "spotify:track:0f8UKGM3m5ZdxgF46vaikm",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d05ecc52efbfb27c712370b50991c43da5b943aa?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 280613,
     "numeroDisco": 1,
     "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "ARF039900915",
+    "popularidad": 61,
+    "isrc": "ARF030600053",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Bocanada",
-    "cancion": "Rio Babel",
+    "album": "Ahí Vamos",
+    "cancion": "Médium",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:29EG4QQKl0jqpshZBhYOia",
-    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
-    "previewUrl": "https://p.scdn.co/mp3-preview/49be40ffaaa1531fa91bd04ea2348fb8d6139337?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 298850,
+    "uriCancion": "spotify:track:1Z82Fapx508VSDzoj3aU0k",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4cb11e622046d8b7734b5f2d94fb02a93113ecc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 333133,
     "numeroDisco": 1,
-    "numeroPista": 5,
+    "numeroPista": 10,
     "esExplicita": false,
-    "popularidad": 54,
-    "isrc": "ARF039900911",
+    "popularidad": 55,
+    "isrc": "ARF030600055",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Ahí Vamos",
+    "cancion": "Bomba de Tiempo",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:72EFx4aGs8sdoSEI1x09oe",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/790752e4736446285b6f27d014cc7b21b705dff9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 311453,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "ARF030600056",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Ahí Vamos",
+    "cancion": "Crimen",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:3oqWr0jDWNXxWufNogGREp",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c2dc3c58c68ec8ea29b3df5c40fcdc1e3b187722?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 232026,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 75,
+    "isrc": "ARF030600057",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Ahí Vamos",
+    "cancion": "Jugo De Luna",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f89f01679779a2246c78bc7a",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:3yDs6wQuSZ1Vvxm0uag51r",
+    "uriAlbum": "spotify:album:7KHNK7l8peO0t95I1v7BmP",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7c41bbe33e5f8fc7b8eb80086998317ddbb12c3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 246373,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 52,
+    "isrc": "ARF030600058",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Bocanada",
     "cancion": "Tabú",
@@ -7632,6 +8759,121 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Engaña",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:7BRwN1pRe3sn653D4oPPSR",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7ac8c2f9e81b46fc97847ed4181c628c2cdcc0de?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 251357,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 56,
+    "isrc": "ARF039900908",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Bocanada",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:12uaDRCVrgu4O6AyOZLrxG",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/637fcb910579ecbce6bf0320a01acb7e694247ce?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 249171,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 68,
+    "isrc": "ARF039900909",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Puente",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:6gwaa6ElIixNTvu6RwkMyo",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bd0cabe0c9f1c3323a2588ceaed2395520de0fcf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 274444,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 72,
+    "isrc": "ARF039900910",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Rio Babel",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:29EG4QQKl0jqpshZBhYOia",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/49be40ffaaa1531fa91bd04ea2348fb8d6139337?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 298850,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 54,
+    "isrc": "ARF039900911",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Beautiful",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:1R3mCl9ya7FanRNWTeiQUE",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/edc49985473b01ae7b12e38142860e856fe96ab6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 446538,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 64,
+    "isrc": "ARF039900912",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Perdonar Es Divino",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:2SL56OF774pYUz8cWN6Jg0",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bfca873646b7243be26f0fe96807bafd733657a7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 318912,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "ARF039900913",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Bocanada",
     "cancion": "Verbo Carne",
@@ -7650,6 +8892,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Raíz",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:7CzEXcRHME6lwRXDFjA4bT",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/64dcff41037a60be10f2059ad01a94960fb8ced4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 244017,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "ARF039900915",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Bocanada",
     "cancion": "Y Si el Humo Está en Foco...",
@@ -7668,42 +8930,102 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
-    "album": "Fuerza Natural",
-    "cancion": "Cactus",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27314653b83cd7d851accdb5142",
-    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:1NeZxBuSEhikl0ZrOSgpuW",
-    "uriAlbum": "spotify:album:51wepZm3YvZfvFxiu7D5F8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/aa39a99c6d0571800d1d43c243271b118bebc496?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 234760,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 67,
-    "isrc": "ARF100900390",
-    "agregadoEn": "2026-09-17T22:14:31Z"
-  },
-  {
-    "artista": "Gustavo Cerati",
-    "album": "Fuerza Natural",
-    "cancion": "Deja Vu",
+    "album": "Bocanada",
+    "cancion": "Paseo Inmoral",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27314653b83cd7d851accdb5142",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
     "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
-    "uriCancion": "spotify:track:6WgUNHiMwJazeG4kWPAH1m",
-    "uriAlbum": "spotify:album:51wepZm3YvZfvFxiu7D5F8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/369757e3f27e095ad8f0df721a996995b8442476?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 204920,
+    "uriCancion": "spotify:track:6VH153hUoK92d0cqsf5l9i",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b804e6ea62da2f9510a43eb08598db73f5679853?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 330999,
     "numeroDisco": 1,
-    "numeroPista": 2,
+    "numeroPista": 11,
     "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "ARF100900384",
+    "popularidad": 57,
+    "isrc": "ARF039900917",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Aquí & Ahora (Los Primeros 3 Minutos)",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:4RIBojPxQ2o6Z6b81HPmFc",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4909505884e78c6b97cf543795936dba4cbc30d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 233555,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 49,
+    "isrc": "ARF039900918",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Aquí & Ahora (Y Después)",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:3JDBktQHwerKTIxs7MK58D",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/94f2c7e427954cebecd1a400cfd0d7a39c3fc26e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 141785,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "ARF039900919",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Alma",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:69wr7sFvZbeU8TKu1K3X9U",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/79dce147d0066dd5a9077bf0cf346e5dd6f6bc08?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 277221,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "ARF039900920",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Bocanada",
+    "cancion": "Balsa",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:2xYRvCEGzG1GUoORlsvLn2",
+    "uriAlbum": "spotify:album:2rIdWbXPjcq8K7BCccBhhC",
+    "previewUrl": "https://p.scdn.co/mp3-preview/111085160e2392214184912851c2d3ec4cefcdbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 312815,
+    "numeroDisco": 1,
+    "numeroPista": 15,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "ARF039900921",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Fuerza Natural",
     "cancion": "Fuerza Natural",
@@ -7722,6 +9044,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:14:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Fuerza Natural",
+    "cancion": "Deja Vu",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27314653b83cd7d851accdb5142",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:6WgUNHiMwJazeG4kWPAH1m",
+    "uriAlbum": "spotify:album:51wepZm3YvZfvFxiu7D5F8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/369757e3f27e095ad8f0df721a996995b8442476?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 204920,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 68,
+    "isrc": "ARF100900384",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Fuerza Natural",
     "cancion": "Magia",
@@ -7740,6 +9082,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:14:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Gustavo Cerati",
+    "album": "Fuerza Natural",
+    "cancion": "Cactus",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27314653b83cd7d851accdb5142",
+    "uri": "spotify:artist:1QOmebWGB6FdFtW7Bo3F0W",
+    "uriCancion": "spotify:track:1NeZxBuSEhikl0ZrOSgpuW",
+    "uriAlbum": "spotify:album:51wepZm3YvZfvFxiu7D5F8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/aa39a99c6d0571800d1d43c243271b118bebc496?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 234760,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 67,
+    "isrc": "ARF100900390",
+    "agregadoEn": "2026-09-17T22:14:31Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati",
     "album": "Siempre Es Hoy",
     "cancion": "Vivo",
@@ -7758,6 +9120,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Gustavo Cerati, Daniel Melero",
     "album": "Colores Santos",
     "cancion": "Marea de Venus",
@@ -7776,6 +9139,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:14:48Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "h4teboy",
     "album": "Kms2",
     "cancion": "Why",
@@ -7794,6 +9158,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Haddaway",
     "album": "The Album",
     "cancion": "What Is Love - 7\" Mix",
@@ -7812,6 +9177,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-03T13:31:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Harmless",
     "album": "I'm Sure",
     "cancion": "Cool Kids",
@@ -7830,6 +9196,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Harmless",
     "album": "I'm Sure",
     "cancion": "Swing Lynn",
@@ -7848,6 +9215,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Her's",
     "album": "Invitation to Her's",
     "cancion": "Harvey",
@@ -7866,6 +9234,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Her's",
     "album": "Songs of Her's",
     "cancion": "What Once Was",
@@ -7884,6 +9253,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Herb Alpert",
     "album": "Desert Fiesta",
     "cancion": "Ladyfingers",
@@ -7902,24 +9272,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:24:22Z"
   },
   {
-    "artista": "Home",
-    "album": "Before the Night",
-    "cancion": "Before the Night",
-    "fecha": "2026-08-23",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27361cc15277bf67825ecfbf0dc",
-    "uri": "spotify:artist:2exebQUDoIoT0dXA8BcN1P",
-    "uriCancion": "spotify:track:6vi4sU6GhFppK6cEZhsgYF",
-    "uriAlbum": "spotify:album:1vKCVk9VHuC51CCITEwThO",
-    "previewUrl": "https://p.scdn.co/mp3-preview/38fdc0e47f92942d44f5d583ba3da12ddb976f36?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 233383,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "QM4DW1609455",
-    "agregadoEn": "2026-08-23T02:16:36Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Home",
     "album": "Before the Night",
     "cancion": "We're Finally Landing",
@@ -7938,6 +9291,26 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:15:11Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Home",
+    "album": "Before the Night",
+    "cancion": "Before the Night",
+    "fecha": "2026-08-23",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27361cc15277bf67825ecfbf0dc",
+    "uri": "spotify:artist:2exebQUDoIoT0dXA8BcN1P",
+    "uriCancion": "spotify:track:6vi4sU6GhFppK6cEZhsgYF",
+    "uriAlbum": "spotify:album:1vKCVk9VHuC51CCITEwThO",
+    "previewUrl": "https://p.scdn.co/mp3-preview/38fdc0e47f92942d44f5d583ba3da12ddb976f36?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 233383,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "QM4DW1609455",
+    "agregadoEn": "2026-08-23T02:16:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Home",
     "album": "Hold",
     "cancion": "Hold",
@@ -7956,6 +9329,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:18:25Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Home",
     "album": "Hold",
     "cancion": "Sunshower",
@@ -7974,24 +9348,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:17:39Z"
   },
   {
-    "artista": "Home",
-    "album": "Odyssey",
-    "cancion": "Come Back Down",
-    "fecha": "2026-08-23",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df1e0c6802ff4723a425179c",
-    "uri": "spotify:artist:2exebQUDoIoT0dXA8BcN1P",
-    "uriCancion": "spotify:track:2FLAsdoqbe0fhli1VMaPpc",
-    "uriAlbum": "spotify:album:1ILCNYIXgZDFsS0B6MNvCY",
-    "previewUrl": "",
-    "duracionMs": 293140,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 51,
-    "isrc": "QM4DW1607619",
-    "agregadoEn": "2026-08-23T02:12:26Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Home",
     "album": "Odyssey",
     "cancion": "Resonance",
@@ -8010,6 +9367,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Home",
+    "album": "Odyssey",
+    "cancion": "Come Back Down",
+    "fecha": "2026-08-23",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df1e0c6802ff4723a425179c",
+    "uri": "spotify:artist:2exebQUDoIoT0dXA8BcN1P",
+    "uriCancion": "spotify:track:2FLAsdoqbe0fhli1VMaPpc",
+    "uriAlbum": "spotify:album:1ILCNYIXgZDFsS0B6MNvCY",
+    "previewUrl": "",
+    "duracionMs": 293140,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "QM4DW1607619",
+    "agregadoEn": "2026-08-23T02:12:26Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Horse Jumper of Love",
     "album": "Horse Jumper of Love",
     "cancion": "Ugly Brunette",
@@ -8028,6 +9405,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:57:11Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Hotel Ugly",
     "album": "Shut up My Moms Calling",
     "cancion": "Shut up My Moms Calling",
@@ -8046,6 +9424,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Housecall",
     "album": "Bad Perfection",
     "cancion": "Mystery Girl (Revamped)",
@@ -8064,6 +9443,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-19T14:55:45Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Hüsker Dü",
     "album": "New Day Rising",
     "cancion": "Celebrated Summer",
@@ -8082,6 +9462,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:52:10Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Ice Cube",
     "album": "Lethal Injection",
     "cancion": "You Know How We Do It",
@@ -8100,6 +9481,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Ice Cube",
     "album": "The Predator",
     "cancion": "It Was A Good Day",
@@ -8118,6 +9500,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Ice Spice",
     "album": "Did It First (Versions)",
     "cancion": "Did It First - Instrumental",
@@ -8136,6 +9519,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Indios",
     "album": "Indios",
     "cancion": "Tu Geografía",
@@ -8154,6 +9538,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:41:38Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "iNi Kamoze, Salaam Remi",
     "album": "Here Comes The Hotstepper",
     "cancion": "Here Comes the Hotstepper - Heartical Mix",
@@ -8172,6 +9557,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Inner Circle",
     "album": "Blazzin' Fire",
     "cancion": "Bad Boys",
@@ -8190,6 +9576,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Inner Circle",
     "album": "Blazzin' Fire",
     "cancion": "Sweat (A La La La La Long)",
@@ -8208,6 +9595,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:43:02Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Inner Circle",
     "album": "Sweat (A La La La La Long)",
     "cancion": "Bad Boys",
@@ -8226,6 +9614,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:45:26Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "INOHA",
     "album": "ALOHA INOHA",
     "cancion": "Seventh Heaven",
@@ -8244,6 +9633,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Intoxicados",
     "album": "Buen Dia",
     "cancion": "Se Fue Al Cielo",
@@ -8262,6 +9652,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Intoxicados",
     "album": "No Es Solo Rock And Roll",
     "cancion": "Esta Saliendo El Sol",
@@ -8280,6 +9671,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Intoxicados",
     "album": "Otro Día en el Planeta Tierra",
     "cancion": "Nunca quise",
@@ -8298,6 +9690,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "itssvd, CORBAL, Shiloh Dynasty, Dibyo",
     "album": "Missing",
     "cancion": "Losing Interest",
@@ -8316,6 +9709,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T05:30:23Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Izmi Maruf",
     "album": "Last Breath in Forest",
     "cancion": "Last Breath in Forest",
@@ -8334,6 +9728,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Izmi Maruf",
     "album": "Last Breath in Forest (Night X Extended)",
     "cancion": "Last Breath in Forest - Night X Extended",
@@ -8352,6 +9747,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "jacal",
     "album": "resonance (midwest emo version)",
     "cancion": "resonance - midwest emo version",
@@ -8370,6 +9766,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jack Stauber",
     "album": "Pop Food",
     "cancion": "Oh Klahoma",
@@ -8388,6 +9785,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jack Stauber's Micropop",
     "album": "Baby Hotline / Tea Errors",
     "cancion": "Baby Hotline",
@@ -8406,6 +9804,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T20:49:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jack Stauber's Micropop",
     "album": "Inchman / Two Time",
     "cancion": "Two Time",
@@ -8424,6 +9823,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "James Clarke",
     "album": "Mystery Movie",
     "cancion": "Relaxed Scene",
@@ -8442,6 +9842,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:42:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jawbreaker",
     "album": "Dear You",
     "cancion": "Accident Prone",
@@ -8460,6 +9861,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:52:55Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "JAŸ-Z, Alicia Keys",
     "album": "The Blueprint 3",
     "cancion": "Empire State Of Mind",
@@ -8478,6 +9880,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:42:26Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jeanette",
     "album": "Originales - 20 Exitos",
     "cancion": "El Muchacho de los Ojos Tristes",
@@ -8496,6 +9899,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T00:19:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jeanette",
     "album": "Porque te vas",
     "cancion": "Porque te vas",
@@ -8514,6 +9918,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:42:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jeff Rosenstock",
     "album": "NO DREAM",
     "cancion": "Nikes (Alt)",
@@ -8532,6 +9937,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:55Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jere Suez",
     "album": "Flashes de Pelicula",
     "cancion": "Flashes de Pelicula",
@@ -8550,6 +9956,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:42:52Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jinsang",
     "album": "Confessions",
     "cancion": "september rain",
@@ -8568,6 +9975,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:43:01Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "John Lennon",
     "album": "Double Fantasy",
     "cancion": "Beautiful Boy (Darling Boy) - Remastered 2010",
@@ -8586,6 +9994,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:43:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jojo DiMitri",
     "album": "Living Mice - C418 WITH Drums",
     "cancion": "Living Mice - C418 WITH Drums",
@@ -8604,6 +10013,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:40:34Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jordana, TV Girl",
     "album": "Summer's Over",
     "cancion": "Better in the Dark",
@@ -8622,6 +10032,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Joy Again",
     "album": "Looking Out for You",
     "cancion": "Looking Out for You",
@@ -8640,6 +10051,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "julius belair",
     "album": "treat",
     "cancion": "treat",
@@ -8658,6 +10070,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-29T03:18:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Jungle",
     "album": "Volcano",
     "cancion": "Back On 74",
@@ -8676,6 +10089,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:43:42Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Junior Senior",
     "album": "D-D-Don't Don't Stop The Beat",
     "cancion": "Move Your Feet",
@@ -8694,6 +10108,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "JVKE, Leon Leiden",
     "album": "this is what falling in love feels like (Leon Leiden Remix)",
     "cancion": "this is what falling in love feels like - Leon Leiden Remix",
@@ -8712,6 +10127,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:44:12Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "K08beatz, Hal Walker",
     "album": "Low Key Gliding",
     "cancion": "Low Key Gliding",
@@ -8730,6 +10146,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:17:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kali Uchis",
     "album": "Red Moon In Venus",
     "cancion": "Moonlight",
@@ -8748,6 +10165,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:44:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kali Uchis",
     "album": "Sin Miedo (del Amor y Otros Demonios) ∞",
     "cancion": "telepatía",
@@ -8766,6 +10184,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-14T01:38:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kali Uchis, Tyler\\, The Creator, Bootsy Collins",
     "album": "Isolation",
     "cancion": "After The Storm (feat. Tyler, The Creator & Bootsy Collins)",
@@ -8784,6 +10203,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:44:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kanye West",
     "album": "Graduation",
     "cancion": "I Wonder",
@@ -8802,6 +10222,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kanye West",
     "album": "Yeezus",
     "cancion": "On Sight",
@@ -8820,6 +10241,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kanye West, Dwele",
     "album": "Graduation",
     "cancion": "Flashing Lights",
@@ -8838,6 +10260,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kanye West, Pusha T",
     "album": "My Beautiful Dark Twisted Fantasy",
     "cancion": "Runaway",
@@ -8856,6 +10279,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kate Bush",
     "album": "Hounds Of Love",
     "cancion": "Running Up That Hill (A Deal With God)",
@@ -8874,6 +10298,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:45:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kevin MacLeod",
     "album": "Disco Ultralounge",
     "cancion": "Local Forecast - Elevator",
@@ -8892,6 +10317,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kingman Irving",
     "album": "Snow",
     "cancion": "Snow",
@@ -8910,6 +10336,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:45:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Kino",
     "album": "Звезда по имени Солнце",
     "cancion": "Пачка сигарет",
@@ -8928,6 +10355,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-20T20:06:13Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "KISS",
     "album": "Dynasty",
     "cancion": "I Was Made For Lovin' You",
@@ -8946,6 +10374,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "krre, Spreen",
     "album": "Minina",
     "cancion": "Minina",
@@ -8964,6 +10393,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:26:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "krush",
     "album": "Subwoofer Lullaby (Slowed)",
     "cancion": "Subwoofer Lullaby - Slowed",
@@ -8982,6 +10412,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:41:09Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "KyonPalm",
     "album": "ＣＹＢＥＲＩＡ",
     "cancion": "エコー",
@@ -9000,24 +10431,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
-    "artista": "KyonPalm",
-    "album": "ＣＹＢＥＲＩＡ",
-    "cancion": "天使",
-    "fecha": "2026-09-01",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27390a4c833fb22034448ac1dac",
-    "uri": "spotify:artist:6D3vHFavzQh17AAnG4yLwt",
-    "uriCancion": "spotify:track:4o9Qipr1uiFWiFytOCMECs",
-    "uriAlbum": "spotify:album:5Jh6Ky9eAwdixbs2BSANWa",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b0baf4ff7b0079472aafd09a2f4a3d2d0aa6a400?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 227462,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 31,
-    "isrc": "QZ5FN1908640",
-    "agregadoEn": "2026-09-01T16:05:00Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "KyonPalm",
     "album": "ＣＹＢＥＲＩＡ",
     "cancion": "ｃｈｉｍｅｒｉｃａｌ",
@@ -9036,6 +10450,26 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:17:25Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "KyonPalm",
+    "album": "ＣＹＢＥＲＩＡ",
+    "cancion": "天使",
+    "fecha": "2026-09-01",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27390a4c833fb22034448ac1dac",
+    "uri": "spotify:artist:6D3vHFavzQh17AAnG4yLwt",
+    "uriCancion": "spotify:track:4o9Qipr1uiFWiFytOCMECs",
+    "uriAlbum": "spotify:album:5Jh6Ky9eAwdixbs2BSANWa",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b0baf4ff7b0079472aafd09a2f4a3d2d0aa6a400?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 227462,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 31,
+    "isrc": "QZ5FN1908640",
+    "agregadoEn": "2026-09-01T16:05:00Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "La Renga",
     "album": "Despedazado Por Mil Partes",
     "cancion": "Veneno",
@@ -9054,6 +10488,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "La T y La M, Malandro",
     "album": "Amor de Vago",
     "cancion": "Amor de Vago",
@@ -9072,6 +10507,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:46:07Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LAKEY INSPIRED",
     "album": "Better Days",
     "cancion": "Better Days",
@@ -9090,6 +10526,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:15:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LAKEY INSPIRED",
     "album": "Chill Day",
     "cancion": "Chill Day",
@@ -9108,6 +10545,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:12:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Las Pelotas",
     "album": "Esperando el Milagro",
     "cancion": "Será",
@@ -9126,6 +10564,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "late night drive home",
     "album": "Am I sinking or Am I swimming?",
     "cancion": "Stress Relief",
@@ -9144,6 +10583,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LATIN MAFIA",
     "album": "Julieta",
     "cancion": "Julieta",
@@ -9162,6 +10602,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:45:56Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Laufey",
     "album": "Bewitched",
     "cancion": "From The Start",
@@ -9180,6 +10621,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:46:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Le Tigre",
     "album": "Le Tigre",
     "cancion": "Deceptacon",
@@ -9198,6 +10640,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:46:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Leatherface",
     "album": "Mush",
     "cancion": "Not Superstitious",
@@ -9216,6 +10659,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:51:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "leverfall",
     "album": "April & June",
     "cancion": "regretful",
@@ -9234,6 +10678,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "leverfall",
     "album": "Connected",
     "cancion": "memories",
@@ -9252,6 +10697,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "leverfall",
     "album": "Waiting",
     "cancion": "Waiting",
@@ -9270,6 +10716,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Liana Flores",
     "album": "recently",
     "cancion": "rises the moon",
@@ -9288,24 +10735,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Liana Flores",
     "album": "recently",
     "cancion": "rises the moon",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b2739c68473e06a813598cb9f51b",
     "uri": "spotify:artist:5zVu34ozw0BzXIcNHqkO0u",
-    "uriCancion": "spotify:track:2k47MKPoBLFbKwqP796ZAA",
-    "uriAlbum": "spotify:album:6fSfONrRl8xVdH6esZE2Z4",
+    "uriCancion": "spotify:track:51Grh1RyUDcMBbpuyUIUHI",
+    "uriAlbum": "spotify:album:295qW3R6DSM1WfePwUpgux",
     "previewUrl": "https://p.scdn.co/mp3-preview/6a7a04d47935a91d4c9b9bc2ee83e6c65c1a3d5c?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 161929,
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 84,
+    "popularidad": 47,
     "isrc": "QZDA61986777",
-    "agregadoEn": "2026-06-27T15:28:27Z"
+    "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Limahl",
     "album": "Don't Suppose",
     "cancion": "Never Ending Story",
@@ -9324,6 +10773,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:46:22Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Limp Bizkit",
     "album": "Chocolate Starfish And The Hot Dog Flavored Water",
     "cancion": "Take A Look Around",
@@ -9342,6 +10792,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Limp Bizkit",
     "album": "Significant Other",
     "cancion": "Break Stuff",
@@ -9360,6 +10811,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Limp Bizkit",
     "album": "Significant Other",
     "cancion": "I'm Broke",
@@ -9378,6 +10830,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Linkin Park",
     "album": "Hybrid Theory (Bonus Edition)",
     "cancion": "In the End",
@@ -9396,6 +10849,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Linkin Park",
     "album": "Meteora (Bonus Edition)",
     "cancion": "Somewhere I Belong",
@@ -9414,6 +10868,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Linkin Park",
     "album": "Minutes to Midnight",
     "cancion": "What I've Done",
@@ -9432,6 +10887,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LNRT",
     "album": "Call Me",
     "cancion": "Call Me",
@@ -9450,6 +10906,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LNRT",
     "album": "Down",
     "cancion": "Down",
@@ -9468,6 +10925,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:46:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LNRT",
     "album": "LNRT - Call Me (Official Visualizer)",
     "cancion": "LNRT - Call Me (Official Visualizer)",
@@ -9486,6 +10944,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:40:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LNRT",
     "album": "Players Only",
     "cancion": "Players Only",
@@ -9504,6 +10963,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:46:56Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LNRT",
     "album": "Right Now",
     "cancion": "Right Now",
@@ -9522,6 +10982,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:53:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LNRT",
     "album": "The Cigarette",
     "cancion": "The Cigarette",
@@ -9540,6 +11001,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:53:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Loituma",
     "album": "Ieva's Polka (Ievan Polkka) [1996 Version]",
     "cancion": "Ieva's Polka (Ievan Polkka) - 1996 Version",
@@ -9558,6 +11020,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Lonely God",
     "album": "Marlboro Nights",
     "cancion": "Marlboro Nights",
@@ -9576,6 +11039,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Lonely God, midwxst",
     "album": "Marlboro Nights 2",
     "cancion": "Marlboro Nights 2",
@@ -9594,6 +11058,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LONOWN, Asenssia",
     "album": "addiction",
     "cancion": "addiction",
@@ -9612,6 +11077,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LONOWN, Asenssia",
     "album": "captivation",
     "cancion": "addiction - Slowed",
@@ -9630,6 +11096,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LONOWN, riserayss",
     "album": "starly",
     "cancion": "starly - Slowed",
@@ -9648,6 +11115,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LONOWN, riserayss",
     "album": "worry",
     "cancion": "worry - Slowed",
@@ -9666,6 +11134,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "LONOWN, riserayss",
     "album": "worry (ultra slowed)",
     "cancion": "worry - ultra slowed",
@@ -9684,6 +11153,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Abuelos De La Nada",
     "album": "Himno De Mi Corazon",
     "cancion": "Lunes Por La Madrugada",
@@ -9702,6 +11172,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Abuelos De La Nada",
     "album": "Los Abuelos De La Nada 1 (1994 Remastered Version)",
     "cancion": "Mil Horas - 1994 Remastered Version",
@@ -9720,6 +11191,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Enanitos Verdes",
     "album": "Big Bang",
     "cancion": "Lamento Boliviano",
@@ -9738,6 +11210,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-27T22:38:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Pericos",
     "album": "Mystic Love",
     "cancion": "Pupilas Lejanas",
@@ -9756,6 +11229,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Piojos",
     "album": "Chac Tu Chac",
     "cancion": "Tan Solo",
@@ -9774,6 +11248,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Retros",
     "album": "Early Days (2016-2019)",
     "cancion": "Someone To Spend Time With",
@@ -9792,6 +11267,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Retros",
     "album": "Friends",
     "cancion": "Friends",
@@ -9810,6 +11286,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Retros",
     "album": "Looking Back",
     "cancion": "Amtrak",
@@ -9828,6 +11305,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:47:37Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Los Tipitos",
     "album": "Armando Camaleón",
     "cancion": "Campanas en la Noche",
@@ -9846,6 +11324,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "lucid",
     "album": "Kagefumi",
     "cancion": "Kagefumi",
@@ -9864,6 +11343,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-14T09:05:49Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "lucid",
     "album": "Kagefumi",
     "cancion": "Kagefumi - Slowed",
@@ -9882,6 +11362,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "lucid",
     "album": "mis",
     "cancion": "mis - slowed instrumental",
@@ -9900,6 +11381,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Luis Alberto Spinetta",
     "album": "Peluson Of Milk",
     "cancion": "Seguir Viviendo Sin Tu Amor",
@@ -9918,6 +11400,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Lush",
     "album": "Gala",
     "cancion": "Sweetness and Light",
@@ -9936,24 +11419,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:59:12Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "2",
-    "cancion": "Annie",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:4Y2YPLqWyRaED3DjvlJSui",
-    "uriAlbum": "spotify:album:2XgBQwGRxr4P7cHLDYiqrO",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a1628bc9b4a8d5584e01a39831c64f4e00b7a9da?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 190556,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 35,
-    "isrc": "QMMZN1200049",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "2",
     "cancion": "Cooking Up Something Good",
@@ -9972,6 +11438,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:13:44Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "2",
     "cancion": "Dreaming",
@@ -9990,6 +11457,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "2",
     "cancion": "Freaking Out the Neighborhood",
@@ -10008,42 +11476,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "2",
-    "cancion": "My Kind of Woman",
+    "cancion": "Annie",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
     "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:6jgkEbmQ2F2onEqsEhiliL",
+    "uriCancion": "spotify:track:4Y2YPLqWyRaED3DjvlJSui",
     "uriAlbum": "spotify:album:2XgBQwGRxr4P7cHLDYiqrO",
-    "previewUrl": "https://p.scdn.co/mp3-preview/039ac82a4c9c0948d1032847e06a2c48ce5ef944?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 190845,
+    "previewUrl": "https://p.scdn.co/mp3-preview/a1628bc9b4a8d5584e01a39831c64f4e00b7a9da?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 190556,
     "numeroDisco": 1,
-    "numeroPista": 8,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 66,
-    "isrc": "QMMZN1200053",
+    "popularidad": 35,
+    "isrc": "QMMZN1200049",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "2",
-    "cancion": "My Kind of Woman",
-    "fecha": "2026-09-07",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ecfde7feaa212a1b60a197a1",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:6jgkEbmQ2F2onEqsEhiliL",
-    "uriAlbum": "spotify:album:2XgBQwGRxr4P7cHLDYiqrO",
-    "previewUrl": "https://p.scdn.co/mp3-preview/039ac82a4c9c0948d1032847e06a2c48ce5ef944?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 190845,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 66,
-    "isrc": "QMMZN1200053",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "2",
     "cancion": "Ode to Viceroy",
@@ -10062,6 +11514,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:13:39Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "2",
     "cancion": "The Stars Keep On Calling My Name",
@@ -10080,6 +11533,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "2",
+    "cancion": "My Kind of Woman",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739d377496c6bc8724b521222d",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:6jgkEbmQ2F2onEqsEhiliL",
+    "uriAlbum": "spotify:album:2XgBQwGRxr4P7cHLDYiqrO",
+    "previewUrl": "https://p.scdn.co/mp3-preview/039ac82a4c9c0948d1032847e06a2c48ce5ef944?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 190845,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 66,
+    "isrc": "QMMZN1200053",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "2",
+    "cancion": "My Kind of Woman",
+    "fecha": "2026-09-07",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ecfde7feaa212a1b60a197a1",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:38tfi9dtBQQ5Wyt7EL0G3z",
+    "uriAlbum": "spotify:album:21dQQ64FJmgc0zTBUpk1Mb",
+    "previewUrl": "https://p.scdn.co/mp3-preview/039ac82a4c9c0948d1032847e06a2c48ce5ef944?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 190845,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 85,
+    "isrc": "QMMZN1200053",
+    "agregadoEn": "2026-09-07T20:07:43Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Another One",
     "cancion": "Another One",
@@ -10098,24 +11590,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Another One",
     "cancion": "Another One",
     "fecha": "2026-09-07",
     "portada": "https://i.scdn.co/image/ab67616d0000b27363bb237154c47c65da7f63c2",
     "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:63q9LqTK5iiZLy3cTvLMUf",
-    "uriAlbum": "spotify:album:5FiDVzxLqGtYjF5yzmMoj4",
+    "uriCancion": "spotify:track:7wISgI6yLo3FN2a1sxR2Zg",
+    "uriAlbum": "spotify:album:2wCRqGGv9NZUn9NRtzmdlE",
     "previewUrl": "https://p.scdn.co/mp3-preview/76283107eaa9db6421d5669d364c7e195e725a44?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 160991,
     "numeroDisco": 1,
     "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 56,
+    "popularidad": 75,
     "isrc": "QMMZN1300873",
+    "agregadoEn": "2026-09-07T20:07:43Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Another One",
+    "cancion": "No Other Heart",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273b395acedffa5fa8e7696aea2",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:2aaCNg42RA74s0EmHTBqS7",
+    "uriAlbum": "spotify:album:5FiDVzxLqGtYjF5yzmMoj4",
+    "previewUrl": "https://p.scdn.co/mp3-preview/88c31d139b16b0116e37ae88f5193f307d55dbc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 173117,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 66,
+    "isrc": "QMMZN1300874",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Another One",
+    "cancion": "No Other Heart",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27363bb237154c47c65da7f63c2",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:3J31Ng3dKKJ6sEHDtV9hSp",
+    "uriAlbum": "spotify:album:2wCRqGGv9NZUn9NRtzmdlE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/88c31d139b16b0116e37ae88f5193f307d55dbc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 173117,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 84,
+    "isrc": "QMMZN1300874",
+    "agregadoEn": "2026-09-16T21:48:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Another One",
     "cancion": "I've Been Waiting for Her",
@@ -10134,42 +11666,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "Another One",
-    "cancion": "No Other Heart",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273b395acedffa5fa8e7696aea2",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:2aaCNg42RA74s0EmHTBqS7",
-    "uriAlbum": "spotify:album:5FiDVzxLqGtYjF5yzmMoj4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/88c31d139b16b0116e37ae88f5193f307d55dbc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 173117,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 66,
-    "isrc": "QMMZN1300874",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "Another One",
-    "cancion": "No Other Heart",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27363bb237154c47c65da7f63c2",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:2aaCNg42RA74s0EmHTBqS7",
-    "uriAlbum": "spotify:album:5FiDVzxLqGtYjF5yzmMoj4",
-    "previewUrl": "https://p.scdn.co/mp3-preview/88c31d139b16b0116e37ae88f5193f307d55dbc2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 173117,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 66,
-    "isrc": "QMMZN1300874",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Another One",
     "cancion": "Without Me",
@@ -10188,24 +11685,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:50:21Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "Five Easy Hot Dogs",
-    "cancion": "Chicago",
-    "fecha": "2026-08-31",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736e16f19cf21119423d8f50d9",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:6aJxCxEnxB3bG0EblcML0x",
-    "uriAlbum": "spotify:album:2Ao4brMpPgMyyuh9dPK4oK",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3ad152aad7b30ed46e766c5509488a98c0ca82de?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 144266,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 36,
-    "isrc": "QZG4T2200016",
-    "agregadoEn": "2026-08-31T15:37:52Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Five Easy Hot Dogs",
     "cancion": "Gualala",
@@ -10224,6 +11704,26 @@ const cancionesData = [
     "agregadoEn": "2026-08-31T15:38:38Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Five Easy Hot Dogs",
+    "cancion": "Chicago",
+    "fecha": "2026-08-31",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736e16f19cf21119423d8f50d9",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:6aJxCxEnxB3bG0EblcML0x",
+    "uriAlbum": "spotify:album:2Ao4brMpPgMyyuh9dPK4oK",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3ad152aad7b30ed46e766c5509488a98c0ca82de?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 144266,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 36,
+    "isrc": "QZG4T2200016",
+    "agregadoEn": "2026-08-31T15:37:52Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Guitar",
     "cancion": "Nightmare",
@@ -10242,6 +11742,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Guitar",
     "cancion": "Punishment",
@@ -10260,6 +11761,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Here Comes The Cowboy",
     "cancion": "Finally Alone",
@@ -10278,42 +11780,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "Here Comes The Cowboy",
-    "cancion": "Heart To Heart",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:7EAMXbLcL0qXmciM5SwMh2",
-    "uriAlbum": "spotify:album:67PsnkYVPNpEsZffyTWGgW",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e3fd4ac516e3e42cc98dea378274679ac9ac04c9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 211140,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 86,
-    "isrc": "QZG4T1900008",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "Here Comes The Cowboy",
-    "cancion": "On The Square",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:1WyEXbMQLt9szrhDos1uz8",
-    "uriAlbum": "spotify:album:67PsnkYVPNpEsZffyTWGgW",
-    "previewUrl": "https://p.scdn.co/mp3-preview/1d34ef4331e2f7225bc7d86f0b5c27a27d90875e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 209393,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 76,
-    "isrc": "QZG4T1900010",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Here Comes The Cowboy",
     "cancion": "Preoccupied",
@@ -10332,6 +11799,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Here Comes The Cowboy",
+    "cancion": "Heart To Heart",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:7EAMXbLcL0qXmciM5SwMh2",
+    "uriAlbum": "spotify:album:67PsnkYVPNpEsZffyTWGgW",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e3fd4ac516e3e42cc98dea378274679ac9ac04c9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 211140,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 86,
+    "isrc": "QZG4T1900008",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Here Comes The Cowboy",
+    "cancion": "On The Square",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:1WyEXbMQLt9szrhDos1uz8",
+    "uriAlbum": "spotify:album:67PsnkYVPNpEsZffyTWGgW",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1d34ef4331e2f7225bc7d86f0b5c27a27d90875e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 209393,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 76,
+    "isrc": "QZG4T1900010",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Here Comes The Cowboy Demos",
     "cancion": "On The Square - Demo",
@@ -10350,96 +11856,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-14T01:16:29Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "Salad Days",
-    "cancion": "Blue Boy",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:6drC7tBnx8AiYfTfBmDPVO",
-    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bdf4817a3e69e4996bc855d02eaf0a929729edea?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 126223,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "QMMZN1300561",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "Salad Days",
-    "cancion": "Chamber Of Reflection",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:7H7NyZ3G075GqPx2evsfeb",
-    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
-    "previewUrl": "https://p.scdn.co/mp3-preview/8b7117e6c5c76d6121f10d81585acdace1201ea0?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 231723,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "QMMZN1300568",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "Salad Days",
-    "cancion": "Chamber Of Reflection",
-    "fecha": "2026-09-01",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:7H7NyZ3G075GqPx2evsfeb",
-    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
-    "previewUrl": "https://p.scdn.co/mp3-preview/8b7117e6c5c76d6121f10d81585acdace1201ea0?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 231723,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "QMMZN1300568",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "Salad Days",
-    "cancion": "Let Her Go",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:2JPlAh94PTtjZmCs2dY0P7",
-    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ffe0e12275c45a1ad3be11b403597fe66b8ceef1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 182607,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 43,
-    "isrc": "QMMZN1300563",
-    "agregadoEn": "2026-09-16T22:49:45Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "Salad Days",
-    "cancion": "Passing Out Pieces",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:4D5r4nLOwh0ktYXmm40eBD",
-    "uriAlbum": "spotify:album:2r63qjVnXyfTc2eJRSptxS",
-    "previewUrl": "https://p.scdn.co/mp3-preview/747b241f19912cdaa3c290a47f820b908000b23b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 167090,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 63,
-    "isrc": "QMMZN1300566",
-    "agregadoEn": "2026-09-17T22:13:48Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Salad Days",
     "cancion": "Salad Days",
@@ -10458,6 +11875,64 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:13:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Salad Days",
+    "cancion": "Blue Boy",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:6drC7tBnx8AiYfTfBmDPVO",
+    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bdf4817a3e69e4996bc855d02eaf0a929729edea?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 126223,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "QMMZN1300561",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Salad Days",
+    "cancion": "Let Her Go",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:2JPlAh94PTtjZmCs2dY0P7",
+    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ffe0e12275c45a1ad3be11b403597fe66b8ceef1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 182607,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 43,
+    "isrc": "QMMZN1300563",
+    "agregadoEn": "2026-09-16T22:49:45Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "Salad Days",
+    "cancion": "Passing Out Pieces",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:4D5r4nLOwh0ktYXmm40eBD",
+    "uriAlbum": "spotify:album:2r63qjVnXyfTc2eJRSptxS",
+    "previewUrl": "https://p.scdn.co/mp3-preview/747b241f19912cdaa3c290a47f820b908000b23b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 167090,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 63,
+    "isrc": "QMMZN1300566",
+    "agregadoEn": "2026-09-17T22:13:48Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "Salad Days",
     "cancion": "Treat Her Better",
@@ -10476,60 +11951,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
-    "album": "This Old Dog",
-    "cancion": "For the First Time",
+    "album": "Salad Days",
+    "cancion": "Chamber Of Reflection",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ec6e9c13eeed14eedbd5f7c9",
     "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:2R4AlwtrrkMaRKojcTIzmL",
-    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f8a28259ab375f78c30345cbdb05216399376b4a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 182306,
+    "uriCancion": "spotify:track:7H7NyZ3G075GqPx2evsfeb",
+    "uriAlbum": "spotify:album:2sij95QgjmgrhNv33achzn",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8b7117e6c5c76d6121f10d81585acdace1201ea0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 231723,
     "numeroDisco": 1,
-    "numeroPista": 4,
+    "numeroPista": 9,
     "esExplicita": false,
     "popularidad": 68,
-    "isrc": "QMMZN1701301",
+    "isrc": "QMMZN1300568",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
-    "album": "This Old Dog",
-    "cancion": "For the First Time",
+    "album": "Salad Days",
+    "cancion": "Chamber Of Reflection",
     "fecha": "2026-09-01",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
     "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:2R4AlwtrrkMaRKojcTIzmL",
-    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f8a28259ab375f78c30345cbdb05216399376b4a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 182306,
+    "uriCancion": "spotify:track:1Snko28yJOihcRVXs9dAo9",
+    "uriAlbum": "spotify:album:2r63qjVnXyfTc2eJRSptxS",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8b7117e6c5c76d6121f10d81585acdace1201ea0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 231723,
     "numeroDisco": 1,
-    "numeroPista": 4,
+    "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "QMMZN1701301",
-    "agregadoEn": "2026-06-28T04:36:53Z"
+    "popularidad": 86,
+    "isrc": "QMMZN1300568",
+    "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "This Old Dog",
-    "cancion": "Moonlight on the River",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:2fhOljbX79loRcdl47SFye",
-    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f18ea8db20835209335e5bd97837cff8f2b8d1f8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 422613,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 63,
-    "isrc": "QMMZN1701309",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "This Old Dog",
     "cancion": "My Old Man",
@@ -10548,78 +12008,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "This Old Dog",
-    "cancion": "On the Level",
+    "cancion": "For the First Time",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
     "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:4RpwQDPnn1GhWpZooUcCzd",
+    "uriCancion": "spotify:track:2R4AlwtrrkMaRKojcTIzmL",
     "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3f0f8a3f2068496f0147ffb6e6110da97ffbc1e4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 227653,
+    "previewUrl": "https://p.scdn.co/mp3-preview/f8a28259ab375f78c30345cbdb05216399376b4a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 182306,
     "numeroDisco": 1,
-    "numeroPista": 11,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 53,
-    "isrc": "QMMZN1701308",
+    "popularidad": 68,
+    "isrc": "QMMZN1701301",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "This Old Dog",
-    "cancion": "On the Level",
+    "cancion": "For the First Time",
     "fecha": "2026-09-01",
     "portada": "https://i.scdn.co/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
     "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:4RpwQDPnn1GhWpZooUcCzd",
-    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3f0f8a3f2068496f0147ffb6e6110da97ffbc1e4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 227653,
+    "uriCancion": "spotify:track:0WiMJIxYYEex2AqhRqzV3u",
+    "uriAlbum": "spotify:album:0NEyPH2WTU7NAPxebB7z4g",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f8a28259ab375f78c30345cbdb05216399376b4a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 182306,
     "numeroDisco": 1,
-    "numeroPista": 11,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 53,
-    "isrc": "QMMZN1701308",
-    "agregadoEn": "2026-06-28T04:36:53Z"
+    "popularidad": 87,
+    "isrc": "QMMZN1701301",
+    "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
-    "artista": "Mac DeMarco",
-    "album": "This Old Dog",
-    "cancion": "One More Love Song",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:0v8J17a6cO0wWp7z731GTd",
-    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d9b99157f1a9866e9a995eb6fcc275c35b56dcbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 241066,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "QMMZN1701307",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Mac DeMarco",
-    "album": "This Old Dog",
-    "cancion": "One More Love Song",
-    "fecha": "2026-09-01",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
-    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
-    "uriCancion": "spotify:track:0v8J17a6cO0wWp7z731GTd",
-    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d9b99157f1a9866e9a995eb6fcc275c35b56dcbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 241066,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "QMMZN1701307",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac DeMarco",
     "album": "This Old Dog",
     "cancion": "Still Beating",
@@ -10638,6 +12065,102 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "This Old Dog",
+    "cancion": "One More Love Song",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:0v8J17a6cO0wWp7z731GTd",
+    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d9b99157f1a9866e9a995eb6fcc275c35b56dcbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 241066,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "QMMZN1701307",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "This Old Dog",
+    "cancion": "One More Love Song",
+    "fecha": "2026-09-01",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:2RRDCYAfYlvg9QtIiHvY4W",
+    "uriAlbum": "spotify:album:0NEyPH2WTU7NAPxebB7z4g",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d9b99157f1a9866e9a995eb6fcc275c35b56dcbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 241066,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 74,
+    "isrc": "QMMZN1701307",
+    "agregadoEn": "2026-09-01T16:05:00Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "This Old Dog",
+    "cancion": "On the Level",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:4RpwQDPnn1GhWpZooUcCzd",
+    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3f0f8a3f2068496f0147ffb6e6110da97ffbc1e4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 227653,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "QMMZN1701308",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "This Old Dog",
+    "cancion": "On the Level",
+    "fecha": "2026-09-01",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:7iNPzYwhBg2YVqKi19lGMp",
+    "uriAlbum": "spotify:album:0NEyPH2WTU7NAPxebB7z4g",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3f0f8a3f2068496f0147ffb6e6110da97ffbc1e4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 227653,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 71,
+    "isrc": "QMMZN1701308",
+    "agregadoEn": "2026-09-01T16:05:00Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Mac DeMarco",
+    "album": "This Old Dog",
+    "cancion": "Moonlight on the River",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739f1b21f21b13ff2d3e891f6b",
+    "uri": "spotify:artist:3Sz7ZnJQBIHsXLUSo0OQtM",
+    "uriCancion": "spotify:track:2fhOljbX79loRcdl47SFye",
+    "uriAlbum": "spotify:album:4NNq2vwTapv4fSJcrZbPH7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f18ea8db20835209335e5bd97837cff8f2b8d1f8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 422613,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 63,
+    "isrc": "QMMZN1701309",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Mac Miller",
     "album": "Swimming",
     "cancion": "Small Worlds",
@@ -10656,6 +12179,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Macabre Plaza",
     "album": "Out With the Old in With the Taboo",
     "cancion": "A Bird's Last Look",
@@ -10674,6 +12198,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Madvillain, Madlib, MF DOOM",
     "album": "Madvillainy",
     "cancion": "All Caps",
@@ -10692,6 +12217,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mae Stephens",
     "album": "If We Ever Broke Up",
     "cancion": "If We Ever Broke Up",
@@ -10710,6 +12236,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:50:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "mage tears",
     "album": "cats in the cold",
     "cancion": "cats in the cold",
@@ -10728,6 +12255,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Malcolm Todd",
     "album": "Comfort Me",
     "cancion": "Comfort Me",
@@ -10746,6 +12274,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T03:33:42Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Malcolm Todd",
     "album": "Malcolm Todd",
     "cancion": "Chest Pain (I Love)",
@@ -10764,6 +12293,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Malcolm Todd",
     "album": "Sweet Boy",
     "cancion": "Earrings",
@@ -10782,6 +12312,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T20:49:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Malcolm Todd",
     "album": "Sweet Boy",
     "cancion": "Roommates",
@@ -10800,6 +12331,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T23:27:44Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Malcolm Todd",
     "album": "Sweet Boy",
     "cancion": "Sweet Boy",
@@ -10818,6 +12350,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Manu Chao",
     "album": "Clandestino",
     "cancion": "Bongo Bong",
@@ -10836,6 +12369,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Manu Chao",
     "album": "Clandestino",
     "cancion": "Je ne t'aime plus",
@@ -10854,6 +12388,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Manu Chao",
     "album": "Próxima Estación: Esperanza",
     "cancion": "Me Gustas Tu",
@@ -10872,6 +12407,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Marc Seguí, Rauw Alejandro, Pol Granch",
     "album": "Tiroteo (Remix)",
     "cancion": "Tiroteo - Remix",
@@ -10890,6 +12426,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:51:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mareux",
     "album": "The Perfect Girl",
     "cancion": "The Perfect Girl",
@@ -10908,6 +12445,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:05:32Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Maria Becerra, Paulo Londra, XROSS",
     "album": "RAMEN PARA DOS",
     "cancion": "RAMEN PARA DOS",
@@ -10926,6 +12464,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:51:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Martín Piroyansky",
     "album": "Porno Y Helado",
     "cancion": "Porno Y Helado",
@@ -10944,6 +12483,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Massacre",
     "album": "El Mamut",
     "cancion": "La Reina de Marte",
@@ -10962,6 +12502,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:09:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mazzy Star",
     "album": "So Tonight That I Might See",
     "cancion": "Fade Into You",
@@ -10980,6 +12521,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Medasin, MAE.SUN, Sara Kawai",
     "album": "sounds",
     "cancion": "magic",
@@ -10998,24 +12540,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:13:04Z"
   },
   {
-    "artista": "Memo Boy",
-    "album": "Songs & Demos 2015-2017",
-    "cancion": "Brian is the Most Beautiful",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273fd062989b0b63b82f5949524",
-    "uri": "spotify:artist:2jwC7uml6QVgLBfx1Hbtek",
-    "uriCancion": "spotify:track:3lhLML5eIwmPnw2xWKosZX",
-    "uriAlbum": "spotify:album:0a0ftVkZr4K1QoOXcZF0V1",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7130501c0bbf554bb4786152e7267b62e21a6af2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 225000,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 65,
-    "isrc": "GB5P52100117",
-    "agregadoEn": "2026-09-16T21:48:36Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Memo Boy",
     "album": "Songs & Demos 2015-2017",
     "cancion": "Facebook.com",
@@ -11034,6 +12559,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Memo Boy",
+    "album": "Songs & Demos 2015-2017",
+    "cancion": "Brian is the Most Beautiful",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fd062989b0b63b82f5949524",
+    "uri": "spotify:artist:2jwC7uml6QVgLBfx1Hbtek",
+    "uriCancion": "spotify:track:3lhLML5eIwmPnw2xWKosZX",
+    "uriAlbum": "spotify:album:0a0ftVkZr4K1QoOXcZF0V1",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7130501c0bbf554bb4786152e7267b62e21a6af2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 225000,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 65,
+    "isrc": "GB5P52100117",
+    "agregadoEn": "2026-09-16T21:48:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Memo Boy, Chakra Efendi",
     "album": "Songs & Demos 2015-2017",
     "cancion": "Insomniac",
@@ -11052,6 +12597,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Men At Work",
     "album": "The Best Of Men At Work: Contraband",
     "cancion": "Who Can It Be Now?",
@@ -11070,6 +12616,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:52:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Men I Trust",
     "album": "Show Me How",
     "cancion": "Show Me How",
@@ -11088,6 +12635,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Metric, Brie Larson",
     "album": "Black Sheep (Brie Larson Vocal Version)",
     "cancion": "Black Sheep - Brie Larson Vocal Version",
@@ -11106,24 +12654,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "MF DOOM",
-    "album": "Metal Fingers Presents: Special Herbs Vol. 5 & 6",
-    "cancion": "Coffin Nails",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273810322d575e5a2ea235671f9",
-    "uri": "spotify:artist:2pAWfrd7WFF3XhVt9GooDL",
-    "uriCancion": "spotify:track:0o73cSWmV0YJeHvzDbJDdn",
-    "uriAlbum": "spotify:album:1AJtMVPbKTiw7OHOa9oVCx",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9b8bc7981577f0dd34f2c9098c04dfbd4d943625?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 176760,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 65,
-    "isrc": "USHKR0910605",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "MF DOOM",
     "album": "Metal Fingers Presents: Special Herbs Vol. 5 & 6",
     "cancion": "Lavender Buds",
@@ -11142,6 +12673,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "MF DOOM",
+    "album": "Metal Fingers Presents: Special Herbs Vol. 5 & 6",
+    "cancion": "Coffin Nails",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273810322d575e5a2ea235671f9",
+    "uri": "spotify:artist:2pAWfrd7WFF3XhVt9GooDL",
+    "uriCancion": "spotify:track:0o73cSWmV0YJeHvzDbJDdn",
+    "uriAlbum": "spotify:album:1AJtMVPbKTiw7OHOa9oVCx",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9b8bc7981577f0dd34f2c9098c04dfbd4d943625?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 176760,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 65,
+    "isrc": "USHKR0910605",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "MF DOOM",
     "album": "MM..FOOD",
     "cancion": "Hoe Cakes",
@@ -11160,6 +12711,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "MF DOOM",
     "album": "MM..FOOD",
     "cancion": "One Beer",
@@ -11178,6 +12730,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "MF DOOM, Mr. Fantastik",
     "album": "MM..FOOD",
     "cancion": "Rapp Snitch Knishes",
@@ -11196,6 +12749,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "MF DOOM, Pebbles The Invisible Girl",
     "album": "Operation: Doomsday (Complete)",
     "cancion": "Doomsday",
@@ -11214,6 +12768,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "MF DOOM, Tommy Gunn",
     "album": "Operation: Doomsday (Complete)",
     "cancion": "The Finest",
@@ -11232,6 +12787,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "MGMT",
     "album": "Little Dark Age",
     "cancion": "Little Dark Age",
@@ -11250,6 +12806,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "mikeeysmind",
     "album": "Resonance x Genesis x Not allowed",
     "cancion": "Resonance x Genesis x Not allowed - Slowed",
@@ -11268,6 +12825,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:01:09Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Miki Matsubara",
     "album": "Miki Matsubara Best Collection",
     "cancion": "Mayonaka no Door / Stay With Me",
@@ -11286,6 +12844,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:52:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mild High Club",
     "album": "Skiptracing",
     "cancion": "Homage",
@@ -11304,6 +12863,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mild High Club",
     "album": "Skiptracing",
     "cancion": "Tesselation",
@@ -11322,6 +12882,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:52:46Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Milo j",
     "album": "111",
     "cancion": "M.A.I",
@@ -11340,6 +12901,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:52:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Milo j",
     "album": "166",
     "cancion": "3 PECADOS DESPUES…",
@@ -11358,6 +12920,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:52:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Milo j",
     "album": "166 (DELUXE) retirada",
     "cancion": "OLIMPO",
@@ -11376,6 +12939,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:53:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Milo j",
     "album": "Milagrosa",
     "cancion": "Milagrosa",
@@ -11394,6 +12958,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:53:09Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Milo j, Taiu",
     "album": "Rara Vez",
     "cancion": "Rara Vez",
@@ -11412,6 +12977,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:53:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mission Of Burma",
     "album": "Signals, Calls and Marches",
     "cancion": "That's When I Reach for My Revolver",
@@ -11430,6 +12996,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:53:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mitski",
     "album": "Bury Me At Makeout Creek",
     "cancion": "First Love/Late Spring",
@@ -11448,6 +13015,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Mitski",
     "album": "The Land Is Inhospitable and So Are We",
     "cancion": "My Love Mine All Mine",
@@ -11466,6 +13034,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "MJ Lenderman",
     "album": "Manning Fireworks",
     "cancion": "She's Leaving You",
@@ -11484,6 +13053,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:57:54Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Moby",
     "album": "Play",
     "cancion": "Porcelain",
@@ -11502,6 +13072,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-03T04:50:34Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Modest Mouse",
     "album": "The Lonesome Crowded West",
     "cancion": "Trailer Trash",
@@ -11520,6 +13091,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:07:34Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Modjo",
     "album": "Modjo (Remastered)",
     "cancion": "Lady - Hear Me Tonight",
@@ -11538,6 +13110,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Molchat Doma",
     "album": "С крыш наших домов",
     "cancion": "Я Не Коммунист",
@@ -11556,42 +13129,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Molchat Doma",
-    "album": "Этажи",
-    "cancion": "Клетка",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273d4549c0e601fbe7e8622a2f5",
-    "uri": "spotify:artist:1nVq0hKIVReeaiB3xJgKf0",
-    "uriCancion": "spotify:track:4nvsRb9ypaqqDXcZxjn6ba",
-    "uriAlbum": "spotify:album:1FHREwXgTQvqiG8q5KlRzc",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7618f7c90a25e71f8069449114ca151a935b500b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 283485,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 67,
-    "isrc": "AEA0D1846148",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Molchat Doma",
-    "album": "Этажи",
-    "cancion": "Судно (Борис Рыжий)",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273d4549c0e601fbe7e8622a2f5",
-    "uri": "spotify:artist:1nVq0hKIVReeaiB3xJgKf0",
-    "uriCancion": "spotify:track:1SHB1hp6267UK9bJQUxYvO",
-    "uriAlbum": "spotify:album:1FHREwXgTQvqiG8q5KlRzc",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bce16d950bcd8014540b37090949c58e2119ccbc?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 141394,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": true,
-    "popularidad": 76,
-    "isrc": "AEA0D1846146",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Molchat Doma",
     "album": "Этажи",
     "cancion": "Танцевать",
@@ -11610,6 +13148,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Molchat Doma",
     "album": "Этажи",
     "cancion": "Тоска",
@@ -11628,6 +13167,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Molchat Doma",
+    "album": "Этажи",
+    "cancion": "Судно (Борис Рыжий)",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d4549c0e601fbe7e8622a2f5",
+    "uri": "spotify:artist:1nVq0hKIVReeaiB3xJgKf0",
+    "uriCancion": "spotify:track:1SHB1hp6267UK9bJQUxYvO",
+    "uriAlbum": "spotify:album:1FHREwXgTQvqiG8q5KlRzc",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bce16d950bcd8014540b37090949c58e2119ccbc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 141394,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": true,
+    "popularidad": 76,
+    "isrc": "AEA0D1846146",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Molchat Doma",
+    "album": "Этажи",
+    "cancion": "Клетка",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d4549c0e601fbe7e8622a2f5",
+    "uri": "spotify:artist:1nVq0hKIVReeaiB3xJgKf0",
+    "uriCancion": "spotify:track:4nvsRb9ypaqqDXcZxjn6ba",
+    "uriAlbum": "spotify:album:1FHREwXgTQvqiG8q5KlRzc",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7618f7c90a25e71f8069449114ca151a935b500b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 283485,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 67,
+    "isrc": "AEA0D1846148",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Morrissey",
     "album": "Make-up is a Lie",
     "cancion": "Make-up is a Lie",
@@ -11646,24 +13224,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Morrissey",
     "album": "Make-up is a Lie",
     "cancion": "Make-up is a Lie",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273caab8e32a7f5cfc81f7fbaa4",
     "uri": "spotify:artist:3iTsJGG39nMg9YiolUgLMQ",
-    "uriCancion": "spotify:track:1ubJkE9q1un1hIHbDfJ8Tg",
-    "uriAlbum": "spotify:album:0jyLLWr93rCySb4oKjhxxX",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0df47aef598ffdfcd60684975a800ddfc16f9512?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "uriCancion": "spotify:track:3F7oAytDS4LmkYYJC3KPNC",
+    "uriAlbum": "spotify:album:6A40Ozbw7pFO7HBeKHkxs2",
+    "previewUrl": "https://p.scdn.co/mp3-preview/65f417301354cded446d61a0205cd29ae800d225?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 189600,
     "numeroDisco": 1,
-    "numeroPista": 1,
+    "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 34,
+    "popularidad": 39,
     "isrc": "USWB12503999",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Murart, Revna",
     "album": "Samba Paixão",
     "cancion": "Samba Paixão",
@@ -11682,6 +13262,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:53:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Musical Youth",
     "album": "Bong Hits",
     "cancion": "Pass The Dutchie",
@@ -11700,6 +13281,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Musical Youth",
     "album": "The Youth Of Today",
     "cancion": "Pass The Dutchie",
@@ -11718,6 +13300,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:46:40Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nafeesisboujee",
     "album": "Stephanie",
     "cancion": "Stephanie",
@@ -11736,6 +13319,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-11T23:11:07Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Narrow Head",
     "album": "12th House Rock",
     "cancion": "Nodding Off",
@@ -11754,6 +13338,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:01:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nicki Nicole, Milo j",
     "album": "DISPARA ***",
     "cancion": "DISPARA ***",
@@ -11772,6 +13357,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T16:29:01Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nicky Youre, hey daisy, 24kGoldn",
     "album": "Sunroof (feat. 24kGoldn)",
     "cancion": "Sunroof (feat. 24kGoldn)",
@@ -11790,6 +13376,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:54:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nico Borie",
     "album": "Lamento Boliviano (English) [Cover]",
     "cancion": "Lamento Boliviano (English) - Cover",
@@ -11808,6 +13395,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:54:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "nikomanjiro",
     "album": "For the First Time (Instrumental Slowed)",
     "cancion": "For the First Time - Instrumental Slowed",
@@ -11826,6 +13414,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Bleach",
     "cancion": "About A Girl",
@@ -11844,6 +13433,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:15:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Bleach",
     "cancion": "Love Buzz",
@@ -11862,60 +13452,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "In Utero",
-    "cancion": "All Apologies",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:1Ic9pKxGSJGM0LKeqf6lGe",
-    "uriAlbum": "spotify:album:7wOOA7l306K8HfBKfPoafr",
-    "previewUrl": "https://p.scdn.co/mp3-preview/82994a03fd672aa2a4bd18d6fddf14e5756258ee?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 233173,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 78,
-    "isrc": "USGF19960712",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "In Utero",
-    "cancion": "Dumb",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:5gRcv46AMTrosmTOqrOV3Q",
-    "uriAlbum": "spotify:album:7wOOA7l306K8HfBKfPoafr",
-    "previewUrl": "https://p.scdn.co/mp3-preview/52c7c14690dcfdcf6a4f9818fab966c89b87e87e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 151893,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 76,
-    "isrc": "USGF19960706",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "In Utero",
-    "cancion": "Milk It",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:4rtZtLpriBscg7zta3TZxp",
-    "uriAlbum": "spotify:album:7wOOA7l306K8HfBKfPoafr",
-    "previewUrl": "https://p.scdn.co/mp3-preview/8b926bf08a4b4afa2506986005ae5a3f8d45ce61?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 234746,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "USGF19960708",
-    "agregadoEn": "2026-09-17T22:13:23Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "In Utero",
     "cancion": "Serve The Servants",
@@ -11934,6 +13471,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:13:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "In Utero",
+    "cancion": "Dumb",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:5gRcv46AMTrosmTOqrOV3Q",
+    "uriAlbum": "spotify:album:7wOOA7l306K8HfBKfPoafr",
+    "previewUrl": "https://p.scdn.co/mp3-preview/52c7c14690dcfdcf6a4f9818fab966c89b87e87e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 151893,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 76,
+    "isrc": "USGF19960706",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "In Utero",
     "cancion": "Very Ape",
@@ -11952,6 +13509,45 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:13:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "In Utero",
+    "cancion": "Milk It",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:4rtZtLpriBscg7zta3TZxp",
+    "uriAlbum": "spotify:album:7wOOA7l306K8HfBKfPoafr",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8b926bf08a4b4afa2506986005ae5a3f8d45ce61?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 234746,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "USGF19960708",
+    "agregadoEn": "2026-09-17T22:13:23Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "In Utero",
+    "cancion": "All Apologies",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c4f52ef8782f0e8ede4c1aaf",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:1Ic9pKxGSJGM0LKeqf6lGe",
+    "uriAlbum": "spotify:album:7wOOA7l306K8HfBKfPoafr",
+    "previewUrl": "https://p.scdn.co/mp3-preview/82994a03fd672aa2a4bd18d6fddf14e5756258ee?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 233173,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 78,
+    "isrc": "USGF19960712",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "In Utero (Deluxe Edition)",
     "cancion": "Heart-Shaped Box",
@@ -11970,6 +13566,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "In Utero (Deluxe Edition)",
     "cancion": "Rape Me",
@@ -11988,114 +13585,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "(New Wave) Polly - BBC Mark Goodier Session",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:0k9tUFpXZg7TvMZk4l6OTa",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/16469426e2746580df0aa5ff060d62bc5e759416?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 107973,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 49,
-    "isrc": "USGF19950408",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Aero Zeppelin",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:6ENZJCRagbW3jlzXSucfoI",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/04a00512d314bd2fae17b966b94581fa1b4b9c95?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 281226,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 51,
-    "isrc": "USGF19950413",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Aneurysm",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:0Pie5DFAHHxpkONFUsAI6s",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2a4924a69cebed00a659a729a731fd55ab781fbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 275600,
-    "numeroDisco": 1,
-    "numeroPista": 15,
-    "esExplicita": false,
-    "popularidad": 70,
-    "isrc": "USGF19950415",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Been A Son - BBC Mark Goodier Session",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:4dXBG3zz9SzaPBtm4Fv91x",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/db893aa4358cc9bb68eb0e6234d1b3573d556776?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 115600,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USGF19950404",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Beeswax",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:73heu76HyAQRRN1u3vubq6",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/1cc48d2e1175875ea967170b145809b5cac0ce75?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 170160,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": true,
-    "popularidad": 49,
-    "isrc": "USGF19950409",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Big Long Now",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:1Yk88pNibq8kIHKDQW5Jnu",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/456c1eedd886a008cc4b5e50ec609ecb9070e44a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 303706,
-    "numeroDisco": 1,
-    "numeroPista": 14,
-    "esExplicita": false,
-    "popularidad": 50,
-    "isrc": "USGF19950414",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Incesticide",
     "cancion": "Dive",
@@ -12114,78 +13604,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Downer",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:4e0MJaiXSwXBhrQZHyoK8c",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/82a26f02ed54bd976d2cbe36cd04af2a63c86036?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 103800,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 56,
-    "isrc": "USGF19950410",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Hairspray Queen",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:5X2Z78KBrHKkzcjdZZs5UN",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/549b9b90c0e8e5a7fafad47620fd98160fd396c6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 253733,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 50,
-    "isrc": "USGF19950412",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Mexican Seafood",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:6x20PMZz6zDTODupdLxJUZ",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c83fe56098a128074f0bc29cba23fddc14b9f687?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 115440,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 51,
-    "isrc": "USGF19950411",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Molly's Lips - BBC John Peel Session 1990",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:0brL7VMo7onJJTGMSdajic",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/addf3d31ecc4fd470afecbd26e8cdf545ea22861?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 114133,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "USGF19950406",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Incesticide",
     "cancion": "Sliver",
@@ -12204,24 +13623,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "Incesticide",
-    "cancion": "Son Of A Gun - BBC John Peel Session 1990",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:76sVqjHYyW99EpeQLDkPME",
-    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
-    "previewUrl": "https://p.scdn.co/mp3-preview/eed447569dc0bbb69ae555a651d70fc77130b373?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 168226,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 52,
-    "isrc": "USGF19950407",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Incesticide",
     "cancion": "Stain",
@@ -12240,6 +13642,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Been A Son - BBC Mark Goodier Session",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:4dXBG3zz9SzaPBtm4Fv91x",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/db893aa4358cc9bb68eb0e6234d1b3573d556776?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 115600,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "USGF19950404",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Incesticide",
     "cancion": "Turnaround - BBC John Peel Session 1990",
@@ -12258,6 +13680,197 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Molly's Lips - BBC John Peel Session 1990",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:0brL7VMo7onJJTGMSdajic",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/addf3d31ecc4fd470afecbd26e8cdf545ea22861?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 114133,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "USGF19950406",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Son Of A Gun - BBC John Peel Session 1990",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:76sVqjHYyW99EpeQLDkPME",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/eed447569dc0bbb69ae555a651d70fc77130b373?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 168226,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 52,
+    "isrc": "USGF19950407",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "(New Wave) Polly - BBC Mark Goodier Session",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:0k9tUFpXZg7TvMZk4l6OTa",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/16469426e2746580df0aa5ff060d62bc5e759416?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 107973,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 49,
+    "isrc": "USGF19950408",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Beeswax",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:73heu76HyAQRRN1u3vubq6",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1cc48d2e1175875ea967170b145809b5cac0ce75?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 170160,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": true,
+    "popularidad": 49,
+    "isrc": "USGF19950409",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Downer",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:4e0MJaiXSwXBhrQZHyoK8c",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/82a26f02ed54bd976d2cbe36cd04af2a63c86036?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 103800,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 56,
+    "isrc": "USGF19950410",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Mexican Seafood",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:6x20PMZz6zDTODupdLxJUZ",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c83fe56098a128074f0bc29cba23fddc14b9f687?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 115440,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "USGF19950411",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Hairspray Queen",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:5X2Z78KBrHKkzcjdZZs5UN",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/549b9b90c0e8e5a7fafad47620fd98160fd396c6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 253733,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "USGF19950412",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Aero Zeppelin",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:6ENZJCRagbW3jlzXSucfoI",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/04a00512d314bd2fae17b966b94581fa1b4b9c95?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 281226,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "USGF19950413",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Big Long Now",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:1Yk88pNibq8kIHKDQW5Jnu",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/456c1eedd886a008cc4b5e50ec609ecb9070e44a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 303706,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 50,
+    "isrc": "USGF19950414",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Incesticide",
+    "cancion": "Aneurysm",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1f5fcef5fb5f70aa0a717fc",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:0Pie5DFAHHxpkONFUsAI6s",
+    "uriAlbum": "spotify:album:6ICrBzsbHVluGHP8wGK4Y3",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2a4924a69cebed00a659a729a731fd55ab781fbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 275600,
+    "numeroDisco": 1,
+    "numeroPista": 15,
+    "esExplicita": false,
+    "popularidad": 70,
+    "isrc": "USGF19950415",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "MTV Unplugged In New York",
     "cancion": "About A Girl - Live",
@@ -12276,24 +13889,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "All Apologies - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:3bH8PZsfbCRIoeNiFm7JmU",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4c21f4bd39dbe8716765c8dae5aa438bf76c4538?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 263226,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 62,
-    "isrc": "USGF19972713",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "MTV Unplugged In New York",
     "cancion": "Come As You Are - Live",
@@ -12312,24 +13908,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Dumb - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:725QAOexNLmGZiFMN7U8pF",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f58ebf8e9d2fc69766ba5e4ee3d75480b3ba798d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 172933,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "USGF19972706",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "MTV Unplugged In New York",
     "cancion": "Jesus Doesn't Want Me For A Sunbeam - Live",
@@ -12348,132 +13927,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Lake Of Fire - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:4UJmPSJsBsIR1U0N79BU1g",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/30860936ad659eb4b8d231e36da9932b54924df4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 175973,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 71,
-    "isrc": "USGF19972712",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Oh Me - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:2vfCSwToh0Am0O4zgHXfn7",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f3447da2969cd87165cdc633aef68ab332a7f1f9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 206160,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 64,
-    "isrc": "USGF19972711",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "On A Plain - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:2RyiGdY33PR4aCTUolEhk7",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4607cf7a14b0ee0484f35e94f88d4a442a6b18de?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 224733,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USGF19972708",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Pennyroyal Tea - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:6DX6W2QXiVlKYQLrQN8y83",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/091f943260ca2a3fe7ca477977692d058ffb47f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 220506,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 59,
-    "isrc": "USGF19972705",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Plateau - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:2smax1OWAxOo63p14G8KZx",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e3e4a54056bd1431294aa8b3230b2f409ffb98e0?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 218133,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 64,
-    "isrc": "USGF19972710",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Polly - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:0xHch89AN9RlN8Nm4kJzs3",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4a707f26b603a89671521d9a891196bbf5fbaaef?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 196466,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "USGF19972707",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Nirvana",
-    "album": "MTV Unplugged In New York",
-    "cancion": "Something In The Way - Live",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:1tlTFxB34VorrZnJNfRWcs",
-    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/396a545b7dd901207e03d70fe7949d28802694d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 241533,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "USGF19972709",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "MTV Unplugged In New York",
     "cancion": "The Man Who Sold The World - Live",
@@ -12492,6 +13946,178 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Pennyroyal Tea - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:6DX6W2QXiVlKYQLrQN8y83",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/091f943260ca2a3fe7ca477977692d058ffb47f2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 220506,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 59,
+    "isrc": "USGF19972705",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Dumb - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:725QAOexNLmGZiFMN7U8pF",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f58ebf8e9d2fc69766ba5e4ee3d75480b3ba798d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 172933,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "USGF19972706",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Polly - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:0xHch89AN9RlN8Nm4kJzs3",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4a707f26b603a89671521d9a891196bbf5fbaaef?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 196466,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "USGF19972707",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "On A Plain - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:2RyiGdY33PR4aCTUolEhk7",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4607cf7a14b0ee0484f35e94f88d4a442a6b18de?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 224733,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "USGF19972708",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Something In The Way - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:1tlTFxB34VorrZnJNfRWcs",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/396a545b7dd901207e03d70fe7949d28802694d8?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 241533,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "USGF19972709",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Plateau - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:2smax1OWAxOo63p14G8KZx",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e3e4a54056bd1431294aa8b3230b2f409ffb98e0?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 218133,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 64,
+    "isrc": "USGF19972710",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Oh Me - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:2vfCSwToh0Am0O4zgHXfn7",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f3447da2969cd87165cdc633aef68ab332a7f1f9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 206160,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 64,
+    "isrc": "USGF19972711",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "Lake Of Fire - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:4UJmPSJsBsIR1U0N79BU1g",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/30860936ad659eb4b8d231e36da9932b54924df4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 175973,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 71,
+    "isrc": "USGF19972712",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "MTV Unplugged In New York",
+    "cancion": "All Apologies - Live",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27336c5417732e53e23cb219246",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:3bH8PZsfbCRIoeNiFm7JmU",
+    "uriAlbum": "spotify:album:1To7kv722A8SpZF789MZy7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4c21f4bd39dbe8716765c8dae5aa438bf76c4538?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 263226,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 62,
+    "isrc": "USGF19972713",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "MTV Unplugged In New York",
     "cancion": "Where Did You Sleep Last Night - Live",
@@ -12510,24 +14136,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Nirvana",
-    "album": "Nevermind (Remastered)",
-    "cancion": "Come As You Are",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
-    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
-    "uriCancion": "spotify:track:2RsAajgo0g7bMCHxwH3Sk0",
-    "uriAlbum": "spotify:album:2UJcKiJxNryhL050F5Z1Fk",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7e9be2f1785c932e198f045ede7226957141f083?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 218920,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 87,
-    "isrc": "USGF19942503",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Nevermind (Remastered)",
     "cancion": "Smells Like Teen Spirit",
@@ -12546,6 +14155,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Nirvana",
+    "album": "Nevermind (Remastered)",
+    "cancion": "Come As You Are",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273fbc71c99f9c1296c56dd51b6",
+    "uri": "spotify:artist:6olE6TJLqED3rqDCT0FyPh",
+    "uriCancion": "spotify:track:2RsAajgo0g7bMCHxwH3Sk0",
+    "uriAlbum": "spotify:album:2UJcKiJxNryhL050F5Z1Fk",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7e9be2f1785c932e198f045ede7226957141f083?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 218920,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 87,
+    "isrc": "USGF19942503",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "Nirvana",
     "cancion": "You Know You're Right",
@@ -12564,6 +14193,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nirvana",
     "album": "With The Lights Out - Box Set",
     "cancion": "Sappy",
@@ -12582,6 +14212,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:13:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "noturgf",
     "album": "Do Ya Like X Resonance",
     "cancion": "Do Ya Like X Resonance",
@@ -12600,6 +14231,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-11T22:59:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "noturgf",
     "album": "Resonance (Slowed & Reverb)",
     "cancion": "Resonance - Slowed & Reverb",
@@ -12618,6 +14250,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:40:07Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "noturgf",
     "album": "Resonance (Sped Up)",
     "cancion": "Resonance - Sped Up",
@@ -12636,6 +14269,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:18:38Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "NovaX",
     "album": "Tokyo Drift X Gypsy Woman",
     "cancion": "Tokyo Drift X Gypsy Woman",
@@ -12654,6 +14288,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-06T16:38:06Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Novulent",
     "album": "unknown feelings",
     "cancion": "unknown feelings",
@@ -12672,6 +14307,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Nujabes",
     "album": "samurai champloo music record departure",
     "cancion": "aruarian dance",
@@ -12690,6 +14326,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:18:58Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "O'Phantom",
     "album": "Shadowpain",
     "cancion": "Shadowpain",
@@ -12708,6 +14345,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:10:29Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Oasis",
     "album": "(What's The Story) Morning Glory?",
     "cancion": "Wonderwall",
@@ -12726,6 +14364,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Oasis",
     "album": "(What's The Story) Morning Glory? [Remastered]",
     "cancion": "Wonderwall - Remastered",
@@ -12744,6 +14383,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Oasis",
     "album": "Heathen Chemistry",
     "cancion": "Stop Crying Your Heart Out",
@@ -12762,6 +14402,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Operation Ivy",
     "album": "Operation Ivy (2007 Remaster)",
     "cancion": "Knowledge - 2007 Remaster",
@@ -12780,6 +14421,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Oso Oso",
     "album": "the yunahon mixtape",
     "cancion": "the cool",
@@ -12798,6 +14440,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:48Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "osokiro",
     "album": "I Can Only Run For So Long",
     "cancion": "I Can Only Run For So Long",
@@ -12816,6 +14459,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "OSRSBeatz",
     "album": "Wii Shop Channel Trap",
     "cancion": "Wii Shop Channel Trap",
@@ -12834,6 +14478,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Otlo",
     "album": "Look Back",
     "cancion": "Look Back",
@@ -12852,42 +14497,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:34:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Otlo",
     "album": "Look Back",
     "cancion": "Look Back",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b2739eb0fbd3f452ec5011c44860",
     "uri": "spotify:artist:7vsoughuCopQQSGdue2nr0",
-    "uriCancion": "spotify:track:5Vnq7rp3ahFgw0k0k0bKT9",
-    "uriAlbum": "spotify:album:4LqupgytgVJ3J5a1qvJS7I",
-    "previewUrl": "https://p.scdn.co/mp3-preview/167ad23f1aad5905d79b0f746baca8fb611464ce?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 139833,
+    "uriCancion": "spotify:track:2bCFz9Qpzx8RcDYktBFQ9g",
+    "uriAlbum": "spotify:album:1kWcbWK7OGr2BxFCD4sAVF",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c3d936b548fd7bb9b668009e60fde49e5644fc86?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 137621,
     "numeroDisco": 1,
     "numeroPista": 1,
     "esExplicita": false,
-    "popularidad": 4,
-    "isrc": "NL8RL2660630",
-    "agregadoEn": "2026-06-28T02:34:05Z"
-  },
-  {
-    "artista": "Otlo",
-    "album": "Lovedrown",
-    "cancion": "Better Hurry",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f8f72a19842ce6332f10ac65",
-    "uri": "spotify:artist:7vsoughuCopQQSGdue2nr0",
-    "uriCancion": "spotify:track:62QY0aA82xNOeHyoGxn9NF",
-    "uriAlbum": "spotify:album:622vFM9S7FtJuSTU06bObY",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3ab42ad8135925dea2940f6a95381f20f70b7377?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 164791,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "QZTBC2550646",
+    "popularidad": 31,
+    "isrc": "NL8RL2639934",
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Otlo",
     "album": "Lovedrown",
     "cancion": "Daisy",
@@ -12906,24 +14535,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
-    "artista": "Otlo",
-    "album": "Lovedrown",
-    "cancion": "Inside and Out",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f8f72a19842ce6332f10ac65",
-    "uri": "spotify:artist:7vsoughuCopQQSGdue2nr0",
-    "uriCancion": "spotify:track:2FpKptEpm5tQYVbys3rGDU",
-    "uriAlbum": "spotify:album:622vFM9S7FtJuSTU06bObY",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9ddc6d58428d66d846dd6a8d3dbd022b5cf0f23c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 179772,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 49,
-    "isrc": "QZK6L2509841",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Otlo",
     "album": "Lovedrown",
     "cancion": "Sweet Nothings",
@@ -12942,6 +14554,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Otlo",
+    "album": "Lovedrown",
+    "cancion": "Inside and Out",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f8f72a19842ce6332f10ac65",
+    "uri": "spotify:artist:7vsoughuCopQQSGdue2nr0",
+    "uriCancion": "spotify:track:2FpKptEpm5tQYVbys3rGDU",
+    "uriAlbum": "spotify:album:622vFM9S7FtJuSTU06bObY",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9ddc6d58428d66d846dd6a8d3dbd022b5cf0f23c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 179772,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 49,
+    "isrc": "QZK6L2509841",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Otlo",
     "album": "Lovedrown",
     "cancion": "Telephone Song",
@@ -12960,6 +14592,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Otlo",
+    "album": "Lovedrown",
+    "cancion": "Better Hurry",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f8f72a19842ce6332f10ac65",
+    "uri": "spotify:artist:7vsoughuCopQQSGdue2nr0",
+    "uriCancion": "spotify:track:62QY0aA82xNOeHyoGxn9NF",
+    "uriAlbum": "spotify:album:622vFM9S7FtJuSTU06bObY",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3ab42ad8135925dea2940f6a95381f20f70b7377?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 164791,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "QZTBC2550646",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Otlo",
     "album": "My Love Has Gone",
     "cancion": "My Love Has Gone",
@@ -12978,6 +14630,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Outkast",
     "album": "Speakerboxxx/The Love Below",
     "cancion": "Hey Ya!",
@@ -12996,168 +14649,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Outkast",
     "album": "Speakerboxxx/The Love Below",
     "cancion": "Hey Ya!",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b27315b62abc4b14254c4ad8621d",
     "uri": "spotify:artist:1G9G7WwrXka3Z1r7aIDjI7",
-    "uriCancion": "spotify:track:2PpruBYCo4H7WOBJ7Q2EwM",
-    "uriAlbum": "spotify:album:1UsmQ3bpJTyK6ygoOOjG1r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d24b3c4135ced9157b0ea3015a6bcc048e0c2e3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "uriCancion": "spotify:track:2R9U8R4ZcOoDWg3jjHjQLr",
+    "uriAlbum": "spotify:album:11ScOUVhEgmsqSDhs7Ymt0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2626eff1f06e4c66357711f6d8c7ac4d6145ca9d?cid=9950ac751e34487dbbe027c4fd7f8e99",
     "duracionMs": 235213,
     "numeroDisco": 2,
     "numeroPista": 9,
-    "esExplicita": true,
-    "popularidad": 89,
-    "isrc": "USAR10300924",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Blues de la Artillería",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:2O5ZavW6C9NPj4MWGXAwON",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7e17375fdf6d70f8a1db863259fb0771a1bea959?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 269800,
-    "numeroDisco": 1,
-    "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 56,
-    "isrc": "AR5CC9100005",
+    "popularidad": 55,
+    "isrc": "USAR12400497",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "El Pibe de los Astilleros",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:2aWd3hLrewRnRA9gYcl9WS",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2f076878bd67205a01a6b24d1e55b9785afd0cef?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 212400,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 69,
-    "isrc": "AR5CC9100007",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Fusilados por la Cruz Roja",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:3ofhIJk91wO0fVEbdPa4Qo",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3b1bca6ca7f23a8183b8c10ff64a67cafcdd5b10?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 255000,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "AR5CC9100002",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Mi Perro Dinamita",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:6D7Ss3H1k1SZTVGx0GPcUB",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a500c0d8aaee946fd4ddad93b925159a9091cd80?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 155893,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 64,
-    "isrc": "AR5CC9100004",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Nueva Roma",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:0nL7hIRPDUlU6eeORO6mD6",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/36844e6a70524e4a192c8f0537375f77fb39958e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 192000,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 54,
-    "isrc": "AR5CC9100008",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Queso Ruso",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:0VAHVJlRWcO0XV7d2moiEq",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9fe45bc878ba3dd4190e01b2e70346964111f0fe?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 292493,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 65,
-    "isrc": "AR5CC9100010",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Salando las Heridas",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:5PxWz8PnJbnLbMHA6VO9FS",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3e9755178c6cde37a6b84261aa1fd2f782a22218?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 302200,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "AR5CC9100009",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "La Mosca y la Sopa",
-    "cancion": "Tarea Fina",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:4mZHvbJWkK9uVmD9SvHKao",
-    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
-    "previewUrl": "https://p.scdn.co/mp3-preview/86c364508ea635b2359ec90d5f86538a7642b996?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 223040,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 69,
-    "isrc": "AR5CC9100006",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "La Mosca y la Sopa",
     "cancion": "Toxi-Taxi",
@@ -13176,6 +14687,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Fusilados por la Cruz Roja",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:3ofhIJk91wO0fVEbdPa4Qo",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3b1bca6ca7f23a8183b8c10ff64a67cafcdd5b10?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 255000,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "AR5CC9100002",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "La Mosca y la Sopa",
     "cancion": "Un Poco de Amor Francés",
@@ -13194,24 +14725,140 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Lobo Suelto",
-    "cancion": "La Hija del Fletero",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Mi Perro Dinamita",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273af9e234f7bb89453544d6cb1",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
     "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:3xZB4ogU6Y9g0VuekPmAO5",
-    "uriAlbum": "spotify:album:1cvN5QA28nC5QYpjoksMGe",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6786ef4ae24bfdf9b98f3d8fe5d8f65d1f8f8f84?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 195173,
+    "uriCancion": "spotify:track:6D7Ss3H1k1SZTVGx0GPcUB",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a500c0d8aaee946fd4ddad93b925159a9091cd80?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 155893,
     "numeroDisco": 1,
-    "numeroPista": 11,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 67,
-    "isrc": "AR5CC9300011",
+    "popularidad": 64,
+    "isrc": "AR5CC9100004",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Blues de la Artillería",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:2O5ZavW6C9NPj4MWGXAwON",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7e17375fdf6d70f8a1db863259fb0771a1bea959?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 269800,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 56,
+    "isrc": "AR5CC9100005",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Tarea Fina",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:4mZHvbJWkK9uVmD9SvHKao",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/86c364508ea635b2359ec90d5f86538a7642b996?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 223040,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 69,
+    "isrc": "AR5CC9100006",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "El Pibe de los Astilleros",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:2aWd3hLrewRnRA9gYcl9WS",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2f076878bd67205a01a6b24d1e55b9785afd0cef?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 212400,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 69,
+    "isrc": "AR5CC9100007",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Nueva Roma",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:0nL7hIRPDUlU6eeORO6mD6",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/36844e6a70524e4a192c8f0537375f77fb39958e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 192000,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 54,
+    "isrc": "AR5CC9100008",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Salando las Heridas",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:5PxWz8PnJbnLbMHA6VO9FS",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3e9755178c6cde37a6b84261aa1fd2f782a22218?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 302200,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 68,
+    "isrc": "AR5CC9100009",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "La Mosca y la Sopa",
+    "cancion": "Queso Ruso",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731c0740bf2b983943ca25a15d",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:0VAHVJlRWcO0XV7d2moiEq",
+    "uriAlbum": "spotify:album:1JZBc7tWO3m3ryyToiLTdj",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9fe45bc878ba3dd4190e01b2e70346964111f0fe?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 292493,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 65,
+    "isrc": "AR5CC9100010",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Lobo Suelto",
     "cancion": "Un Ángel para Tu Soledad",
@@ -13230,6 +14877,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Lobo Suelto",
+    "cancion": "La Hija del Fletero",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273af9e234f7bb89453544d6cb1",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:3xZB4ogU6Y9g0VuekPmAO5",
+    "uriAlbum": "spotify:album:1cvN5QA28nC5QYpjoksMGe",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6786ef4ae24bfdf9b98f3d8fe5d8f65d1f8f8f84?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 195173,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 67,
+    "isrc": "AR5CC9300011",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Luzbelito",
     "cancion": "Juguetes Perdidos",
@@ -13248,24 +14915,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Momo Sampler",
-    "cancion": "Dr. Saturno",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:4WnWWZekH6GS5UTJOhIVB0",
-    "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/64b648b13ac8b10c5d95310c24014910703a67b4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 328933,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "AR5CC0000004",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
     "cancion": "El Templo de Momo",
@@ -13284,42 +14934,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Momo Sampler",
-    "cancion": "La Murga de la Virgencita",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:46JaMvKnmcqyZyK6Vx5HOF",
-    "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/92d9587d8ec4812df5ec4ebe69d18fa389bd3872?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 294733,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 53,
-    "isrc": "AR5CC0000005",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Momo Sampler",
-    "cancion": "La Murga de los Renegados",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:0rVCFkCkIHRjvskYBdkKcy",
-    "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/cb537385a8f9f0b867a790897066293358f0a9ea?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 287800,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "AR5CC0000003",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
     "cancion": "Morta Punto Com",
@@ -13338,42 +14953,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
-    "cancion": "Murga Purga",
+    "cancion": "La Murga de los Renegados",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
     "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:6Ut6EfDnWBJ9IzITSbnJS9",
+    "uriCancion": "spotify:track:0rVCFkCkIHRjvskYBdkKcy",
     "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/77639513c0adfa4ca364abc4a69b591098cd5482?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 204533,
+    "previewUrl": "https://p.scdn.co/mp3-preview/cb537385a8f9f0b867a790897066293358f0a9ea?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 287800,
     "numeroDisco": 1,
-    "numeroPista": 7,
+    "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "AR5CC0000007",
+    "popularidad": 47,
+    "isrc": "AR5CC0000003",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
-    "cancion": "Pensando Como una Acelga",
+    "cancion": "Dr. Saturno",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
     "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:0R6JYHj08RrL5hRCqvy2tP",
+    "uriCancion": "spotify:track:4WnWWZekH6GS5UTJOhIVB0",
     "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ea2e0d60d4316310820d7f0f9fba972ba3236870?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 280133,
+    "previewUrl": "https://p.scdn.co/mp3-preview/64b648b13ac8b10c5d95310c24014910703a67b4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 328933,
     "numeroDisco": 1,
-    "numeroPista": 9,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 45,
-    "isrc": "AR5CC0000009",
+    "popularidad": 47,
+    "isrc": "AR5CC0000004",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Momo Sampler",
+    "cancion": "La Murga de la Virgencita",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:46JaMvKnmcqyZyK6Vx5HOF",
+    "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/92d9587d8ec4812df5ec4ebe69d18fa389bd3872?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 294733,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "AR5CC0000005",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
     "cancion": "Pool, Averna y Papusa",
@@ -13392,6 +15029,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Momo Sampler",
+    "cancion": "Murga Purga",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:6Ut6EfDnWBJ9IzITSbnJS9",
+    "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/77639513c0adfa4ca364abc4a69b591098cd5482?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 204533,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "AR5CC0000007",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
     "cancion": "Sheriff",
@@ -13410,6 +15067,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Momo Sampler",
+    "cancion": "Pensando Como una Acelga",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273d9df4ed24ac8a71b1bb320e8",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:0R6JYHj08RrL5hRCqvy2tP",
+    "uriAlbum": "spotify:album:0omWExUGprwvcvYwGh3Vr0",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ea2e0d60d4316310820d7f0f9fba972ba3236870?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 280133,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 45,
+    "isrc": "AR5CC0000009",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Momo Sampler",
     "cancion": "Una Piba Con la Remera de Greenpeace",
@@ -13428,24 +15105,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Oktubre",
-    "cancion": "Ji Ji Ji",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273353360f871d689ff74dd3712",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:0VWBsKl936U9OO0zypvRCZ",
-    "uriAlbum": "spotify:album:0TmPRZoau8M0QIfnMgwrlI",
-    "previewUrl": "https://p.scdn.co/mp3-preview/beeb4a72100435aa03ba7a542691f95b7042473b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 334600,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 70,
-    "isrc": "AR5CC8600007",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Oktubre",
     "cancion": "Semen-Up",
@@ -13464,42 +15124,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Un Baión para el Ojo Idiota",
-    "cancion": "Aquella Solitaria Vaca Cubana",
+    "album": "Oktubre",
+    "cancion": "Ji Ji Ji",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273353360f871d689ff74dd3712",
     "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:4sxarCL6GZbvkQ1SFGL0FX",
-    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f4fa5bb171b9dda4e33745713cbd28457c5ff900?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 255866,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "AR5CC8800003",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Un Baión para el Ojo Idiota",
-    "cancion": "Ella Debe Estar Tan Linda",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:2A31fqBicUiGEQrEWihykL",
-    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
-    "previewUrl": "https://p.scdn.co/mp3-preview/786196661f01ada6d8af9a7cc50499fdb6a1c506?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 241306,
+    "uriCancion": "spotify:track:0VWBsKl936U9OO0zypvRCZ",
+    "uriAlbum": "spotify:album:0TmPRZoau8M0QIfnMgwrlI",
+    "previewUrl": "https://p.scdn.co/mp3-preview/beeb4a72100435aa03ba7a542691f95b7042473b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 334600,
     "numeroDisco": 1,
     "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "AR5CC8800007",
+    "popularidad": 70,
+    "isrc": "AR5CC8600007",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Un Baión para el Ojo Idiota",
     "cancion": "Masacre en el Puticlub",
@@ -13518,6 +15162,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Un Baión para el Ojo Idiota",
     "cancion": "Noticias de Ayer",
@@ -13536,6 +15181,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Un Baión para el Ojo Idiota",
+    "cancion": "Aquella Solitaria Vaca Cubana",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:4sxarCL6GZbvkQ1SFGL0FX",
+    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f4fa5bb171b9dda4e33745713cbd28457c5ff900?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 255866,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "AR5CC8800003",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Un Baión para el Ojo Idiota",
     "cancion": "Todo Preso Es Político",
@@ -13554,42 +15219,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Un Baión para el Ojo Idiota",
-    "cancion": "Todo un Palo",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:5etBIAwIW3m3Ei1K50kfSw",
-    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ee4f4ae5882e7f6343f9cf9996dbe02b46287698?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 440560,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 70,
-    "isrc": "AR5CC8800008",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Patricio Rey y sus Redonditos de Ricota",
-    "album": "Un Baión para el Ojo Idiota",
-    "cancion": "Vamos las Bandas",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
-    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
-    "uriCancion": "spotify:track:12FaYndfpBmuLH37SpQ4Lv",
-    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
-    "previewUrl": "https://p.scdn.co/mp3-preview/af10c0e308235f7510b186e8d65d956499b61764?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 228266,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "AR5CC8800006",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "Un Baión para el Ojo Idiota",
     "cancion": "Vencedores Vencidos",
@@ -13608,6 +15238,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Un Baión para el Ojo Idiota",
+    "cancion": "Vamos las Bandas",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:12FaYndfpBmuLH37SpQ4Lv",
+    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
+    "previewUrl": "https://p.scdn.co/mp3-preview/af10c0e308235f7510b186e8d65d956499b61764?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 228266,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "AR5CC8800006",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Un Baión para el Ojo Idiota",
+    "cancion": "Ella Debe Estar Tan Linda",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:2A31fqBicUiGEQrEWihykL",
+    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
+    "previewUrl": "https://p.scdn.co/mp3-preview/786196661f01ada6d8af9a7cc50499fdb6a1c506?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 241306,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "AR5CC8800007",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Patricio Rey y sus Redonditos de Ricota",
+    "album": "Un Baión para el Ojo Idiota",
+    "cancion": "Todo un Palo",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ca7cf5470b635a1b0a53fa36",
+    "uri": "spotify:artist:6byQKddO1b34lXC2ZEjehQ",
+    "uriCancion": "spotify:track:5etBIAwIW3m3Ei1K50kfSw",
+    "uriAlbum": "spotify:album:6ETDkXNvthotL4pKkXFg4L",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ee4f4ae5882e7f6343f9cf9996dbe02b46287698?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 440560,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 70,
+    "isrc": "AR5CC8800008",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Patricio Rey y sus Redonditos de Ricota",
     "album": "¡Bang! ¡Bang!... Estás Liquidado",
     "cancion": "Esa Estrella Era Mi Lujo",
@@ -13626,6 +15314,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Paulie Leparik",
     "album": "Middy Titty (Slowed + Reverb)",
     "cancion": "Middy Titty - Slowed + Reverb",
@@ -13644,6 +15333,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:11:54Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Paulie Leparik",
     "album": "Neon Daydream",
     "cancion": "Middy Titty",
@@ -13662,6 +15352,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pavement",
     "album": "Brighten the Corners: Nicene Creedence Ed.",
     "cancion": "Harness Your Hopes - B-side",
@@ -13680,24 +15371,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:14:30Z"
   },
   {
-    "artista": "Peces Raros",
-    "album": "Anestesia",
-    "cancion": "Girando en Falso",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273edece3314fbf98c2f2877d8d",
-    "uri": "spotify:artist:5UI7HXsBEfRSsf0T4t48Q9",
-    "uriCancion": "spotify:track:6phjH1prCWCcKAYiRONHJx",
-    "uriAlbum": "spotify:album:28uJVNr4dYysur0Fcay4B2",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7617712f7985182e83933a6b9027c15efb5c680e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 246546,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 0,
-    "isrc": "ES71G1869351",
-    "agregadoEn": "2026-09-16T22:55:58Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
     "album": "Anestesia",
     "cancion": "No Van a Parar",
@@ -13716,24 +15390,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:55:52Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
-    "album": "Dogma",
-    "cancion": "Aluminio",
+    "album": "Anestesia",
+    "cancion": "Girando en Falso",
     "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2737f33a0806a757c5a31ec7044",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273edece3314fbf98c2f2877d8d",
     "uri": "spotify:artist:5UI7HXsBEfRSsf0T4t48Q9",
-    "uriCancion": "spotify:track:0ASUXRlCK2M0mfxGzktf5a",
-    "uriAlbum": "spotify:album:20r4ZJsIcT2WDaV0o9jaZa",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b2ae68ddd80e6c79ed1dd1d462525c3c87b0bf4b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 310055,
+    "uriCancion": "spotify:track:6phjH1prCWCcKAYiRONHJx",
+    "uriAlbum": "spotify:album:28uJVNr4dYysur0Fcay4B2",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7617712f7985182e83933a6b9027c15efb5c680e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 246546,
     "numeroDisco": 1,
-    "numeroPista": 10,
+    "numeroPista": 4,
     "esExplicita": false,
     "popularidad": 0,
-    "isrc": "AR2642100033",
-    "agregadoEn": "2026-09-16T22:56:21Z"
+    "isrc": "ES71G1869351",
+    "agregadoEn": "2026-09-16T22:55:58Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
     "album": "Dogma",
     "cancion": "Fabulaciones",
@@ -13752,6 +15428,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:08Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
     "album": "Dogma",
     "cancion": "Infieles",
@@ -13770,6 +15447,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:11Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
     "album": "Dogma",
     "cancion": "Misceláneas",
@@ -13788,6 +15466,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Peces Raros",
+    "album": "Dogma",
+    "cancion": "Aluminio",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2737f33a0806a757c5a31ec7044",
+    "uri": "spotify:artist:5UI7HXsBEfRSsf0T4t48Q9",
+    "uriCancion": "spotify:track:0ASUXRlCK2M0mfxGzktf5a",
+    "uriAlbum": "spotify:album:20r4ZJsIcT2WDaV0o9jaZa",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b2ae68ddd80e6c79ed1dd1d462525c3c87b0bf4b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 310055,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 0,
+    "isrc": "AR2642100033",
+    "agregadoEn": "2026-09-16T22:56:21Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
     "album": "En efecto",
     "cancion": "En efecto",
@@ -13806,6 +15504,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:24Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros",
     "album": "Parte de un Mal Sueño",
     "cancion": "A Donde Quieras",
@@ -13824,6 +15523,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Peces Raros, Trueno",
     "album": "Cicuta (Remix)",
     "cancion": "Cicuta - Remix",
@@ -13842,6 +15542,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pennywise",
     "album": "About Time (2005 Remaster)",
     "cancion": "Same Old Story - 2005 Remaster",
@@ -13860,132 +15561,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "A Starosta, el Idiota",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:2DKqDAq0v3eKtzO8TpEPUB",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/719ae61346dec831a4abac575a797aa671d4bae2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 193706,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 48,
-    "isrc": "ARF100300124",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "Bajan",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:6hmYi0E6EBEmDeztQHaH0C",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/948a3fcde5a91188b82d3cc28c181e80d1d19b2c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 204466,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 62,
-    "isrc": "ARF109902852",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "Cantata de Puentes Amarillos",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:7BCQ7bfdNpCdLmlvEGUfSG",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ae43a064125c381c4200e570aaf6a0f8ba4b989f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 547960,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "ARF109902851",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "Cementerio Club",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:0O9BqfU1Cdm7YqmD0TrT9i",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3979848cd0271a31cf388f9aa4ee658c00a2e25b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 295826,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 61,
-    "isrc": "ARF109902849",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "La Sed Verdadera",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:4axy0XazW2TXlgSA9AbYJJ",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2a73e0204f5ee8e8f10c34072045b9869a2a63ba?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 209973,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "ARF100300123",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "Las Habladurias del Mundo",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:5K6fJf9l8WTsscngGert0b",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6cc72079a3ef700208c009981ba98f433bdd72a2?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 243266,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "ARF100300125",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Pescado Rabioso",
-    "album": "Artaud",
-    "cancion": "Superchería",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
-    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
-    "uriCancion": "spotify:track:5kjXJAtTIaDc2C3PET8oju",
-    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
-    "previewUrl": "https://p.scdn.co/mp3-preview/48053bfa6095802ae5a6fe9f123601e346856960?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 255986,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 49,
-    "isrc": "ARF100300122",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Pescado Rabioso",
     "album": "Artaud",
     "cancion": "Todas las Hojas Son del Viento",
@@ -14004,24 +15580,140 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Peter Bjorn and John",
-    "album": "Writer's Block",
-    "cancion": "Up Against The Wall",
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "Cementerio Club",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739cf4ac84b224a02f34d2e4f6",
-    "uri": "spotify:artist:6u11Qbko2N2hP4lTBYjX86",
-    "uriCancion": "spotify:track:5mDhD2P7Gv8Y6PjhsYHocx",
-    "uriAlbum": "spotify:album:5g4E06cxsFEMFE9hSekAt2",
-    "previewUrl": "https://p.scdn.co/mp3-preview/88adb8df69bb3465e510af9649548780cf628024?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 423040,
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:0O9BqfU1Cdm7YqmD0TrT9i",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3979848cd0271a31cf388f9aa4ee658c00a2e25b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 295826,
     "numeroDisco": 1,
-    "numeroPista": 6,
+    "numeroPista": 2,
     "esExplicita": false,
-    "popularidad": 55,
-    "isrc": "SEBPA0600030",
+    "popularidad": 61,
+    "isrc": "ARF109902849",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "Superchería",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:5kjXJAtTIaDc2C3PET8oju",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/48053bfa6095802ae5a6fe9f123601e346856960?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 255986,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 49,
+    "isrc": "ARF100300122",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "La Sed Verdadera",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:4axy0XazW2TXlgSA9AbYJJ",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2a73e0204f5ee8e8f10c34072045b9869a2a63ba?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 209973,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "ARF100300123",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "Cantata de Puentes Amarillos",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:7BCQ7bfdNpCdLmlvEGUfSG",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ae43a064125c381c4200e570aaf6a0f8ba4b989f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 547960,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "ARF109902851",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "Bajan",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:6hmYi0E6EBEmDeztQHaH0C",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/948a3fcde5a91188b82d3cc28c181e80d1d19b2c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 204466,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 62,
+    "isrc": "ARF109902852",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "A Starosta, el Idiota",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:2DKqDAq0v3eKtzO8TpEPUB",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/719ae61346dec831a4abac575a797aa671d4bae2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 193706,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 48,
+    "isrc": "ARF100300124",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Pescado Rabioso",
+    "album": "Artaud",
+    "cancion": "Las Habladurias del Mundo",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+    "uri": "spotify:artist:3q1NXsv9XypOUCJfEatXH9",
+    "uriCancion": "spotify:track:5K6fJf9l8WTsscngGert0b",
+    "uriAlbum": "spotify:album:5MJR9j21vjEi4ODxzhvoTA",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6cc72079a3ef700208c009981ba98f433bdd72a2?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 243266,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "ARF100300125",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Peter Bjorn and John",
     "album": "Writer's Block",
     "cancion": "Young Folks",
@@ -14040,6 +15732,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Peter Bjorn and John",
+    "album": "Writer's Block",
+    "cancion": "Up Against The Wall",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739cf4ac84b224a02f34d2e4f6",
+    "uri": "spotify:artist:6u11Qbko2N2hP4lTBYjX86",
+    "uriCancion": "spotify:track:5mDhD2P7Gv8Y6PjhsYHocx",
+    "uriAlbum": "spotify:album:5g4E06cxsFEMFE9hSekAt2",
+    "previewUrl": "https://p.scdn.co/mp3-preview/88adb8df69bb3465e510af9649548780cf628024?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 423040,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 55,
+    "isrc": "SEBPA0600030",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Pinback",
     "album": "Blue Screen Life",
     "cancion": "Penelope",
@@ -14058,6 +15770,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:01Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pink Floyd",
     "album": "The Dark Side of the Moon",
     "cancion": "Breathe (In the Air)",
@@ -14076,6 +15789,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pink Floyd",
     "album": "The Dark Side of the Moon",
     "cancion": "The Great Gig in the Sky",
@@ -14094,6 +15808,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:56:55Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pink Floyd",
     "album": "Wish You Were Here",
     "cancion": "Wish You Were Here",
@@ -14112,6 +15827,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:57:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pity Sex",
     "album": "Feast Of Love",
     "cancion": "Wind-Up",
@@ -14130,6 +15846,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:32Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pixies",
     "album": "Doolittle",
     "cancion": "Here Comes Your Man",
@@ -14148,6 +15865,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pixies",
     "album": "Head Carrier",
     "cancion": "All I Think About Now",
@@ -14166,6 +15884,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pixies",
     "album": "Surfer Rosa (2007 Remaster)",
     "cancion": "Where Is My Mind? - 2007 Remaster",
@@ -14184,6 +15903,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "PLAYROOM",
     "album": "Crazy",
     "cancion": "Crazy",
@@ -14202,6 +15922,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Plums",
     "album": "Jen",
     "cancion": "Fine Madeline",
@@ -14220,6 +15941,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pogo",
     "album": "Kindred Shadow",
     "cancion": "Forget",
@@ -14238,6 +15960,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Pogo",
     "album": "Wonderland",
     "cancion": "Alice",
@@ -14256,24 +15979,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-14T01:43:42Z"
   },
   {
-    "artista": "Pogo",
-    "album": "Wonderland",
-    "cancion": "Lost",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f8bd876cdda0e7a825bb9afb",
-    "uri": "spotify:artist:1ng3xz2dyz57Z1WpnzM2G7",
-    "uriCancion": "spotify:track:4ztorWNEov14mSJWe2asbc",
-    "uriAlbum": "spotify:album:5FwNan9THWocf69tJEsXUv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0b4683bc9e24c064ed85e0dac2110c64f6bfe78a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 218705,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "TCABO1358477",
-    "agregadoEn": "2026-09-16T21:48:36Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Pogo",
     "album": "Wonderland",
     "cancion": "Unbirthday",
@@ -14292,6 +15998,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-14T23:28:50Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Pogo",
+    "album": "Wonderland",
+    "cancion": "Lost",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f8bd876cdda0e7a825bb9afb",
+    "uri": "spotify:artist:1ng3xz2dyz57Z1WpnzM2G7",
+    "uriCancion": "spotify:track:4ztorWNEov14mSJWe2asbc",
+    "uriAlbum": "spotify:album:5FwNan9THWocf69tJEsXUv",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0b4683bc9e24c064ed85e0dac2110c64f6bfe78a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 218705,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "TCABO1358477",
+    "agregadoEn": "2026-09-16T21:48:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Pond",
     "album": "The Weather",
     "cancion": "Sweep Me Off My Feet",
@@ -14310,6 +16036,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:05:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Preoccupations",
     "album": "Viet Cong",
     "cancion": "Silhouettes",
@@ -14328,24 +16055,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:03:35Z"
   },
   {
-    "artista": "Prince",
-    "album": "Purple Rain",
-    "cancion": "Purple Rain",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782",
-    "uri": "spotify:artist:5a2EaR3hamoenG9rDuVn8j",
-    "uriCancion": "spotify:track:1uvyZBs4IZYRebHIB1747m",
-    "uriAlbum": "spotify:album:2umoqwMrmjBBPeaqgYu6J9",
-    "previewUrl": "https://p.scdn.co/mp3-preview/81bd92ac70dc7b6dd32aabfb186fe67857147834?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 521866,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 90,
-    "isrc": "USWB10001880",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Prince",
     "album": "Purple Rain",
     "cancion": "When Doves Cry",
@@ -14364,6 +16074,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T03:34:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Prince",
+    "album": "Purple Rain",
+    "cancion": "Purple Rain",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782",
+    "uri": "spotify:artist:5a2EaR3hamoenG9rDuVn8j",
+    "uriCancion": "spotify:track:1uvyZBs4IZYRebHIB1747m",
+    "uriAlbum": "spotify:album:2umoqwMrmjBBPeaqgYu6J9",
+    "previewUrl": "https://p.scdn.co/mp3-preview/81bd92ac70dc7b6dd32aabfb186fe67857147834?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 521866,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 90,
+    "isrc": "USWB10001880",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "proderics, melodybloom",
     "album": "strangers",
     "cancion": "strangers",
@@ -14382,6 +16112,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Protomartyr",
     "album": "Relatives In Descent",
     "cancion": "A Private Understanding",
@@ -14400,6 +16131,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:03:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Puzzle",
     "album": "X Hail",
     "cancion": "Loose Cannon",
@@ -14418,6 +16150,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Queen",
     "album": "A Night At The Opera (Deluxe Remastered Version)",
     "cancion": "Bohemian Rhapsody - Remastered 2011",
@@ -14436,6 +16169,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Qwefeelibes, F.M.L.",
     "album": "CREWCIFIED",
     "cancion": "BYRD2",
@@ -14454,6 +16188,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Rad&Co",
+    "album": "Unspoken Thoughts",
+    "cancion": "Unspoken Thoughts",
+    "fecha": "2026-09-20",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735e3893c48462b04455fd5ebd",
+    "uri": "spotify:artist:5SWWNKNGRfpxkgaZENBf6u",
+    "uriCancion": "spotify:track:4Sapcp022sWJAyZdAvsRfI",
+    "uriAlbum": "spotify:album:3zDkuh00MCwe78SNNI15oo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9b4d4d2c4eb04e2da44e9b108c93dc6db9bbb24c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 213933,
+    "numeroDisco": 1,
+    "numeroPista": 1,
+    "esExplicita": false,
+    "popularidad": 63,
+    "isrc": "QZZ7N2406689",
+    "agregadoEn": "2026-09-20T03:45:13Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
     "album": "In Rainbows",
     "cancion": "Weird Fishes / Arpeggi",
@@ -14472,96 +16226,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:15:33Z"
   },
   {
-    "artista": "Radiohead",
-    "album": "OK Computer",
-    "cancion": "Exit Music (For A Film)",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:0z1o5L7HJx562xZSATcIpY",
-    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b0df587478b3aab22ebb6ed8c8178cfe0307e61c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 267186,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 82,
-    "isrc": "GBAYE9701372",
-    "agregadoEn": "2026-09-17T22:16:52Z"
-  },
-  {
-    "artista": "Radiohead",
-    "album": "OK Computer",
-    "cancion": "Karma Police",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:63OQupATfueTdZMWTxW03A",
-    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0c770be37583bbf7f7da3febeb2bf11d1a621a80?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 264066,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 84,
-    "isrc": "GBAYE9701368",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Radiohead",
-    "album": "OK Computer",
-    "cancion": "Let Down",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:2fuYa3Lx06QQJAm0MjztKr",
-    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/d47a5b024207667a80dc36b5852bf851d2f35773?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 299560,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 91,
-    "isrc": "GBAYE9701374",
-    "agregadoEn": "2026-09-17T22:16:39Z"
-  },
-  {
-    "artista": "Radiohead",
-    "album": "OK Computer",
-    "cancion": "Lucky",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:14xj58ZexBaEaHARb11Cqs",
-    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c311feaf1645f0dabfa9e5303b92ba17391f239d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 258813,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "GBAYE9701375",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Radiohead",
-    "album": "OK Computer",
-    "cancion": "No Surprises",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:10nyNJ6zNy2YVYLrcwLccB",
-    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/969161ef645e3e89a4ee8a0274013dae480a9e2d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 229120,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 89,
-    "isrc": "GBAYE9700386",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
     "album": "OK Computer",
     "cancion": "Subterranean Homesick Alien",
@@ -14580,42 +16245,102 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:17:35Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
-    "album": "Pablo Honey",
-    "cancion": "Anyone Can Play Guitar",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+    "album": "OK Computer",
+    "cancion": "Exit Music (For A Film)",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
     "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:23oUaizFBFVFI5PxJrkiO5",
-    "uriAlbum": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/cca958d96695fb5c1e51e5e5a3f02a6f436bde59?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 217800,
+    "uriCancion": "spotify:track:0z1o5L7HJx562xZSATcIpY",
+    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b0df587478b3aab22ebb6ed8c8178cfe0307e61c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 267186,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 82,
+    "isrc": "GBAYE9701372",
+    "agregadoEn": "2026-09-17T22:16:52Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "OK Computer",
+    "cancion": "Let Down",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:2fuYa3Lx06QQJAm0MjztKr",
+    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/d47a5b024207667a80dc36b5852bf851d2f35773?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 299560,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 91,
+    "isrc": "GBAYE9701374",
+    "agregadoEn": "2026-09-17T22:16:39Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "OK Computer",
+    "cancion": "Karma Police",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:63OQupATfueTdZMWTxW03A",
+    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0c770be37583bbf7f7da3febeb2bf11d1a621a80?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 264066,
     "numeroDisco": 1,
     "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 59,
-    "isrc": "GBAYE9300107",
+    "popularidad": 84,
+    "isrc": "GBAYE9701368",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
-    "album": "Pablo Honey",
-    "cancion": "Creep",
+    "album": "OK Computer",
+    "cancion": "No Surprises",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
     "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:70LcF31zb1H0PyJoS1Sx1r",
-    "uriAlbum": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f3d864283774529a2378100c912bfacb614db751?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 238640,
+    "uriCancion": "spotify:track:10nyNJ6zNy2YVYLrcwLccB",
+    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/969161ef645e3e89a4ee8a0274013dae480a9e2d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 229120,
     "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": true,
-    "popularidad": 95,
-    "isrc": "GBAYE9200070",
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 89,
+    "isrc": "GBAYE9700386",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "OK Computer",
+    "cancion": "Lucky",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:14xj58ZexBaEaHARb11Cqs",
+    "uriAlbum": "spotify:album:6dVIqQ8qmQ5GBnJ9shOYGE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c311feaf1645f0dabfa9e5303b92ba17391f239d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 258813,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 68,
+    "isrc": "GBAYE9701375",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
     "album": "Pablo Honey",
     "cancion": "You",
@@ -14634,96 +16359,45 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:18:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
-    "album": "The Bends",
-    "cancion": "Fake Plastic Trees",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:73CKjW3vsUXRpy3NnX4H7F",
-    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3ee9bf807973f08aeb2e2b7578e0e4b8e58e513e?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 290706,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 84,
-    "isrc": "GBAYE9400056",
-    "agregadoEn": "2026-09-17T22:16:31Z"
-  },
-  {
-    "artista": "Radiohead",
-    "album": "The Bends",
-    "cancion": "High and Dry",
+    "album": "Pablo Honey",
+    "cancion": "Creep",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
     "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:2a1iMaoWQ5MnvLFBDv4qkf",
-    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ae7ca2c6a3471d6b591ad0d1d0f83dc311afd1c4?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 257480,
+    "uriCancion": "spotify:track:70LcF31zb1H0PyJoS1Sx1r",
+    "uriAlbum": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f3d864283774529a2378100c912bfacb614db751?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 238640,
     "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 82,
-    "isrc": "GBAYE9400055",
+    "numeroPista": 2,
+    "esExplicita": true,
+    "popularidad": 95,
+    "isrc": "GBAYE9200070",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
-    "album": "The Bends",
-    "cancion": "Just",
+    "album": "Pablo Honey",
+    "cancion": "Anyone Can Play Guitar",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
     "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:1dyTcli07c77mtQK3ahUZR",
-    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6845569c3a7849874110c88dbd45b24a92c5ec69?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 234800,
+    "uriCancion": "spotify:track:23oUaizFBFVFI5PxJrkiO5",
+    "uriAlbum": "spotify:album:3gBVdu4a1MMJVMy6vwPEb8",
+    "previewUrl": "https://p.scdn.co/mp3-preview/cca958d96695fb5c1e51e5e5a3f02a6f436bde59?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 217800,
     "numeroDisco": 1,
-    "numeroPista": 7,
+    "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 77,
-    "isrc": "GBAYE9400060",
+    "popularidad": 59,
+    "isrc": "GBAYE9300107",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Radiohead",
-    "album": "The Bends",
-    "cancion": "My Iron Lung",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:0jyikFM0Umv0KlnrOEKtTG",
-    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/faa7b28ca5c1b903f3be19343567fa2063937b3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 276426,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 71,
-    "isrc": "GBAYE9400065",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Radiohead",
-    "album": "The Bends",
-    "cancion": "Street Spirit (Fade Out)",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
-    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
-    "uriCancion": "spotify:track:2QwObYJWyJTiozvs0RI7CF",
-    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b42345ab10221f9de6a80ecb3d27b804d0449e43?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 253853,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 75,
-    "isrc": "GBAYE9400061",
-    "agregadoEn": "2026-09-17T22:16:24Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Radiohead",
     "album": "The Bends",
     "cancion": "The Bends",
@@ -14742,6 +16416,102 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "The Bends",
+    "cancion": "High and Dry",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:2a1iMaoWQ5MnvLFBDv4qkf",
+    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ae7ca2c6a3471d6b591ad0d1d0f83dc311afd1c4?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 257480,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 82,
+    "isrc": "GBAYE9400055",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "The Bends",
+    "cancion": "Fake Plastic Trees",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:73CKjW3vsUXRpy3NnX4H7F",
+    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3ee9bf807973f08aeb2e2b7578e0e4b8e58e513e?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 290706,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 84,
+    "isrc": "GBAYE9400056",
+    "agregadoEn": "2026-09-17T22:16:31Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "The Bends",
+    "cancion": "Just",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:1dyTcli07c77mtQK3ahUZR",
+    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6845569c3a7849874110c88dbd45b24a92c5ec69?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 234800,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 77,
+    "isrc": "GBAYE9400060",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "The Bends",
+    "cancion": "My Iron Lung",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:0jyikFM0Umv0KlnrOEKtTG",
+    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/faa7b28ca5c1b903f3be19343567fa2063937b3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 276426,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 71,
+    "isrc": "GBAYE9400065",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Radiohead",
+    "album": "The Bends",
+    "cancion": "Street Spirit (Fade Out)",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+    "uriCancion": "spotify:track:2QwObYJWyJTiozvs0RI7CF",
+    "uriAlbum": "spotify:album:35UJLpClj5EDrhpNIi4DFg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b42345ab10221f9de6a80ecb3d27b804d0449e43?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 253853,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 75,
+    "isrc": "GBAYE9400061",
+    "agregadoEn": "2026-09-17T22:16:24Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Red Hot Chili Peppers",
     "album": "By the Way (Deluxe Edition)",
     "cancion": "Dosed",
@@ -14760,6 +16530,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:55Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Red Hot Chili Peppers",
     "album": "Californication (Deluxe Edition)",
     "cancion": "Scar Tissue",
@@ -14778,6 +16549,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Relic The Bully",
     "album": "3000",
     "cancion": "3000",
@@ -14796,6 +16568,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "requiem for you",
     "album": "cannot get over you",
     "cancion": "cannot get over you",
@@ -14814,6 +16587,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Richy Mitch & The Coal Miners",
     "album": "RMCM",
     "cancion": "Evergreen",
@@ -14832,6 +16606,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T03:38:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Rick Astley",
     "album": "Whenever You Need Somebody",
     "cancion": "Never Gonna Give You Up",
@@ -14850,6 +16625,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T22:56:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Ride",
     "album": "Nowhere (Expanded)",
     "cancion": "Vapour Trail - 2001 Remaster",
@@ -14868,6 +16644,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:58:59Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "ridgeclub",
     "album": "do i clench my fists?",
     "cancion": "do i clench my fists?",
@@ -14886,6 +16663,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "RINGARDS",
     "album": "Flaccid Venus",
     "cancion": "Flaccid Venus",
@@ -14904,6 +16682,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "RJ Pasin",
     "album": "Lobster",
     "cancion": "Lobster",
@@ -14922,6 +16701,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-11T23:01:38Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Roar",
     "album": "I Can't Handle Change",
     "cancion": "I Can't Handle Change",
@@ -14940,6 +16720,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Robleis, COSMIC KID",
     "album": "POV",
     "cancion": "POV",
@@ -14958,6 +16739,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:35:32Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "ROCKO",
     "album": "SUEÑOS - Parte uno-",
     "cancion": "Poco",
@@ -14976,6 +16758,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:40:56Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Romano",
     "album": "Zelda's Lullaby",
     "cancion": "Zelda's Lullaby",
@@ -14994,6 +16777,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Rudy Void",
     "album": "Hungry Hallow Thing",
     "cancion": "Hungry Hallow Thing",
@@ -15012,6 +16796,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Rupert Holmes",
     "album": "Greatest Hits",
     "cancion": "Escape (The Pina Colada Song)",
@@ -15030,6 +16815,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:33:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Rusted Root",
     "album": "When I Woke",
     "cancion": "Send Me On My Way",
@@ -15048,6 +16834,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T01:32:39Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "s0rrow",
     "album": "unhappy",
     "cancion": "unhappy",
@@ -15066,6 +16853,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T19:52:49Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sad Face Prince",
     "album": "Kendrick? Did you hear that, Kendrick?",
     "cancion": "Kendrick? Did you hear that, Kendrick?",
@@ -15084,6 +16872,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sadboienola",
     "album": "never see a lonely night again",
     "cancion": "never see a lonely night again",
@@ -15102,6 +16891,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:41:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sade",
     "album": "The Best of Sade",
     "cancion": "Smooth Operator - Single Version",
@@ -15120,42 +16910,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
-    "artista": "salvia palth",
-    "album": "melanchole",
-    "cancion": "(dream)",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2734a82bda3507d50ac3e039bb0",
-    "uri": "spotify:artist:0pg0Zm8FsGAYy5kdHuBnSo",
-    "uriCancion": "spotify:track:17YNmMy03QLPirmBzWxFa6",
-    "uriAlbum": "spotify:album:10WzRaNWnFUQNrW2FpqQSQ",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ad74e217289ee1872b21b6d60c76006b1b05aac5?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 84701,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 78,
-    "isrc": "GBSMU1456125",
-    "agregadoEn": "2026-09-16T21:48:36Z"
-  },
-  {
-    "artista": "salvia palth",
-    "album": "melanchole",
-    "cancion": "(dream)",
-    "fecha": "2026-09-16",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2734a82bda3507d50ac3e039bb0",
-    "uri": "spotify:artist:0pg0Zm8FsGAYy5kdHuBnSo",
-    "uriCancion": "spotify:track:17YNmMy03QLPirmBzWxFa6",
-    "uriAlbum": "spotify:album:10WzRaNWnFUQNrW2FpqQSQ",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ad74e217289ee1872b21b6d60c76006b1b05aac5?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 84701,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 78,
-    "isrc": "GBSMU1456125",
-    "agregadoEn": "2026-09-16T21:48:36Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "salvia palth",
     "album": "melanchole",
     "cancion": "i was all over her",
@@ -15174,6 +16929,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "salvia palth",
+    "album": "melanchole",
+    "cancion": "(dream)",
+    "fecha": "2026-09-16",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2734a82bda3507d50ac3e039bb0",
+    "uri": "spotify:artist:0pg0Zm8FsGAYy5kdHuBnSo",
+    "uriCancion": "spotify:track:17YNmMy03QLPirmBzWxFa6",
+    "uriAlbum": "spotify:album:10WzRaNWnFUQNrW2FpqQSQ",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ad74e217289ee1872b21b6d60c76006b1b05aac5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 84701,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 78,
+    "isrc": "GBSMU1456125",
+    "agregadoEn": "2026-09-16T21:48:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Screeching Weasel",
     "album": "Boogadaboogadaboogada! (2020 Remaster)",
     "cancion": "Supermarket Fantasy",
@@ -15192,6 +16967,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Section 25",
     "album": "From The Hip",
     "cancion": "Looking from a Hilltop",
@@ -15210,6 +16986,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:02:48Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Shaggy",
     "album": "Boombastic",
     "cancion": "Boombastic",
@@ -15228,6 +17005,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "shambles",
     "album": "surrender",
     "cancion": "i love u so much",
@@ -15246,6 +17024,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "She & Him",
     "album": "Volume One",
     "cancion": "I Thought I Saw Your Face Today",
@@ -15264,6 +17043,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "shrxm, RXCKER, DJ EXE",
     "album": "WANT U FUNK",
     "cancion": "WANT U FUNK - SUPER SLOWED",
@@ -15282,6 +17062,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "ShyBully",
     "album": "Tattoo",
     "cancion": "Tattoo",
@@ -15300,6 +17081,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "ShyBully",
     "album": "Tattoo(Original Instrumental)",
     "cancion": "Tattoo(Original Instrumental)",
@@ -15318,9 +17100,10 @@ const cancionesData = [
     "agregadoEn": "2026-08-14T01:18:08Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Siddhartha",
-    "album": "0:00",
-    "cancion": "0:00",
+    "album": "00:00",
+    "cancion": "00:00",
     "fecha": "2026-09-17",
     "portada": "https://i.scdn.co/image/ab67616d0000b273b7ba6e8d16816c57ab86ca63",
     "uri": "spotify:artist:2aqFBHOpM9uIgBpUsdq09x",
@@ -15336,6 +17119,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:42:22Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Siddhartha",
     "album": "Únicos",
     "cancion": "Ser Parte",
@@ -15354,6 +17138,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:42:26Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Siddhartha",
     "album": "Únicos",
     "cancion": "Únicos",
@@ -15372,6 +17157,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:42:31Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sidney Gish",
     "album": "No Dogs Allowed",
     "cancion": "Impostor Syndrome",
@@ -15390,6 +17176,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Silvestre y La Naranja",
     "album": "Amores Callejeros",
     "cancion": "Amores Callejeros",
@@ -15408,6 +17195,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:42:46Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Silvestre y La Naranja",
     "album": "ANIM4LES",
     "cancion": "Todas Esas Tardes",
@@ -15426,6 +17214,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:43:03Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Silvestre y La Naranja",
     "album": "OCÉANO",
     "cancion": "OCÉANO",
@@ -15444,24 +17233,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:43:12Z"
   },
   {
-    "artista": "Silvestre y La Naranja",
-    "album": "Sueño Cítrico",
-    "cancion": "Hechizao",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273f801fbeedbdadff4574ad05a",
-    "uri": "spotify:artist:1hE5imhaIrCEKoHLHW9aCO",
-    "uriCancion": "spotify:track:5pm2qaWB2aeoa5B2kFjQXg",
-    "uriAlbum": "spotify:album:0K7TuMwi1SkiZylSx8vXDf",
-    "previewUrl": "https://p.scdn.co/mp3-preview/92919fca8271322cf3c730a334be7fc6934ca76c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 143744,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "UKXN22287307",
-    "agregadoEn": "2026-09-17T20:43:32Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Silvestre y La Naranja",
     "album": "Sueño Cítrico",
     "cancion": "Nunca Te Calmes",
@@ -15480,24 +17252,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:43:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Silvestre y La Naranja",
-    "album": "SUPERSTICIONES",
-    "cancion": "Amores Callejeros",
+    "album": "Sueño Cítrico",
+    "cancion": "Hechizao",
     "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273be27aeb83b7404af518d405e",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273f801fbeedbdadff4574ad05a",
     "uri": "spotify:artist:1hE5imhaIrCEKoHLHW9aCO",
-    "uriCancion": "spotify:track:4pjyXEQIrbDgGPpZ0MBAC9",
-    "uriAlbum": "spotify:album:448b1zlK215QOb8UvFNzpu",
-    "previewUrl": "https://p.scdn.co/mp3-preview/def4f747b46ab28ea84d105c214a6967455e1650?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 253594,
+    "uriCancion": "spotify:track:5pm2qaWB2aeoa5B2kFjQXg",
+    "uriAlbum": "spotify:album:0K7TuMwi1SkiZylSx8vXDf",
+    "previewUrl": "https://p.scdn.co/mp3-preview/92919fca8271322cf3c730a334be7fc6934ca76c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 143744,
     "numeroDisco": 1,
-    "numeroPista": 2,
+    "numeroPista": 6,
     "esExplicita": false,
-    "popularidad": 63,
-    "isrc": "GX3Q92163743",
-    "agregadoEn": "2026-09-17T20:43:56Z"
+    "popularidad": 60,
+    "isrc": "UKXN22287307",
+    "agregadoEn": "2026-09-17T20:43:32Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Silvestre y La Naranja",
     "album": "SUPERSTICIONES",
     "cancion": "Supersticiones",
@@ -15516,6 +17290,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:43:40Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Silvestre y La Naranja",
+    "album": "SUPERSTICIONES",
+    "cancion": "Amores Callejeros",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273be27aeb83b7404af518d405e",
+    "uri": "spotify:artist:1hE5imhaIrCEKoHLHW9aCO",
+    "uriCancion": "spotify:track:4pjyXEQIrbDgGPpZ0MBAC9",
+    "uriAlbum": "spotify:album:448b1zlK215QOb8UvFNzpu",
+    "previewUrl": "https://p.scdn.co/mp3-preview/def4f747b46ab28ea84d105c214a6967455e1650?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 253594,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 63,
+    "isrc": "GX3Q92163743",
+    "agregadoEn": "2026-09-17T20:43:56Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Simple Plan",
     "album": "No Pads, No Helmets...Just Balls (15th Anniversary Tour Edition)",
     "cancion": "I'm Just a Kid",
@@ -15534,6 +17328,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sista Prod, Powfu, Alec Benjamin, Rxseboy, Sarcastic Sounds",
     "album": "Eyes Blue Like The Atlantic, Pt. 2 (feat. Powfu, Alec Benjamin & Rxseboy)",
     "cancion": "Eyes Blue Like The Atlantic, Pt. 2 (feat. Powfu, Alec Benjamin & Rxseboy)",
@@ -15552,6 +17347,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T01:47:43Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sister Nancy",
     "album": "One Two",
     "cancion": "Bam Bam",
@@ -15570,6 +17366,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sixpence None The Richer",
     "album": "Sixpence None The Richer",
     "cancion": "Kiss Me",
@@ -15588,6 +17385,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sleeky P",
     "album": "Calm",
     "cancion": "Calm",
@@ -15606,6 +17404,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "slimesanti",
     "album": "Friendzone:(",
     "cancion": "Friendzone:(",
@@ -15624,6 +17423,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Slipknot",
     "album": ".5: The Gray Chapter (Special Edition)",
     "cancion": "The Devil in I",
@@ -15642,6 +17442,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Slipknot",
     "album": "All Hope Is Gone (10th Anniversary)",
     "cancion": "Psychosocial",
@@ -15660,6 +17461,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Slowdive",
     "album": "Souvlaki",
     "cancion": "When the Sun Hits",
@@ -15678,6 +17480,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "slowed down audioss",
     "album": "50//50 (Slowed Down Version)",
     "cancion": "50//50 - Slowed Down Version",
@@ -15696,6 +17499,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Smash Mouth",
     "album": "Astro Lounge",
     "cancion": "All Star",
@@ -15714,6 +17518,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Smash Mouth",
     "album": "Shrek (Music From The Original Motion Picture)",
     "cancion": "All Star",
@@ -15732,6 +17537,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Smash Mouth",
     "album": "Smash Mouth",
     "cancion": "I'm A Believer",
@@ -15750,6 +17556,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Snoop Dogg, Pharrell Williams",
     "album": "R&G (Rhythm & Gangsta): The Masterpiece",
     "cancion": "Drop It Like It's Hot",
@@ -15768,6 +17575,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Snow Strippers",
     "album": "April Mixtape 3",
     "cancion": "Under Your Spell",
@@ -15786,6 +17594,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T22:42:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Social Distortion",
     "album": "Mommy's Little Monster",
     "cancion": "Mommy's Little Monster",
@@ -15804,6 +17613,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Canción Animal (Remastered)",
     "cancion": "Entre Caníbales - Remasterizado 2007",
@@ -15822,6 +17632,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Doble Vida (Remastered)",
     "cancion": "En La Ciudad De La Furia - Remasterizado 2007",
@@ -15840,24 +17651,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Soda Stereo",
-    "album": "Nada Personal (Remastered)",
-    "cancion": "Cuando Pase El Temblor - Remasterizado 2007",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e28947f6ad2f100af9c1965a",
-    "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp",
-    "uriCancion": "spotify:track:3uMYq07Kj5m564OQwdSCrD",
-    "uriAlbum": "spotify:album:0hyq754QnaKHYpH32QnWqs",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b784c2a614e38c39194c5e95b5cf36475ae8c8dd?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 229160,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 78,
-    "isrc": "ARFSB0700891",
-    "agregadoEn": "2026-09-17T20:44:42Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Nada Personal (Remastered)",
     "cancion": "Nada Personal - Remasterizado 2007",
@@ -15876,24 +17670,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
-    "album": "Obras Cumbres",
-    "cancion": "En la Ciudad de la Furia",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df54506fd365623237335f21",
+    "album": "Nada Personal (Remastered)",
+    "cancion": "Cuando Pase El Temblor - Remasterizado 2007",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e28947f6ad2f100af9c1965a",
     "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp",
-    "uriCancion": "spotify:track:5wjiZSbxaLyLpGimpwqh1H",
-    "uriAlbum": "spotify:album:7MqDgagaBfm7Cjlg7uzlAa",
-    "previewUrl": "https://p.scdn.co/mp3-preview/52398d11458e98f87c051bbd01b31e671b361894?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 345533,
+    "uriCancion": "spotify:track:3uMYq07Kj5m564OQwdSCrD",
+    "uriAlbum": "spotify:album:0hyq754QnaKHYpH32QnWqs",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b784c2a614e38c39194c5e95b5cf36475ae8c8dd?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 229160,
     "numeroDisco": 1,
-    "numeroPista": 9,
+    "numeroPista": 3,
     "esExplicita": false,
-    "popularidad": 72,
-    "isrc": "ARF109902696",
-    "agregadoEn": "2026-06-28T04:36:53Z"
+    "popularidad": 78,
+    "isrc": "ARFSB0700891",
+    "agregadoEn": "2026-09-17T20:44:42Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Obras Cumbres",
     "cancion": "Juegos de Seducción",
@@ -15912,6 +17708,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Soda Stereo",
+    "album": "Obras Cumbres",
+    "cancion": "En la Ciudad de la Furia",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df54506fd365623237335f21",
+    "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp",
+    "uriCancion": "spotify:track:5wjiZSbxaLyLpGimpwqh1H",
+    "uriAlbum": "spotify:album:7MqDgagaBfm7Cjlg7uzlAa",
+    "previewUrl": "https://p.scdn.co/mp3-preview/52398d11458e98f87c051bbd01b31e671b361894?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 345533,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 72,
+    "isrc": "ARF109902696",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Obras Cumbres (Parte 2)",
     "cancion": "De Música Ligera",
@@ -15930,6 +17746,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Signos (Remastered)",
     "cancion": "Prófugos - Remasterizado 2007",
@@ -15948,6 +17765,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Soda Stereo (Remastered)",
     "cancion": "Trátame Suavemente - Remasterizado 2007",
@@ -15966,6 +17784,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soda Stereo",
     "album": "Sueño Stereo (Remastered)",
     "cancion": "Disco Eterno - Remasterizado 2007",
@@ -15984,6 +17803,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "softsync",
     "album": "for the first time (instrumental slowed & reverb with rain)",
     "cancion": "for the first time - instrumental slowed & reverb with rain",
@@ -16002,6 +17822,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "softsync",
     "album": "moonlight on the river ending (slowed & reverb with rain)",
     "cancion": "moonlight on the river ending - slowed & reverb with rain",
@@ -16020,6 +17841,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "softsync",
     "album": "telephones (instrumental slowed & reverb with rain)",
     "cancion": "telephones - instrumental slowed & reverb with rain",
@@ -16038,6 +17860,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "sombr",
     "album": "I Barely Know Her",
     "cancion": "back to friends",
@@ -16056,6 +17879,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-05T01:04:20Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Songs: Ohia, Jason Molina",
     "album": "The Lioness",
     "cancion": "Lioness",
@@ -16074,6 +17898,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:58:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Soundgarden",
     "album": "Superunknown (Deluxe Edition)",
     "cancion": "Black Hole Sun",
@@ -16092,6 +17917,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-13T02:27:02Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sparklehorse",
     "album": "Vivadixiesubmarinetransmissionplot",
     "cancion": "Someday I Will Treat You Good",
@@ -16110,6 +17936,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:07:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sparky Deathcap",
     "album": "September",
     "cancion": "September - Instrumental",
@@ -16128,6 +17955,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Spectrum",
     "album": "Optical Sunrise/Spectrum2",
     "cancion": "F L Y",
@@ -16146,6 +17974,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:45:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Steve Lacy",
     "album": "Dark Red",
     "cancion": "Dark Red",
@@ -16164,6 +17993,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Steve Lacy",
     "album": "Gemini Rights",
     "cancion": "Bad Habit",
@@ -16182,6 +18012,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Steve Lacy",
     "album": "Some",
     "cancion": "Some",
@@ -16200,24 +18031,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Steve Lacy",
-    "album": "The Lo-Fis",
-    "cancion": "Infrunami",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c3545bbe806b845c2b52bc20",
-    "uri": "spotify:artist:57vWImR43h4CaDao012Ofp",
-    "uriCancion": "spotify:track:0f8eRy9A0n6zXpKSHSCAEp",
-    "uriAlbum": "spotify:album:6m5qlaMzLtNsQDj3DQY5ji",
-    "previewUrl": "https://p.scdn.co/mp3-preview/0c7eb70ed401ea4b8d43d35ddbf04d051571d679?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 178328,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 86,
-    "isrc": "TCAFF2074404",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Steve Lacy",
     "album": "The Lo-Fis",
     "cancion": "Uuuu",
@@ -16236,6 +18050,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Steve Lacy",
+    "album": "The Lo-Fis",
+    "cancion": "Infrunami",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c3545bbe806b845c2b52bc20",
+    "uri": "spotify:artist:57vWImR43h4CaDao012Ofp",
+    "uriCancion": "spotify:track:0f8eRy9A0n6zXpKSHSCAEp",
+    "uriAlbum": "spotify:album:6m5qlaMzLtNsQDj3DQY5ji",
+    "previewUrl": "https://p.scdn.co/mp3-preview/0c7eb70ed401ea4b8d43d35ddbf04d051571d679?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 178328,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 86,
+    "isrc": "TCAFF2074404",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Strawberry Guy",
     "album": "F Song",
     "cancion": "F Song",
@@ -16254,6 +18088,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Strawberry Guy",
     "album": "F Song & Mrs Magic (Strings Versions)",
     "cancion": "Mrs Magic (Strings Version)",
@@ -16272,6 +18107,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Strawberry Guy",
     "album": "Mrs Magic",
     "cancion": "Mrs Magic",
@@ -16290,6 +18126,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Strawberry Guy",
     "album": "What Would I Do?",
     "cancion": "What Would I Do?",
@@ -16308,6 +18145,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Strawberry Guy",
     "album": "Without You",
     "cancion": "Without You",
@@ -16326,6 +18164,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sublime",
     "album": "40oz. To Freedom",
     "cancion": "Chica Me Tipo",
@@ -16344,6 +18183,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sublime",
     "album": "Sublime",
     "cancion": "Santeria",
@@ -16362,6 +18202,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sum 41",
     "album": "All Killer, No Filler",
     "cancion": "In Too Deep",
@@ -16380,6 +18221,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sumo",
     "album": "Divididos Por La Felicidad",
     "cancion": "La Rubia Tarada",
@@ -16398,6 +18240,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "sundiver ca",
     "album": "Soundtrack for Your Backseat (slowed)",
     "cancion": "Soundtrack for Your Backseat - slowed",
@@ -16416,6 +18259,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "sundiver ca",
     "album": "Superstar Baby",
     "cancion": "Soundtrack for Your Backseat",
@@ -16434,6 +18278,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Sunny Day Real Estate",
     "album": "Diary (Remastered and Expanded Edition)",
     "cancion": "In Circles - Remastered",
@@ -16452,6 +18297,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:08:17Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Supergrass",
     "album": "I Should Coco",
     "cancion": "Alright",
@@ -16470,6 +18316,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Surf Curse",
     "album": "Disco",
     "cancion": "Disco",
@@ -16488,6 +18335,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Surf Curse",
     "album": "Freaks",
     "cancion": "Freaks",
@@ -16506,6 +18354,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:45:58Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Surf Mesa, Emilee",
     "album": "ily (i love you baby) (feat. Emilee)",
     "cancion": "ily (i love you baby) (feat. Emilee)",
@@ -16524,24 +18373,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:46:35Z"
   },
   {
-    "artista": "Surfistas Del Sistema",
-    "album": "SOS",
-    "cancion": "Cosas Al Oído",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27355456974a869bc73356498a0",
-    "uri": "spotify:artist:5lB9hKk7gAgG5tkb9N1LaJ",
-    "uriCancion": "spotify:track:7FkExOhYJXFGF7PA01PL0J",
-    "uriAlbum": "spotify:album:6cJrlF56yG7nnFzfdrnQ6P",
-    "previewUrl": "https://p.scdn.co/mp3-preview/87cca5680c9fcb5b7b18a3ed6e9604b19adcfb28?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 209346,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 33,
-    "isrc": "MXUM71902139",
-    "agregadoEn": "2026-09-17T20:46:13Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Surfistas Del Sistema",
     "album": "SOS",
     "cancion": "Te Miro Para Ver Si Me Ves Mirarte",
@@ -16560,6 +18392,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:46:04Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Surfistas Del Sistema",
+    "album": "SOS",
+    "cancion": "Cosas Al Oído",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27355456974a869bc73356498a0",
+    "uri": "spotify:artist:5lB9hKk7gAgG5tkb9N1LaJ",
+    "uriCancion": "spotify:track:7FkExOhYJXFGF7PA01PL0J",
+    "uriAlbum": "spotify:album:6cJrlF56yG7nnFzfdrnQ6P",
+    "previewUrl": "https://p.scdn.co/mp3-preview/87cca5680c9fcb5b7b18a3ed6e9604b19adcfb28?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 209346,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 33,
+    "isrc": "MXUM71902139",
+    "agregadoEn": "2026-09-17T20:46:13Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Swirlies",
     "album": "Blonder Tongue Audio Baton",
     "cancion": "Pancake",
@@ -16578,24 +18430,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:59:51Z"
   },
   {
-    "artista": "Tame Impala",
-    "album": "Currents",
-    "cancion": "Eventually",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-    "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
-    "uriCancion": "spotify:track:5M4yti0QxgqJieUYaEXcpw",
-    "uriAlbum": "spotify:album:79dL7FLiJFOO0EoehUHQBv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/17c7520f657b355db0b66bdd0037f561887148ac?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 318591,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 83,
-    "isrc": "AUUM71500296",
-    "agregadoEn": "2026-09-17T20:46:42Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Tame Impala",
     "album": "Currents",
     "cancion": "Let It Happen",
@@ -16614,42 +18449,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Tame Impala",
-    "album": "Currents",
-    "cancion": "New Person, Same Old Mistakes",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-    "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
-    "uriCancion": "spotify:track:52ojopYMUzeNcudsoz7O9D",
-    "uriAlbum": "spotify:album:79dL7FLiJFOO0EoehUHQBv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5a899c2e48f474ac5cc4cd4472596f328331170a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 363240,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 87,
-    "isrc": "AUUM71500302",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Tame Impala",
-    "album": "Currents",
-    "cancion": "The Less I Know The Better",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-    "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
-    "uriCancion": "spotify:track:6K4t31amVTZDgR3sKmwUJJ",
-    "uriAlbum": "spotify:album:79dL7FLiJFOO0EoehUHQBv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3ad63797e17bda6d46d081049c8c3710e3ab2797?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 216320,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": true,
-    "popularidad": 92,
-    "isrc": "AUUM71500303",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Tame Impala",
     "album": "Currents",
     "cancion": "Yes I'm Changing",
@@ -16668,6 +18468,64 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:16:10Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Tame Impala",
+    "album": "Currents",
+    "cancion": "Eventually",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
+    "uriCancion": "spotify:track:5M4yti0QxgqJieUYaEXcpw",
+    "uriAlbum": "spotify:album:79dL7FLiJFOO0EoehUHQBv",
+    "previewUrl": "https://p.scdn.co/mp3-preview/17c7520f657b355db0b66bdd0037f561887148ac?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 318591,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 83,
+    "isrc": "AUUM71500296",
+    "agregadoEn": "2026-09-17T20:46:42Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Tame Impala",
+    "album": "Currents",
+    "cancion": "The Less I Know The Better",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
+    "uriCancion": "spotify:track:6K4t31amVTZDgR3sKmwUJJ",
+    "uriAlbum": "spotify:album:79dL7FLiJFOO0EoehUHQBv",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3ad63797e17bda6d46d081049c8c3710e3ab2797?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 216320,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": true,
+    "popularidad": 92,
+    "isrc": "AUUM71500303",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Tame Impala",
+    "album": "Currents",
+    "cancion": "New Person, Same Old Mistakes",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "uri": "spotify:artist:5INjqkS1o8h1imAzPqGZBb",
+    "uriCancion": "spotify:track:52ojopYMUzeNcudsoz7O9D",
+    "uriAlbum": "spotify:album:79dL7FLiJFOO0EoehUHQBv",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5a899c2e48f474ac5cc4cd4472596f328331170a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 363240,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 87,
+    "isrc": "AUUM71500302",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Tame Impala",
     "album": "Deadbeat",
     "cancion": "Dracula",
@@ -16686,6 +18544,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tame Impala",
     "album": "Lonerism",
     "cancion": "Feels Like We Only Go Backwards",
@@ -16704,6 +18563,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tame Impala",
     "album": "The Slow Rush",
     "cancion": "Borderline",
@@ -16722,6 +18582,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tame Impala",
     "album": "The Slow Rush",
     "cancion": "One More Hour",
@@ -16740,6 +18601,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:46:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tears For Fears",
     "album": "Songs From The Big Chair",
     "cancion": "Everybody Wants To Rule The World",
@@ -16758,6 +18620,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tears For Fears",
     "album": "Songs From The Big Chair",
     "cancion": "Head Over Heels",
@@ -16776,6 +18639,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tears For Fears",
     "album": "Songs From The Big Chair (Super Deluxe Edition)",
     "cancion": "Everybody Wants To Rule The World",
@@ -16794,6 +18658,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tears For Fears, Dave Bascombe",
     "album": "Songs From The Big Chair (Deluxe)",
     "cancion": "Head Over Heels - Dave Bascombe 7\" N.Mix",
@@ -16812,6 +18677,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Temper City",
     "album": "Self Aware",
     "cancion": "Self Aware",
@@ -16830,6 +18696,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Terapia",
     "album": "¿Dónde Están Mis Amigos?",
     "cancion": "Wasap",
@@ -16848,6 +18715,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:47:15Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Terapia, Jety",
     "album": "Todo lo que hacemos sin saber por qué",
     "cancion": "Brazil",
@@ -16866,6 +18734,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:47:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "That Handsome Devil",
     "album": "The Heart Goes to Heaven, The Head Goes to Hell",
     "cancion": "Charlie's Inferno",
@@ -16884,6 +18753,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T20:49:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Alan Parsons Project",
     "album": "Eye In The Sky",
     "cancion": "Sirius",
@@ -16902,6 +18772,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The American Dawn",
     "album": "Her",
     "cancion": "Her",
@@ -16920,6 +18791,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Bats",
     "album": "Daddy's Highway",
     "cancion": "North By North",
@@ -16938,6 +18810,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:56:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Beatles",
     "album": "Rubber Soul (Remastered 2009)",
     "cancion": "Michelle - Remastered 2009",
@@ -16956,6 +18829,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:11:08Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Beatles",
     "album": "The Beatles 1967 - 1970 (Remastered)",
     "cancion": "Don't Let Me Down - Remastered 2009",
@@ -16974,24 +18848,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T18:38:36Z"
   },
   {
-    "artista": "The Cardigans",
-    "album": "First Band On The Moon (Remastered)",
-    "cancion": "Lovefool",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2730aac8ca880151fda470e91af",
-    "uri": "spotify:artist:1tqZaCwM57UFKjWoYwMLrw",
-    "uriCancion": "spotify:track:7aQjPecQdIuNd1sz3KCDhD",
-    "uriAlbum": "spotify:album:56vFkneGivqQcoNQq362iZ",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f548f1a669b14992fc5d1c2339f8eb114c175f3c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 193953,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 88,
-    "isrc": "SEBKB9629380",
-    "agregadoEn": "2026-06-28T02:33:18Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cardigans",
     "album": "First Band On The Moon (Remastered)",
     "cancion": "Step On Me",
@@ -17010,6 +18867,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-14T01:40:35Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cardigans",
+    "album": "First Band On The Moon (Remastered)",
+    "cancion": "Lovefool",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2730aac8ca880151fda470e91af",
+    "uri": "spotify:artist:1tqZaCwM57UFKjWoYwMLrw",
+    "uriCancion": "spotify:track:7aQjPecQdIuNd1sz3KCDhD",
+    "uriAlbum": "spotify:album:56vFkneGivqQcoNQq362iZ",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f548f1a669b14992fc5d1c2339f8eb114c175f3c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 193953,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 88,
+    "isrc": "SEBKB9629380",
+    "agregadoEn": "2026-06-28T02:33:18Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Caretaker",
     "album": "An empty bliss beyond this World",
     "cancion": "Libet's delay",
@@ -17028,6 +18905,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:35:08Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Chameleons",
     "album": "Strange Times",
     "cancion": "Swamp Thing",
@@ -17046,6 +18924,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:02:12Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Chills",
     "album": "Kaleidoscope World",
     "cancion": "Pink Frost",
@@ -17064,6 +18943,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:56:05Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Clash",
     "album": "Combat Rock (Remastered)",
     "cancion": "Should I Stay or Should I Go - Remastered",
@@ -17082,6 +18962,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Clash",
     "album": "Stranger Things (Soundtrack from the Netflix Original Series)",
     "cancion": "Should I Stay or Should I Go - Remastered",
@@ -17100,60 +18981,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:33:03Z"
   },
   {
-    "artista": "The Cure",
-    "album": "Disintegration (Deluxe Edition)",
-    "cancion": "Fascination Street - 2010 Remaster",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735eaaa770d39591fd91b2b03b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:23j7dlNIalftynH6fNllR9",
-    "uriAlbum": "spotify:album:6vQB3ZBxnQPP3jQcGV2qzg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3381e09214c77b5b115b4b09dc26bd7de015f259?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 316173,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 58,
-    "isrc": "USEE10901458",
-    "agregadoEn": "2026-09-17T22:14:26Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Disintegration (Deluxe Edition)",
-    "cancion": "Lovesong - Remastered",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c6e47e1240c011b60691559c",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:2mIrfke7vosXAEWfz6ucyo",
-    "uriAlbum": "spotify:album:0H6TddUF2M63ZSHGvhk5yy",
-    "previewUrl": "https://p.scdn.co/mp3-preview/490e6ce9bc5ba77cbad2ecaaf94b4eca7a66d9b9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 208266,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 76,
-    "isrc": "GBUM71000211",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Disintegration (Deluxe Edition)",
-    "cancion": "Lullaby - Remastered",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273c6e47e1240c011b60691559c",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:0ZYdUkAQmKHsaKRmq8tWSE",
-    "uriAlbum": "spotify:album:0H6TddUF2M63ZSHGvhk5yy",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3b0b0d07520b8095f76394b33bad44efd2333c7d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 248186,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 72,
-    "isrc": "GBUM71000213",
-    "agregadoEn": "2026-09-17T22:14:16Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Disintegration (Deluxe Edition)",
     "cancion": "Pictures Of You - Remastered",
@@ -17172,6 +19000,64 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:14:09Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Disintegration (Deluxe Edition)",
+    "cancion": "Lovesong - Remastered",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c6e47e1240c011b60691559c",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:2mIrfke7vosXAEWfz6ucyo",
+    "uriAlbum": "spotify:album:0H6TddUF2M63ZSHGvhk5yy",
+    "previewUrl": "https://p.scdn.co/mp3-preview/490e6ce9bc5ba77cbad2ecaaf94b4eca7a66d9b9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 208266,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 76,
+    "isrc": "GBUM71000211",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Disintegration (Deluxe Edition)",
+    "cancion": "Lullaby - Remastered",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273c6e47e1240c011b60691559c",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:0ZYdUkAQmKHsaKRmq8tWSE",
+    "uriAlbum": "spotify:album:0H6TddUF2M63ZSHGvhk5yy",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3b0b0d07520b8095f76394b33bad44efd2333c7d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 248186,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 72,
+    "isrc": "GBUM71000213",
+    "agregadoEn": "2026-09-17T22:14:16Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Disintegration (Deluxe Edition)",
+    "cancion": "Fascination Street - 2010 Remaster",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735eaaa770d39591fd91b2b03b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:23j7dlNIalftynH6fNllR9",
+    "uriAlbum": "spotify:album:6vQB3ZBxnQPP3jQcGV2qzg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3381e09214c77b5b115b4b09dc26bd7de015f259?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 316173,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 58,
+    "isrc": "USEE10901458",
+    "agregadoEn": "2026-09-17T22:14:26Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Greatest Hits",
     "cancion": "A Forest",
@@ -17190,6 +19076,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:14:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Kiss Me Kiss Me Kiss Me",
     "cancion": "Just Like Heaven",
@@ -17208,240 +19095,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "A Thousand Hours - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:3qTeDFsy8e3LbrGAg7nsmh",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/26a5bde6cd7def6e42cfcfed721112b711cb4776?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 202813,
-    "numeroDisco": 1,
-    "numeroPista": 16,
-    "esExplicita": false,
-    "popularidad": 33,
-    "isrc": "GBALB8700018",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "All I Want - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:4q3Vd6bQsr6yF5vta0Q30u",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3f962d73b740471d4c94242fc19ccb27edb3c7eb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 320906,
-    "numeroDisco": 1,
-    "numeroPista": 10,
-    "esExplicita": false,
-    "popularidad": 40,
-    "isrc": "GBALB8700012",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Catch - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:3sNALJvZznQrafpRvniDCw",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/27cb7f7399d5b70cce9448f69f022ffa45b04d35?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 163600,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 41,
-    "isrc": "GBALB8700002",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Fight - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:56tTfJ5tAUKM8PaIJ9xPGQ",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/91b91a025e26f30408506cc7a565d7d431185062?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 271960,
-    "numeroDisco": 1,
-    "numeroPista": 18,
-    "esExplicita": false,
-    "popularidad": 30,
-    "isrc": "GBALB8700020",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Hey You - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:28nrEscew9h8rwnt8EyF3d",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f906f5c5582a6f5d349765c9f0e0584c8a53f425?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 142813,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 33,
-    "isrc": "GBUM70600776",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Hot Hot Hot!!! - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:0jOsN8OvRV2H5UhrokhRej",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/63322624cda42eff685a11cc393e20a4dc03fa42?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 214240,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 39,
-    "isrc": "GBAKW8701069",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "How Beautiful You Are - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:756QWsywDrQZK9zc054Fg5",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/8628a2086c62a0cb6ebb65bec778591facc248c1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 312560,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 40,
-    "isrc": "GBALB8700009",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Icing Sugar - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:4Ak38yjUbPCd358QCx9DPB",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/664b02bace1c9d545d6b8a9cbf88b85a4e3f3fb1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 228480,
-    "numeroDisco": 1,
-    "numeroPista": 14,
-    "esExplicita": false,
-    "popularidad": 31,
-    "isrc": "GBALB8700016",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "If Only Tonight We Could Sleep - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:4Y3ixocXXhmNAR0gRzMXOE",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/22478924ff4094db290dea0ff24782edbd278db7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 292520,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 36,
-    "isrc": "GBALB8700007",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Just Like Heaven - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:4NnWuGQujzWUEg0uZokO5M",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/310e38d0419493b4295d7a5c11d5447ba1ea61e1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 212013,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 72,
-    "isrc": "GBALB8700003",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Perfect Girl - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:7lYkyTd5mViUaw5kCTRB1x",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e652a4030036b13f7ec169bb78d1ca9e4bb19e6b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 153040,
-    "numeroDisco": 1,
-    "numeroPista": 15,
-    "esExplicita": false,
-    "popularidad": 39,
-    "isrc": "GBALB8700017",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Shiver And Shake - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:5mseMHPulMcpX8UJKIqur2",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5a247fdafe8cd8f379b8acda624d993b0b5c2cf6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 208280,
-    "numeroDisco": 1,
-    "numeroPista": 17,
-    "esExplicita": true,
-    "popularidad": 30,
-    "isrc": "GBALB8700019",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Cure",
-    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
-    "cancion": "Snakepit - Remastered 2006",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
-    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
-    "uriCancion": "spotify:track:6HhHo3pcFaBRbCG4hqqO6b",
-    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
-    "previewUrl": "https://p.scdn.co/mp3-preview/afd267c9e0dcbe39ac28c6da791fd6be33e9e4d1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 417866,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 32,
-    "isrc": "GBALB8700010",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
     "cancion": "The Kiss - Remastered 2006",
@@ -17460,6 +19114,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Catch - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:3sNALJvZznQrafpRvniDCw",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/27cb7f7399d5b70cce9448f69f022ffa45b04d35?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 163600,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 41,
+    "isrc": "GBALB8700002",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
     "cancion": "Torture - Remastered 2006",
@@ -17478,6 +19152,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "If Only Tonight We Could Sleep - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:4Y3ixocXXhmNAR0gRzMXOE",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/22478924ff4094db290dea0ff24782edbd278db7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 292520,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 36,
+    "isrc": "GBALB8700007",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
     "cancion": "Why Can't I Be You? - Remastered 2006",
@@ -17496,6 +19190,216 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "How Beautiful You Are - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:756QWsywDrQZK9zc054Fg5",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/8628a2086c62a0cb6ebb65bec778591facc248c1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 312560,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 40,
+    "isrc": "GBALB8700009",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Snakepit - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:6HhHo3pcFaBRbCG4hqqO6b",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/afd267c9e0dcbe39ac28c6da791fd6be33e9e4d1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 417866,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 32,
+    "isrc": "GBALB8700010",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Hey You - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:28nrEscew9h8rwnt8EyF3d",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f906f5c5582a6f5d349765c9f0e0584c8a53f425?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 142813,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 33,
+    "isrc": "GBUM70600776",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Just Like Heaven - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:4NnWuGQujzWUEg0uZokO5M",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/310e38d0419493b4295d7a5c11d5447ba1ea61e1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 212013,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 72,
+    "isrc": "GBALB8700003",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "All I Want - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:4q3Vd6bQsr6yF5vta0Q30u",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3f962d73b740471d4c94242fc19ccb27edb3c7eb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 320906,
+    "numeroDisco": 1,
+    "numeroPista": 10,
+    "esExplicita": false,
+    "popularidad": 40,
+    "isrc": "GBALB8700012",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Hot Hot Hot!!! - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:0jOsN8OvRV2H5UhrokhRej",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/63322624cda42eff685a11cc393e20a4dc03fa42?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 214240,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 39,
+    "isrc": "GBAKW8701069",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Icing Sugar - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:4Ak38yjUbPCd358QCx9DPB",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/664b02bace1c9d545d6b8a9cbf88b85a4e3f3fb1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 228480,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 31,
+    "isrc": "GBALB8700016",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Perfect Girl - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:7lYkyTd5mViUaw5kCTRB1x",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e652a4030036b13f7ec169bb78d1ca9e4bb19e6b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 153040,
+    "numeroDisco": 1,
+    "numeroPista": 15,
+    "esExplicita": false,
+    "popularidad": 39,
+    "isrc": "GBALB8700017",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "A Thousand Hours - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:3qTeDFsy8e3LbrGAg7nsmh",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/26a5bde6cd7def6e42cfcfed721112b711cb4776?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 202813,
+    "numeroDisco": 1,
+    "numeroPista": 16,
+    "esExplicita": false,
+    "popularidad": 33,
+    "isrc": "GBALB8700018",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Shiver And Shake - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:5mseMHPulMcpX8UJKIqur2",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5a247fdafe8cd8f379b8acda624d993b0b5c2cf6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 208280,
+    "numeroDisco": 1,
+    "numeroPista": 17,
+    "esExplicita": true,
+    "popularidad": 30,
+    "isrc": "GBALB8700019",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Cure",
+    "album": "Kiss Me Kiss Me Kiss Me (Remastered 2006)",
+    "cancion": "Fight - Remastered 2006",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273754d6cc8630ff4e76279fa7b",
+    "uri": "spotify:artist:7bu3H8JO7d0UbMoVzbo70s",
+    "uriCancion": "spotify:track:56tTfJ5tAUKM8PaIJ9xPGQ",
+    "uriAlbum": "spotify:album:6qRV8jXFV1fZG0TizFOuTE",
+    "previewUrl": "https://p.scdn.co/mp3-preview/91b91a025e26f30408506cc7a565d7d431185062?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 271960,
+    "numeroDisco": 1,
+    "numeroPista": 18,
+    "esExplicita": false,
+    "popularidad": 30,
+    "isrc": "GBALB8700020",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Three Imaginary Boys",
     "cancion": "Boys Don't Cry",
@@ -17514,6 +19418,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Cure",
     "album": "Wish",
     "cancion": "Friday I'm In Love",
@@ -17532,6 +19437,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Daughters Of Eve",
     "album": "Hey Lover / Stand by Me",
     "cancion": "Hey Lover",
@@ -17550,6 +19456,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Drums",
     "album": "Portamento",
     "cancion": "Money",
@@ -17568,6 +19475,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Durutti Column",
     "album": "LC",
     "cancion": "Sketch For Dawn - I",
@@ -17586,6 +19494,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:03:11Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Ergs!",
     "album": "Hindsight Is 20​/​20, My Friend",
     "cancion": "Books About Miles Davis",
@@ -17604,6 +19513,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:52:45Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Garden",
     "album": "Call This # Now",
     "cancion": "Call This # Now",
@@ -17622,24 +19532,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "The Garden",
-    "album": "haha",
-    "cancion": "Egg",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27365ad4e52938360a5b6eb4b04",
-    "uri": "spotify:artist:4UVlSeEFDPmlkYKaRMRoOz",
-    "uriCancion": "spotify:track:4Vie7AYSqfGHEP2uBh0ua5",
-    "uriAlbum": "spotify:album:2tH1S9Q2RUcLrOizMy9I1K",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9c1bed1b04f839acb0b1d0f24f5bd9fbb3ec1ef1?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 184662,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 54,
-    "isrc": "USEP41522013",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Garden",
     "album": "haha",
     "cancion": "This Could Build Us a Home",
@@ -17658,6 +19551,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Garden",
+    "album": "haha",
+    "cancion": "Egg",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27365ad4e52938360a5b6eb4b04",
+    "uri": "spotify:artist:4UVlSeEFDPmlkYKaRMRoOz",
+    "uriCancion": "spotify:track:4Vie7AYSqfGHEP2uBh0ua5",
+    "uriAlbum": "spotify:album:2tH1S9Q2RUcLrOizMy9I1K",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9c1bed1b04f839acb0b1d0f24f5bd9fbb3ec1ef1?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 184662,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 54,
+    "isrc": "USEP41522013",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Garden",
     "album": "U Want The Scoop?",
     "cancion": "Clay",
@@ -17676,6 +19589,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Garden, Mac DeMarco",
     "album": "Thy Mission",
     "cancion": "Thy Mission",
@@ -17694,6 +19608,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Go-Betweens",
     "album": "Before Hollywood",
     "cancion": "Cattle And Cane",
@@ -17712,6 +19627,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:55:42Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Goo Goo Dolls",
     "album": "Dizzy up the Girl",
     "cancion": "Iris",
@@ -17730,6 +19646,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Horses",
     "album": "Maybe If I Tried",
     "cancion": "Maybe If I Tried",
@@ -17748,6 +19665,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-29T03:21:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The La's",
     "album": "The La's",
     "cancion": "There She Goes",
@@ -17766,6 +19684,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Listros",
     "album": "Into The Otherside",
     "cancion": "Into The Otherside",
@@ -17784,6 +19703,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Long Faces",
     "album": "Jane!",
     "cancion": "Jane!",
@@ -17802,6 +19722,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Mamas & The Papas",
     "album": "All The Leaves Are Brown The Golden Era Collection",
     "cancion": "California Dreamin'",
@@ -17820,6 +19741,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Marcus Hedges Trend Orchestra",
     "album": "Zelda: Link's Ocarina Orchestrated",
     "cancion": "Song Of Storms",
@@ -17838,6 +19760,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Marked Men",
     "album": "Fix My Brain",
     "cancion": "Fix My Brain",
@@ -17856,6 +19779,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:52:34Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Marías",
     "album": "Submarine",
     "cancion": "No One Noticed",
@@ -17874,6 +19798,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Marías",
     "album": "Submarine",
     "cancion": "Sienna",
@@ -17892,6 +19817,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Moving Stills",
     "album": "Rock Band",
     "cancion": "Rock Band",
@@ -17910,6 +19836,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-29T03:19:41Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Neighbourhood",
     "album": "Hard To Imagine The Neighbourhood Ever Changing",
     "cancion": "You Get Me So High",
@@ -17928,6 +19855,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-19T14:56:19Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Neighbourhood",
     "album": "Wiped Out!",
     "cancion": "Daddy Issues",
@@ -17946,6 +19874,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-14T01:36:24Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "the north",
     "album": "Soundtrack Your Soul",
     "cancion": "Soundtrack Your Soul",
@@ -17964,6 +19893,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:33:52Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Notorious B.I.G.",
     "album": "Life After Death (2014 Remastered Edition)",
     "cancion": "Hypnotize - 2014 Remaster",
@@ -17982,6 +19912,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T22:54:48Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Offspring",
     "album": "Smash",
     "cancion": "Gotta Get Away",
@@ -18000,6 +19931,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Olivia Tremor Control",
     "album": "Dusk at Cubist Castle",
     "cancion": "Jumping Fences",
@@ -18018,6 +19950,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Outfield",
     "album": "Play Deep",
     "cancion": "Your Love",
@@ -18036,6 +19969,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Police",
     "album": "Certifiable (Live in Buenos Aires)",
     "cancion": "Walking On The Moon - Live From River Plate Stadium, Buenos Aires",
@@ -18054,6 +19988,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Police",
     "album": "Synchronicity (Remastered 2003)",
     "cancion": "Every Breath You Take",
@@ -18072,6 +20007,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Radio Dept.",
     "album": "Lesser Matters",
     "cancion": "Keen on Boys",
@@ -18090,6 +20026,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:00:49Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Rah Band",
     "album": "Going Up",
     "cancion": "Messages from the Stars",
@@ -18108,6 +20045,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Rare Occasions",
     "album": "Big Whoop",
     "cancion": "Origami",
@@ -18126,6 +20064,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Rare Occasions",
     "album": "Notion",
     "cancion": "Notion",
@@ -18144,6 +20083,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Rolling Stones",
     "album": "Beggars Banquet",
     "cancion": "Stray Cat Blues",
@@ -18162,6 +20102,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "(Rotten Apples) The Smashing Pumpkins Greatest Hits",
     "cancion": "Drown",
@@ -18180,6 +20121,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "Adore (2014 Remaster)",
     "cancion": "Perfect",
@@ -18198,6 +20140,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "Adore (Super Deluxe)",
     "cancion": "Ava Adore",
@@ -18216,6 +20159,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "Gish (Remastered)",
     "cancion": "Rhinoceros - Remastered 2011",
@@ -18234,42 +20178,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:15:26Z"
   },
   {
-    "artista": "The Smashing Pumpkins",
-    "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
-    "cancion": "1979 - Remastered 2012",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273431ac6e6f393acf475730ec6",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:5QLHGv0DfpeXLNFo7SFEy1",
-    "uriAlbum": "spotify:album:55RhFRyQFihIyGf61MgcfV",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5c2f38c90920f9d3db3784bc0205cf24ec7a1abe?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 266200,
-    "numeroDisco": 2,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 85,
-    "isrc": "USVI21200910",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Smashing Pumpkins",
-    "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
-    "cancion": "Pennies - Remastered 2012",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273431ac6e6f393acf475730ec6",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:6Mc4bMZVQb13wayZbUPtuW",
-    "uriAlbum": "spotify:album:55RhFRyQFihIyGf61MgcfV",
-    "previewUrl": "https://p.scdn.co/mp3-preview/e3940855f6f3fcbcb5ab5422a2bdf76019aab6b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 150080,
-    "numeroDisco": 4,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 63,
-    "isrc": "USVI21200945",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
     "cancion": "Tonight, Tonight - Remastered 2012",
@@ -18288,6 +20197,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
+    "cancion": "1979 - Remastered 2012",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273431ac6e6f393acf475730ec6",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:5QLHGv0DfpeXLNFo7SFEy1",
+    "uriAlbum": "spotify:album:55RhFRyQFihIyGf61MgcfV",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5c2f38c90920f9d3db3784bc0205cf24ec7a1abe?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 266200,
+    "numeroDisco": 2,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 85,
+    "isrc": "USVI21200910",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
+    "cancion": "Pennies - Remastered 2012",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273431ac6e6f393acf475730ec6",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:6Mc4bMZVQb13wayZbUPtuW",
+    "uriAlbum": "spotify:album:55RhFRyQFihIyGf61MgcfV",
+    "previewUrl": "https://p.scdn.co/mp3-preview/e3940855f6f3fcbcb5ab5422a2bdf76019aab6b5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 150080,
+    "numeroDisco": 4,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 63,
+    "isrc": "USVI21200945",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "Siamese Dream (Deluxe Edition)",
     "cancion": "Cherub Rock - 2011 Remaster",
@@ -18306,96 +20254,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "The Smashing Pumpkins",
-    "album": "Siamese Dream (Deluxe Edition)",
-    "cancion": "Geek U.S.A. - 2011 Remaster",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:7Jh4ySrytQOaDPF4XVUnv1",
-    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
-    "previewUrl": "https://p.scdn.co/mp3-preview/ce17cdf9d6a2d64e2476837437eed1225d3b69b7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 313266,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 54,
-    "isrc": "USVI21100153",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Smashing Pumpkins",
-    "album": "Siamese Dream (Deluxe Edition)",
-    "cancion": "Hummer - 2011 Remaster",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:6tULAjasyLTeJecwhcIHCo",
-    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
-    "previewUrl": "https://p.scdn.co/mp3-preview/48f54978475ba956b627fdf749d20add2cfd438c?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 416186,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 59,
-    "isrc": "USVI21100149",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "The Smashing Pumpkins",
-    "album": "Siamese Dream (Deluxe Edition)",
-    "cancion": "Mayonaise - 2011 Remaster",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:0jmKzJmUEKNbC7eU8YfOiA",
-    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c994fdca36414d0a95afac826294431cf8277ff9?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 348773,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 74,
-    "isrc": "USVI21100154",
-    "agregadoEn": "2026-09-17T22:14:57Z"
-  },
-  {
-    "artista": "The Smashing Pumpkins",
-    "album": "Siamese Dream (Deluxe Edition)",
-    "cancion": "Silverfuck - 2011 Remaster",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:6qzPIHZ3iujtOYjNkA5CL3",
-    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
-    "previewUrl": "https://p.scdn.co/mp3-preview/92e596d80a6ac2f5863ba85c0346a720c38968c5?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 522653,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": true,
-    "popularidad": 49,
-    "isrc": "USVI21100156",
-    "agregadoEn": "2026-09-17T22:15:14Z"
-  },
-  {
-    "artista": "The Smashing Pumpkins",
-    "album": "Siamese Dream (Deluxe Edition)",
-    "cancion": "Soma - 2011 Remaster",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
-    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
-    "uriCancion": "spotify:track:1EGa3uFmvkGChrZeIKxGwB",
-    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
-    "previewUrl": "https://p.scdn.co/mp3-preview/c7c9dcd5bcfc0b759cd146f263c6914d1ff6d145?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 398240,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 56,
-    "isrc": "USVI21100152",
-    "agregadoEn": "2026-09-17T22:15:09Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smashing Pumpkins",
     "album": "Siamese Dream (Deluxe Edition)",
     "cancion": "Today - 2011 Remaster",
@@ -18414,42 +20273,102 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "The Smiths",
-    "album": "Hatful of Hollow",
-    "cancion": "Girl Afraid - 2011 Remaster",
-    "fecha": "2026-09-17",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660",
-    "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
-    "uriCancion": "spotify:track:3UPpzmVM8UHimVKfpAg4xP",
-    "uriAlbum": "spotify:album:1j57Q5ntVi7crpibb0h4sv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/dd7f0cab54aa307f40fb89a29770e83412fe3692?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 166320,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 64,
-    "isrc": "GBCRL1100071",
-    "agregadoEn": "2026-09-17T22:15:44Z"
-  },
-  {
-    "artista": "The Smiths",
-    "album": "Hatful of Hollow",
-    "cancion": "Heaven Knows I'm Miserable Now - 2011 Remaster",
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Siamese Dream (Deluxe Edition)",
+    "cancion": "Hummer - 2011 Remaster",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660",
-    "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
-    "uriCancion": "spotify:track:1xaTREM89RbIxkcjlpf4Uw",
-    "uriAlbum": "spotify:album:1j57Q5ntVi7crpibb0h4sv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/84514f304f702184728abfa31331d79e36856f82?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 215760,
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:6tULAjasyLTeJecwhcIHCo",
+    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/48f54978475ba956b627fdf749d20add2cfd438c?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 416186,
     "numeroDisco": 1,
-    "numeroPista": 9,
+    "numeroPista": 4,
     "esExplicita": false,
-    "popularidad": 85,
-    "isrc": "GBCRL1100070",
+    "popularidad": 59,
+    "isrc": "USVI21100149",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Siamese Dream (Deluxe Edition)",
+    "cancion": "Soma - 2011 Remaster",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:1EGa3uFmvkGChrZeIKxGwB",
+    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c7c9dcd5bcfc0b759cd146f263c6914d1ff6d145?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 398240,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 56,
+    "isrc": "USVI21100152",
+    "agregadoEn": "2026-09-17T22:15:09Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Siamese Dream (Deluxe Edition)",
+    "cancion": "Geek U.S.A. - 2011 Remaster",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:7Jh4ySrytQOaDPF4XVUnv1",
+    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/ce17cdf9d6a2d64e2476837437eed1225d3b69b7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 313266,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 54,
+    "isrc": "USVI21100153",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Siamese Dream (Deluxe Edition)",
+    "cancion": "Mayonaise - 2011 Remaster",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:0jmKzJmUEKNbC7eU8YfOiA",
+    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/c994fdca36414d0a95afac826294431cf8277ff9?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 348773,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 74,
+    "isrc": "USVI21100154",
+    "agregadoEn": "2026-09-17T22:14:57Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smashing Pumpkins",
+    "album": "Siamese Dream (Deluxe Edition)",
+    "cancion": "Silverfuck - 2011 Remaster",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2735274788f34fc7656d2856dfd",
+    "uri": "spotify:artist:40Yq4vzPs9VNUrIBG5Jr2i",
+    "uriCancion": "spotify:track:6qzPIHZ3iujtOYjNkA5CL3",
+    "uriAlbum": "spotify:album:0bQglEvsHphrS19FGODEGo",
+    "previewUrl": "https://p.scdn.co/mp3-preview/92e596d80a6ac2f5863ba85c0346a720c38968c5?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 522653,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": true,
+    "popularidad": 49,
+    "isrc": "USVI21100156",
+    "agregadoEn": "2026-09-17T22:15:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "Hatful of Hollow",
     "cancion": "How Soon Is Now? - 2011 Remaster",
@@ -18468,24 +20387,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T03:35:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "Hatful of Hollow",
-    "cancion": "Please, Please, Please, Let Me Get What I Want - 2011 Remaster",
+    "cancion": "Heaven Knows I'm Miserable Now - 2011 Remaster",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660",
     "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
-    "uriCancion": "spotify:track:6BrMEbPSSj55nQhkgf6DnE",
+    "uriCancion": "spotify:track:1xaTREM89RbIxkcjlpf4Uw",
     "uriAlbum": "spotify:album:1j57Q5ntVi7crpibb0h4sv",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5ce66bb51b706d64d0c951f0773b0277ffbf3349?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 112706,
+    "previewUrl": "https://p.scdn.co/mp3-preview/84514f304f702184728abfa31331d79e36856f82?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 215760,
     "numeroDisco": 1,
-    "numeroPista": 16,
+    "numeroPista": 9,
     "esExplicita": false,
-    "popularidad": 81,
-    "isrc": "GBCRL1100072",
+    "popularidad": 85,
+    "isrc": "GBCRL1100070",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "Hatful of Hollow",
     "cancion": "This Night Has Opened My Eyes - 2011 Remaster",
@@ -18504,6 +20425,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smiths",
+    "album": "Hatful of Hollow",
+    "cancion": "Girl Afraid - 2011 Remaster",
+    "fecha": "2026-09-17",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660",
+    "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
+    "uriCancion": "spotify:track:3UPpzmVM8UHimVKfpAg4xP",
+    "uriAlbum": "spotify:album:1j57Q5ntVi7crpibb0h4sv",
+    "previewUrl": "https://p.scdn.co/mp3-preview/dd7f0cab54aa307f40fb89a29770e83412fe3692?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 166320,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 64,
+    "isrc": "GBCRL1100071",
+    "agregadoEn": "2026-09-17T22:15:44Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smiths",
+    "album": "Hatful of Hollow",
+    "cancion": "Please, Please, Please, Let Me Get What I Want - 2011 Remaster",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27304480d4422fe67d383386660",
+    "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
+    "uriCancion": "spotify:track:6BrMEbPSSj55nQhkgf6DnE",
+    "uriAlbum": "spotify:album:1j57Q5ntVi7crpibb0h4sv",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5ce66bb51b706d64d0c951f0773b0277ffbf3349?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 112706,
+    "numeroDisco": 1,
+    "numeroPista": 16,
+    "esExplicita": false,
+    "popularidad": 81,
+    "isrc": "GBCRL1100072",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "Louder Than Bombs",
     "cancion": "Back to the Old House - 2011 Remaster",
@@ -18522,6 +20482,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "Meat Is Murder",
     "cancion": "The Headmaster Ritual - 2011 Remaster",
@@ -18540,6 +20501,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:16:18Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "Meat Is Murder",
     "cancion": "Well I Wonder - 2011 Remaster",
@@ -18558,24 +20520,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:14:59Z"
   },
   {
-    "artista": "The Smiths",
-    "album": "The Queen Is Dead",
-    "cancion": "Bigmouth Strikes Again - 2011 Remaster",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2736236778a208a15eb71079601",
-    "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
-    "uriCancion": "spotify:track:2OErSh4oVVAUll0vHxdr6p",
-    "uriAlbum": "spotify:album:5Y0p2XCgRRIjna91aQE8q7",
-    "previewUrl": "https://p.scdn.co/mp3-preview/1e7ee948814cbb4eb347f2873d0a73159d005bbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 193320,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 78,
-    "isrc": "GBCRL1100051",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "The Queen Is Dead",
     "cancion": "Cemetry Gates - 2011 Remaster",
@@ -18594,6 +20539,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:15:35Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Smiths",
+    "album": "The Queen Is Dead",
+    "cancion": "Bigmouth Strikes Again - 2011 Remaster",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2736236778a208a15eb71079601",
+    "uri": "spotify:artist:3yY2gUcIsjMr8hjo51PoJ8",
+    "uriCancion": "spotify:track:2OErSh4oVVAUll0vHxdr6p",
+    "uriAlbum": "spotify:album:5Y0p2XCgRRIjna91aQE8q7",
+    "previewUrl": "https://p.scdn.co/mp3-preview/1e7ee948814cbb4eb347f2873d0a73159d005bbb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 193320,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 78,
+    "isrc": "GBCRL1100051",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "The Queen Is Dead",
     "cancion": "There Is a Light That Never Goes Out - 2011 Remaster",
@@ -18612,6 +20577,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "The Smiths",
     "cancion": "Pretty Girls Make Graves - 2011 Remaster",
@@ -18630,6 +20596,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:14:09Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Smiths",
     "album": "The Smiths",
     "cancion": "This Charming Man - 2011 Remaster",
@@ -18648,6 +20615,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Spoiled",
     "album": "When It Rains",
     "cancion": "When It Rains",
@@ -18666,6 +20634,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Stranglers",
     "album": "Golden Brown",
     "cancion": "Golden Brown",
@@ -18684,6 +20653,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Strokes",
     "album": "Comedown Machine",
     "cancion": "Call It Fate, Call It Karma",
@@ -18702,42 +20672,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:16:37Z"
   },
   {
-    "artista": "The Strokes",
-    "album": "Is This It",
-    "cancion": "Hard To Explain",
-    "fecha": "2026-09-18",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273a388a3f20d1bf2123249cc79",
-    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
-    "uriCancion": "spotify:track:2LMloFiV7DHpBhITOaBSam",
-    "uriAlbum": "spotify:album:2yNaksHgeMQM9Quse463b5",
-    "previewUrl": "https://p.scdn.co/mp3-preview/6388ca163a66361835b0bad85327961faa4f4bcf?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 224426,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 69,
-    "isrc": "USRC10100768",
-    "agregadoEn": "2026-09-18T16:15:48Z"
-  },
-  {
-    "artista": "The Strokes",
-    "album": "Is This It",
-    "cancion": "Last Nite",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273a388a3f20d1bf2123249cc79",
-    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
-    "uriCancion": "spotify:track:7kzKAuUzOITUauHAhoMoxA",
-    "uriAlbum": "spotify:album:2yNaksHgeMQM9Quse463b5",
-    "previewUrl": "https://p.scdn.co/mp3-preview/9757c503fb2174e4db5ff087bb14d5d7d0b8f62a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 193506,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 79,
-    "isrc": "USRC10100765",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Strokes",
     "album": "Is This It",
     "cancion": "Someday",
@@ -18756,6 +20691,45 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Strokes",
+    "album": "Is This It",
+    "cancion": "Last Nite",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273a388a3f20d1bf2123249cc79",
+    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
+    "uriCancion": "spotify:track:7kzKAuUzOITUauHAhoMoxA",
+    "uriAlbum": "spotify:album:2yNaksHgeMQM9Quse463b5",
+    "previewUrl": "https://p.scdn.co/mp3-preview/9757c503fb2174e4db5ff087bb14d5d7d0b8f62a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 193506,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 79,
+    "isrc": "USRC10100765",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "The Strokes",
+    "album": "Is This It",
+    "cancion": "Hard To Explain",
+    "fecha": "2026-09-18",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273a388a3f20d1bf2123249cc79",
+    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
+    "uriCancion": "spotify:track:2LMloFiV7DHpBhITOaBSam",
+    "uriAlbum": "spotify:album:2yNaksHgeMQM9Quse463b5",
+    "previewUrl": "https://p.scdn.co/mp3-preview/6388ca163a66361835b0bad85327961faa4f4bcf?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 224426,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 69,
+    "isrc": "USRC10100768",
+    "agregadoEn": "2026-09-18T16:15:48Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Strokes",
     "album": "Room On Fire",
     "cancion": "Reptilia",
@@ -18774,42 +20748,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "The Strokes",
-    "album": "The New Abnormal",
-    "cancion": "Ode To The Mets",
-    "fecha": "2026-09-18",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
-    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
-    "uriCancion": "spotify:track:1BLOVHYYlH4JUHQGcpt75R",
-    "uriAlbum": "spotify:album:2xkZV2Hl1Omi8rk2D7t5lN",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2d3fa8428d3dff3cfff3c2349194cfd560075a8a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 351786,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": true,
-    "popularidad": 78,
-    "isrc": "USRC11902734",
-    "agregadoEn": "2026-09-18T16:15:58Z"
-  },
-  {
-    "artista": "The Strokes",
-    "album": "The New Abnormal",
-    "cancion": "Selfless",
-    "fecha": "2026-09-18",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
-    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
-    "uriCancion": "spotify:track:2t0wwvR15fc3K1ey8OiOaN",
-    "uriAlbum": "spotify:album:2xkZV2Hl1Omi8rk2D7t5lN",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4d9ef2f5c4f6aab389563bae3d4baa575e2c004f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 222093,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 81,
-    "isrc": "USRC11902727",
-    "agregadoEn": "2026-09-18T16:15:36Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "The Strokes",
     "album": "The New Abnormal",
     "cancion": "The Adults Are Talking",
@@ -18828,6 +20767,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Strokes",
+    "album": "The New Abnormal",
+    "cancion": "Selfless",
+    "fecha": "2026-09-18",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
+    "uriCancion": "spotify:track:2t0wwvR15fc3K1ey8OiOaN",
+    "uriAlbum": "spotify:album:2xkZV2Hl1Omi8rk2D7t5lN",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4d9ef2f5c4f6aab389563bae3d4baa575e2c004f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 222093,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 81,
+    "isrc": "USRC11902727",
+    "agregadoEn": "2026-09-18T16:15:36Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Strokes",
     "album": "The New Abnormal",
     "cancion": "Why Are Sundays So Depressing",
@@ -18846,6 +20805,26 @@ const cancionesData = [
     "agregadoEn": "2026-09-18T16:15:16Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "The Strokes",
+    "album": "The New Abnormal",
+    "cancion": "Ode To The Mets",
+    "fecha": "2026-09-18",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+    "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V",
+    "uriCancion": "spotify:track:1BLOVHYYlH4JUHQGcpt75R",
+    "uriAlbum": "spotify:album:2xkZV2Hl1Omi8rk2D7t5lN",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2d3fa8428d3dff3cfff3c2349194cfd560075a8a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 351786,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": true,
+    "popularidad": 78,
+    "isrc": "USRC11902734",
+    "agregadoEn": "2026-09-18T16:15:58Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "The Sundays",
     "album": "Reading Writing And Arithmetic",
     "cancion": "Here's Where the Story Ends",
@@ -18864,6 +20843,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:00:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Verve",
     "album": "Urban Hymns (Remastered 2016)",
     "cancion": "Bitter Sweet Symphony - Remastered 2016",
@@ -18882,6 +20862,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Wake",
     "album": "Harmony + Singles",
     "cancion": "Something Outside",
@@ -18900,6 +20881,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:02:32Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The Walters",
     "album": "I Love You So",
     "cancion": "I Love You So",
@@ -18918,6 +20900,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "The xx",
     "album": "xx",
     "cancion": "Intro",
@@ -18936,6 +20919,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tiffany",
     "album": "Tiffany",
     "cancion": "I Think We're Alone Now",
@@ -18954,6 +20938,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:47:28Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Toshifumi Hinata",
     "album": "ひとつぶの海",
     "cancion": "Reflections",
@@ -18972,6 +20957,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:22:13Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "triple j\\, Djo Music",
     "album": "Djo - 'End of Beginning' (live at Laneway 2025)",
     "cancion": "Djo - 'End of Beginning' (live at Laneway 2025)",
@@ -18990,6 +20976,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "trustme, numb the pain, vic, sobba.",
     "album": "blue sunrise",
     "cancion": "blue sunrise",
@@ -19008,6 +20995,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Turf",
     "album": "Para Mi para Vos",
     "cancion": "Pasos Al Costado",
@@ -19026,6 +21014,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Turf",
     "album": "Turfshow",
     "cancion": "Yo No Me Quiero Casar, Y Ud?",
@@ -19044,6 +21033,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "TV Girl",
     "album": "Death of a Party Girl",
     "cancion": "Blue Hair",
@@ -19062,6 +21052,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "TV Girl",
     "album": "French Exit",
     "cancion": "Birds Dont Sing",
@@ -19080,6 +21071,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "TV Girl",
     "album": "French Exit",
     "cancion": "Louise",
@@ -19098,24 +21090,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
-    "artista": "TV Girl",
-    "album": "French Exit",
-    "cancion": "Lovers Rock",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273e1bc1af856b42dd7fdba9f84",
-    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
-    "uriCancion": "spotify:track:6dBUzqjtbnIa1TwYbyw5CM",
-    "uriAlbum": "spotify:album:4Hai0uVzRbyTSaTPzxTY4e",
-    "previewUrl": "https://p.scdn.co/mp3-preview/922a42db5aa8f8d335725697b7d7a12af6808f3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 213920,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 90,
-    "isrc": "USHM21438143",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "TV Girl",
     "album": "French Exit",
     "cancion": "The Blonde",
@@ -19134,6 +21109,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "TV Girl",
+    "album": "French Exit",
+    "cancion": "Lovers Rock",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273e1bc1af856b42dd7fdba9f84",
+    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
+    "uriCancion": "spotify:track:6dBUzqjtbnIa1TwYbyw5CM",
+    "uriAlbum": "spotify:album:4Hai0uVzRbyTSaTPzxTY4e",
+    "previewUrl": "https://p.scdn.co/mp3-preview/922a42db5aa8f8d335725697b7d7a12af6808f3a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 213920,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 90,
+    "isrc": "USHM21438143",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "TV Girl",
     "album": "The Night in Question: French Exit Outtakes",
     "cancion": "It Almost Worked",
@@ -19152,60 +21147,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
-    "artista": "TV Girl",
-    "album": "Who Really Cares",
-    "cancion": "Cigarettes out the Window",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
-    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
-    "uriCancion": "spotify:track:6QeYSvYqYUsfBzsApbjDHO",
-    "uriAlbum": "spotify:album:4oL7pMxnb04uuRI7ReXmuh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7141e8575ba61267370ea78a9d3d9f82354d6c1a?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 198960,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 88,
-    "isrc": "USCGH1682129",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "TV Girl",
-    "album": "Who Really Cares",
-    "cancion": "Loving Machine",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
-    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
-    "uriCancion": "spotify:track:7JEzAlwHhCD2M1cYE6BeqJ",
-    "uriAlbum": "spotify:album:4oL7pMxnb04uuRI7ReXmuh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5cc4c5a155ba4d15510a1c40c3b08235a31fab79?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 227000,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 85,
-    "isrc": "USCGH1682135",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "TV Girl",
-    "album": "Who Really Cares",
-    "cancion": "Not Allowed",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
-    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
-    "uriCancion": "spotify:track:3IznIgmXtrUaoPWpQTy5jB",
-    "uriAlbum": "spotify:album:4oL7pMxnb04uuRI7ReXmuh",
-    "previewUrl": "https://p.scdn.co/mp3-preview/b1f61776e5425927fac6f4e79733d9fb8baf20dc?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 167864,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": true,
-    "popularidad": 86,
-    "isrc": "USCGH1682131",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "TV Girl",
     "album": "Who Really Cares",
     "cancion": "Taking What's Not Yours",
@@ -19224,6 +21166,64 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "TV Girl",
+    "album": "Who Really Cares",
+    "cancion": "Cigarettes out the Window",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
+    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
+    "uriCancion": "spotify:track:6QeYSvYqYUsfBzsApbjDHO",
+    "uriAlbum": "spotify:album:4oL7pMxnb04uuRI7ReXmuh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7141e8575ba61267370ea78a9d3d9f82354d6c1a?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 198960,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 88,
+    "isrc": "USCGH1682129",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "TV Girl",
+    "album": "Who Really Cares",
+    "cancion": "Not Allowed",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
+    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
+    "uriCancion": "spotify:track:3IznIgmXtrUaoPWpQTy5jB",
+    "uriAlbum": "spotify:album:4oL7pMxnb04uuRI7ReXmuh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/b1f61776e5425927fac6f4e79733d9fb8baf20dc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 167864,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": true,
+    "popularidad": 86,
+    "isrc": "USCGH1682131",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "TV Girl",
+    "album": "Who Really Cares",
+    "cancion": "Loving Machine",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
+    "uri": "spotify:artist:0Y6dVaC9DZtPNH4591M42W",
+    "uriCancion": "spotify:track:7JEzAlwHhCD2M1cYE6BeqJ",
+    "uriAlbum": "spotify:album:4oL7pMxnb04uuRI7ReXmuh",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5cc4c5a155ba4d15510a1c40c3b08235a31fab79?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 227000,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 85,
+    "isrc": "USCGH1682135",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Tyler\\, The Creator",
     "album": "IGOR",
     "cancion": "I THINK",
@@ -19242,6 +21242,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tyler\\, The Creator, Daniel Caesar, LaToiya Williams",
     "album": "CHROMAKOPIA",
     "cancion": "Take Your Mask Off (feat. Daniel Caesar & LaToiya Williams)",
@@ -19260,6 +21261,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tyler\\, The Creator, Kali Uchis",
     "album": "Flower Boy",
     "cancion": "See You Again (feat. Kali Uchis)",
@@ -19278,6 +21280,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Tyler\\, The Creator, Lola Young",
     "album": "CHROMAKOPIA",
     "cancion": "Like Him (feat. Lola Young)",
@@ -19296,6 +21299,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "UB40",
     "album": "The Best Of UB40 Volume I",
     "cancion": "Red Red Wine",
@@ -19314,6 +21318,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-05T00:24:30Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "uni",
     "album": "Cuando Tus Ojos Me Ven",
     "cancion": "Cuando Tus Ojos Me Ven",
@@ -19332,6 +21337,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:49:38Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "uni",
     "album": "Portugal",
     "cancion": "Portugal",
@@ -19350,6 +21356,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:49:47Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "uni, krre, Santutu",
     "album": "NUMERO DESCONOCIDO",
     "cancion": "NUMERO DESCONOCIDO",
@@ -19368,6 +21375,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:49:42Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Unknown Mortal Orchestra",
     "album": "Sex & Food",
     "cancion": "Hunnybee",
@@ -19386,24 +21394,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:06:26Z"
   },
   {
-    "artista": "Vacations",
-    "album": "Changes",
-    "cancion": "Honey",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2732eb4d117b70ea7ac2c24e316",
-    "uri": "spotify:artist:0U7iI0Dk4Ojvi17nZboNO4",
-    "uriCancion": "spotify:track:7IBzp33O4Hjr92wXtH3yQJ",
-    "uriAlbum": "spotify:album:3Ull45eHLzGXtElhKHFJ7C",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7fa7f7df6a78c3dd46df18618e398a90f6ce765f?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 139605,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "SEYOK1814660",
-    "agregadoEn": "2026-06-28T04:36:14Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Vacations",
     "album": "Changes",
     "cancion": "Moving Out",
@@ -19422,6 +21413,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Vacations",
     "album": "Changes",
     "cancion": "Telephones",
@@ -19440,6 +21432,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Vacations",
+    "album": "Changes",
+    "cancion": "Honey",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2732eb4d117b70ea7ac2c24e316",
+    "uri": "spotify:artist:0U7iI0Dk4Ojvi17nZboNO4",
+    "uriCancion": "spotify:track:7IBzp33O4Hjr92wXtH3yQJ",
+    "uriAlbum": "spotify:album:3Ull45eHLzGXtElhKHFJ7C",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7fa7f7df6a78c3dd46df18618e398a90f6ce765f?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 139605,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 68,
+    "isrc": "SEYOK1814660",
+    "agregadoEn": "2026-06-28T04:36:14Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Vacations",
     "album": "Holy Grail",
     "cancion": "Young",
@@ -19458,24 +21470,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
-    "artista": "Vacations",
-    "album": "Vibes",
-    "cancion": "Away",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2733fe10c957fc57e5dd7c1db24",
-    "uri": "spotify:artist:0U7iI0Dk4Ojvi17nZboNO4",
-    "uriCancion": "spotify:track:2NaGl56lq71UMzDSI8jmJ3",
-    "uriAlbum": "spotify:album:54lNPJ6xq2QXwG6jLEIf6C",
-    "previewUrl": "https://p.scdn.co/mp3-preview/756f501bff2381d76868b344d6ddc119860dc019?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 162333,
-    "numeroDisco": 1,
-    "numeroPista": 2,
-    "esExplicita": false,
-    "popularidad": 67,
-    "isrc": "SEYOK1669272",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Vacations",
     "album": "Vibes",
     "cancion": "Home",
@@ -19494,6 +21489,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Vacations",
+    "album": "Vibes",
+    "cancion": "Away",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b2733fe10c957fc57e5dd7c1db24",
+    "uri": "spotify:artist:0U7iI0Dk4Ojvi17nZboNO4",
+    "uriCancion": "spotify:track:2NaGl56lq71UMzDSI8jmJ3",
+    "uriAlbum": "spotify:album:54lNPJ6xq2QXwG6jLEIf6C",
+    "previewUrl": "https://p.scdn.co/mp3-preview/756f501bff2381d76868b344d6ddc119860dc019?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 162333,
+    "numeroDisco": 1,
+    "numeroPista": 2,
+    "esExplicita": false,
+    "popularidad": 67,
+    "isrc": "SEYOK1669272",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Vacations",
     "album": "Vibes",
     "cancion": "Relax",
@@ -19512,6 +21527,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Vacations",
     "album": "Vibes",
     "cancion": "Young",
@@ -19530,6 +21546,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "VANO 3000, BADBADNOTGOOD, Samuel T. Herring",
     "album": "Running Away (Time)",
     "cancion": "Running Away (Time)",
@@ -19548,6 +21565,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Vansire",
     "album": "The Rolling, Driftless North",
     "cancion": "Eleven Weeks",
@@ -19566,6 +21584,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-19T18:20:18Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Vansire, Paul Cherry, Mellow Fellow, Ruru",
     "album": "Angel Youth",
     "cancion": "Lonely Zone",
@@ -19584,6 +21603,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:34:39Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Vantage",
     "album": "50//50",
     "cancion": "50//50",
@@ -19602,6 +21622,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-17T03:39:57Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "VHS LOGOS",
     "album": "Street Smarts",
     "cancion": "Chimerical",
@@ -19620,6 +21641,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Videoclub, Adèle Castillon, Mattyeux",
     "album": "Euphories",
     "cancion": "Amour plastique",
@@ -19638,6 +21660,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:24:33Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Videoclub, Adèle Castillon, Mattyeux",
     "album": "Euphories",
     "cancion": "Roi",
@@ -19656,60 +21679,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:24:40Z"
   },
   {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "638",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:65j2lvp5JLVZ2CZXY8sqFN",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/4ab047f09facaf9e4b4f5ac75f7bfe87a7872e2b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 172946,
-    "numeroDisco": 1,
-    "numeroPista": 11,
-    "esExplicita": false,
-    "popularidad": 54,
-    "isrc": "ARF149900170",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Descansar En Paz",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:4r7TVnRBnKKfoiHw7BLwv8",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/178c0fba84c3466cbcba4608281f4292c8f5a3d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 186333,
-    "numeroDisco": 1,
-    "numeroPista": 13,
-    "esExplicita": false,
-    "popularidad": 46,
-    "isrc": "ARF149900172",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "El Arbol De La Vida / Voy A Dejarte",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:0YP4206cbW33As0eSLoP98",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/bd33ae9c46ff97b11e3aeed3db0030e23e42e640?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 373653,
-    "numeroDisco": 1,
-    "numeroPista": 15,
-    "esExplicita": false,
-    "popularidad": 57,
-    "isrc": "ARF149900174",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
     "album": "Especial",
     "cancion": "Estamos Llegando",
@@ -19728,96 +21698,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Excusas",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:1rugFNmLTK1nDXtvojJuGz",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a066c00b82ad177fd12b68f7d666c06894ad24aa?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 263586,
-    "numeroDisco": 1,
-    "numeroPista": 9,
-    "esExplicita": false,
-    "popularidad": 43,
-    "isrc": "ARF149900168",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Homero",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:3AjSUbPd7siXGOSlmXm9Nr",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/a6628b1eaed1e588c692e0b7111af54a019611ec?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 263653,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 66,
-    "isrc": "ARF149900164",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Legalícenla",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:4wS9c2d5eYax6pMg6xfN8A",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/2e75c361fb0fd57d2c39978b711cda642216b528?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 333653,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 54,
-    "isrc": "ARF149900167",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Me Gustas Mucho",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:2kB1rqoTaZ3j6ChtIWGurm",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/556a0aec2c60dc7d3ea238fda31c7fdba97ace15?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 199933,
-    "numeroDisco": 1,
-    "numeroPista": 3,
-    "esExplicita": false,
-    "popularidad": 68,
-    "isrc": "ARF149900160",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Niños",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:1m1K0halDpaOoHfznxP6rl",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/5538fb0eba3963af8ccfbf2c8d02e9e86f499c65?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 288920,
-    "numeroDisco": 1,
-    "numeroPista": 12,
-    "esExplicita": false,
-    "popularidad": 37,
-    "isrc": "ARF149900171",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
     "album": "Especial",
     "cancion": "Todo Sigue Igual",
@@ -19836,6 +21717,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "Me Gustas Mucho",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:2kB1rqoTaZ3j6ChtIWGurm",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/556a0aec2c60dc7d3ea238fda31c7fdba97ace15?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 199933,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 68,
+    "isrc": "ARF149900160",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
     "album": "Especial",
     "cancion": "Una Espina En El Ojo",
@@ -19854,42 +21755,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
     "album": "Especial",
-    "cancion": "Una Piba Como Vos",
+    "cancion": "Homero",
     "fecha": "2026-06-28",
     "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
     "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:74xsX6ZwqkBczOXKVNmT14",
+    "uriCancion": "spotify:track:3AjSUbPd7siXGOSlmXm9Nr",
     "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/153fc94e2c463563233d428f7080941c2f402e34?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 143533,
+    "previewUrl": "https://p.scdn.co/mp3-preview/a6628b1eaed1e588c692e0b7111af54a019611ec?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 263653,
     "numeroDisco": 1,
-    "numeroPista": 14,
+    "numeroPista": 5,
     "esExplicita": false,
-    "popularidad": 53,
-    "isrc": "ARF149900173",
+    "popularidad": 66,
+    "isrc": "ARF149900164",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Viejas Locas",
-    "album": "Especial",
-    "cancion": "Una Vez Más",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
-    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:5Eyl17uVFL50xzQkTK2Xay",
-    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
-    "previewUrl": "https://p.scdn.co/mp3-preview/52466918530d3cffbb86ccd7a7a6cb904bb1e3d3?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 255453,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 56,
-    "isrc": "ARF149900166",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
     "album": "Especial",
     "cancion": "¿Qué Vas A Hacer Tan Sola Hoy?",
@@ -19908,24 +21793,159 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
-    "album": "Viejas Locas",
-    "cancion": "Lo Artesanal",
+    "album": "Especial",
+    "cancion": "Una Vez Más",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b2731238d3577651992e399cbb22",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
     "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
-    "uriCancion": "spotify:track:3UL7KKa7HVOU8blvaVklXK",
-    "uriAlbum": "spotify:album:2aDSy4QxNA0fjFLYP7HpOg",
-    "previewUrl": "https://p.scdn.co/mp3-preview/de6d493231fba4a2abbc49a7f27d234d46c9c81b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 337720,
+    "uriCancion": "spotify:track:5Eyl17uVFL50xzQkTK2Xay",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/52466918530d3cffbb86ccd7a7a6cb904bb1e3d3?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 255453,
     "numeroDisco": 1,
-    "numeroPista": 3,
+    "numeroPista": 7,
     "esExplicita": false,
-    "popularidad": 53,
-    "isrc": "ARF099500170",
+    "popularidad": 56,
+    "isrc": "ARF149900166",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "Legalícenla",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:4wS9c2d5eYax6pMg6xfN8A",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/2e75c361fb0fd57d2c39978b711cda642216b528?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 333653,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 54,
+    "isrc": "ARF149900167",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "Excusas",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:1rugFNmLTK1nDXtvojJuGz",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/a066c00b82ad177fd12b68f7d666c06894ad24aa?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 263586,
+    "numeroDisco": 1,
+    "numeroPista": 9,
+    "esExplicita": false,
+    "popularidad": 43,
+    "isrc": "ARF149900168",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "638",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:65j2lvp5JLVZ2CZXY8sqFN",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/4ab047f09facaf9e4b4f5ac75f7bfe87a7872e2b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 172946,
+    "numeroDisco": 1,
+    "numeroPista": 11,
+    "esExplicita": false,
+    "popularidad": 54,
+    "isrc": "ARF149900170",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "Niños",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:1m1K0halDpaOoHfznxP6rl",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/5538fb0eba3963af8ccfbf2c8d02e9e86f499c65?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 288920,
+    "numeroDisco": 1,
+    "numeroPista": 12,
+    "esExplicita": false,
+    "popularidad": 37,
+    "isrc": "ARF149900171",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "Descansar En Paz",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:4r7TVnRBnKKfoiHw7BLwv8",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/178c0fba84c3466cbcba4608281f4292c8f5a3d7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 186333,
+    "numeroDisco": 1,
+    "numeroPista": 13,
+    "esExplicita": false,
+    "popularidad": 46,
+    "isrc": "ARF149900172",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "Una Piba Como Vos",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:74xsX6ZwqkBczOXKVNmT14",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/153fc94e2c463563233d428f7080941c2f402e34?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 143533,
+    "numeroDisco": 1,
+    "numeroPista": 14,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "ARF149900173",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Especial",
+    "cancion": "El Arbol De La Vida / Voy A Dejarte",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:0YP4206cbW33As0eSLoP98",
+    "uriAlbum": "spotify:album:6jnYqzP7SLpLabodU9Ie0E",
+    "previewUrl": "https://p.scdn.co/mp3-preview/bd33ae9c46ff97b11e3aeed3db0030e23e42e640?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 373653,
+    "numeroDisco": 1,
+    "numeroPista": 15,
+    "esExplicita": false,
+    "popularidad": 57,
+    "isrc": "ARF149900174",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Viejas Locas",
     "album": "Viejas Locas",
     "cancion": "Nena, Me Gustas Así",
@@ -19944,96 +21964,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Virus",
-    "album": "Locura",
-    "cancion": "Destino Circular",
+    "playlist": "MEXCLAZ",
+    "artista": "Viejas Locas",
+    "album": "Viejas Locas",
+    "cancion": "Lo Artesanal",
     "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
-    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
-    "uriCancion": "spotify:track:683JnJRZeuAb7mWGXyYpeq",
-    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/99eccb5cced9a17322c59801539dc547389b73cc?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 222440,
-    "numeroDisco": 1,
-    "numeroPista": 4,
-    "esExplicita": false,
-    "popularidad": 51,
-    "isrc": "ARF109500355",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Virus",
-    "album": "Locura",
-    "cancion": "Dicha Feliz",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
-    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
-    "uriCancion": "spotify:track:3LQatEMf343BKjWVzj2tuh",
-    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/f595ef8018c5e63ce3c0606260cb048b2bb70dfb?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 213040,
-    "numeroDisco": 1,
-    "numeroPista": 6,
-    "esExplicita": false,
-    "popularidad": 47,
-    "isrc": "ARF109500354",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Virus",
-    "album": "Locura",
-    "cancion": "Lugares Comunes",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
-    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
-    "uriCancion": "spotify:track:3Q7ps56omB24P5ClK5Thhv",
-    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/3895557ddaad00c474f514053138d7a11b741c1d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 192706,
-    "numeroDisco": 1,
-    "numeroPista": 8,
-    "esExplicita": false,
-    "popularidad": 44,
-    "isrc": "ARF100300179",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Virus",
-    "album": "Locura",
-    "cancion": "Luna de Miel en la Mano",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
-    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
-    "uriCancion": "spotify:track:1qWLCuCnNcQVVzJm4pu7Zv",
-    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/477e0eb67bffe90b1fe2d7092d7ab4046b1718b7?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 316426,
-    "numeroDisco": 1,
-    "numeroPista": 5,
-    "esExplicita": false,
-    "popularidad": 70,
-    "isrc": "ARF109500350",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
-    "artista": "Virus",
-    "album": "Locura",
-    "cancion": "Pecados para Dos",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
-    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
-    "uriCancion": "spotify:track:5QSe2vbcBasm02vr76vqg4",
-    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/7791cee69b1be5620e3986a76190c1ec64ef38e6?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 236813,
+    "portada": "https://i.scdn.co/image/ab67616d0000b2731238d3577651992e399cbb22",
+    "uri": "spotify:artist:7wTu5u7W3kc9Id5JAvSAFV",
+    "uriCancion": "spotify:track:3UL7KKa7HVOU8blvaVklXK",
+    "uriAlbum": "spotify:album:2aDSy4QxNA0fjFLYP7HpOg",
+    "previewUrl": "https://p.scdn.co/mp3-preview/de6d493231fba4a2abbc49a7f27d234d46c9c81b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 337720,
     "numeroDisco": 1,
     "numeroPista": 3,
     "esExplicita": false,
     "popularidad": 53,
-    "isrc": "ARF100300175",
+    "isrc": "ARF099500170",
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Virus",
     "album": "Locura",
     "cancion": "Pronta Entrega",
@@ -20052,24 +22002,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Virus",
-    "album": "Locura",
-    "cancion": "Sin Disfraz",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
-    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
-    "uriCancion": "spotify:track:6oi4gIt6BQCRw1ZQJj21vq",
-    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
-    "previewUrl": "https://p.scdn.co/mp3-preview/898f236e32680e2812bda3283ba7953c9904347d?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 328746,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 60,
-    "isrc": "ARF109500359",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Virus",
     "album": "Locura",
     "cancion": "Tomo Lo Que Encuentro",
@@ -20088,6 +22021,121 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Virus",
+    "album": "Locura",
+    "cancion": "Pecados para Dos",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
+    "uriCancion": "spotify:track:5QSe2vbcBasm02vr76vqg4",
+    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
+    "previewUrl": "https://p.scdn.co/mp3-preview/7791cee69b1be5620e3986a76190c1ec64ef38e6?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 236813,
+    "numeroDisco": 1,
+    "numeroPista": 3,
+    "esExplicita": false,
+    "popularidad": 53,
+    "isrc": "ARF100300175",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Virus",
+    "album": "Locura",
+    "cancion": "Destino Circular",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
+    "uriCancion": "spotify:track:683JnJRZeuAb7mWGXyYpeq",
+    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
+    "previewUrl": "https://p.scdn.co/mp3-preview/99eccb5cced9a17322c59801539dc547389b73cc?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 222440,
+    "numeroDisco": 1,
+    "numeroPista": 4,
+    "esExplicita": false,
+    "popularidad": 51,
+    "isrc": "ARF109500355",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Virus",
+    "album": "Locura",
+    "cancion": "Luna de Miel en la Mano",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
+    "uriCancion": "spotify:track:1qWLCuCnNcQVVzJm4pu7Zv",
+    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
+    "previewUrl": "https://p.scdn.co/mp3-preview/477e0eb67bffe90b1fe2d7092d7ab4046b1718b7?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 316426,
+    "numeroDisco": 1,
+    "numeroPista": 5,
+    "esExplicita": false,
+    "popularidad": 70,
+    "isrc": "ARF109500350",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Virus",
+    "album": "Locura",
+    "cancion": "Dicha Feliz",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
+    "uriCancion": "spotify:track:3LQatEMf343BKjWVzj2tuh",
+    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
+    "previewUrl": "https://p.scdn.co/mp3-preview/f595ef8018c5e63ce3c0606260cb048b2bb70dfb?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 213040,
+    "numeroDisco": 1,
+    "numeroPista": 6,
+    "esExplicita": false,
+    "popularidad": 47,
+    "isrc": "ARF109500354",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Virus",
+    "album": "Locura",
+    "cancion": "Sin Disfraz",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
+    "uriCancion": "spotify:track:6oi4gIt6BQCRw1ZQJj21vq",
+    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
+    "previewUrl": "https://p.scdn.co/mp3-preview/898f236e32680e2812bda3283ba7953c9904347d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 328746,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 60,
+    "isrc": "ARF109500359",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
+    "artista": "Virus",
+    "album": "Locura",
+    "cancion": "Lugares Comunes",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273292c1ca632a1e120d1208c95",
+    "uri": "spotify:artist:0G7A5LzQAs2egiQl7hO5tV",
+    "uriCancion": "spotify:track:3Q7ps56omB24P5ClK5Thhv",
+    "uriAlbum": "spotify:album:5K3EGqntkI4To4TKtmIj2r",
+    "previewUrl": "https://p.scdn.co/mp3-preview/3895557ddaad00c474f514053138d7a11b741c1d?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 192706,
+    "numeroDisco": 1,
+    "numeroPista": 8,
+    "esExplicita": false,
+    "popularidad": 44,
+    "isrc": "ARF100300179",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Virus",
     "album": "Relax",
     "cancion": "Amor Descartable",
@@ -20106,6 +22154,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "voi",
     "album": "blissful lights",
     "cancion": "blissful lights",
@@ -20124,6 +22173,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "voi",
     "album": "sleepwalking",
     "cancion": "sleepwalking",
@@ -20142,6 +22192,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "VXLLAIN, iGRES, ENXK",
     "album": "Crystal Skies",
     "cancion": "Crystal Skies",
@@ -20160,6 +22211,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:03:07Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Wednesday",
     "album": "Rat Saw God",
     "cancion": "Bull Believer",
@@ -20178,6 +22230,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T21:57:39Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Weezer",
     "album": "Weezer",
     "cancion": "Buddy Holly",
@@ -20196,6 +22249,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Weezer",
     "album": "Weezer",
     "cancion": "Island In The Sun",
@@ -20214,24 +22268,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
-    "artista": "Weezer",
-    "album": "Weezer",
-    "cancion": "Say It Ain't So - Original Mix",
-    "fecha": "2026-06-28",
-    "portada": "https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96",
-    "uri": "spotify:artist:3jOstUTkEu2JkjvRdBA5Gu",
-    "uriCancion": "spotify:track:6VoIBz0VhCyz7OdEoRYDiA",
-    "uriAlbum": "spotify:album:1xpGyKyV26uPstk1Elgp9Q",
-    "previewUrl": "https://p.scdn.co/mp3-preview/17adc497b3bfb73e83cf713f1dd6b9a711abb59b?cid=9950ac751e34487dbbe027c4fd7f8e99",
-    "duracionMs": 258826,
-    "numeroDisco": 1,
-    "numeroPista": 7,
-    "esExplicita": false,
-    "popularidad": 82,
-    "isrc": "USGF19962907",
-    "agregadoEn": "2026-06-28T04:36:53Z"
-  },
-  {
+    "playlist": "MEXCLAZ",
     "artista": "Weezer",
     "album": "Weezer",
     "cancion": "Undone - The Sweater Song",
@@ -20250,6 +22287,26 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
+    "artista": "Weezer",
+    "album": "Weezer",
+    "cancion": "Say It Ain't So - Original Mix",
+    "fecha": "2026-06-28",
+    "portada": "https://i.scdn.co/image/ab67616d0000b273345536847e60f622ee0eae96",
+    "uri": "spotify:artist:3jOstUTkEu2JkjvRdBA5Gu",
+    "uriCancion": "spotify:track:6VoIBz0VhCyz7OdEoRYDiA",
+    "uriAlbum": "spotify:album:1xpGyKyV26uPstk1Elgp9Q",
+    "previewUrl": "https://p.scdn.co/mp3-preview/17adc497b3bfb73e83cf713f1dd6b9a711abb59b?cid=9950ac751e34487dbbe027c4fd7f8e99",
+    "duracionMs": 258826,
+    "numeroDisco": 1,
+    "numeroPista": 7,
+    "esExplicita": false,
+    "popularidad": 82,
+    "isrc": "USGF19962907",
+    "agregadoEn": "2026-06-28T04:36:53Z"
+  },
+  {
+    "playlist": "MEXCLAZ",
     "artista": "Weezer, Best Coast",
     "album": "Everything Will Be Alright In The End",
     "cancion": "Go Away",
@@ -20268,6 +22325,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Whirr",
     "album": "Sway",
     "cancion": "Mumble",
@@ -20286,6 +22344,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:01:10Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "wifiskeleton, i wanna be a jack-o-lantern",
     "album": "suburban daredevil",
     "cancion": "Nope your too late i already died",
@@ -20304,6 +22363,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Will Paquin",
     "album": "Chandelier",
     "cancion": "Chandelier",
@@ -20322,6 +22382,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-27T15:28:27Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "WILLOW",
     "album": "ARDIPITHECUS",
     "cancion": "Wait a Minute!",
@@ -20340,6 +22401,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T02:28:44Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Wire",
     "album": "Nine Sevens",
     "cancion": "Outdoor Miner - Single Version",
@@ -20358,6 +22420,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T22:01:37Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Yasuha",
     "album": "Fly-day Chinatown",
     "cancion": "Fly-day Chinatown",
@@ -20376,6 +22439,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:51:38Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "YG Hypnos",
     "album": "Analog Noise",
     "cancion": "Dust Collector",
@@ -20394,6 +22458,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:39:52Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "YG Marley",
     "album": "Praise Jah In The Moonlight",
     "cancion": "Praise Jah In The Moonlight",
@@ -20412,6 +22477,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Yot Club",
     "album": "Bipolar",
     "cancion": "Landlord",
@@ -20430,6 +22496,7 @@ const cancionesData = [
     "agregadoEn": "2026-07-20T01:08:55Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Yot Club",
     "album": "Bipolar",
     "cancion": "YKWIM?",
@@ -20448,6 +22515,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:53Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Yot Club",
     "album": "Comfort Zone",
     "cancion": "Comfort Zone",
@@ -20466,6 +22534,7 @@ const cancionesData = [
     "agregadoEn": "2026-06-28T04:36:14Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Young Cister",
     "album": "miau",
     "cancion": "miau",
@@ -20484,6 +22553,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:51:51Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Your Anxiety Buddy",
     "album": "Chamber of Reflection",
     "cancion": "Chamber of Reflection",
@@ -20502,6 +22572,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:52:13Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Your Anxiety Buddy",
     "album": "Chamber of Reflection (Remixes)",
     "cancion": "Chamber of Reflection (Live Cover)",
@@ -20520,6 +22591,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-12T00:20:08Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "your warm arms",
     "album": "existing",
     "cancion": "existing",
@@ -20538,6 +22610,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "yungatita",
     "album": "7 Weeks & 3 Days Alternate Versions or Whatever",
     "cancion": "7 Weeks & 3 Days",
@@ -20556,6 +22629,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-16T21:48:36Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Zachariehs",
     "album": "All For Nothing",
     "cancion": "All For Nothing",
@@ -20574,6 +22648,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:04:21Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Zachariehs",
     "album": "Asleep In Space",
     "cancion": "Asleep In Space",
@@ -20592,6 +22667,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-23T02:10:50Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "Zorrovian",
     "album": "BIOS",
     "cancion": "BIOS",
@@ -20610,6 +22686,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-01T16:05:00Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "фрози, Jason Derulo, Tomo",
     "album": "From the Islands (kompa pasión)",
     "cancion": "From the Islands (kompa pasión)",
@@ -20628,6 +22705,7 @@ const cancionesData = [
     "agregadoEn": "2026-09-17T20:52:50Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "• Justforyou •",
     "album": "Nena - irgendwie irgendwo irgendwann ; DARK / Letra en espa??ol ???????",
     "cancion": "Nena - irgendwie irgendwo irgendwann ; DARK / Letra en espa??ol ???????",
@@ -20646,6 +22724,7 @@ const cancionesData = [
     "agregadoEn": "2026-08-29T15:40:02Z"
   },
   {
+    "playlist": "MEXCLAZ",
     "artista": "阿保剛",
     "album": "Takeshi Abo KID Collection～My Merry May",
     "cancion": "LEASE",
