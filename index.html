@@ -25,7 +25,7 @@
     <nav>
       <a href="index.html" class="nav-link active"><i class="fa-solid fa-house"></i> Inicio</a>
       <a href="musica.html" class="nav-link"><i class="fa-solid fa-compact-disc"></i> Música</a>
-      <a href="social.html" class="nav-link"><i class="fa-solid fa-share-nodes"></i> Social</a>
+      <!-- Social deshabilitado temporalmente: <a href="social.html" class="nav-link"><i class="fa-solid fa-share-nodes"></i> Social</a> -->
     </nav>
   </header>
 
@@ -63,6 +63,8 @@ ksy, disfruten de esta web ke me costo un huevo, descubran musica miren boludece
     </div>
     </section>
 
+    <!-- Sección "Última publicación" deshabilitada temporalmente (Supabase / social).
+         Para restaurarla, descomentar el bloque completo.
     <section class="posts-section posts-compact" aria-labelledby="posts-title">
       <div class="section-heading posts-heading">
         <p class="eyebrow">Última publicación</p>
@@ -70,18 +72,45 @@ ksy, disfruten de esta web ke me costo un huevo, descubran musica miren boludece
       </div>
       <div id="contenedor-posts" class="public-feed" aria-live="polite"></div>
     </section>
+    -->
+
+    <section class="posts-section posts-compact weekly-stats" aria-labelledby="weekly-stats-title">
+      <div class="section-heading posts-heading">
+        <p class="eyebrow">Escucha de la semana</p>
+        <h2 id="weekly-stats-title">Estadísticas · Last.fm</h2>
+      </div>
+      <div id="weeklyNowPlaying" class="weekly-now-playing" aria-live="polite">
+        <p class="weekly-loading">Cargando último tema…</p>
+      </div>
+      <div class="weekly-grid">
+        <section class="weekly-block" aria-label="Top 5 artistas de la semana">
+          <h3 class="weekly-block-title"><i class="fa-solid fa-fire" aria-hidden="true"></i> Top 5 Artistas</h3>
+          <ol id="weeklyTopArtists" class="weekly-list">
+            <li class="weekly-loading">Cargando…</li>
+          </ol>
+        </section>
+        <section class="weekly-block" aria-label="Top 5 canciones de la semana">
+          <h3 class="weekly-block-title"><i class="fa-solid fa-music" aria-hidden="true"></i> Top 5 Canciones</h3>
+          <ol id="weeklyTopTracks" class="weekly-list">
+            <li class="weekly-loading">Cargando…</li>
+          </ol>
+        </section>
+      </div>
+    </section>
 
     <section class="home-navigation" aria-label="Secciones principales">
-      <a class="section-card" href="musica.html">
+      <a class="section-card section-card-full" href="musica.html">
         <span class="section-card-icon"><i class="fa-solid fa-compact-disc"></i></span>
         <span><strong>Colección Musical</strong><small>Álbumes, canciones y playlist</small></span>
         <i class="fa-solid fa-arrow-right section-card-arrow"></i>
       </a>
+      <!-- Tarjeta "Social" deshabilitada temporalmente:
       <a class="section-card" href="social.html">
         <span class="section-card-icon social-card-icon"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></span>
         <span><strong>Social</strong><small>Fotos, videos y textos del día a día</small></span>
         <i class="fa-solid fa-arrow-right section-card-arrow"></i>
       </a>
+      -->
     </section>
 
   </main>
@@ -90,6 +119,8 @@ ksy, disfruten de esta web ke me costo un huevo, descubran musica miren boludece
     <p>© 2026 TOMK.RAR — Desarrollado para GitHub Pages</p>
   </footer>
 
+  <!-- Feed de Supabase / "Última publicación" deshabilitado temporalmente.
+       Para restaurarlo, descomentar el bloque completo.
   <script src="supabase-config.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', async () => {
@@ -157,6 +188,8 @@ ksy, disfruten de esta web ke me costo un huevo, descubran musica miren boludece
       });
     });
   </script>
+  -->
+  <script src="weekly-stats.js"></script>
 
 </body>
 </html>

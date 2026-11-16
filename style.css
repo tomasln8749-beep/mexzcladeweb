@@ -1018,3 +1018,209 @@ body {
 footer {
   color: #ffffff;
 }
+
+/* Estadísticas semanales (Last.fm) */
+.weekly-now-playing {
+  margin-bottom: 14px;
+}
+
+.weekly-now-card {
+  min-width: 0;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.weekly-now-card:hover {
+  border-color: var(--accent);
+  transform: translate(-1px, -1px);
+}
+
+.weekly-now-card img {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  display: block;
+  object-fit: cover;
+  border: 2px solid var(--ink);
+}
+
+.weekly-now-main {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 4px;
+}
+
+.weekly-now-badge {
+  justify-self: start;
+  padding: 2px 8px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.weekly-now-badge.is-live {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.weekly-now-title {
+  overflow: hidden;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-now-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+.weekly-now-icon {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+
+.weekly-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.weekly-block {
+  min-width: 0;
+  padding: 14px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.weekly-block-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.weekly-list {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+}
+
+.weekly-list li {
+  min-width: 0;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+}
+
+.weekly-rank {
+  flex: 0 0 18px;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.weekly-list img {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  display: block;
+  object-fit: cover;
+  border: 1px solid var(--ink);
+}
+
+.weekly-item-main {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  gap: 2px;
+}
+
+.weekly-item-title {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-item-title:hover {
+  color: var(--accent);
+}
+
+.weekly-item-sub {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-count {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.weekly-loading,
+.weekly-empty {
+  padding: 8px;
+  border: 2px dashed var(--ink);
+  color: var(--muted);
+  font-size: 0.8rem;
+  list-style: none;
+}
+
+.weekly-empty {
+  border-style: solid;
+}
+
+/* Tarjeta de sección a ancho completo (usada cuando Social está deshabilitada) */
+.section-card-full {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 701px) {
+  .weekly-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 390px) {
+  .weekly-now-card img {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+  }
+}
