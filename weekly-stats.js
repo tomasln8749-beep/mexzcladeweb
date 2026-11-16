@@ -3,7 +3,7 @@ const LASTFM_API_KEY = "27093a8f646a5cb5eee222957c70e33c";
 
 const LASTFM_ENDPOINT = 'https://ws.audioscrobbler.com/2.0/';
 const LIST_PERIOD = '7day';
-const LIST_LIMIT = 5;
+const LIST_LIMIT = 3;
 
 function getElement(id) {
   return document.getElementById(id);
@@ -115,13 +115,20 @@ function renderRankedList(containerId, items, buildItem) {
   });
 }
 
+function thumbHtml(cover, alt = '') {
+  if (cover) {
+    return `<img class="weekly-thumb" src="${escapeHtml(cover)}" alt="${escapeHtml(alt)}" loading="lazy">`;
+  }
+  return '<span class="weekly-thumb weekly-thumb-empty" aria-hidden="true"><i class="fa-solid fa-star"></i></span>';
+}
+
 function artistItemHtml(artist, rank) {
   const name = artist.name || 'Artista desconocido';
   const url = artist.url || '#';
   const cover = bestImage(artist.image);
   return `
     <span class="weekly-rank">${rank}</span>
-    ${cover ? `<img src="${escapeHtml(cover)}" alt="" loading="lazy">` : ''}
+    ${thumbHtml(cover)}
     <span class="weekly-item-main">
       <a class="weekly-item-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
     </span>
@@ -135,12 +142,29 @@ function trackItemHtml(track, rank) {
   const cover = bestImage(track.image);
   return `
     <span class="weekly-rank">${rank}</span>
-    ${cover ? `<img src="${escapeHtml(cover)}" alt="" loading="lazy">` : ''}
+    ${thumbHtml(cover, name)}
     <span class="weekly-item-main">
       <a class="weekly-item-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
       <span class="weekly-item-sub">${escapeHtml(artistName)}</span>
     </span>
     <span class="weekly-count">${escapeHtml(formatPlays(track.playcount))}</span>`;
+}
+
+async function enrichArtistImages(artists) {
+  return Promise.all(artists.map(async (artist) => {
+    if (bestImage(artist.image) || !artist.name) return artist;
+    try {
+      const info = await fetchLastfm('artist.getinfo', { artist: artist.name });
+      const remote = info?.artist;
+      if (remote && remote.image) {
+        artist.image = remote.image;
+        if (!artist.url && remote.url) artist.url = remote.url;
+      }
+    } catch (error) {
+      console.warn(`No se pudo obtener imagen de ${artist.name}:`, error);
+    }
+    return artist;
+  }));
 }
 
 async function loadWeeklyStats() {
@@ -154,7 +178,7 @@ async function loadWeeklyStats() {
     const recentTrack = asArray(recent?.recenttracks?.track)[0] || null;
     renderNowPlaying(recentTrack);
 
-    const artists = asArray(topArtists?.topartists?.artist).slice(0, LIST_LIMIT);
+    const artists = await enrichArtistImages(asArray(topArtists?.topartists?.artist).slice(0, LIST_LIMIT));
     renderRankedList('weeklyTopArtists', artists, artistItemHtml);
 
     const tracks = asArray(topTracks?.toptracks?.track).slice(0, LIST_LIMIT);

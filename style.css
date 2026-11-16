@@ -1224,3 +1224,20 @@ footer {
     flex-basis: 52px;
   }
 }
+
+.weekly-thumb {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  display: grid;
+  place-items: center;
+  object-fit: cover;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.weekly-thumb-empty {
+  border-style: dashed;
+}
