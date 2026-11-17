@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ke cool soy | ICH</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RSNX4K68M5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RSNX4K68M5');
+</script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Ke <span>cool</span> soy</div>
+    <nav aria-label="Navegación principal">
+      <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> HOME</a>
+      <a href="musica.html" class="nav-link"><i class="fa-solid fa-compact-disc"></i> MUSIK</a>
+      <a href="ich.html" class="nav-link active"><i class="fa-solid fa-user"></i> ICH</a>
+      <!-- Social deshabilitado temporalmente: <a href="social.html" class="nav-link"><i class="fa-solid fa-share-nodes"></i> Social</a> -->
+    </nav>
+  </header>
+
+  <main class="section page-main">
+    <section class="ich-shell">
+
+      <section class="ich-panel">
+        <p class="eyebrow">Manifiesto</p>
+        <h1>¿Porke hice la web?</h1>
+        <p class="ich-text">
+          No es solo escuchar música; es estar en una búsqueda constante, descubriendo artistas nuevos y guardando lo ke te transmite cada tema, más allá de tirar un simple "ke buen tema". Esta web nació para responder de una vez por todas a la pregunta q siempre me hacen: ¿Ke música escuchás?, si,"de todo", pero ke es "de todo"?? Acá tenés la respuesta, Un archivo de musica ke se actualiza cada dos semanas con canciones nuevas, listo para el k kiera chusmear, descubrir o recomendar algo piola. (Todas las recomiendo y pueden escuchar un fragmento con el botón de play. Ademas ke puden buscar)
+        </p>
+      </section>
+
+      <section class="ich-panel">
+        <p class="eyebrow">Cuenta regresiva</p>
+        <h2>MI CUMPLE</h2>
+        <p class="ich-sub">Faltan para el 23 de febrero:</p>
+        <div class="cumple-countdown" id="cumpleCountdown" aria-live="polite">
+          <div class="cumple-unit"><strong id="cdDays">--</strong><span>días</span></div>
+          <div class="cumple-unit"><strong id="cdHours">--</strong><span>hs</span></div>
+          <div class="cumple-unit"><strong id="cdMinutes">--</strong><span>min</span></div>
+          <div class="cumple-unit"><strong id="cdSeconds">--</strong><span>seg</span></div>
+        </div>
+      </section>
+
+    </section>
+  </main>
+
+  <footer><p>© 2026 Ke cool soy</p></footer>
+
+  <script>
+    (function () {
+      const now = new Date();
+      let target = new Date(now.getFullYear(), 1, 23, 0, 0, 0);
+      if (target <= now) target = new Date(now.getFullYear() + 1, 1, 23, 0, 0, 0);
+
+      const daysEl = document.getElementById('cdDays');
+      const hoursEl = document.getElementById('cdHours');
+      const minutesEl = document.getElementById('cdMinutes');
+      const secondsEl = document.getElementById('cdSeconds');
+
+      function pad(value) { return String(value).padStart(2, '0'); }
+
+      function tick() {
+        const diff = Math.max(0, target - Date.now());
+        const totalSeconds = Math.floor(diff / 1000);
+        daysEl.textContent = pad(Math.floor(totalSeconds / 86400));
+        hoursEl.textContent = pad(Math.floor((totalSeconds % 86400) / 3600));
+        minutesEl.textContent = pad(Math.floor((totalSeconds % 3600) / 60));
+        secondsEl.textContent = pad(totalSeconds % 60);
+      }
+
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+</html>

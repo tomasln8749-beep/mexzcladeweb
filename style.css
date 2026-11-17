@@ -1241,3 +1241,81 @@ footer {
 .weekly-thumb-empty {
   border: none;
 }
+
+/* Página ICH */
+.ich-shell {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.ich-panel {
+  width: 100%;
+  padding: 22px 18px;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.ich-panel h1,
+.ich-panel h2 {
+  margin-bottom: 12px;
+  color: var(--ink);
+  font-size: clamp(1.4rem, 6vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.ich-text {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.ich-sub {
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.cumple-countdown {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.cumple-unit {
+  min-width: 0;
+  padding: 12px 8px;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  border: 2px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper);
+}
+
+.cumple-unit strong {
+  color: var(--accent);
+  font-size: clamp(1.3rem, 7vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.cumple-unit span {
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 520px) {
+  .cumple-countdown {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
