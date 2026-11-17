@@ -38,14 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${Math.floor(totalSeconds / 60)}:${String(totalSeconds % 60).padStart(2, '0')}`;
   }
 
-  function formatDate(dateValue) {
-    const date = new Date(dateValue);
-    if (!dateValue || Number.isNaN(date.getTime())) return '';
-    return new Intl.DateTimeFormat('es-AR', {
-      day: 'numeric', month: 'short', year: 'numeric'
-    }).format(date);
-  }
-
   function trackPosition(track) {
     if (!track.numeroPista || track.numeroPista < 1) return '';
     return track.numeroDisco > 1 ? `D${track.numeroDisco} · ${track.numeroPista}` : String(track.numeroPista);
@@ -177,11 +169,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const coverSrc = album.portada && album.portada !== 'N/A'
         ? album.portada
         : 'https://via.placeholder.com/300/180f28/a395c4?text=Sin+Portada';
-      const releaseYear = album.fecha ? new Date(`${album.fecha}T00:00:00`).getFullYear() : '';
-      const albumDetails = [
-        releaseYear ? `<span>${releaseYear}</span>` : '',
-        album.agregadoEn ? `<span>Agregado ${formatDate(album.agregadoEn)}</span>` : ''
-      ].filter(Boolean).join('');
       const albumLink = albumUrl
         ? `<a href="${escapeHtml(albumUrl)}" target="_blank" rel="noopener" class="action-btn spotify-action"><i class="fa-brands fa-spotify"></i> Abrir álbum</a>`
         : '';
@@ -194,7 +181,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="album-content">
           <h3 class="album-title">${escapeHtml(album.album)}</h3>
           <div class="artist-name"><span>${escapeHtml(album.artista)}</span>${artistLink}</div>
-          ${albumDetails ? `<div class="album-details">${albumDetails}</div>` : ''}
           <ul class="track-list">${album.canciones.map(trackHtml).join('')}</ul>
           <div class="album-actions">
             ${albumLink}

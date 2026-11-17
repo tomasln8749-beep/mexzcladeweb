@@ -115,12 +115,32 @@ function renderRankedList(containerId, items, buildItem) {
   });
 }
 
-function thumbHtml(cover, alt = '') {
-  if (cover) {
-    return `<img class="weekly-thumb" src="${escapeHtml(cover)}" alt="${escapeHtml(alt)}" loading="lazy">`;
-  }
-  return '<span class="weekly-thumb weekly-thumb-empty" aria-hidden="true"><i class="fa-solid fa-star"></i></span>';
+function placeholderIconHtml(iconClass) {
+  return `<i class="fa-solid ${iconClass}"></i>`;
 }
+
+window.weeklyThumbError = function (img) {
+  const fallback = img.dataset.fallback;
+  if (fallback && img.dataset.fallbackUsed !== '1') {
+    img.dataset.fallbackUsed = '1';
+    img.src = fallback;
+    return;
+  }
+  const iconClass = img.dataset.icon || 'fa-user';
+  const placeholder = document.createElement('span');
+  placeholder.className = 'weekly-thumb weekly-thumb-empty';
+  placeholder.setAttribute('aria-hidden', 'true');
+  placeholder.innerHTML = placeholderIconHtml(iconClass);
+  img.replaceWith(placeholder);
+};
+
+function thumbHtml(cover, alt = '', iconClass = 'fa-user', fallbackSrc = '') {
+  if (cover) {
+    return `<img class="weekly-thumb" src="${escapeHtml(cover)}" alt="${escapeHtml(alt)}" loading="lazy" data-icon="${iconClass}" data-fallback="${escapeHtml(fallbackSrc)}" onerror="weeklyThumbError(this)">`;
+  }
+  return `<span class="weekly-thumb weekly-thumb-empty" aria-hidden="true">${placeholderIconHtml(iconClass)}</span>`;
+}
+
 
 function artistItemHtml(artist, rank) {
   const name = artist.name || 'Artista desconocido';
@@ -128,38 +148,21 @@ function artistItemHtml(artist, rank) {
   const cover = bestImage(artist.image);
   return `
     <span class="weekly-rank">${rank}</span>
-    ${thumbHtml(cover)}
+    ${thumbHtml(cover, '', 'fa-user')}
     <span class="weekly-item-main">
       <a class="weekly-item-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
     </span>
     <span class="weekly-count">${escapeHtml(formatPlays(artist.playcount))}</span>`;
 }
 
-function trackItemHtml(track, rank) {
-  const name = track.name || 'Tema desconocido';
-  const artistName = track.artist && track.artist['#text'] ? track.artist['#text'] : '';
-  const url = track.url || '#';
-  const cover = bestImage(track.image);
-  return `
-    <span class="weekly-rank">${rank}</span>
-    ${thumbHtml(cover, name)}
-    <span class="weekly-item-main">
-      <a class="weekly-item-title" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
-      <span class="weekly-item-sub">${escapeHtml(artistName)}</span>
-    </span>
-    <span class="weekly-count">${escapeHtml(formatPlays(track.playcount))}</span>`;
-}
-
 async function enrichArtistImages(artists) {
   return Promise.all(artists.map(async (artist) => {
-    if (bestImage(artist.image) || !artist.name) return artist;
+    if (!artist.name) return artist;
     try {
       const info = await fetchLastfm('artist.getinfo', { artist: artist.name });
       const remote = info?.artist;
-      if (remote && remote.image) {
-        artist.image = remote.image;
-        if (!artist.url && remote.url) artist.url = remote.url;
-      }
+      if (remote && remote.image) artist.image = remote.image;
+      if (!artist.url && remote && remote.url) artist.url = remote.url;
     } catch (error) {
       console.warn(`No se pudo obtener imagen de ${artist.name}:`, error);
     }
@@ -169,10 +172,9 @@ async function enrichArtistImages(artists) {
 
 async function loadWeeklyStats() {
   try {
-    const [recent, topArtists, topTracks] = await Promise.all([
+    const [recent, topArtists] = await Promise.all([
       fetchLastfm('user.getrecenttracks', { limit: 1 }),
-      fetchLastfm('user.gettopartists', { period: LIST_PERIOD, limit: LIST_LIMIT }),
-      fetchLastfm('user.gettoptracks', { period: LIST_PERIOD, limit: LIST_LIMIT })
+      fetchLastfm('user.gettopartists', { period: LIST_PERIOD, limit: LIST_LIMIT })
     ]);
 
     const recentTrack = asArray(recent?.recenttracks?.track)[0] || null;
@@ -180,15 +182,11 @@ async function loadWeeklyStats() {
 
     const artists = await enrichArtistImages(asArray(topArtists?.topartists?.artist).slice(0, LIST_LIMIT));
     renderRankedList('weeklyTopArtists', artists, artistItemHtml);
-
-    const tracks = asArray(topTracks?.toptracks?.track).slice(0, LIST_LIMIT);
-    renderRankedList('weeklyTopTracks', tracks, trackItemHtml);
   } catch (error) {
     console.error('Error cargando estadísticas de Last.fm:', error);
     const nowPlaying = getElement('weeklyNowPlaying');
     if (nowPlaying) nowPlaying.innerHTML = '<p class="weekly-empty">No se pudieron cargar las estadísticas.</p>';
     setFallback('weeklyTopArtists', 'No se pudieron cargar los artistas.');
-    setFallback('weeklyTopTracks', 'No se pudieron cargar las canciones.');
   }
 }
 

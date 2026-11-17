@@ -1153,7 +1153,6 @@ footer {
   flex: 0 0 40px;
   display: block;
   object-fit: cover;
-  border: 1px solid var(--ink);
 }
 
 .weekly-item-main {
@@ -1211,10 +1210,10 @@ footer {
   grid-column: 1 / -1;
 }
 
-@media (min-width: 701px) {
-  .weekly-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.weekly-block {
+  width: 100%;
+  max-width: 620px;
+  margin-inline: auto;
 }
 
 @media (max-width: 390px) {
@@ -1232,12 +1231,13 @@ footer {
   display: grid;
   place-items: center;
   object-fit: cover;
-  border: 1px solid var(--ink);
+  border: none;
+  border-radius: 4px;
   background: var(--paper);
   color: var(--muted);
   font-size: 0.8rem;
 }
 
 .weekly-thumb-empty {
-  border-style: dashed;
+  border: none;
 }
