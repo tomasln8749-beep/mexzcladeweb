@@ -3,6 +3,7 @@
 :root {
   --paper: #ffffff;
   --ink: #111111;
+  --line: #111111;
   --muted: #4a4a4a;
   --accent: #ff3300;
   --page-gap: 10px;
@@ -42,7 +43,7 @@ body {
 .album-card,
 .modal-content {
   width: 100%;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 4px;
   background: var(--paper);
   box-shadow: var(--shadow);
@@ -92,7 +93,7 @@ body {
 .clear-btn,
 .preview-btn {
   min-height: 44px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
   color: var(--ink);
@@ -162,7 +163,7 @@ body {
   height: 46px;
   display: grid;
   place-items: center;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
 }
@@ -280,7 +281,7 @@ body {
 
 .posts-compact .public-entry {
   padding: 12px;
-  box-shadow: 2px 2px 0 var(--ink);
+  box-shadow: 2px 2px 0 #050505;
 }
 
 .posts-compact .public-entry h2 {
@@ -308,7 +309,7 @@ body {
 .section-header {
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 2px solid var(--line);
 }
 
 .section-heading h1,
@@ -344,7 +345,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  border: 2px dashed var(--ink);
+  border: 2px dashed var(--line);
   color: var(--muted);
 }
 
@@ -365,7 +366,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  box-shadow: 3px 3px 0 var(--ink);
+  box-shadow: 3px 3px 0 #050505;
 }
 
 .section-card > span:nth-child(2) {
@@ -429,7 +430,7 @@ body {
   width: 100%;
   min-height: 52px;
   padding: 12px 48px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   outline: none;
   background: #fdfbf7;
@@ -536,7 +537,7 @@ body {
   margin-top: 8px;
   padding-top: 8px;
   overflow: auto;
-  border-top: 2px solid var(--ink);
+  border-top: 2px solid var(--line);
   list-style: none;
 }
 
@@ -643,7 +644,7 @@ body {
   right: 20px;
   width: 44px;
   height: 44px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
   color: var(--ink);
@@ -744,7 +745,7 @@ footer {
   width: 100%;
   margin-bottom: 20px;
   padding: 24px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 4px;
   background: var(--paper);
   box-shadow: var(--shadow);
@@ -774,7 +775,7 @@ footer {
   width: 100%;
   min-height: 44px;
   padding: 10px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
   color: var(--ink);
@@ -802,7 +803,7 @@ footer {
   width: 100%;
   margin-bottom: 20px;
   padding: 20px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 4px;
   background: var(--paper);
   box-shadow: var(--shadow);
@@ -829,7 +830,7 @@ footer {
   width: 100%;
   min-height: 44px;
   padding: 10px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: #fdfbf7;
   color: var(--ink);
@@ -851,7 +852,7 @@ footer {
 
 .public-entry {
   margin-bottom: 0;
-  box-shadow: 3px 3px 0 var(--ink);
+  box-shadow: 3px 3px 0 #050505;
 }
 
 .public-entry time {
@@ -883,6 +884,7 @@ footer {
 :root {
   --paper: #111318;
   --ink: #f5f5f5;
+  --line: #343840;
   --muted: #c1c5cc;
   --accent: #ff4526;
   --shadow: 5px 5px 0 #050505;
@@ -1030,10 +1032,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 14px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
-  box-shadow: 3px 3px 0 var(--ink);
+  box-shadow: 3px 3px 0 #050505;
   color: var(--ink);
   text-decoration: none;
   transition: border-color 0.18s ease, transform 0.18s ease;
@@ -1050,7 +1052,7 @@ footer {
   flex: 0 0 64px;
   display: block;
   object-fit: cover;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
 }
 
 .weekly-now-main {
@@ -1063,7 +1065,7 @@ footer {
 .weekly-now-badge {
   justify-self: start;
   padding: 2px 8px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   font-size: 0.62rem;
   font-weight: 700;
@@ -1105,10 +1107,10 @@ footer {
 .weekly-block {
   min-width: 0;
   padding: 14px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
-  box-shadow: 3px 3px 0 var(--ink);
+  box-shadow: 3px 3px 0 #050505;
 }
 
 .weekly-block-title {
@@ -1135,7 +1137,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
 }
 
@@ -1195,7 +1197,7 @@ footer {
 .weekly-loading,
 .weekly-empty {
   padding: 8px;
-  border: 2px dashed var(--ink);
+  border: 2px dashed var(--line);
   color: var(--muted);
   font-size: 0.8rem;
   list-style: none;
@@ -1254,7 +1256,7 @@ footer {
 .ich-panel {
   width: 100%;
   padding: 22px 18px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 4px;
   background: var(--paper);
   box-shadow: var(--shadow);
@@ -1293,7 +1295,7 @@ footer {
   display: grid;
   justify-items: center;
   gap: 4px;
-  border: 2px solid var(--ink);
+  border: 2px solid var(--line);
   border-radius: 3px;
   background: var(--paper);
 }
